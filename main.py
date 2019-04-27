@@ -93,6 +93,10 @@ def skill_points():
         log("Skill points distributed")
     else:
         log("15 skill points not ready, waiting for next cycle")
+        time.sleep(4)
+        click_on_image(arch_escape, "Escaping", 0.8)
+        time.sleep(4)
+        click_on_image(arch_escape, "Escaping", 0.8)
 
 
 def arch_event():
@@ -104,7 +108,7 @@ def check_chests():
     chests = click_on_image(chest_available, "Chests", 0.95)
     if chests is not None:
         time.sleep(1)
-        click_on_image(free_wood_chest, "Wooden Chest", 0.8)
+        click_on_image(free_wood_chest, "Wooden Chest", 0.7)
         time.sleep(4)
         click_on_image(arch_escape, "Reward received", 0.8)
         time.sleep(4)
@@ -160,7 +164,7 @@ def main():
     check_shops()
 
     # Skill points
-    #skill_points()
+    skill_points()
 
 
     # Arch
