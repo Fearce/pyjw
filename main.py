@@ -49,7 +49,33 @@ sell_button = 'imgs/sell_button.PNG'
 
 facebook_send = 'imgs/facebook_send.PNG'
 
+locked_treasure = 'imgs/locked_treasure.PNG'
+
 cash_offer = 'imgs/cash_offer.PNG'
+
+missions_available = 'imgs/missions_available.PNG'
+missions_reward = 'imgs/missions_reward.PNG'
+missions_continue = 'imgs/missions_continue.PNG'
+mission_campaign_arrow = 'imgs/mission_campaign_arrow.PNG'
+
+max_food = 'imgs/max_food.PNG'
+heroes_find_soul_stones = 'imgs/heroes_find_soul_stones.PNG'
+soul_stones_battle_ready = 'imgs/soul_stones_battle_ready.PNG'
+
+heroes_hanna = 'imgs/heroes_hanna.PNG'
+heroes_meego = 'imgs/heroes_meego.PNG'
+
+battle_start = 'imgs/battle_start.PNG'
+to_battle = 'imgs/to_battle.PNG'
+
+mailbox_available = 'imgs/mailbox_available.PNG'
+mailbox_receive = 'imgs/mailbox_receive.PNG'
+
+menu_expand = 'imgs/menu_expand.PNG'
+
+in_the_name_of_the_light = 'imgs/in_the_name_of_the_light.PNG'
+
+
 
 ##Functions
 def log(msg):
@@ -78,16 +104,23 @@ def skill_points():
     if skillPointsMaxed is not None:
         # If skill points are available
         log("Skill points available, trying to distribute.")
-        for x in range(0, 20):  # Do skills 20 times
+        for x in range(0, 2):  # Do skills 20 times
             skillAddBox = pyautogui.locateOnScreen(skill_point_add, confidence=0.95)  # Find the + for adding skillpoints
             needBox = pyautogui.locateOnScreen(skill_points_need, confidence=0.8)
             zeroBox = pyautogui.locateOnScreen(skill_points_available0, confidence=0.8)
             # When you have skillpoints, add them
-            while skillAddBox is not None and needBox is None and zeroBox is None:
+            counter = 0
+            while skillAddBox is not None and needBox is None and zeroBox is None and counter < 5:
+                if needBox is None and zeroBox is None:
+                    needBox = pyautogui.locateOnScreen(skill_points_need, confidence=0.8)
+                    zeroBox = pyautogui.locateOnScreen(skill_points_available0, confidence=0.8)
+                if needBox is not None or zeroBox is not None:
+                    break
                 pyautogui.click(pyautogui.center(skillAddBox))
                 time.sleep(0.2)
                 skillAddBox = pyautogui.locateOnScreen(skill_point_add, confidence=0.95)
                 time.sleep(0.2)
+                counter += 1
             # When it doesn't exist, click on next hero
             powBox = pyautogui.locateOnScreen(skill_points_power, confidence=0.8)
             if powBox is not None and needBox is None and zeroBox is None:
@@ -96,12 +129,10 @@ def skill_points():
                 pyautogui.click(x-65, y+280)
                 time.sleep(0.2)
         log("Skill points distributed")
+        escape()
     else:
         log("15 skill points not ready, waiting for next cycle")
-        time.sleep(4)
-        click_on_image(arch_escape, "Escaping", 0.8)
-        time.sleep(4)
-        click_on_image(arch_escape, "Escaping", 0.8)
+        escape()
 
 
 def arch_event():
@@ -116,7 +147,7 @@ def check_chests():
         click_on_image(free_wood_chest, "Wooden Chest", 0.7)
         time.sleep(4)
         click_on_image(arch_escape, "Reward received", 0.8)
-        time.sleep(4)
+        time.sleep(1.5)
         click_on_image(arch_escape, "No more chests, leaving", 0.8)
 
 
@@ -178,6 +209,121 @@ def close_adds():
     if cash is not None:
         time.sleep(2)
         click_on_image(arch_escape, "Add closed, leaving", 0.8)
+    escape()
+
+def soul_stones(need_food):
+    food_max = pyautogui.locateOnScreen(max_food, confidence=0.95)
+    if food_max is not None or need_food is False:
+        log("Food is maxed or coming from missions, getting soul stones")
+        heroes = click_on_image(heros_button, "Heroes", 0.8)
+        time.sleep(1.5)
+        # Hanna check
+        click_on_image(heroes_hanna, "Hanna", 0.8)
+        time.sleep(1.5)
+        click_on_image(heroes_find_soul_stones, "Plus", 0.8)
+        time.sleep(1.5)
+        for x in range(0, 2):
+            rdy = click_on_image(soul_stones_battle_ready, "Chapter", 0.95)
+            if rdy is not None:
+                for y in range(0, 3):
+                    time.sleep(1.5)
+                    coords = click_on_image(battle_start, "Start battle!", 0.9)
+                    time.sleep(4)
+                    pyautogui.click(coords)
+        escape()
+        heroes = click_on_image(heros_button, "Heroes", 0.8)
+        time.sleep(1.5)
+        # Meego check
+        click_on_image(heroes_meego, "Meego", 0.8)
+        time.sleep(1.5)
+        click_on_image(heroes_find_soul_stones, "Plus", 0.8)
+        time.sleep(1.5)
+        for x in range(0, 2):
+            rdy = click_on_image(soul_stones_battle_ready, "Chapter", 0.9)
+            if rdy is not None:
+                for y in range(0, 3):
+                    time.sleep(1.5)
+                    coords = click_on_image(battle_start, "Start battle!", 0.9)
+                    time.sleep(4)
+                    pyautogui.click(coords)
+        escape()
+
+
+def escape():
+    esc = click_on_image(arch_escape, "Escaping", 0.8)
+    if esc is not None:
+        time.sleep(1)
+    esc1 = click_on_image(arch_escape, "Escaping", 0.8)
+    if esc1 is not None:
+        time.sleep(1)
+    esc2 = click_on_image(arch_escape, "Escaping", 0.8)
+    if esc2 is not None:
+        time.sleep(1)
+    esc3 = click_on_image(arch_escape, "Escaping", 0.8)
+    if esc3 is not None:
+        time.sleep(1)
+    if esc is not None:
+        x, y = esc
+        for x in range(0, 10):
+            pyautogui.move(-12, 0)
+            pyautogui.drag(12, 0, 0.1, button='left')
+
+def check_mailbox():
+    log("Checking mailbox")
+    mbox = click_on_image(mailbox_available, "Mailbox", 0.9)
+    if mbox is not None:
+        time.sleep(1.5)
+        rec = click_on_image(mailbox_receive, "Mailbox", 0.9)
+        if rec is not None:
+            time.sleep(1.5)
+            pyautogui.click(rec)
+            time.sleep(1.5)
+            click_on_image(arch_escape, "Reward received, leaving", 0.8)
+
+def check_missions():
+    log("Menu is hidden, fixing")
+    click_on_image(menu_expand, "Missions", 0.9)
+    log("Checking missions")
+    missions = click_on_image(missions_available, "Missions", 0.9)
+    if missions is not None:
+        time.sleep(2)
+        reward = click_on_image(missions_reward, "Reward", 0.9)
+        if reward is not None:
+            time.sleep(1)
+            pyautogui.click(reward)
+        pyautogui.drag(0, -400, 0.5, button='left')
+        time.sleep(2.5)
+        cont = click_on_image(missions_continue, "Continue", 0.9)
+        x, y = cont
+        time.sleep(2.5)
+        pyautogui.click(x, y-290)
+        time.sleep(2.5)
+        # Campaign-mission clicked, correct
+        camp_arrow = pyautogui.locateOnScreen(mission_campaign_arrow, confidence=0.9)
+        if camp_arrow is not None:
+            soul_stones(False)
+    escape()
+
+
+def check_events():
+    log("Checking events")
+    check_itnotl_event()
+
+
+def check_itnotl_event():
+    current_level = 2
+    event = click_on_image(in_the_name_of_the_light, "ITNOTL event", 0.9)
+    if event is not None:
+        log("In the Name of the Light event found.")
+        time.sleep(1.5)
+        if current_level == 2:
+            click_on_image('imgs/itnotl_2.PNG', "Level 2", 0.9)
+            time.sleep(1.5)
+            click_on_image(to_battle, "To Battle", 0.9)
+            time.sleep(20)
+
+
+
 
 
 ##Main loop
@@ -200,12 +346,21 @@ def main():
     close_adds()
 
     # Skill points
-    skill_points()
+    #skill_points()
     close_adds()
 
+    # Mailbox
+    check_mailbox()
 
-    # Arch
+    # Soul stones
+    soul_stones(True)
+    close_adds()
 
+    # Missions
+    check_missions()
+
+    # Events
+    check_events()
 
     # Arena
 
