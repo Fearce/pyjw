@@ -16,6 +16,8 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
 ##Images
+daily_reward_2 = 'imgs/daily_reward_2.PNG'
+
 arch_escape = 'imgs/escape1.PNG'
 arch_available = 'imgs/archavailable.png'
 
@@ -47,6 +49,8 @@ sell_button = 'imgs/sell_button.PNG'
 
 facebook_send = 'imgs/facebook_send.PNG'
 
+cash_offer = 'imgs/cash_offer.PNG'
+
 ##Functions
 def log(msg):
     print(str(datetime.datetime.now().strftime("%H:%M:%S")) + ": " + msg)
@@ -67,21 +71,22 @@ def skill_points():
     pyautogui.click(points)
     time.sleep(1.5)
     skillPointsBook = pyautogui.locateOnScreen(skill_points_available, confidence=0.8)
-    pyautogui.click(pyautogui.center(skillPointsBook))
-    time.sleep(1.5)
+    if skillPointsBook is not None:
+        pyautogui.click(pyautogui.center(skillPointsBook))
+        time.sleep(1.5)
     skillPointsMaxed = pyautogui.locateOnScreen(skill_points_available15, confidence=0.95)
     if skillPointsMaxed is not None:
         # If skill points are available
         log("Skill points available, trying to distribute.")
-        for x in range(0, 40):  # Do skills 40 times
-            skillAddBox = pyautogui.locateOnScreen(skill_point_add, confidence=0.9)  # Find the + for adding skillpoints
+        for x in range(0, 20):  # Do skills 20 times
+            skillAddBox = pyautogui.locateOnScreen(skill_point_add, confidence=0.95)  # Find the + for adding skillpoints
             needBox = pyautogui.locateOnScreen(skill_points_need, confidence=0.8)
             zeroBox = pyautogui.locateOnScreen(skill_points_available0, confidence=0.8)
             # When you have skillpoints, add them
             while skillAddBox is not None and needBox is None and zeroBox is None:
                 pyautogui.click(pyautogui.center(skillAddBox))
                 time.sleep(0.2)
-                skillAddBox = pyautogui.locateOnScreen(skill_point_add, confidence=0.8)
+                skillAddBox = pyautogui.locateOnScreen(skill_point_add, confidence=0.95)
                 time.sleep(0.2)
             # When it doesn't exist, click on next hero
             powBox = pyautogui.locateOnScreen(skill_points_power, confidence=0.8)
@@ -135,9 +140,10 @@ def check_friends():
                 time.sleep(4)
                 click_on_image(facebook_send, "Facebook send button", 0.88)
             gold = click_on_image(friend_gold, "gold", 0.88)
-            x, y = gold
-            pyautogui.click(x, y - 280)
-            time.sleep(2)
+            if gold is not None:
+                x, y = gold
+                pyautogui.click(x, y - 280)
+                time.sleep(2)
         send = click_on_image(friend_gift_send, "Send", 0.88)
         if send is not None:
             time.sleep(4)
@@ -151,20 +157,51 @@ def check_shops():
         time.sleep(2)
         click_on_image(arch_escape, "Items sold, leaving", 0.8)
 
+def check_daily_rewards():
+    log("Checking for daily rewards")
+    reward_2 = pyautogui.locateOnScreen(daily_reward_2, confidence=0.9)
+    if reward_2 is not None:
+        reward_2_Coords = pyautogui.center(reward_2)
+        x, y = reward_2_Coords
+        pyautogui.click(x+20, y-60)
+        time.sleep(2)
+        pyautogui.click(x - 20, y - 250)
+        time.sleep(2)
+        click_on_image(arch_escape, "Daily quest item 2 taken, leaving", 0.8)
+
+def close_adds():
+    fb = click_on_image(facebook_send, "Facebook send button", 0.88)
+    if fb is not None:
+        time.sleep(2)
+        click_on_image(arch_escape, "Add closed, leaving", 0.8)
+    cash = pyautogui.locateOnScreen(cash_offer, confidence=0.9)
+    if cash is not None:
+        time.sleep(2)
+        click_on_image(arch_escape, "Add closed, leaving", 0.8)
+
 
 ##Main loop
 def main():
+    close_adds()
+    # Daily rewards
+    check_daily_rewards()
+    close_adds()
+
     # Chests
     check_chests()
+    close_adds()
 
     # Friend currency
     check_friends()
+    close_adds()
 
     # Shops
     check_shops()
+    close_adds()
 
     # Skill points
     skill_points()
+    close_adds()
 
 
     # Arch
