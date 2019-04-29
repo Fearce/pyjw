@@ -17,6 +17,8 @@ pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/te
 
 ##Images
 daily_reward_2 = 'imgs/daily_reward_2.PNG'
+daily_reward_3 = 'imgs/daily_reward_3.PNG'
+
 
 arch_escape = 'imgs/escape1.PNG'
 arch_available = 'imgs/archavailable.png'
@@ -61,6 +63,8 @@ mission_campaign_arrow = 'imgs/mission_campaign_arrow.PNG'
 max_food = 'imgs/max_food.PNG'
 heroes_find_soul_stones = 'imgs/heroes_find_soul_stones.PNG'
 soul_stones_battle_ready = 'imgs/soul_stones_battle_ready.PNG'
+soul_stones_battle_ready1 = 'imgs/soul_stones_battle_ready1.PNG'
+soul_stones_battle_ready2 = 'imgs/soul_stones_battle_ready2.PNG'
 
 heroes_hanna = 'imgs/heroes_hanna.PNG'
 heroes_meego = 'imgs/heroes_meego.PNG'
@@ -74,6 +78,8 @@ mailbox_receive = 'imgs/mailbox_receive.PNG'
 menu_expand = 'imgs/menu_expand.PNG'
 
 in_the_name_of_the_light = 'imgs/in_the_name_of_the_light.PNG'
+
+next_button = 'imgs/next.PNG'
 
 
 
@@ -135,9 +141,6 @@ def skill_points():
         escape()
 
 
-def arch_event():
-    log("Checking Arch Event")
-    click_on_image(arch_available, "Arch Event", 0.8)
 
 def check_chests():
     log("Checking for chests")
@@ -198,9 +201,26 @@ def check_daily_rewards():
         time.sleep(2)
         pyautogui.click(x - 20, y - 250)
         time.sleep(2)
-        click_on_image(arch_escape, "Daily quest item 2 taken, leaving", 0.8)
+        click_on_image(arch_escape, "Daily reward item 2 taken, leaving", 0.8)
+    reward_3 = pyautogui.locateOnScreen(daily_reward_3, confidence=0.9)
+    if reward_3 is not None:
+        reward_3_Coords = pyautogui.center(reward_3)
+        x, y = reward_3_Coords
+        pyautogui.click(x + 20, y - 60)
+        time.sleep(2)
+        pyautogui.click(x - 20, y - 250)
+        time.sleep(2)
+        click_on_image(arch_escape, "Daily reward item 3 taken, leaving", 0.8)
 
 def close_adds():
+    expand = click_on_image(menu_expand, "Missions", 0.9)
+    if expand is not None:
+        log("Menu is hidden, fixing")
+        time.sleep(1)
+    next_b = click_on_image(next_button, "Next button", 0.88)
+    if next_b is not None:
+        time.sleep(2)
+        click_on_image(arch_escape, "Fight done, leaving", 0.8)
     fb = click_on_image(facebook_send, "Facebook send button", 0.88)
     if fb is not None:
         time.sleep(2)
@@ -223,9 +243,16 @@ def soul_stones(need_food):
         click_on_image(heroes_find_soul_stones, "Plus", 0.8)
         time.sleep(1.5)
         for x in range(0, 2):
-            rdy = click_on_image(soul_stones_battle_ready, "Chapter", 0.95)
+            count = 3
+            rdy = click_on_image(soul_stones_battle_ready, "Chapter 3/3", 0.95)
+            if rdy is None:
+                rdy = click_on_image(soul_stones_battle_ready1, "Chapter 1/3", 0.95)
+                count = 1
+            if rdy is None:
+                count = 2
+                rdy = click_on_image(soul_stones_battle_ready2, "Chapter 2/3", 0.95)
             if rdy is not None:
-                for y in range(0, 3):
+                for y in range(0, count):
                     time.sleep(1.5)
                     coords = click_on_image(battle_start, "Start battle!", 0.9)
                     time.sleep(4)
@@ -239,9 +266,16 @@ def soul_stones(need_food):
         click_on_image(heroes_find_soul_stones, "Plus", 0.8)
         time.sleep(1.5)
         for x in range(0, 2):
-            rdy = click_on_image(soul_stones_battle_ready, "Chapter", 0.9)
+            count = 3
+            rdy = click_on_image(soul_stones_battle_ready, "Chapter 3/3", 0.95)
+            if rdy is None:
+                rdy = click_on_image(soul_stones_battle_ready1, "Chapter 1/3", 0.95)
+                count = 1
+            if rdy is None:
+                count = 2
+                rdy = click_on_image(soul_stones_battle_ready2, "Chapter 2/3", 0.95)
             if rdy is not None:
-                for y in range(0, 3):
+                for y in range(0, count):
                     time.sleep(1.5)
                     coords = click_on_image(battle_start, "Start battle!", 0.9)
                     time.sleep(4)
@@ -281,8 +315,6 @@ def check_mailbox():
             click_on_image(arch_escape, "Reward received, leaving", 0.8)
 
 def check_missions():
-    log("Menu is hidden, fixing")
-    click_on_image(menu_expand, "Missions", 0.9)
     log("Checking missions")
     missions = click_on_image(missions_available, "Missions", 0.9)
     if missions is not None:
@@ -294,10 +326,11 @@ def check_missions():
         pyautogui.drag(0, -400, 0.5, button='left')
         time.sleep(2.5)
         cont = click_on_image(missions_continue, "Continue", 0.9)
-        x, y = cont
-        time.sleep(2.5)
-        pyautogui.click(x, y-290)
-        time.sleep(2.5)
+        if cont is not None:
+            x, y = cont
+            time.sleep(2.5)
+            pyautogui.click(x, y-290)
+            time.sleep(2.5)
         # Campaign-mission clicked, correct
         camp_arrow = pyautogui.locateOnScreen(mission_campaign_arrow, confidence=0.9)
         if camp_arrow is not None:
@@ -323,6 +356,10 @@ def check_itnotl_event():
             time.sleep(20)
 
 
+def arch_event():
+    log("Checking Arch Event")
+    click_on_image(arch_available, "Arch Event", 0.8)
+
 
 
 
@@ -346,7 +383,7 @@ def main():
     close_adds()
 
     # Skill points
-    #skill_points()
+    skill_points()
     close_adds()
 
     # Mailbox
@@ -358,9 +395,11 @@ def main():
 
     # Missions
     check_missions()
+    close_adds()
 
     # Events
     check_events()
+    close_adds()
 
     # Arena
 
@@ -371,6 +410,7 @@ def main():
     # Wait 30 sec and start over
     log("Checks done, waiting 20 seconds and restarting")
     time.sleep(20)
+    close_adds()
     main()
 
 ##Init
