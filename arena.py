@@ -1,0 +1,29 @@
+from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
+import pyautogui
+import time
+import settings
+
+def check_arena():
+    click_image('imgs/arena_ready.PNG', "Arena ready", do_arena_battle)
+    #arena_ready = pyautogui.locateOnScreen('imgs/arena_ready.PNG', confidence=0.95)
+    #if arena_ready is not None:
+    #    log("Arena ready")
+    #    click_on_box(arena_ready)
+    #    time.sleep(3)
+    #    pyautogui.click(game_x + 1095 - 33, game_y + 487 - 49)
+    #    time.sleep(1)
+    #    do_arena_battle()
+
+
+def do_arena_battle():
+    no_battles_ready = pyautogui.locateOnScreen('imgs/no_battles_ready.PNG', confidence=0.97)
+    waiting = pyautogui.locateOnScreen('imgs/dont_wait.PNG', confidence=0.97)
+    if no_battles_ready is None and waiting is None:
+        log("Arena battles available. Doing Battle!")
+        power1 = get_value_from_rect(game_x+241-2, game_y+425-29+49, game_x+325-2, game_y+505-29)
+        power2 = get_value_from_rect(game_x + 528 - 2, game_y + 425 - 29 + 49, game_x + 605 - 2, game_y + 505 - 29)
+        power3 = get_value_from_rect(game_x + 818 - 2, game_y + 425 - 29 + 49, game_x + 890 - 2, game_y + 505 - 29)
+        enter_lowest(power1, power2, power3, True)
+    else:
+        log("Not ready for arena battle")
+        escape(1)
