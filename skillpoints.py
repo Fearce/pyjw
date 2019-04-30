@@ -3,6 +3,7 @@ import pyautogui
 import time
 import settings
 
+
 def check_skill_points():
     click(508, 720)  # Click heroes button
     time.sleep(2)
@@ -11,4 +12,19 @@ def check_skill_points():
     click(1180, 350)  # Click skill book
     points = get_value_from_rect(settings.game_x+759, settings.game_y+198, settings.game_x+795, settings.game_y+225)
     log(str(points))
+    log("Distributing points")
+    for x in range(0, settings.amount_heroes):
+        if int(points) < 1:
+            break
+        click(1056, 337)
+        time.sleep(0.2)
+        click(1056, 500)
+        time.sleep(0.2)
+        click(1056, 650)
+        time.sleep(0.2)
+        click(493, 400)
+        points = get_value_from_rect(settings.game_x + 759, settings.game_y + 198, settings.game_x + 795,
+                                 settings.game_y + 225)
+        log(str(points))
+    log("Done distributing points")
     time.sleep(20)
