@@ -3,7 +3,7 @@ import pyautogui
 import time
 import settings
 
-def click_daily_rewards(game_x, game_y):
+def click_daily_rewards():
     pyautogui.click(game_x + 320 - 138, game_y + 485 - 126)  # click each reward once
     time.sleep(0.5)
     pyautogui.click(game_x + 508 - 138, game_y + 410 - 126)
