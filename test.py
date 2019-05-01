@@ -5,6 +5,7 @@ from skillpoints import check_skill_points
 from trialofdeath import check_trial_of_death, do_trial_of_death, finish_trial
 from coliseum import check_coliseum, do_coliseum
 from arena import check_arena, do_arena_battle
+from chests import check_chests
 import settings
 from heroselection import select_heroes, deselect_heroes, select_arena_heroes, select_tod_heroes, select_hero, enter_lowest
 import pyautogui

@@ -7,12 +7,13 @@ import settings
 def check_skill_points():
     heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
     if heroes_button_located is not None:
+        log("Checking skill points")
         click(508, 720)  # Click heroes button
         time.sleep(2)
         click(140, 260)  # Click first hero
-        time.sleep(1)
+        time.sleep(2)
         click(1180, 350)  # Click skill book
-        time.sleep(1)
+        time.sleep(2)
         points = get_value_from_rect(settings.game_x + 759, settings.game_y + 198, settings.game_x + 795,
                                      settings.game_y + 225)
         log(str(points))
@@ -35,7 +36,7 @@ def check_skill_points():
                 log(str(points))
             except ValueError:
                 log("Tesseract error, waiting until next cycle")
-                escape(2)
+                # escape(2)
                 break
         log("Done distributing points")
         escape(2)

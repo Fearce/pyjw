@@ -9,6 +9,18 @@ from desktopmagic.screengrab_win32 import (
 
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
+
+def go_left():
+    pyautogui.moveTo(settings.game_x+630, settings.game_y+365)
+    time.sleep(0.2)
+    pyautogui.drag(100, 0, 0.2, button='left')
+
+def go_right():
+    pyautogui.moveTo(settings.game_x+630, settings.game_y+365)
+    time.sleep(0.2)
+    pyautogui.drag(-100, 0, 0.2, button='left')
+
+
 def click(x, y):
     pyautogui.click(settings.game_x+x, settings.game_y+y)
 
@@ -46,11 +58,6 @@ def get_value_from_rect(x1, y1, x2, y2):
     return value
 
 
-
-
-
-
-
 # Use top bar to locate game start
 def locate_game_window():
     memu_play = 'memu_play.PNG'
@@ -68,4 +75,4 @@ def locate_game_window():
 def escape(amount):
     for x in range(0, amount):
         pyautogui.click(settings.game_x + 1449 - 200, settings.game_y + 150 - 118)
-        time.sleep(0.2)
+        time.sleep(0.4)
