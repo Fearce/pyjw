@@ -15,9 +15,9 @@ def check_coliseum():
 
 def do_coliseum():
     if pyautogui.locateOnScreen('imgs/0_2.PNG', confidence=0.95) is None:
-        power1 = get_value_from_rect(game_x + 245, game_y + 425 - 29 + 49, game_x + 325 - 2, game_y + 505 - 29)
-        power2 = get_value_from_rect(game_x + 528 - 2, game_y + 425 - 29 + 49, game_x + 605 - 2, game_y + 505 - 29)
-        power3 = get_value_from_rect(game_x + 818 - 2, game_y + 425 - 29 + 49, game_x + 890 - 2, game_y + 505 - 29)
+        power1 = get_value_from_rect(settings.game_x + 245, settings.game_y + 425 - 29 + 49, settings.game_x + 325 - 2, settings.game_y + 505 - 29)
+        power2 = get_value_from_rect(settings.game_x + 528 - 2, settings.game_y + 425 - 29 + 49, settings.game_x + 605 - 2, settings.game_y + 505 - 29)
+        power3 = get_value_from_rect(settings.game_x + 818 - 2, settings.game_y + 425 - 29 + 49, settings.game_x + 890 - 2, settings.game_y + 505 - 29)
         enter_lowest(power1, power2, power3, False)
     else:
         log("Coliseum done")

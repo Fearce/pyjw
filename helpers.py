@@ -40,7 +40,7 @@ def log(msg):
 
 def get_value_from_rect(x1, y1, x2, y2):
     image = getRectAsImage((int(x1), int(y1), int(x2), int(y2)))
-    # image.save('screencapture_256_256.png', format='png')
+    image.save('screencapture_256_256.png', format='png')
     config = '-l digits1+digits+digits_comma --psm 10 --oem 3 -c tessedit_char_whitelist=0123456789'
     value = pytesseract.pytesseract.image_to_string(image, config=config)
     return value

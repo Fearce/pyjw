@@ -12,50 +12,50 @@ def select_heroes(mode):
         select_arena_heroes()
 
     if mode == "Trial 1":
-        select_tod_heroes(tod_comp1)
+        select_tod_heroes(settings.tod_comp1)
 
     if mode == "Trial 2":
-        select_tod_heroes(tod_comp2)
+        select_tod_heroes(settings.tod_comp2)
 
     if mode == "Trial 3":
-        select_tod_heroes(tod_comp3)
+        select_tod_heroes(settings.tod_comp3)
 
     if mode == "Trial 4":
-        select_tod_heroes(tod_comp4)
+        select_tod_heroes(settings.tod_comp4)
 
 
 def deselect_heroes():
     log("Deselecting heroes")
     wait = 0.1
-    pyautogui.click(game_x + 335 - 2, game_y + 707 - 30)
+    pyautogui.click(settings.game_x + 335 - 2, settings.game_y + 707 - 30)
     time.sleep(wait)
-    pyautogui.click(game_x + 482 - 2, game_y + 707 - 30)
+    pyautogui.click(settings.game_x + 482 - 2, settings.game_y + 707 - 30)
     time.sleep(wait)
-    pyautogui.click(game_x + 636 - 2, game_y + 707 - 30)
+    pyautogui.click(settings.game_x + 636 - 2, settings.game_y + 707 - 30)
     time.sleep(wait)
-    pyautogui.click(game_x + 785 - 2, game_y + 707 - 30)
+    pyautogui.click(settings.game_x + 785 - 2, settings.game_y + 707 - 30)
     time.sleep(wait)
-    pyautogui.click(game_x + 952 - 2, game_y + 707 - 30)
+    pyautogui.click(settings.game_x + 952 - 2, settings.game_y + 707 - 30)
 
 
 def select_arena_heroes():
     wait = 0.1
-    pyautogui.click(game_x + 167 - 2, game_y + 315 - 30)
+    pyautogui.click(settings.game_x + 167 - 2, settings.game_y + 315 - 30)
     time.sleep(wait)
-    pyautogui.click(game_x + 355 - 2, game_y + 315 - 30)
+    pyautogui.click(settings.game_x + 355 - 2, settings.game_y + 315 - 30)
     time.sleep(wait)
-    pyautogui.click(game_x + 481 - 2, game_y + 315 - 30)
+    pyautogui.click(settings.game_x + 481 - 2, settings.game_y + 315 - 30)
     time.sleep(wait)
-    pyautogui.click(game_x + 651 - 2, game_y + 315 - 30)
+    pyautogui.click(settings.game_x + 651 - 2, settings.game_y + 315 - 30)
     time.sleep(wait)
-    pyautogui.click(game_x + 795 - 2, game_y + 315 - 30)
+    pyautogui.click(settings.game_x + 795 - 2, settings.game_y + 315 - 30)
 
 
 def select_tod_heroes(comp):
     for x in comp:
         select_hero(x)
     time.sleep(1)
-    pyautogui.click(game_x + 1100, game_y + 670)
+    pyautogui.click(settings.game_x + 1100, settings.game_y + 670)
     time.sleep(1)
 
 
@@ -69,7 +69,7 @@ def select_hero(hero):
         time.sleep(1)
     else:
 
-        pyautogui.moveTo(game_x+630, game_y+350)
+        pyautogui.moveTo(settings.game_x+630, settings.game_y+350)
         time.sleep(0.3)
         if drag_count < 8:
             pyautogui.drag(0, -90, 0.2, button='left')
@@ -87,12 +87,14 @@ def enter_lowest(power1, power2, power3, select):
     lowest = power1
     if power2 < lowest:
         lowest = power2
-        pyautogui.click(game_x + 526, game_y + 520)
     if power3 < lowest:
         lowest = power3
-        pyautogui.click(game_x + 816, game_y + 520)
     if lowest == power1:
-        pyautogui.click(game_x + 239, game_y + 520)
+        pyautogui.click(settings.game_x + 239, settings.game_y + 520)
+    if lowest == power3:
+        pyautogui.click(settings.game_x + 816, settings.game_y + 520)
+    if lowest == power2:
+        pyautogui.click(settings.game_x + 526, settings.game_y + 520)
     log("1: " + str(power1) + ". 2: " + str(power2) + ". 3: " + str(power3) + ".")
     log("Lowest power found: " + str(lowest) + ". Entering hero select.")
     time.sleep(2)
@@ -102,4 +104,5 @@ def enter_lowest(power1, power2, power3, select):
         select_heroes(mode="Arena")
         time.sleep(0.5)
     log("Entering battle")
-    pyautogui.click(game_x + 1100, game_y + 670)
+    pyautogui.click(settings.game_x + 1100, settings.game_y + 670)
+    time.sleep(2)

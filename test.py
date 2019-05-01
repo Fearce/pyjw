@@ -22,114 +22,117 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
 def detect_game_state():
-    global current_state
+    add_close_located = pyautogui.locateOnScreen('imgs/add_close.PNG', confidence=0.95)
+    if add_close_located is not None:
+        settings.current_state = "Advertisement"
+        escape(1)
+        return
+
     daily_rewards = 'imgs\daily_rewards.PNG'
     daily_rewards_located = pyautogui.locateOnScreen(daily_rewards, confidence=0.95)
     if daily_rewards_located is not None:
-        current_state = "Daily Rewards"
+        settings.current_state = "Daily Rewards"
         return
 
     cave_ready = pyautogui.locateOnScreen('imgs/cave_ready.png', confidence=0.95)
     if cave_ready is not None:
-        current_state = "Refreshing Cave"
+        settings.current_state = "Refreshing Cave"
         return
 
     heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
     escape_sign_located = pyautogui.locateOnScreen('imgs/escape1.PNG', confidence=0.95)
     if heroes_button_located is not None:
         if escape_sign_located is not None:
-            current_state = "Clan Castle"
+            settings.current_state = "Clan Castle"
             return
         else:
-            current_state = "Home Screen"
+            settings.current_state = "Home Screen"
             return
 
     tod_win = pyautogui.locateOnScreen('imgs/tod_win.png', confidence=0.95)
     if tod_win is not None:
         if escape_sign_located is not None:
-            current_state = "Trial Win"
+            settings.current_state = "Trial Win"
             return
 
     arena_available_battles = pyautogui.locateOnScreen('imgs/arena_available_battles.png', confidence=0.95)
     if arena_available_battles is not None:
         if escape_sign_located is not None:
-            current_state = "Arena"
+            settings.current_state = "Arena"
             return
 
     walk_through_tod = pyautogui.locateOnScreen('imgs/walk_through_tod.png', confidence=0.95)
     if walk_through_tod is not None:
         if escape_sign_located is not None:
-            current_state = "Trial of Death"
+            settings.current_state = "Trial of Death"
             return
 
     power = pyautogui.locateOnScreen('imgs/power.png', confidence=0.95)
     battle_start = pyautogui.locateOnScreen('imgs/battle_start.png', confidence=0.95)
     if power is not None and battle_start is not None:
-        current_state = "Hero Select"
+        settings.current_state = "Hero Select"
         return
 
     next_button = pyautogui.locateOnScreen('imgs/next.png', confidence=0.95)
     if next_button is not None:
-        current_state = "Victory"
+        settings.current_state = "Victory"
         return
 
     auto_on = pyautogui.locateOnScreen('imgs/auto_on.png', confidence=0.95)
     if auto_on is not None:
-        current_state = "In Battle"
+        settings.current_state = "In Battle"
         return
 
 
 def do_work():
-    global current_state
-    if current_state == "Trial Win":
+    if settings.current_state == "Trial Win":
         finish_trial()
 
-    if current_state == "Daily Rewards":
+    if settings.current_state == "Daily Rewards":
         click_daily_rewards()
 
-    if current_state == "Home Screen":
+    if settings.current_state == "Home Screen":
         check_arena()
         check_trial_of_death()
         check_skill_points()
         check_coliseum()
 
-    if current_state == "Clan Castle":
+    if settings.current_state == "Clan Castle":
         escape(1)
 
-    if current_state == "Arena":
+    if settings.current_state == "Arena":
         do_arena_battle()
 
-    if current_state == "Trial of Death":
+    if settings.current_state == "Trial of Death":
         do_trial_of_death()
 
-    if current_state == "Hero Select":
+    if settings.current_state == "Hero Select":
         escape(2)
 
-    if current_state == "Victory":
+    if settings.current_state == "Victory":
         click_next()
 
-    if current_state == "Refreshing Cave":
+    if settings.current_state == "Refreshing Cave":
         refresh_cave()
 
-    if current_state == "Working":
+    if settings.current_state == "Working":
         log("Unknown game state, trying to correct")
         escape(1)
 
 
 def main_loop():
-    global current_state
-    current_state = "Working"
+    settings.current_state = "Working"
 
     # Detect game state
     detect_game_state()
-    log("Current state is: " + current_state)
+    log("Current state is: " + settings.current_state)
 
     # Act on game state
     do_work()
 
     # Wait wait_time sec and start over
     log("Cycle done, waiting " + str(settings.wait_time) + " seconds and restarting")
-    current_state = "Waiting"
+    settings.current_state = "Waiting"
     time.sleep(settings.wait_time)
     main_loop()
 

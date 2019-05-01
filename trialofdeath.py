@@ -1,4 +1,5 @@
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
+from heroselection import select_heroes
 import pyautogui
 import time
 import settings
@@ -22,7 +23,7 @@ def do_trial_of_death():
     if hit_the_road is not None:
         click_on_box(hit_the_road)
         time.sleep(1)
-        pyautogui.click(game_x+901, game_y+721)
+        pyautogui.click(settings.game_x+901, settings.game_y+721)
 
         time.sleep(2)
         select_heroes("Trial " + str(trial_number))
@@ -32,7 +33,7 @@ def do_trial_of_death():
 
 
 def finish_trial():
-    pyautogui.click(game_x+580, game_y+725)
+    pyautogui.click(settings.game_x+580, settings.game_y+725)
     time.sleep(1.5)
-    pyautogui.click(game_x+770, game_y+430)
+    pyautogui.click(settings.game_x+770, settings.game_y+430)
     time.sleep(1)
