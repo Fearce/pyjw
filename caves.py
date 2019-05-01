@@ -7,6 +7,8 @@ def refresh_cave():
     pyautogui.click(settings.game_x+905, settings.game_y+544)  # click cave
     time.sleep(1.5)
     pyautogui.click(settings.game_x+370, settings.game_y+419)  # click gold
+    time.sleep(0.2)
+    pyautogui.click(settings.game_x + 370, settings.game_y + 419)  # click gold
     time.sleep(1.5)
     pyautogui.click(settings.game_x+780, settings.game_y+124)  # accept gold
     time.sleep(1)

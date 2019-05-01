@@ -12,13 +12,16 @@ def check_skill_points():
         click(140, 260)  # Click first hero
         time.sleep(1)
         click(1180, 350)  # Click skill book
+        time.sleep(1)
         points = get_value_from_rect(settings.game_x + 759, settings.game_y + 198, settings.game_x + 795,
                                      settings.game_y + 225)
         log(str(points))
         log("Distributing points")
         for x in range(0, settings.amount_heroes):
             try:
+                log("distributing point " + str(x))
                 if int(points) < 1:
+                    log("No points, breaking")
                     break
                 click(1056, 337)
                 time.sleep(0.2)
@@ -30,8 +33,9 @@ def check_skill_points():
                 points = get_value_from_rect(settings.game_x + 759, settings.game_y + 198, settings.game_x + 795,
                                              settings.game_y + 225)
                 log(str(points))
-                log("Done distributing points")
-                time.sleep(20)
             except ValueError:
                 log("Tesseract error, waiting until next cycle")
+                escape(2)
                 break
+        log("Done distributing points")
+        escape(2)

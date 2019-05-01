@@ -91,12 +91,6 @@ def do_work():
     if settings.current_state == "Daily Rewards":
         click_daily_rewards()
 
-    if settings.current_state == "Home Screen":
-        check_arena()
-        check_trial_of_death()
-        check_skill_points()
-        check_coliseum()
-
     if settings.current_state == "Clan Castle":
         escape(1)
 
@@ -114,6 +108,21 @@ def do_work():
 
     if settings.current_state == "Refreshing Cave":
         refresh_cave()
+
+    if settings.current_state == "Home Screen":
+        check_arena()
+        check_trial_of_death()
+        check_skill_points()
+        check_coliseum()
+        # check_tournament
+        check_chests()
+        # check_mailbox
+        # check friend currency
+        # check friend gifts
+        # check trial
+        # check otherworld
+        # missions
+        # upgrade heroes
 
     if settings.current_state == "Working":
         log("Unknown game state, trying to correct")
