@@ -122,7 +122,7 @@ def do_work():
     if settings.current_state == "Home Screen":
         home_screen_func(check_arena)
         home_screen_func(check_trial_of_death)
-        home_screen_func(check_skill_points)
+       # home_screen_func(check_skill_points)
         home_screen_func(check_coliseum)
         # check_tournament
         home_screen_func(check_chests)

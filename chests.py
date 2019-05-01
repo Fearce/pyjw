@@ -14,10 +14,12 @@ def check_chests():
         look_for_button('imgs/chestavailable.png', "Chest", open_chests)
     else:
         click_on_box(chest)
+        open_chests()
 
 
 def open_chests():
-    chest = pyautogui.locateOnScreen('imgs/freewoodchest.png', confidence=0.88)
+    time.sleep(1)
+    chest = pyautogui.locateOnScreen('imgs/freewoodchest.png', confidence=0.75)
     if chest is not None:
         log("Opening wooden chest")
         click_on_box(chest)
