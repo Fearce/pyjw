@@ -76,3 +76,31 @@ def escape(amount):
     for x in range(0, amount):
         pyautogui.click(settings.game_x + 1449 - 200, settings.game_y + 150 - 118)
         time.sleep(0.4)
+
+
+drag_count = 0
+
+
+def look_for_button(img, msg, func):
+    global drag_count
+    for x in range(0, 20):  # Look for chest 20 times or give up
+        time.sleep(2)
+        chest = pyautogui.locateOnScreen(img, confidence=0.88)
+        if chest is not None:
+            log(msg + " button found, clicking")
+            click_on_box(chest)
+            time.sleep(2)
+            func()
+            break
+        log("Looking for " + msg + " button")
+        if drag_count < 5:
+            go_right()
+        else:
+            go_left()
+        drag_count += 1
+        # log(str(drag_count))
+        if drag_count > 9:
+            drag_count = 0
+        # check_chests()
+    log("Can't find chest, something is wrong, escaping")
+    escape(2)

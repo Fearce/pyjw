@@ -36,7 +36,7 @@ def check_skill_points():
                 log(str(points))
             except ValueError:
                 log("Tesseract error, waiting until next cycle")
-                # escape(2)
+                escape(1)
                 break
         log("Done distributing points")
         escape(2)

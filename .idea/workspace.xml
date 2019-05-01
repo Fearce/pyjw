@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed2bab7a-0832-4b64-afd1-a4fe55635a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chests.py" beforeDir="false" afterPath="$PROJECT_DIR$/chests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screencapture_256_256.png" beforeDir="false" afterPath="$PROJECT_DIR$/screencapture_256_256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/skillpoints.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pyjw$test.coverage" NAME="test Coverage Results" MODIFIED="1556721258777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyjw$test.coverage" NAME="test Coverage Results" MODIFIED="1556721729716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1905786404">
@@ -45,12 +40,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="932" />
+          <entry key="py" value="1118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="932" />
+          <entry key="Python" value="1118" />
         </counts>
       </usages-collector>
     </session>
@@ -81,10 +76,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="389">
+              <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <marker date="1556721641043" expanded="true" signature="2429:3092" ph="..." />
               </folding>
             </state>
           </provider>
@@ -93,12 +89,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="85">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
-                <element signature="e#0#137#0" expanded="true" />
-                <marker date="1556721340181" expanded="true" signature="896:900" ph="..." />
-                <marker date="1556721340181" expanded="true" signature="1250:1524" ph="..." />
+                <element signature="e#0#154#0" expanded="true" />
+                <marker date="1556721641022" expanded="true" signature="653:927" ph="..." />
               </folding>
             </state>
           </provider>
@@ -168,8 +163,8 @@
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/skillpoints.py" />
-        <option value="$PROJECT_DIR$/chests.py" />
         <option value="$PROJECT_DIR$/helpers.py" />
+        <option value="$PROJECT_DIR$/chests.py" />
       </list>
     </option>
   </component>
@@ -180,8 +175,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1827" />
-    <option name="y" value="40" />
+    <option name="x" value="1778" />
+    <option name="y" value="14" />
     <option name="width" value="1545" />
     <option name="height" value="913" />
   </component>
@@ -266,7 +261,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1827" y="40" width="1545" height="913" extended-state="0" />
+    <frame x="1778" y="14" width="1545" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25319865" />
@@ -389,6 +384,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1556721641043" expanded="true" signature="2429:3092" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skillpoints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -399,24 +405,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
-            <element signature="e#0#137#0" expanded="true" />
-            <marker date="1556721340181" expanded="true" signature="896:900" ph="..." />
-            <marker date="1556721340181" expanded="true" signature="1250:1524" ph="..." />
+            <element signature="e#0#154#0" expanded="true" />
+            <marker date="1556721641022" expanded="true" signature="653:927" ph="..." />
           </folding>
         </state>
       </provider>
