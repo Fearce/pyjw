@@ -15,6 +15,7 @@ def go_left():
     time.sleep(0.2)
     pyautogui.drag(100, 0, 0.2, button='left')
 
+
 def go_right():
     pyautogui.moveTo(settings.game_x+630, settings.game_y+365)
     time.sleep(0.2)
@@ -39,6 +40,7 @@ def click_image(img, msg, func):
         pyautogui.click(settings.game_x + 1095 - 33, settings.game_y + 487 - 49)
         time.sleep(1)
         func()
+
 
 def click_on_box(box):
     center_points = pyautogui.center(box)
@@ -85,6 +87,13 @@ def look_for_button(img, msg, func):
     global drag_count
     for x in range(0, 20):  # Look for chest 20 times or give up
         time.sleep(2)
+
+        if msg == "Friend Heart":
+            no_heart = pyautogui.locateOnScreen('imgs/no_heart.png', confidence=0.88)
+            if no_heart is not None:
+                log("Friend currency currently awaiting")
+                break
+
         chest = pyautogui.locateOnScreen(img, confidence=0.88)
         if chest is not None:
             log(msg + " button found, clicking")
@@ -102,5 +111,4 @@ def look_for_button(img, msg, func):
         if drag_count > 9:
             drag_count = 0
         # check_chests()
-    log("Can't find chest, something is wrong, escaping")
     escape(2)

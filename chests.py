@@ -5,6 +5,7 @@ import settings
 
 
 def check_chests():
+    log("Checking chests")
     chest = pyautogui.locateOnScreen('imgs/chestavailable.png', confidence=0.88)
     if chest is None:
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)

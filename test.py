@@ -6,6 +6,7 @@ from trialofdeath import check_trial_of_death, do_trial_of_death, finish_trial
 from coliseum import check_coliseum, do_coliseum
 from arena import check_arena, do_arena_battle
 from chests import check_chests
+from friends import check_friends
 import settings
 from heroselection import select_heroes, deselect_heroes, select_arena_heroes, select_tod_heroes, select_hero, enter_lowest
 import pyautogui
@@ -85,6 +86,14 @@ def detect_game_state():
         return
 
 
+def home_screen_func(func):
+    detect_game_state()
+    if settings.current_state != "Home Screen":
+        do_work()
+    else:
+        func()
+
+
 def do_work():
     if settings.current_state == "Trial Win":
         finish_trial()
@@ -111,15 +120,16 @@ def do_work():
         refresh_cave()
 
     if settings.current_state == "Home Screen":
-        check_arena()
-        check_trial_of_death()
-        check_skill_points()
-        check_coliseum()
+        home_screen_func(check_arena)
+        home_screen_func(check_trial_of_death)
+        home_screen_func(check_skill_points)
+        home_screen_func(check_coliseum)
         # check_tournament
-        check_chests()
+        home_screen_func(check_chests)
         # check_mailbox
         # check friend currency
         # check friend gifts
+        home_screen_func(check_friends)
         # check trial
         # check otherworld
         # missions
