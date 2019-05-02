@@ -8,7 +8,7 @@ mailbox_receive = 'imgs/mailbox_receive.PNG'
 
 def check_mailbox():
     log("Checking mail")
-    mailbox = pyautogui.locateOnScreen('imgs/mailbox_available.png', confidence=0.88)
+    mailbox = pyautogui.locateOnScreen('imgs/mailbox_available.png', confidence=0.85)
     if mailbox is None:
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
         if heroes_button_located is None:

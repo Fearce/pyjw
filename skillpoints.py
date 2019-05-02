@@ -34,17 +34,20 @@ def check_skill_points():
                 if int(points) < 1:
                     log("No points, breaking")
                     break
-                click(1056, 337)  # Skill points 1-3
-                time.sleep(0.2)
-                click(1056, 500)
-                time.sleep(0.2)
-                click(1056, 650)
-                time.sleep(0.2)
-                if pyautogui.locateOnScreen('imgs/skillpointadd.png', confidence=0.99) is None:
+                #click(1056, 337)  # Skill points 1-3
+                #time.sleep(0.2)
+                #click(1056, 500)
+                #time.sleep(0.2)
+                #click(1056, 650)
+                #time.sleep(0.2)
+                skill_add = pyautogui.locateOnScreen('imgs/skillpointadd.png', confidence=0.99)
+                if skill_add is None:
                     click(493, 400)  # Next hero
                     log("hero is filled, checking next")
                 else:
                     log("adding point")
+                    click_on_box(skill_add)
+                    time.sleep(0.2)
                 points = get_value_from_rect(settings.game_x + 759, settings.game_y + 198, settings.game_x + 795,
                                              settings.game_y + 225)
                 log(str(points))
