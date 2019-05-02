@@ -1,12 +1,14 @@
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
 from dailyrewards import click_daily_rewards
-from caves import refresh_cave
+from caves import check_cave
 from skillpoints import check_skill_points
 from trialofdeath import check_trial_of_death, do_trial_of_death, finish_trial
 from coliseum import check_coliseum, do_coliseum
 from arena import check_arena, do_arena_battle
 from chests import check_chests
 from friends import check_friends
+from mailbox import check_mailbox
+from events import check_events
 import settings
 from heroselection import select_heroes, deselect_heroes, select_arena_heroes, select_tod_heroes, select_hero, enter_lowest
 import pyautogui
@@ -34,11 +36,6 @@ def detect_game_state():
     daily_rewards_located = pyautogui.locateOnScreen(daily_rewards, confidence=0.95)
     if daily_rewards_located is not None:
         settings.current_state = "Daily Rewards"
-        return
-
-    cave_ready = pyautogui.locateOnScreen('imgs/cave_ready.png', confidence=0.95)
-    if cave_ready is not None:
-        settings.current_state = "Refreshing Cave"
         return
 
     heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
@@ -116,16 +113,16 @@ def do_work():
     if settings.current_state == "Victory":
         click_next()
 
-    if settings.current_state == "Refreshing Cave":
-        refresh_cave()
-
     if settings.current_state == "Home Screen":
         home_screen_func(check_arena)
         home_screen_func(check_trial_of_death)
-       # home_screen_func(check_skill_points)
+        home_screen_func(check_skill_points)
         home_screen_func(check_coliseum)
+        home_screen_func(check_events)
         # check_tournament
+        home_screen_func(check_cave)
         home_screen_func(check_chests)
+        home_screen_func(check_mailbox)
         # check_mailbox
         # check friend currency
         # check friend gifts
@@ -152,8 +149,11 @@ def main_loop():
 
     # Wait wait_time sec and start over
     log("Cycle done, waiting " + str(settings.wait_time) + " seconds and restarting")
-    settings.current_state = "Waiting"
-    time.sleep(settings.wait_time)
+    #settings.current_state = "Waiting"
+    if settings.current_state == "Home Screen":
+        time.sleep(settings.wait_time)
+    else:
+        time.sleep(1)
     main_loop()
 
 

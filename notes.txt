@@ -13,3 +13,9 @@ food
 NEXT UP:
 ToD GOGOGO :DD
 skill points plss
+
+
+
+Dagbog:
+02-05-2019
+Første møde med vejleder, aftalt emneskift til Automatisering af Android spil med Python

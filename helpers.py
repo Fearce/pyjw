@@ -10,6 +10,20 @@ from desktopmagic.screengrab_win32 import (
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
 
+def delay_next_check(delay_min, last_check):
+    now = datetime.datetime.now()
+    if now.minute >= delay_min:
+        now = now.replace(minute=now.minute - delay_min)
+    else:
+        now = now.replace(hour=now.hour - 1)
+        for x in range(0, delay_min - now.minute):
+            now = now.replace(minute=now.minute + 1)
+    if now < last_check:
+        # log(delay_msg)
+        return True
+    return False
+
+
 def go_left():
     pyautogui.moveTo(settings.game_x+630, settings.game_y+365)
     time.sleep(0.2)
@@ -66,7 +80,7 @@ def locate_game_window():
     img_box = pyautogui.locateOnScreen(memu_play, confidence=0.95)  # locate top left corner
     if img_box is not None:
         x, y = pyautogui.center(img_box)
-        settings.game_x_start = x - 47
+        settings.game_x_start = x - 47  # Game distance from Memu Icon
         settings.game_y_start = y + 13
         log("Game window found at " + str(settings.game_x_start) + ", " + str(settings.game_y_start))
         return settings.game_x_start, settings.game_y_start
