@@ -26,6 +26,8 @@ def check_arena():
 
 
 def do_arena_battle():
+    global last_check
+    last_check = datetime.datetime.now()
     no_battles_ready = pyautogui.locateOnScreen('imgs/no_battles_ready.PNG', confidence=0.97)
     waiting = pyautogui.locateOnScreen('imgs/dont_wait.PNG', confidence=0.97)
     if no_battles_ready is None and waiting is None:

@@ -12,12 +12,14 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def check_trial_of_death():
     global last_check
-    if delay_next_check(7, last_check):
+    if delay_next_check(10, last_check):
         return
     click_image('imgs/tod_ready.PNG', "Trial of Death ready", do_trial_of_death)
 
 
 def do_trial_of_death():
+    global last_check
+    last_check = datetime.datetime.now()
     trial_number = 1
     if pyautogui.locateOnScreen('imgs/3.PNG', confidence=0.95) is not None:
         log("3/3 trials left, entering hero select")

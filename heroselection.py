@@ -58,9 +58,17 @@ def select_tod_heroes(comp):
     pyautogui.click(settings.game_x + 1100, settings.game_y + 670)
     time.sleep(1)
 
+promo_drag_count = 0
+def select_promo_hero(mode):
+    global promo_drag_count
+    promo_img = 'imgs/heroes/promo_hero.PNG'
+    log("Looking for promo hero")
 
 def select_hero(hero):
     global drag_count
+    tournament_clock = pyautogui.locateOnScreen('imgs/tournament_clock.PNG', confidence=0.95)
+    if tournament_clock is not None:
+        return
     log("Looking for " + hero)
     hero_found = pyautogui.locateOnScreen('imgs/heroes/'+hero+'.PNG', confidence=0.95)
     if hero_found is not None:

@@ -30,6 +30,7 @@ def check_friends():
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
         if heroes_button_located is None:
             return
+        last_check = datetime.datetime.now()
         look_for_button('imgs/friend_currency.png', "Friend Heart", give_friend_currency)
     else:
         click_on_box(heart)

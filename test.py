@@ -2,6 +2,7 @@ from helpers import log, locate_game_window, get_value_from_rect, click_on_box, 
 from dailyrewards import click_daily_rewards
 from caves import check_cave
 from skillpoints import check_skill_points
+from tournament import check_tournament
 from trialofdeath import check_trial_of_death, do_trial_of_death, finish_trial
 from coliseum import check_coliseum, do_coliseum
 from arena import check_arena, do_arena_battle
@@ -118,6 +119,7 @@ def do_work():
         home_screen_func(check_trial_of_death)
         home_screen_func(check_skill_points)
         home_screen_func(check_coliseum)
+        home_screen_func(check_tournament)
         home_screen_func(check_events)
         # check_tournament
         home_screen_func(check_cave)

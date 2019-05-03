@@ -5,6 +5,7 @@ from helpers import log, locate_game_window, get_value_from_rect, click_on_box, 
 import pyautogui
 import time
 import settings
+from heroselection import enter_lowest
 
 last_check = datetime.datetime.now()
 last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
@@ -24,6 +25,8 @@ def check_coliseum():
 
 
 def do_coliseum():
+    global last_check
+    last_check = datetime.datetime.now()
     if pyautogui.locateOnScreen('imgs/0_2.PNG', confidence=0.95) is None:
         power1 = get_value_from_rect(settings.game_x + 245, settings.game_y + 425 - 29 + 49, settings.game_x + 325 - 2, settings.game_y + 505 - 29)
         power2 = get_value_from_rect(settings.game_x + 528 - 2, settings.game_y + 425 - 29 + 49, settings.game_x + 605 - 2, settings.game_y + 505 - 29)

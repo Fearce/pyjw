@@ -1,12 +1,22 @@
-from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, go_left, go_right, look_for_button
+import datetime
+
+from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
+    go_left, go_right, look_for_button, delay_next_check
 import pyautogui
 import time
 import settings
 
 mailbox_receive = 'imgs/mailbox_receive.PNG'
 
+last_check = datetime.datetime.now()
+last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
+
 
 def check_mailbox():
+    global last_check
+    if delay_next_check(5, last_check):
+        return
+    last_check = datetime.datetime.now()
     log("Checking mail")
     mailbox = pyautogui.locateOnScreen('imgs/mailbox_available.png', confidence=0.85)
     if mailbox is None:
