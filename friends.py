@@ -1,4 +1,7 @@
-from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, go_left, go_right, look_for_button
+import datetime
+
+from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
+    go_left, go_right, look_for_button, delay_next_check
 import pyautogui
 import time
 import settings
@@ -14,8 +17,13 @@ friend_gold = 'imgs/friend_gold.PNG'
 
 facebook_send = 'imgs/facebook_send.PNG'
 
+last_check = datetime.datetime.now()
+last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
 
 def check_friends():
+    global last_check
+    if delay_next_check(30, last_check):
+        return
     log("Checking friends")
     heart = pyautogui.locateOnScreen('imgs/friend_currency.PNG', confidence=0.88)
     if heart is None:

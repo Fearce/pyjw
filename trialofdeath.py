@@ -1,10 +1,19 @@
-from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
+import datetime
+
+from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
+    delay_next_check
 from heroselection import select_heroes
 import pyautogui
 import time
 import settings
 
+last_check = datetime.datetime.now()
+last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
+
 def check_trial_of_death():
+    global last_check
+    if delay_next_check(7, last_check):
+        return
     click_image('imgs/tod_ready.PNG', "Trial of Death ready", do_trial_of_death)
 
 

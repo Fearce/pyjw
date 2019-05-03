@@ -8,25 +8,43 @@ import settings
 last_check = datetime.datetime.now()
 last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
 
-
-def check_chests():
+def check_portal():
     global last_check
-    if delay_next_check(5, last_check):
+    # delay_msg = "Checked skillpoints at " + str(last_check) + ". Waiting until 30 minutes has passed"
+    if delay_next_check(1, last_check):
         return
-    log("Checking chests")
-    chest = pyautogui.locateOnScreen('imgs/chestavailable.png', confidence=0.85)
+    log("Checking portal")
+    portal = pyautogui.locateOnScreen('imgs/portal.png', confidence=0.85)
     last_check = datetime.datetime.now()
-    if chest is None:
+    if portal is None:
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
         if heroes_button_located is None:
             return
-        look_for_button('imgs/chestavailable.png', "Chest", open_chests)
+        look_for_button('imgs/portal.png', "Portal", portal_work)
     else:
+        click_on_box(portal)
+        portal_work()
+
+
+def portal_work():
+    check_trial()
+    check_otherworld()
+
+
+def check_trial():
+    time.sleep(1)
+    chest = pyautogui.locateOnScreen('imgs/trial_ready.png', confidence=0.85)
+    if chest is not None:
+        log("Opening wooden chest")
         click_on_box(chest)
-        open_chests()
+        time.sleep(4)
+        escape(2)
+    else:
+        log("No chests available")
+        escape(1)
 
 
-def open_chests():
+def check_otherworld():
     time.sleep(1)
     chest = pyautogui.locateOnScreen('imgs/freewoodchest.png', confidence=0.75)
     if chest is not None:
