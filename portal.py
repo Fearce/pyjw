@@ -38,11 +38,17 @@ def check_trial():
         log("Clicking trial")
         click_on_box(trial_ready)
         time.sleep(4)
+        do_trial()
         escape(2)
     else:
         log("Trial not available")
         escape(1)
 
+
+def do_trial():
+    trial_middle = pyautogui.locateOnScreen('imgs/trial_middle.png', confidence=0.9)
+    if trial_middle is not None:
+        click_on_box(trial_middle)
 
 def check_otherworld():
     time.sleep(1)

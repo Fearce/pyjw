@@ -1,6 +1,7 @@
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
 from dailyrewards import click_daily_rewards
 from caves import check_cave
+from portal import check_portal
 from skillpoints import check_skill_points
 from tournament import check_tournament
 from trialofdeath import check_trial_of_death, do_trial_of_death, finish_trial
@@ -130,6 +131,7 @@ def do_work():
         # check friend currency
         # check friend gifts
         home_screen_func(check_friends)
+        home_screen_func(check_portal)
         # check trial
         # check otherworld
         # missions

@@ -11,7 +11,7 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 def check_cave():
     global last_check
     # delay_msg = "Checked skillpoints at " + str(last_check) + ". Waiting until 30 minutes has passed"
-    if delay_next_check(35, last_check):
+    if delay_next_check(20, last_check):
         return
     last_check = datetime.datetime.now()
 
@@ -32,6 +32,11 @@ def refresh_cave():
     time.sleep(1.5)
     pyautogui.click(settings.game_x+370, settings.game_y+419)  # click gold
     time.sleep(0.2)
+    cave_output = pyautogui.locateOnScreen('imgs/cave_output.png', confidence=0.85)
+    if cave_output is not None:
+        log("Cave currently running")
+        escape(2)
+        return
     pyautogui.click(settings.game_x + 370, settings.game_y + 419)  # click gold
     time.sleep(1.5)
     pyautogui.click(settings.game_x+780, settings.game_y+124)  # accept gold
