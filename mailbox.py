@@ -14,6 +14,8 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def check_mailbox():
     global last_check
+    if not settings.mailbox:
+        return
     if delay_next_check(5, last_check):
         return
     last_check = datetime.datetime.now()

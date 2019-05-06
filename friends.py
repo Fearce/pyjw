@@ -22,6 +22,8 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def check_friends():
     global last_check
+    if not settings.friends:
+        return
     if delay_next_check(30, last_check):
         return
     log("Checking friends")

@@ -10,13 +10,13 @@ tod_comp4 = ["Healer_Cassandra", "Necromancer_Khardur", "Ronald_the_Inquisitor",
 
 # Enable / disable features
 arena = True
-caves = True
-chests = True
+caves = False
+chests = False
 coliseum = True
 daily_rewards = True
 events = True
 friends = True
-mailbox = True
+mailbox = False
 missions = True
 portal = True
 tournament = True

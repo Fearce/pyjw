@@ -12,6 +12,8 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def check_trial_of_death():
     global last_check
+    if not settings.trial_of_death:
+        return
     if delay_next_check(10, last_check):
         return
     click_image('imgs/tod_ready.PNG', "Trial of Death ready", do_trial_of_death)

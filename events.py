@@ -6,4 +6,6 @@ import datetime
 
 
 def check_events():
+    if not settings.events:
+        return
     log("checking events")

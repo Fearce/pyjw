@@ -3,6 +3,7 @@ import time
 
 import pyautogui
 
+import settings
 from helpers import log, click_image, delay_next_check, click_on_box
 from heroselection import select_hero
 
@@ -11,6 +12,8 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def check_tournament():
     global last_check
+    if not settings.tournament:
+        return
     if delay_next_check(2, last_check):
         return
     click_image('imgs/tournament_ready.png', "Checking tournament", do_tournament)

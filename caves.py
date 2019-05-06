@@ -10,6 +10,8 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def check_cave():
     global last_check
+    if not settings.caves:
+        return
     # delay_msg = "Checked skillpoints at " + str(last_check) + ". Waiting until 30 minutes has passed"
     if delay_next_check(20, last_check):
         return

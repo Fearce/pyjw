@@ -12,6 +12,8 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def check_arena():
     global last_check
+    if not settings.arena:
+        return
     if delay_next_check(5, last_check):
         return
     click_image('imgs/arena_ready.PNG', "Checking Arena", do_arena_battle)

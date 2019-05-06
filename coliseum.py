@@ -13,6 +13,8 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def check_coliseum():
     global last_check
+    if not settings.coliseum:
+        return
     if delay_next_check(25, last_check):
         return
     click_image('imgs/coliseum_ready.PNG', "Coliseum ready", do_coliseum)
