@@ -66,11 +66,11 @@ def select_promo_hero(mode):
 
 def select_hero(hero):
     global drag_count
-    tournament_clock = pyautogui.locateOnScreen('imgs/tournament_clock.PNG', confidence=0.95)
+    tournament_clock = pyautogui.locateOnScreen('imgs/tournament_clock.PNG', confidence=0.88)
     if tournament_clock is not None:
         return
     log("Looking for " + hero)
-    hero_found = pyautogui.locateOnScreen('imgs/heroes/'+hero+'.PNG', confidence=0.95)
+    hero_found = pyautogui.locateOnScreen('imgs/heroes/'+hero+'.PNG', confidence=0.88)
     if hero_found is not None:
         log(hero + " found.")
         click_on_box(hero_found)

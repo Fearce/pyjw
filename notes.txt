@@ -1,21 +1,32 @@
 todo
 clan stuff:
 	treasury, store, free food, caravan, wheel of fortune, altar, battle cave
-	
-trial of death
-cave
-skill points
-friend currency
 chests
 food
 
+done:
+ToD GOGOGO :DD
+skill points plss (wip)
 
 NEXT UP:
-ToD GOGOGO :DD
-skill points plss
+portal
+clan castle stuff
+accept friend rewards(main.py)
+farm with food
+
 
 
 
 Dagbog:
 02-05-2019
 Første møde med vejleder, aftalt emneskift til Automatisering af Android spil med Python
+
+
+
+nu = 14:
+now = 13:30
+
+last_check = 13:30
+
+http://code.activestate.com/recipes/474088/ - tail recursion
+python infinite loop giver https://stackoverflow.com/questions/3323001/what-is-the-maximum-recursion-depth-in-python-and-how-to-increase-it

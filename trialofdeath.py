@@ -33,7 +33,10 @@ def do_trial_of_death():
     hit_the_road = pyautogui.locateOnScreen('imgs/hit_the_road.PNG', confidence=0.95)
     if hit_the_road is not None:
         click_on_box(hit_the_road)
-        time.sleep(1)
+        free_trial = pyautogui.locateOnScreen('imgs/trial_free.PNG', confidence=0.95)
+        while free_trial is None:
+            time.sleep(1)
+            free_trial = pyautogui.locateOnScreen('imgs/trial_free.PNG', confidence=0.95)
         pyautogui.click(settings.game_x+901, settings.game_y+721)
 
         time.sleep(2)

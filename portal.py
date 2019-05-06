@@ -33,14 +33,14 @@ def portal_work():
 
 def check_trial():
     time.sleep(1)
-    chest = pyautogui.locateOnScreen('imgs/trial_ready.png', confidence=0.85)
-    if chest is not None:
-        log("Opening wooden chest")
-        click_on_box(chest)
+    trial_ready = pyautogui.locateOnScreen('imgs/trial_ready.png', confidence=0.85)
+    if trial_ready is not None:
+        log("Clicking trial")
+        click_on_box(trial_ready)
         time.sleep(4)
         escape(2)
     else:
-        log("No chests available")
+        log("Trial not available")
         escape(1)
 
 

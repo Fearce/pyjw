@@ -39,12 +39,14 @@ def check_skill_points():
                 #click(1056, 500)
                 #time.sleep(0.2)
                 #click(1056, 650)
-                #time.sleep(0.2)
+                time.sleep(0.4)
                 skill_add = pyautogui.locateOnScreen('imgs/skillpointadd.png', confidence=0.99)
                 if skill_add is None:
+                    time.sleep(0.4)
                     click(493, 400)  # Next hero
                     log("hero is filled, checking next")
                 else:
+                    time.sleep(0.4)
                     log("adding point")
                     click_on_box(skill_add)
                     time.sleep(0.2)
