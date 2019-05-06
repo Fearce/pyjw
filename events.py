@@ -12,8 +12,8 @@ def check_events():
     global last_check
     if not settings.events:
         return
-    if delay_next_check(5, last_check):
-        return
+    #if delay_next_check(5, last_check):
+    #    return
     event = pyautogui.locateOnScreen('imgs/event.PNG', confidence=0.88)
     if event is not None:
         log("Checking event.")
@@ -22,7 +22,15 @@ def check_events():
         check_lab()
 
 
+lab_done = False
+
+
 def check_lab():
+    global lab_done
+    if lab_done:
+        log("Laboratory already done, escaping")
+        escape(2)
+        return
     time.sleep(1)
     laboratory = pyautogui.locateOnScreen('imgs/laboratory.PNG', confidence=0.88)
     if laboratory is not None:
@@ -34,4 +42,5 @@ def check_lab():
             time.sleep(2)
             click(1040, 610)
             time.sleep(3)
+            lab_done = True
         escape(3)

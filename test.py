@@ -14,7 +14,8 @@ from friends import check_friends
 from mailbox import check_mailbox
 from events import check_events
 import settings
-from heroselection import select_heroes, deselect_heroes, select_arena_heroes, select_tod_heroes, select_hero, enter_lowest
+from heroselection import select_heroes, deselect_heroes, select_arena_heroes, select_tod_heroes, select_hero, \
+    enter_lowest
 import pyautogui
 import time
 import os
@@ -96,6 +97,14 @@ def home_screen_func(func):
         func()
 
 
+def clan_castle_func(func):
+    detect_game_state()
+    if settings.current_state != "Clan Castle":
+        do_work()
+    else:
+        func()
+
+
 def do_work():
     if settings.current_state == "Trial Win":
         finish_trial()
@@ -104,6 +113,13 @@ def do_work():
         click_daily_rewards()
 
     if settings.current_state == "Clan Castle":
+        # clan_castle_func(check_treasury)
+        # clan_castle_func(check_caravan)
+        # clan_castle_func(check_praises)
+        # clan_castle_func(check_raids)
+        # clan_castle_func(check_wheel_of_fortune)
+        # clan_castle_func(check_altar)
+        # clan_castle_func(check_clan_store)
         escape(1)
 
     if settings.current_state == "Arena":
@@ -145,7 +161,7 @@ def do_work():
             home_screen_func(check_portal)
         if settings.campaign:
             home_screen_func(check_campaign)
-        # upgrade heroes
+        # home_screen_func(check_upgrades)
 
     if settings.current_state == "Working":
         log("Unknown game state, trying to correct")
@@ -164,7 +180,7 @@ def main_loop(args):
 
     # Wait wait_time sec and start over
     log("Cycle done, waiting " + str(settings.wait_time) + " seconds and restarting")
-    #settings.current_state = "Waiting"
+    # settings.current_state = "Waiting"
     if settings.current_state == "Home Screen":
         time.sleep(settings.wait_time)
     else:

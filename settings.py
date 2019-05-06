@@ -5,35 +5,51 @@ wait_time = 5  # Amount of seconds to wait between each cycle
 amount_heroes = 67
 tod_comp1 = ["Elf_Maiden_Alisia", "Ninja_Meego", "Tagath_the_Potionbrewer", "Norak_the_Virtuous", "General_Kurbatov"]
 tod_comp2 = ["Nymph_Edera", "Naga_Kertana", "Drowned_Samara", "Beastborn_Raider_Miaba", "Master_Hideus"]
-tod_comp3 = ["Arzgar_the_Herald_of_Death", "Hitay_the_Spirit_of_Flame", "Crystalloid_Vern", "Samurai_Yasi", "Guard_Langerd"]
-tod_comp4 = ["Healer_Cassandra", "Necromancer_Khardur", "Ronald_the_Inquisitor", "Gorbakh_the_Tyrant", "Superslug_Caliban"]
+tod_comp3 = ["Arzgar_the_Herald_of_Death", "Hitay_the_Spirit_of_Flame", "Crystalloid_Vern", "Samurai_Yasi",
+             "Guard_Langerd"]
+tod_comp4 = ["Healer_Cassandra", "Necromancer_Khardur", "Ronald_the_Inquisitor", "Gorbakh_the_Tyrant",
+             "Superslug_Caliban"]
 campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Grog",
                    "Assassin_Torus", "Fire_Eril", "Crystallon_Rarh"]
 
-# Enable / disable features
+#### Enable / disable features
 arena = False
 campaign = True
 caves = False
 chests = False
 coliseum = False
 daily_rewards = False
-events = True
+events = False
 friends = False
 mailbox = False
 missions = False
+tournament = False
+trial_of_death = False
+
 portal = False  # Disable Portal to stop checking it altogether
 trials = True
 otherworld = True
-tournament = False
-trial_of_death = False
+
+# Clan Castle
+treasury = False
+clan_store = False
+praises = False
+caravan = False
+altar = False
+brawls = False
+wheel = False
+raids = False
+
 # Hero upgrades
-skill_points = False
+skill_points = True
 leveling = False
 elevating = False
 equipping = False
 
 # Store options
-buying = False
+clan_heroes = ["Superslug_Caliban", "Amok_the_Prince_of_Naga"]
+
+### End of settings
 
 # Game variables
 current_state = "Offline"

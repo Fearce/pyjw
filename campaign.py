@@ -38,7 +38,7 @@ def check_campaign():
     if delay_next_check(20, last_check):
         return
     last_check = datetime.datetime.now()
-    if current_food > 40:
+    if current_food > 40 and current_food != 97:
         log("Trying to spend food")
         click(512, 725)
         for hero in settings.campaign_heroes:
