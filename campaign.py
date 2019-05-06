@@ -19,7 +19,7 @@ def get_food():
     try:
         food = int(food)
         current_food = food
-        # log("Current food is: " + str(food))
+        log("Current food is: " + str(food))
     except ValueError:
         food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1050,
                                    settings.game_y + 40)

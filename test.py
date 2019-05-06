@@ -145,9 +145,6 @@ def do_work():
             home_screen_func(check_portal)
         if settings.campaign:
             home_screen_func(check_campaign)
-        # check trial
-        # check otherworld
-        # missions
         # upgrade heroes
 
     if settings.current_state == "Working":
