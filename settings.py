@@ -33,7 +33,7 @@ otherworld = True
 # Clan Castle
 clan_castle = True  # Disable all clan castle features
 treasury = False
-clan_store = False
+clan_store = True
 praises = False
 caravan = False
 altar = False

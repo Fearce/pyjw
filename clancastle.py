@@ -1,5 +1,5 @@
 from helpers import delay_next_check, log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, \
-    click, click_next, look_for_button
+    click, click_next, look_for_button, go_down
 import pyautogui
 import time
 import settings
@@ -69,16 +69,81 @@ last_caravan = last_caravan.replace(hour=last_caravan.hour - 1)  # Remove 1 hour
 
 # clan_castle_func(check_caravan)
 def check_caravan():
-    log("TODO")
+    global last_caravan
+    if not settings.caravan:
+        return
+    if delay_next_check(59, last_caravan):
+        return
+    last_caravan = datetime.datetime.now()
+    log("Checking Caravan.")
+    caravan = pyautogui.locateOnScreen('imgs/caravan.png', confidence=0.85)
+    if caravan is None:
+        heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
+        if heroes_button_located is None:
+            return
+        look_for_button('imgs/caravan.png', "Caravan", join_caravan)
+    else:
+        click_on_box(caravan)
+        join_caravan()
+
+
+def join_caravan():
+    time.sleep(2)
+    caravan_join = pyautogui.locateOnScreen('imgs/caravan_join.png', confidence=0.9)
+    if caravan_join is not None:
+        click_on_box(caravan_join)
+        time.sleep(1)
+    escape(1)
 
 
 last_praises = datetime.datetime.now()
 last_praises = last_praises.replace(hour=last_praises.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
+
+
+
 # clan_castle_func(check_praises)
 def check_praises():
-    log("TODO")
+    global last_praises
+    if not settings.praises:
+        return
+    if delay_next_check(59, last_praises):
+        return
+    last_praises = datetime.datetime.now()
+    log("Checking Praises.")
+    praises = pyautogui.locateOnScreen('imgs/praises.png', confidence=0.85)
+    if praises is None:
+        heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
+        if heroes_button_located is None:
+            return
+        look_for_button('imgs/praises.png', "Praises", give_praises)
+    else:
+        click_on_box(praises)
+        give_praises()
+
+
+def give_praises():
+    time.sleep(1)
+    click(1165, 440)  # Click members
+    time.sleep(1)
+    praises_none = pyautogui.locateOnScreen('imgs/praises_none.png', confidence=0.85)
+    praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
+    while praises_none is None:
+        if praise_ready is not None:
+            click_on_box(praise_ready)
+            time.sleep(2)
+            praise_two = pyautogui.locateOnScreen('imgs/praise_two.png', confidence=0.85)
+            if praise_two is not None:
+                click_on_box(praise_two)
+                time.sleep(3)
+                escape(1)
+                time.sleep(1)
+            praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
+        else:
+            go_down()
+            time.sleep(2)
+            praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
 
 
 last_raids = datetime.datetime.now()
@@ -129,7 +194,28 @@ last_altar = last_altar.replace(hour=last_altar.hour - 1)  # Remove 1 hour to ma
 
 # clan_castle_func(check_altar)
 def check_altar():
-    log("TODO")
+    global last_altar
+    if not settings.altar:
+        return
+    if delay_next_check(59, last_altar):
+        return
+    last_altar = datetime.datetime.now()
+    log("Checking Altar.")
+    altar = pyautogui.locateOnScreen('imgs/altar.png', confidence=0.9)
+    if altar is None:
+        heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
+        if heroes_button_located is None:
+            return
+        look_for_button('imgs/altar.png', "Altar", altar_contribute)
+    else:
+        click_on_box(altar)
+        altar_contribute()
+
+def altar_contribute():
+    time.sleep(1)
+    click(575, 260)  # contribute
+    time.sleep(1)
+    escape(1)
 
 
 last_store = datetime.datetime.now()
@@ -138,4 +224,36 @@ last_store = last_store.replace(hour=last_store.hour - 1)  # Remove 1 hour to ma
 
 # clan_castle_func(check_clan_store)
 def check_clan_store():
-    log("TODO")
+    global last_store
+    if not settings.clan_store:
+        return
+    if delay_next_check(59, last_store):
+        return
+    last_store = datetime.datetime.now()
+    log("Checking Clan Store.")
+    clan_store = pyautogui.locateOnScreen('imgs/clan_store.png', confidence=0.9)
+    if clan_store is None:
+        heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
+        if heroes_button_located is None:
+            return
+        look_for_button('imgs/clan_store.png', "Clan Store", clan_store_buy)
+    else:
+        click_on_box(clan_store)
+        clan_store_buy()
+
+
+def clan_store_buy():
+    time.sleep(1)
+    click(1221-4, 424-32)  # Slug
+    time.sleep(1)
+    click(650, 716)  # Buy
+    time.sleep(2)
+    click(1222-4, 398-32)  # Escape
+    time.sleep(1)
+    click(780, 388-32)  # Amok
+    time.sleep(1)
+    click(650, 716)  # Buy
+    time.sleep(2)
+    click(1222-4, 398-32)  # Escape
+    time.sleep(1)
+    escape(1)
