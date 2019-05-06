@@ -154,7 +154,7 @@ def check_chests():
         click_on_image(arch_escape, "No more chests, leaving", 0.8)
 
 
-def check_friends():
+def check_friends2():
     log("Checking for friend currency")
     heart = click_on_image(friend_currency, "Friend Heart", 0.88)
     if heart is not None:
@@ -231,6 +231,23 @@ def close_adds():
         click_on_image(arch_escape, "Add closed, leaving", 0.8)
     escape()
 
+def campaign_chapters():
+    for x in range(0, 2):
+        count = 3
+        rdy = click_on_image(soul_stones_battle_ready, "Chapter 3/3", 0.95)
+        if rdy is None:
+            rdy = click_on_image(soul_stones_battle_ready1, "Chapter 1/3", 0.95)
+            count = 1
+        if rdy is None:
+            count = 2
+            rdy = click_on_image(soul_stones_battle_ready2, "Chapter 2/3", 0.95)
+        if rdy is not None:
+            for y in range(0, count):
+                time.sleep(1.5)
+                coords = click_on_image(battle_start, "Start battle!", 0.9)
+                time.sleep(4)
+                pyautogui.click(coords)
+
 def soul_stones(need_food):
     food_max = pyautogui.locateOnScreen(max_food, confidence=0.95)
     if food_max is not None or need_food is False:
@@ -242,21 +259,7 @@ def soul_stones(need_food):
         time.sleep(1.5)
         click_on_image(heroes_find_soul_stones, "Plus", 0.8)
         time.sleep(1.5)
-        for x in range(0, 2):
-            count = 3
-            rdy = click_on_image(soul_stones_battle_ready, "Chapter 3/3", 0.95)
-            if rdy is None:
-                rdy = click_on_image(soul_stones_battle_ready1, "Chapter 1/3", 0.95)
-                count = 1
-            if rdy is None:
-                count = 2
-                rdy = click_on_image(soul_stones_battle_ready2, "Chapter 2/3", 0.95)
-            if rdy is not None:
-                for y in range(0, count):
-                    time.sleep(1.5)
-                    coords = click_on_image(battle_start, "Start battle!", 0.9)
-                    time.sleep(4)
-                    pyautogui.click(coords)
+        campaign_chapters()
         escape()
         heroes = click_on_image(heros_button, "Heroes", 0.8)
         time.sleep(1.5)
@@ -375,7 +378,7 @@ def main():
     close_adds()
 
     # Friend currency
-    check_friends()
+    #check_friends()
     close_adds()
 
     # Shops

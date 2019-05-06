@@ -5,7 +5,7 @@ from helpers import log, locate_game_window, get_value_from_rect, click_on_box, 
 import pyautogui
 import time
 import settings
-
+from main import check_friends2
 
 friend_currency = 'imgs/friend_currency.PNG'
 friend_send = 'imgs/friend_send.PNG'
@@ -19,6 +19,7 @@ facebook_send = 'imgs/facebook_send.PNG'
 
 last_check = datetime.datetime.now()
 last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
+
 
 def check_friends():
     global last_check
@@ -37,7 +38,11 @@ def check_friends():
     else:
         click_on_box(heart)
         give_friend_currency()
-
+    check_friends2()
+    friend_collect = pyautogui.locateOnScreen('imgs/friend_collect.png', confidence=0.95)
+    friend_send = pyautogui.locateOnScreen('imgs/friend_send.png', confidence=0.95)
+    if friend_collect is not None or friend_send is not None:
+        last_check = last_check.replace(hour=last_check.hour - 1)
 
 def give_friend_currency():
     time.sleep(2)

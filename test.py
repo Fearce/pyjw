@@ -1,3 +1,4 @@
+from campaign import check_campaign
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
 from dailyrewards import click_daily_rewards
 from caves import check_cave
@@ -142,6 +143,8 @@ def do_work():
             home_screen_func(check_friends)
         if settings.portal:
             home_screen_func(check_portal)
+        if settings.campaign:
+            home_screen_func(check_campaign)
         # check trial
         # check otherworld
         # missions
