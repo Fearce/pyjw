@@ -28,5 +28,5 @@ now = 13:30
 
 last_check = 13:30
 
-http://code.activestate.com/recipes/474088/ - tail recursion
+http://code.activestate.com/recipes/474088/ - tail recursion https://neopythonic.blogspot.com/2009/04/final-words-on-tail-calls.html
 python infinite loop giver https://stackoverflow.com/questions/3323001/what-is-the-maximum-recursion-depth-in-python-and-how-to-increase-it

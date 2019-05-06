@@ -28,10 +28,16 @@ def check_chests():
 
 def open_chests():
     time.sleep(1)
-    chest = pyautogui.locateOnScreen('imgs/freewoodchest.png', confidence=0.75)
-    if chest is not None:
+    wood_chest = pyautogui.locateOnScreen('imgs/freewoodchest.png', confidence=0.75)
+    precious_chest = pyautogui.locateOnScreen('imgs/free_precious.png', confidence=0.75)
+    if wood_chest is not None:
         log("Opening wooden chest")
-        click_on_box(chest)
+        click_on_box(wood_chest)
+        time.sleep(4)
+        escape(2)
+    elif precious_chest is not None:
+        log("Opening precious chest")
+        click_on_box(precious_chest)
         time.sleep(4)
         escape(2)
     else:

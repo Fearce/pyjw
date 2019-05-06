@@ -26,6 +26,7 @@ import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
+
 def detect_game_state():
     add_close_located = pyautogui.locateOnScreen('imgs/add_close.PNG', confidence=0.95)
     if add_close_located is not None:
@@ -139,7 +140,7 @@ def do_work():
         escape(1)
 
 
-def main_loop():
+def main_loop(args):
     settings.current_state = "Working"
 
     # Detect game state
@@ -156,7 +157,7 @@ def main_loop():
         time.sleep(settings.wait_time)
     else:
         time.sleep(1)
-    main_loop()
+    return main_loop, (args,)
 
 
 # Init
@@ -164,7 +165,9 @@ if __name__ == '__main__':
     try:
         log('Press Ctrl-C to quit.')
         settings.game_x, settings.game_y = locate_game_window()
-        main_loop()
+        main_loop, args = main_loop("Start")
+        while True:
+            main_loop, args = main_loop(*args)
     except KeyboardInterrupt:
         print('\n')
     except pyautogui.FailSafeException:
