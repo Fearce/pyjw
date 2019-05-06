@@ -11,23 +11,19 @@ mission_campaign_arrow = 'imgs/mission_campaign_arrow.PNG'
 
 def check_missions():
     log("Checking missions")
-    missions = click_on_image(missions_available, "Missions", 0.9)
+    missions = pyautogui.locateOnScreen(missions_available, confidence=0.9)
     if missions is not None:
+        click_on_box(missions)
         time.sleep(2)
-        reward = click_on_image(missions_reward, "Reward", 0.9)
-        if reward is not None:
+        reward = pyautogui.locateOnScreen(missions_reward, confidence=0.9)
+        while reward is not None:  # Click all rewards
             time.sleep(1)
-            pyautogui.click(reward)
-        pyautogui.drag(0, -400, 0.5, button='left')
-        time.sleep(2.5)
-        cont = click_on_image(missions_continue, "Continue", 0.9)
-        if cont is not None:
-            x, y = cont
-            time.sleep(2.5)
-            pyautogui.click(x, y-290)
-            time.sleep(2.5)
-        # Campaign-mission clicked, correct
-        camp_arrow = pyautogui.locateOnScreen(mission_campaign_arrow, confidence=0.9)
-        if camp_arrow is not None:
-            soul_stones(False)
-    escape()
+            click_on_box(reward)
+            time.sleep(2)
+            click_on_box(reward)
+            time.sleep(1)
+            reward = pyautogui.locateOnScreen(missions_reward, confidence=0.9)
+        log("No rewards, leaving missions")
+        escape(1)
+    else:
+        log("Can't find missions")

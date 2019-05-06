@@ -1,6 +1,7 @@
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
 from dailyrewards import click_daily_rewards
 from caves import check_cave
+from missions import check_missions
 from portal import check_portal
 from skillpoints import check_skill_points
 from tournament import check_tournament
@@ -117,21 +118,30 @@ def do_work():
         click_next()
 
     if settings.current_state == "Home Screen":
-        home_screen_func(check_arena)
-        home_screen_func(check_trial_of_death)
-        home_screen_func(check_skill_points)
-        home_screen_func(check_coliseum)
-        home_screen_func(check_tournament)
-        home_screen_func(check_events)
-        # check_tournament
-        home_screen_func(check_cave)
-        home_screen_func(check_chests)
-        home_screen_func(check_mailbox)
-        # check_mailbox
-        # check friend currency
-        # check friend gifts
-        home_screen_func(check_friends)
-        home_screen_func(check_portal)
+        if settings.arena:
+            home_screen_func(check_arena)
+        if settings.trial_of_death:
+            home_screen_func(check_trial_of_death)
+        if settings.skill_points:
+            home_screen_func(check_skill_points)
+        if settings.coliseum:
+            home_screen_func(check_coliseum)
+        if settings.tournament:
+            home_screen_func(check_tournament)
+        if settings.events:
+            home_screen_func(check_events)
+        if settings.caves:
+            home_screen_func(check_cave)
+        if settings.chests:
+            home_screen_func(check_chests)
+        if settings.mailbox:
+            home_screen_func(check_mailbox)
+        if settings.missions:
+            home_screen_func(check_missions)
+        if settings.friends:
+            home_screen_func(check_friends)
+        if settings.portal:
+            home_screen_func(check_portal)
         # check trial
         # check otherworld
         # missions
