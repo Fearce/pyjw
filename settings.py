@@ -7,6 +7,7 @@ tod_comp1 = ["Elf_Maiden_Alisia", "Ninja_Meego", "Tagath_the_Potionbrewer", "Nor
 tod_comp2 = ["Nymph_Edera", "Naga_Kertana", "Drowned_Samara", "Beastborn_Raider_Miaba", "Master_Hideus"]
 tod_comp3 = ["Arzgar_the_Herald_of_Death", "Hitay_the_Spirit_of_Flame", "Crystalloid_Vern", "Samurai_Yasi", "Guard_Langerd"]
 tod_comp4 = ["Healer_Cassandra", "Necromancer_Khardur", "Ronald_the_Inquisitor", "Gorbakh_the_Tyrant", "Superslug_Caliban"]
+campaign_heroes = ["Ninja Meego", "Hanna the Inquisitor", "Beastborn Warrior Grog"]
 
 # Enable / disable features
 arena = False
@@ -18,13 +19,14 @@ events = False
 friends = False
 mailbox = False
 missions = False
-portal = True  # Disable Portal to stop checking it altogether
+portal = False  # Disable Portal to stop checking it altogether
 trials = True
 otherworld = True
 tournament = False
 trial_of_death = False
 # Hero upgrades
 skill_points = False
+leveling = False
 elevating = False
 equipping = False
 

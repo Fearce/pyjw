@@ -1,7 +1,7 @@
 import datetime
 
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
-    delay_next_check
+    delay_next_check, wait_on_img
 from heroselection import select_heroes
 import pyautogui
 import time
@@ -35,10 +35,7 @@ def do_trial_of_death():
     hit_the_road = pyautogui.locateOnScreen('imgs/hit_the_road.PNG', confidence=0.95)
     if hit_the_road is not None:
         click_on_box(hit_the_road)
-        free_trial = pyautogui.locateOnScreen('imgs/trial_free.PNG', confidence=0.95)
-        while free_trial is None:
-            time.sleep(1)
-            free_trial = pyautogui.locateOnScreen('imgs/trial_free.PNG', confidence=0.95)
+        wait_on_img('imgs/trial_free.PNG')
         pyautogui.click(settings.game_x+901, settings.game_y+721)
 
         time.sleep(2)

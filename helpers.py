@@ -24,6 +24,16 @@ def delay_next_check(delay_min, last_check):
     return False
 
 
+def wait_on_img(img):
+    count = 0
+    found = pyautogui.locateOnScreen(img, confidence=0.95)
+    while found is None:
+        count += 1  # Fail safe to stop after 120 attempts at locating image
+        if count > 120:
+            break
+        time.sleep(1)
+        found = pyautogui.locateOnScreen(img, confidence=0.95)
+
 def go_left():
     pyautogui.moveTo(settings.game_x+630, settings.game_y+365)
     time.sleep(0.2)
