@@ -9,25 +9,27 @@ tod_comp3 = ["Arzgar_the_Herald_of_Death", "Hitay_the_Spirit_of_Flame", "Crystal
 tod_comp4 = ["Healer_Cassandra", "Necromancer_Khardur", "Ronald_the_Inquisitor", "Gorbakh_the_Tyrant", "Superslug_Caliban"]
 
 # Enable / disable features
-arena = True
+arena = False
 caves = False
 chests = False
-coliseum = True
-daily_rewards = True
-events = True
-friends = True
+coliseum = False
+daily_rewards = False
+events = False
+friends = False
 mailbox = False
-missions = True
-portal = True
-tournament = True
-trial_of_death = True
+missions = False
+portal = True  # Disable Portal to stop checking it altogether
+trials = True
+otherworld = True
+tournament = False
+trial_of_death = False
 # Hero upgrades
-skill_points = True
-elevating = True
-equipping = True
+skill_points = False
+elevating = False
+equipping = False
 
 # Store options
-buying = True
+buying = False
 
 # Game variables
 current_state = "Offline"

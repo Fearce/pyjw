@@ -34,6 +34,8 @@ def portal_work():
 
 
 def check_trial():
+    if not settings.trials:
+        return
     time.sleep(1)
     trial_ready = pyautogui.locateOnScreen('imgs/trial_ready.png', confidence=0.85)
     if trial_ready is not None:
@@ -44,22 +46,64 @@ def check_trial():
         escape(2)
     else:
         log("Trial not available")
-        escape(1)
+        #escape(1)
 
 
 def do_trial():
     trial_middle = pyautogui.locateOnScreen('imgs/trial_middle.png', confidence=0.9)
     if trial_middle is not None:
         click_on_box(trial_middle)
+        time.sleep(4)
+        click_on_box(trial_middle)
+        time.sleep(2)
+        trial_vip = pyautogui.locateOnScreen('imgs/trial_vip.png', confidence=0.9)
+        if trial_vip is not None:  # Vip 3 battle x5 first
+            click_on_box(trial_vip)
+        else:  # Else normal autobattle
+            auto_battle = pyautogui.locateOnScreen('imgs/trial_autobattle.png', confidence=0.75)
+            if auto_battle is not None:
+                click_on_box(auto_battle)
+        time.sleep(3)
+        escape(4)
+        #to_battle = pyautogui.locateOnScreen('imgs/to_battle.png', confidence=0.75)
+        #if to_battle is not None:
+        #    click_on_box(to_battle)
+
 
 def check_otherworld():
+    if not settings.otherworld:
+        return
     time.sleep(1)
-    chest = pyautogui.locateOnScreen('imgs/freewoodchest.png', confidence=0.75)
-    if chest is not None:
-        log("Opening wooden chest")
-        click_on_box(chest)
+    otherworld_ready = pyautogui.locateOnScreen('imgs/otherworld_ready.png', confidence=0.85)
+    if otherworld_ready is not None:
+        log("Clicking otherworld")
+        click_on_box(otherworld_ready)
         time.sleep(4)
+        do_otherworld()
         escape(2)
     else:
-        log("No chests available")
+        log("Otherworld not available")
         escape(1)
+
+def do_otherworld():
+    otherworld_current = pyautogui.locateOnScreen('imgs/otherworld_current.png', confidence=0.8)
+    if otherworld_current is not None:
+        click_on_box(otherworld_current)
+        time.sleep(4)
+        otherworld_battle = pyautogui.locateOnScreen('imgs/otherworld_battle.png', confidence=0.8)
+        if otherworld_battle is not None:
+            click_on_box(otherworld_battle)
+        time.sleep(5)
+        escape(4)
+        #trial_vip = pyautogui.locateOnScreen('imgs/trial_vip.png', confidence=0.9)
+        #if trial_vip is not None:  # Vip 3 battle x5 first
+        #    click_on_box(trial_vip)
+        #else:  # Else normal autobattle
+        #    auto_battle = pyautogui.locateOnScreen('imgs/trial_autobattle.png', confidence=0.75)
+        #    if auto_battle is not None:
+        #        click_on_box(auto_battle)
+        #time.sleep(3)
+        #escape(5)
+        # to_battle = pyautogui.locateOnScreen('imgs/to_battle.png', confidence=0.75)
+        # if to_battle is not None:
+        #    click_on_box(to_battle)

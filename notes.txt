@@ -20,13 +20,24 @@ farm with food
 Dagbog:
 02-05-2019
 Første møde med vejleder, aftalt emneskift til Automatisering af Android spil med Python
+03-05-2019
+arbejde på kode, tilføjet last checks og settings
 
-
+06-05-2019
+python infinite loop giver https://stackoverflow.com/questions/3323001/what-is-the-maximum-recursion-depth-in-python-and-how-to-increase-it
+fixed tail recursion ->>> https://neopythonic.blogspot.com/2009/04/final-words-on-tail-calls.html
+se billede
 
 nu = 14:
 now = 13:30
 
 last_check = 13:30
 
-http://code.activestate.com/recipes/474088/ - tail recursion ->>> https://neopythonic.blogspot.com/2009/04/final-words-on-tail-calls.html
-python infinite loop giver https://stackoverflow.com/questions/3323001/what-is-the-maximum-recursion-depth-in-python-and-how-to-increase-it
+
+
+
+plan:
+week 1 work on base code
+week 2 work on base code
+week 3 work on synopsis
+week 4 finish synopsis, base code, make gui if extra time
