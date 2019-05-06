@@ -14,7 +14,7 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
 
 #### Enable / disable features
 arena = False
-campaign = True
+campaign = False
 caves = False
 chests = False
 coliseum = False
@@ -31,7 +31,7 @@ trials = True
 otherworld = True
 
 # Clan Castle
-clan_castle = False  # Disable all clan castle features
+clan_castle = True  # Disable all clan castle features
 treasury = False
 clan_store = False
 praises = False
@@ -42,7 +42,7 @@ wheel = False
 raids = False
 
 # Hero upgrades
-skill_points = True
+skill_points = False
 leveling = False
 elevating = False
 equipping = False

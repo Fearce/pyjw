@@ -27,6 +27,10 @@ arbejde på kode, tilføjet last checks og settings
 python infinite loop giver https://stackoverflow.com/questions/3323001/what-is-the-maximum-recursion-depth-in-python-and-how-to-increase-it
 fixed tail recursion ->>> https://neopythonic.blogspot.com/2009/04/final-words-on-tail-calls.html
 se billede
+added wait_on_img for waiting functions
+added tons of features
+	Til imorgen:
+		Lav cave-attack funktion til at finde opponents med meget guld og nakke dem under en hvis power-grænse (user-setting)
 
 nu = 14:
 now = 13:30
