@@ -126,7 +126,7 @@ def check_praises():
 def give_praises():
     time.sleep(1)
     click(1165, 440)  # Click members
-    time.sleep(1)
+    time.sleep(3)
     praises_none = pyautogui.locateOnScreen('imgs/praises_none.png', confidence=0.85)
     praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
     while praises_none is None:
@@ -144,7 +144,7 @@ def give_praises():
             go_down()
             time.sleep(2)
             praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
-
+    escape(1)
 
 last_raids = datetime.datetime.now()
 last_raids = last_raids.replace(hour=last_raids.hour - 1)  # Remove 1 hour to make sure it checks first run

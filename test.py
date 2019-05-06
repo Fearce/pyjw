@@ -34,6 +34,14 @@ pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/te
 
 
 def detect_game_state():
+    reward_for_support = pyautogui.locateOnScreen('imgs/reward_for_support.PNG', confidence=0.95)
+    if reward_for_support is not None:
+        settings.current_state = "Reward!"
+        click_on_box(reward_for_support)
+        time.sleep(60)
+        escape(1)
+        return
+
     add_close_located = pyautogui.locateOnScreen('imgs/add_close.PNG', confidence=0.95)
     if add_close_located is not None:
         settings.current_state = "Advertisement"

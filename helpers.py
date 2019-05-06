@@ -121,10 +121,22 @@ drag_count = 0
 
 def look_for_button(img, msg, func):
     global drag_count
-    for x in range(0, 20):  # Look for chest 20 times or give up
+    for x in range(0, 18):
         time.sleep(2)
 
         if msg == "Friend Heart":
+            friend_box = pyautogui.locateOnScreen('imgs/friend_box.PNG', confidence=0.88)
+            if friend_box is not None:
+                click_on_box(friend_box)
+                time.sleep(1)
+                click(660, 650)
+                time.sleep(4)
+                facebook_send = pyautogui.locateOnScreen('imgs/facebook_send.PNG', confidence=0.88)
+                if facebook_send is not None:
+                    click_on_box(facebook_send)
+                    time.sleep(1)
+                    escape(1)
+                break
             no_heart = pyautogui.locateOnScreen('imgs/no_heart.png', confidence=0.88)
             if no_heart is not None:
                 log("Friend currency currently awaiting")

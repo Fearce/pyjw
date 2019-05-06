@@ -14,7 +14,7 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def get_food():
     global current_food
-    food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1058,
+    food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1060,
                                  settings.game_y + 40)
     try:
         food = int(food)
@@ -59,5 +59,7 @@ def farm_stones(hero):
             return
         click(820, 719)
         time.sleep(2)
-        campaign_chapters()
+        for x in range(0, 3):
+            campaign_chapters()
+            time.sleep(1)
         escape(2)

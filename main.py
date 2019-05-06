@@ -245,7 +245,7 @@ def campaign_chapters():
             for y in range(0, count):
                 time.sleep(1.5)
                 coords = click_on_image(battle_start, "Start battle!", 0.9)
-                time.sleep(4)
+                time.sleep(2)
                 pyautogui.click(coords)
 
 def soul_stones(need_food):

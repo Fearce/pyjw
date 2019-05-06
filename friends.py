@@ -15,6 +15,7 @@ friend_collect = 'imgs/friend_collect.PNG'
 friend_thank = 'imgs/friend_thank.PNG'
 friend_gold = 'imgs/friend_gold.PNG'
 
+
 facebook_send = 'imgs/facebook_send.PNG'
 
 last_check = datetime.datetime.now()

@@ -13,7 +13,7 @@ def check_portal():
     if not settings.portal:
         return
     # delay_msg = "Checked skillpoints at " + str(last_check) + ". Waiting until 30 minutes has passed"
-    if delay_next_check(1, last_check):
+    if delay_next_check(20, last_check):
         return
     log("Checking portal")
     portal = pyautogui.locateOnScreen('imgs/portal.png', confidence=0.85)
@@ -107,3 +107,7 @@ def do_otherworld():
         # to_battle = pyautogui.locateOnScreen('imgs/to_battle.png', confidence=0.75)
         # if to_battle is not None:
         #    click_on_box(to_battle)
+
+
+def otherworld_brute_force():
+    log("todo spam otherworld for hours")

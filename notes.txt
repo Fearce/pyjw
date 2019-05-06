@@ -31,6 +31,14 @@ added wait_on_img for waiting functions
 added tons of features
 	Til imorgen:
 		Lav cave-attack funktion til at finde opponents med meget guld og nakke dem under en hvis power-grænse (user-setting)
+reward_for_support
+time.sleep(60)
+add_close
+		
+		
+		
+		
+		
 
 nu = 14:
 now = 13:30
