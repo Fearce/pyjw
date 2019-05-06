@@ -31,6 +31,7 @@ trials = True
 otherworld = True
 
 # Clan Castle
+clan_castle = False  # Disable all clan castle features
 treasury = False
 clan_store = False
 praises = False

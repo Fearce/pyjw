@@ -5,6 +5,14 @@ import time
 import settings
 import datetime
 
+last_castle = datetime.datetime.now()
+last_castle = last_castle.replace(hour=last_castle.hour - 1)  # Remove 1 hour to make sure it checks first run
+
+
+def check_clan_castle():
+    log("TODO")
+
+
 last_treasury = datetime.datetime.now()
 last_treasury = last_treasury.replace(hour=last_treasury.hour - 1)  # Remove 1 hour to make sure it checks first run
 

@@ -1,4 +1,6 @@
 from campaign import check_campaign
+from clancastle import check_treasury, check_caravan, check_praises, check_raids, check_wheel_of_fortune, check_altar, \
+    check_clan_store, check_clan_castle
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
 from dailyrewards import click_daily_rewards
 from caves import check_cave
@@ -113,13 +115,20 @@ def do_work():
         click_daily_rewards()
 
     if settings.current_state == "Clan Castle":
-        # clan_castle_func(check_treasury)
-        # clan_castle_func(check_caravan)
-        # clan_castle_func(check_praises)
-        # clan_castle_func(check_raids)
-        # clan_castle_func(check_wheel_of_fortune)
-        # clan_castle_func(check_altar)
-        # clan_castle_func(check_clan_store)
+        if settings.treasury:
+            clan_castle_func(check_treasury)
+        if settings.caravan:
+            clan_castle_func(check_caravan)
+        if settings.praises:
+            clan_castle_func(check_praises)
+        if settings.raids:
+            clan_castle_func(check_raids)
+        if settings.wheel:
+            clan_castle_func(check_wheel_of_fortune)
+        if settings.altar:
+            clan_castle_func(check_altar)
+        if settings.clan_store:
+            clan_castle_func(check_clan_store)
         escape(1)
 
     if settings.current_state == "Arena":
@@ -161,6 +170,9 @@ def do_work():
             home_screen_func(check_portal)
         if settings.campaign:
             home_screen_func(check_campaign)
+        if settings.clan_castle:
+            home_screen_func(check_clan_castle)
+
         # home_screen_func(check_upgrades)
 
     if settings.current_state == "Working":
