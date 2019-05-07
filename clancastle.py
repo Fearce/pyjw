@@ -89,6 +89,8 @@ def check_caravan():
 
 def join_caravan():
     time.sleep(2)
+    click(1100, 291-129)
+    time.sleep(2)
     caravan_join = pyautogui.locateOnScreen('imgs/caravan_join.png', confidence=0.9)
     if caravan_join is not None:
         click_on_box(caravan_join)
@@ -244,7 +246,7 @@ def check_clan_store():
 
 def clan_store_buy():
     time.sleep(1)
-    click(1221-4, 424-32)  # Slug
+    click(1221-4, 424-28)  # Slug
     time.sleep(1)
     click(650, 716)  # Buy
     time.sleep(2)

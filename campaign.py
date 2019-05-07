@@ -15,14 +15,14 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 def get_food():
     global current_food
     food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1060,
-                                 settings.game_y + 40)
+                                 settings.game_y + 43)
     try:
         food = int(food)
         current_food = food
         log("Current food is: " + str(food))
     except ValueError:
         food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1050,
-                                   settings.game_y + 40)
+                                   settings.game_y + 43)
         try:
             food = int(food)
             current_food = food
@@ -38,10 +38,15 @@ def check_campaign():
     if delay_next_check(20, last_check):
         return
     last_check = datetime.datetime.now()
-    if current_food > 40 and current_food != 97:
+    log("Checking Campaign")
+    if current_food > 40 and current_food != 97 and current_food != 11:
         log("Trying to spend food")
         click(512, 725)
+        time.sleep(1.5)
         for hero in settings.campaign_heroes:
+            hero_collection = pyautogui.locateOnScreen('imgs/hero_collection.PNG', confidence=0.9)
+            if hero_collection is None:
+                break
             log("Checking " + hero)
             time.sleep(1)
             farm_stones(hero)
@@ -59,7 +64,6 @@ def farm_stones(hero):
             return
         click(820, 719)
         time.sleep(2)
-        for x in range(0, 3):
-            campaign_chapters()
-            time.sleep(1)
-        escape(2)
+        campaign_chapters()
+        time.sleep(1)
+        escape(3)

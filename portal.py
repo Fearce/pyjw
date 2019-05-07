@@ -37,7 +37,7 @@ def check_trial():
     if not settings.trials:
         return
     time.sleep(1)
-    trial_ready = pyautogui.locateOnScreen('imgs/trial_ready.png', confidence=0.85)
+    trial_ready = pyautogui.locateOnScreen('imgs/trial_ready2.png', confidence=0.9)
     if trial_ready is not None:
         log("Clicking trial")
         click_on_box(trial_ready)
@@ -50,11 +50,21 @@ def check_trial():
 
 
 def do_trial():
+    x = 640
+    y = 430
     trial_middle = pyautogui.locateOnScreen('imgs/trial_middle.png', confidence=0.9)
+    if trial_middle is None:
+        trial_middle = pyautogui.locateOnScreen('imgs/trial_right.png', confidence=0.9)
+        x = 1035
+    if trial_middle is None:
+        trial_middle = pyautogui.locateOnScreen('imgs/trial_left.png', confidence=0.9)
+        x = 245
     if trial_middle is not None:
-        click_on_box(trial_middle)
+        #click_on_box(trial_middle)
+        click(x, y)
         time.sleep(4)
-        click_on_box(trial_middle)
+        #click_on_box(trial_middle)
+        click(640, 430)
         time.sleep(2)
         trial_vip = pyautogui.locateOnScreen('imgs/trial_vip.png', confidence=0.9)
         if trial_vip is not None:  # Vip 3 battle x5 first
@@ -64,7 +74,7 @@ def do_trial():
             if auto_battle is not None:
                 click_on_box(auto_battle)
         time.sleep(3)
-        escape(4)
+        escape(3)
         #to_battle = pyautogui.locateOnScreen('imgs/to_battle.png', confidence=0.75)
         #if to_battle is not None:
         #    click_on_box(to_battle)
@@ -74,7 +84,7 @@ def check_otherworld():
     if not settings.otherworld:
         return
     time.sleep(1)
-    otherworld_ready = pyautogui.locateOnScreen('imgs/otherworld_ready.png', confidence=0.85)
+    otherworld_ready = pyautogui.locateOnScreen('imgs/otherworld_ready2.png', confidence=0.95)
     if otherworld_ready is not None:
         log("Clicking otherworld")
         click_on_box(otherworld_ready)
@@ -86,6 +96,12 @@ def check_otherworld():
         escape(1)
 
 def do_otherworld():
+    otherworld_new = pyautogui.locateOnScreen('imgs/otherworld_new.png', confidence=0.9)
+    if otherworld_new is not None:
+        log("New otherworld week, starting highest diff")
+        click(630, 430)
+        time.sleep(1)
+        click(630, 440)
     otherworld_current = pyautogui.locateOnScreen('imgs/otherworld_current.png', confidence=0.8)
     if otherworld_current is not None:
         click_on_box(otherworld_current)

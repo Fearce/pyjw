@@ -18,15 +18,15 @@ campaign = True
 caves = False
 chests = False
 coliseum = True
-daily_rewards = True
+daily_rewards = False
 events = False
 friends = False
 mailbox = False
-missions = True
-tournament = True
-trial_of_death = True
+missions = False
+tournament = False
+trial_of_death = False
 
-portal = True  # Disable Portal to stop checking it altogether
+portal = False  # Disable Portal to stop checking it altogether
 trials = True
 otherworld = True
 
@@ -35,14 +35,14 @@ clan_castle = True  # Disable all clan castle features
 treasury = True
 clan_store = True
 praises = True
-caravan = True
+caravan = False
 altar = True
 brawls = True
 wheel = True
 raids = True
 
 # Hero upgrades
-skill_points = True
+skill_points = False
 leveling = False
 elevating = False
 equipping = False

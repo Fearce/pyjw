@@ -17,6 +17,7 @@ def check_coliseum():
         return
     if delay_next_check(25, last_check):
         return
+    log("Checking Coliseum")
     click_image('imgs/coliseum_ready.PNG', "Coliseum ready", do_coliseum)
     #coliseum_ready = pyautogui.locateOnScreen('imgs/coliseum_ready.PNG', confidence=0.95)
     #if coliseum_ready is not None:
