@@ -137,7 +137,7 @@ def do_work():
             clan_castle_func(check_altar)
         if settings.clan_store:
             clan_castle_func(check_clan_store)
-        escape(1)
+       # escape(1)
 
     if settings.current_state == "Arena":
         do_arena_battle()

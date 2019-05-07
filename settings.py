@@ -13,18 +13,18 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
                    "Assassin_Torus", "Fire_Eril", "Crystallon_Rarh"]
 
 #### Enable / disable features
-arena = True
-campaign = True
+arena = False
+campaign = False
 caves = False
 chests = False
-coliseum = True
+coliseum = False
 daily_rewards = False
 events = False
 friends = False
 mailbox = False
 missions = False
 tournament = False
-trial_of_death = False
+trial_of_death = True
 
 portal = False  # Disable Portal to stop checking it altogether
 trials = True
@@ -32,8 +32,8 @@ otherworld = True
 
 # Clan Castle
 clan_castle = True  # Disable all clan castle features
-treasury = True
-clan_store = True
+treasury = False
+clan_store = False
 praises = True
 caravan = False
 altar = True

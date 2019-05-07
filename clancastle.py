@@ -13,7 +13,7 @@ def check_clan_castle():
     global last_castle
     if not settings.clan_castle:
         return
-    if delay_next_check(2, last_castle):
+    if delay_next_check(1, last_castle):
         return
     last_castle = datetime.datetime.now()
     log("Checking Clan Castle.")
@@ -126,13 +126,17 @@ def check_praises():
 
 
 def give_praises():
-    time.sleep(1)
-    click(1165, 440)  # Click members
     time.sleep(3)
-    praises_none = pyautogui.locateOnScreen('imgs/praises_none.png', confidence=0.85)
+    click(1165, 440)  # Click members
+    time.sleep(5)
+    praises_none = pyautogui.locateOnScreen('imgs/praises_none.png', confidence=0.999)
     praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
+    if praises_none is not None:
+        log("lul no praises")
     while praises_none is None:
+        log("Praises ready")
         if praise_ready is not None:
+            log("Found praise")
             click_on_box(praise_ready)
             time.sleep(2)
             praise_two = pyautogui.locateOnScreen('imgs/praise_two.png', confidence=0.85)
@@ -146,6 +150,7 @@ def give_praises():
             go_down()
             time.sleep(2)
             praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
+        praises_none = pyautogui.locateOnScreen('imgs/praises_none.png', confidence=0.999)
     escape(1)
 
 last_raids = datetime.datetime.now()
@@ -188,7 +193,7 @@ def do_wheel_of_fortune():
         time.sleep(0.2)
     click(980, 600)
     time.sleep(2)
-    escape(2)
+    escape(1)
 
 last_altar = datetime.datetime.now()
 last_altar = last_altar.replace(hour=last_altar.hour - 1)  # Remove 1 hour to make sure it checks first run

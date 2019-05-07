@@ -26,7 +26,7 @@ def select_heroes(mode):
 
 def deselect_heroes():
     log("Deselecting heroes")
-    wait = 0.1
+    wait = 0.15
     pyautogui.click(settings.game_x + 335 - 2, settings.game_y + 707 - 30)
     time.sleep(wait)
     pyautogui.click(settings.game_x + 482 - 2, settings.game_y + 707 - 30)
@@ -39,7 +39,7 @@ def deselect_heroes():
 
 
 def select_arena_heroes():
-    wait = 0.1
+    wait = 0.15
     pyautogui.click(settings.game_x + 167 - 2, settings.game_y + 315 - 30)
     time.sleep(wait)
     pyautogui.click(settings.game_x + 355 - 2, settings.game_y + 315 - 30)
@@ -93,9 +93,9 @@ def select_hero(hero):
 
 def enter_lowest(power1, power2, power3, select):
     lowest = power1
-    if power2 < lowest:
+    if float(power2) < float(lowest):
         lowest = power2
-    if power3 < lowest:
+    if float(power3) < float(lowest):
         lowest = power3
     if lowest == power1:
         pyautogui.click(settings.game_x + 239, settings.game_y + 520)
