@@ -14,31 +14,38 @@ last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make
 
 def get_food():
     global current_food
-    food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1060,
-                                 settings.game_y + 43)
+    food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1055,
+                               settings.game_y + 45)
     try:
         food = int(food)
         current_food = food
         log("Current food is: " + str(food))
     except ValueError:
-        food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1050,
-                                   settings.game_y + 43)
+        food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1060,
+                                     settings.game_y + 45)
         try:
             food = int(food)
             current_food = food
             log("Current food is: " + str(food))
         except ValueError:
-            log("Can't read food")
+            food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1050,
+                                       settings.game_y + 45)
+            try:
+                food = int(food)
+                current_food = food
+                log("Current food is: " + str(food))
+            except ValueError:
+                log("Can't read food")
 
 
 
 def check_campaign():
     global last_check
-    get_food()
     if delay_next_check(20, last_check):
         return
     last_check = datetime.datetime.now()
     log("Checking Campaign")
+    get_food()
     if current_food > 40 and current_food != 97 and current_food != 11:
         log("Trying to spend food")
         click(512, 725)
@@ -50,7 +57,6 @@ def check_campaign():
             log("Checking " + hero)
             time.sleep(1)
             farm_stones(hero)
-            time.sleep(1)
         escape(1)
 
 
@@ -66,4 +72,4 @@ def farm_stones(hero):
         time.sleep(2)
         campaign_chapters()
         time.sleep(1)
-        escape(3)
+        escape(2)

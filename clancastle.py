@@ -5,6 +5,8 @@ import time
 import settings
 import datetime
 
+from heroselection import select_raid_heroes
+
 last_castle = datetime.datetime.now()
 last_castle = last_castle.replace(hour=last_castle.hour - 1)  # Remove 1 hour to make sure it checks first run
 
@@ -159,8 +161,51 @@ last_raids = last_raids.replace(hour=last_raids.hour - 1)  # Remove 1 hour to ma
 
 # clan_castle_func(check_raids)
 def check_raids():
-    log("TODO")
+    global last_raids
+    if not settings.raids:
+        return
+    if delay_next_check(59, last_raids):
+        return
+    last_raids = datetime.datetime.now()
+    log("Checking Battle Cave.")
+    battle_cave = pyautogui.locateOnScreen('imgs/battle_cave.png', confidence=0.9)
+    if battle_cave is None:
+        heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
+        if heroes_button_located is None:
+            return
+        look_for_button('imgs/battle_cave.png', "Battle Cave", do_raids)
+    else:
+        click_on_box(battle_cave)
+        do_raids()
 
+def do_raids():
+    global last_raids
+    # no raids todo
+    time.sleep(1)
+    battle_cave_go = pyautogui.locateOnScreen('imgs/battle_cave_go.png', confidence=0.9)
+    for x in range(0,7):
+        no_clan_attempts = pyautogui.locateOnScreen('imgs/no_clan_attempts.png', confidence=0.9)
+        if no_clan_attempts is not None:
+            log("No more clan attempts")
+            last_raids = datetime.datetime.now()
+            escape(1)
+            return
+        if battle_cave_go is None:
+            go_down()
+            battle_cave_go = pyautogui.locateOnScreen('imgs/battle_cave_go.png', confidence=0.9)
+        else:
+            click_on_box(battle_cave_go)
+            wait_on_img('imgs/battle_start.png', 0.8)
+            empty_slot = pyautogui.locateOnScreen('imgs/empty_slot.png', confidence=0.9)
+            if empty_slot is not None:
+                click(746, 566)
+                select_raid_heroes()
+                click(1098, 675)
+                time.sleep(2)
+            click(1047, 664)
+            #click_on_box(pyautogui.locateOnScreen('imgs/battle_start.png', confidence=0.9))
+            time.sleep(1)
+            break
 
 last_wheel = datetime.datetime.now()
 last_wheel = last_wheel.replace(hour=last_wheel.hour - 1)  # Remove 1 hour to make sure it checks first run
@@ -194,6 +239,7 @@ def do_wheel_of_fortune():
     click(980, 600)
     time.sleep(2)
     escape(1)
+    time.sleep(2)
 
 last_altar = datetime.datetime.now()
 last_altar = last_altar.replace(hour=last_altar.hour - 1)  # Remove 1 hour to make sure it checks first run
@@ -215,11 +261,16 @@ def check_altar():
             return
         look_for_button('imgs/altar.png', "Altar", altar_contribute)
     else:
-        click_on_box(altar)
+        altar = pyautogui.locateOnScreen('imgs/altar.png', confidence=0.9)
+        if altar is not None:
+            click_on_box(altar)
         altar_contribute()
 
 def altar_contribute():
-    time.sleep(1)
+    altar = pyautogui.locateOnScreen('imgs/altar.png', confidence=0.9)
+    if altar is not None:
+        click_on_box(altar)
+    time.sleep(2)
     click(575, 260)  # contribute
     time.sleep(1)
     escape(1)
@@ -250,7 +301,7 @@ def check_clan_store():
 
 
 def clan_store_buy():
-    time.sleep(1)
+    time.sleep(2)
     click(1221-4, 424-28)  # Slug
     time.sleep(1)
     click(650, 716)  # Buy

@@ -74,7 +74,7 @@ def do_trial():
             if auto_battle is not None:
                 click_on_box(auto_battle)
         time.sleep(3)
-        escape(3)
+        escape(2)
         #to_battle = pyautogui.locateOnScreen('imgs/to_battle.png', confidence=0.75)
         #if to_battle is not None:
         #    click_on_box(to_battle)

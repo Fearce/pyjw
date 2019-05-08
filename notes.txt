@@ -34,8 +34,15 @@ added tons of features
 reward_for_support
 time.sleep(60)
 add_close
-		
-		
+
+07-05-2019
+game patch 4.5, features skal nok fixes/opdateres
+
+08-05-2019
+fixes and optimizing. filmer den kører så jeg kan analyzere bagefter.		
+	Todo:
+		Ask for food -> Promo heroes til tournament -> Store buy & sell -> mission ads -> otherworld bash -> enchant mission -> xp pot mission -> cave attacks -> sapphire4gold mission 
+raids done
 		
 		
 		

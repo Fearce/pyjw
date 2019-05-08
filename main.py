@@ -13,6 +13,8 @@ from desktopmagic.screengrab_win32 import (
     getRectAsImage, getDisplaysAsImages)
 import pytesseract
 
+from helpers import wait_on_img
+
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
 ##Images
@@ -171,7 +173,7 @@ def check_friends2():
             time.sleep(2)
             thank = click_on_image(friend_thank, "Thanks", 0.88)
             if thank is not None:
-                time.sleep(4)
+                wait_on_img(facebook_send, 0.88)
                 click_on_image(facebook_send, "Facebook send button", 0.88)
             gold = click_on_image(friend_gold, "gold", 0.88)
             if gold is not None:
@@ -232,6 +234,10 @@ def close_adds():
     escape()
 
 def campaign_chapters():
+    for y in range(0, 3):
+        campaign_chapters2()
+
+def campaign_chapters2():
     for x in range(0, 2):
         count = 3
         rdy = click_on_image(soul_stones_battle_ready, "Chapter 3/3", 0.95)
@@ -247,6 +253,10 @@ def campaign_chapters():
                 coords = click_on_image(battle_start, "Start battle!", 0.9)
                 time.sleep(2)
                 pyautogui.click(coords)
+
+            import helpers
+            helpers.escape(2)
+
 
 def soul_stones(need_food):
     food_max = pyautogui.locateOnScreen(max_food, confidence=0.95)

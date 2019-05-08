@@ -1,6 +1,6 @@
 from campaign import check_campaign
 from clancastle import check_treasury, check_caravan, check_praises, check_raids, check_wheel_of_fortune, check_altar, \
-    check_clan_store, check_clan_castle
+    check_clan_store, check_clan_castle, do_raids
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
     speed_up_battle, wait_on_img
 from dailyrewards import click_daily_rewards
@@ -100,6 +100,11 @@ def detect_game_state():
         settings.current_state = "In Battle"
         return
 
+    clan_raids = pyautogui.locateOnScreen('imgs/clan_raids.png', confidence=0.95)
+    if clan_raids is not None:
+        settings.current_state = "Clan Raids"
+        return
+
 
 def home_screen_func(func):
     detect_game_state()
@@ -161,6 +166,9 @@ def do_work():
         click_next()
 
     if settings.current_state == "Home Screen":
+        arrow_expand = pyautogui.locateOnScreen('imgs/arrow_expand.png', confidence=0.95)
+        if arrow_expand is not None:
+            click_on_box(arrow_expand)
         if settings.arena:
             home_screen_func(check_arena)
         if settings.trial_of_death:
@@ -189,6 +197,9 @@ def do_work():
             home_screen_func(check_campaign)
         if settings.clan_castle:
             home_screen_func(check_clan_castle)
+
+    if settings.current_state == "Clan Raids":
+        do_raids()
 
         # home_screen_func(check_upgrades)
 

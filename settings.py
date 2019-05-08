@@ -16,30 +16,30 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
 arena = False
 campaign = True
 caves = False
-chests = True
+chests = False
 coliseum = False
 daily_rewards = False
 events = False
-friends = True
-mailbox = True
+friends = False
+mailbox = False
 missions = True
-tournament = True
+tournament = False
 trial_of_death = False
 
-portal = True  # Disable Portal to stop checking it altogether
+portal = False  # Disable Portal to stop checking it altogether
 trials = True
 otherworld = True
 
 # Clan Castle
 clan_castle = True  # Disable all clan castle features
-treasury = True
+treasury = False
 clan_store = True
-praises = True
-caravan = True
+praises = False
+caravan = False
 altar = True
 brawls = True
-wheel = True
-raids = True
+wheel = False
+raids = False
 
 # Hero upgrades
 skill_points = False
@@ -59,3 +59,8 @@ game_y = 0
 
 x_scaling = 1280 / resolution_x
 y_scaling = 800 / resolution_y
+
+settings_array = [arena, campaign, caves, chests, clan_castle, coliseum, daily_rewards, events, friends,
+                  mailbox, missions, tournament, trial_of_death, portal, trials, otherworld, treasury,
+                  clan_store, praises, caravan, altar, brawls, wheel, raids, skill_points, leveling, elevating,
+                  equipping]

@@ -122,7 +122,7 @@ drag_count = 0
 def look_for_button(img, msg, func):
     global drag_count
     for x in range(0, 18):
-        time.sleep(2)
+        time.sleep(0.5)
 
         if msg == "Friend Heart":
             friend_box = pyautogui.locateOnScreen('imgs/friend_box.PNG', confidence=0.88)
@@ -175,6 +175,7 @@ def look_for_button(img, msg, func):
         if drag_count > 9:
             drag_count = 0
         # check_chests()
+        time.sleep(0.5)
     escape(2)
 
 
