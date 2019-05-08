@@ -26,7 +26,7 @@ mailbox = False
 tournament = False
 trial_of_death = False
 
-missions = False  # Disable Missions to stop all missions
+missions = True  # Disable Missions to stop all missions
 missions_all = False  # Exchanging, experience potions, enchanting, friend currency
 
 

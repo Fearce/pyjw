@@ -24,6 +24,23 @@ def delay_next_check(delay_min, last_check):
     return False
 
 
+def wait_on_ad(conf):
+    ad_closes = ['imgs/ad_close.PNG', 'imgs/ad_close2.PNG', 'imgs/add_close.PNG']
+    count = 0
+    found = pyautogui.locateOnScreen('imgs/ad_close.PNG', confidence=conf)
+    while found is None:
+        count += 1  # Fail safe to stop after 480 attempts at locating image
+        if count > 480:
+            break
+        time.sleep(0.25)
+        for x in ad_closes:
+            if found is None:
+                found = pyautogui.locateOnScreen(x, confidence=conf)
+            else:
+                break
+
+
+
 def wait_on_img(img, conf):
     count = 0
     found = pyautogui.locateOnScreen(img, confidence=conf)
@@ -33,8 +50,6 @@ def wait_on_img(img, conf):
             break
         time.sleep(0.25)
         found = pyautogui.locateOnScreen(img, confidence=conf)
-        if found is not None:
-            return found
 
 
 def go_up():
@@ -152,7 +167,8 @@ def look_for_button(img, msg, func):
                     click_on_box(accept)
                 #log("Giving ad 45 seconds to finish")
                 log("Waiting for ad to finish")
-                wait_on_img('imgs/ad_close.png', 0.75)
+                wait_on_ad(0.75)
+                #wait_on_img('imgs/ad_close.png', 0.75)
                 ad_close = pyautogui.locateOnScreen('imgs/ad_close.png', confidence=0.75)
                 click_on_box(ad_close)
                 log("Ad closed")

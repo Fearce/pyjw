@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed2bab7a-0832-4b64-afd1-a4fe55635a25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/caves.py" beforeDir="false" afterPath="$PROJECT_DIR$/caves.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screencapture_256_256.png" beforeDir="false" afterPath="$PROJECT_DIR$/screencapture_256_256.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pyjw$test.coverage" NAME="test Coverage Results" MODIFIED="1557350354645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyjw$test.coverage" NAME="test Coverage Results" MODIFIED="1557350902451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyjw$helpers.coverage" NAME="helpers Coverage Results" MODIFIED="1557348176711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -50,14 +47,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="14044" />
+          <entry key="py" value="14135" />
           <entry key="txt" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="161" />
-          <entry key="Python" value="14044" />
+          <entry key="Python" value="14135" />
         </counts>
       </usages-collector>
     </session>
@@ -80,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -89,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/missions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="144">
+              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -98,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caves.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -166,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heroselection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="160" column="25" lean-forward="true" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
               <folding>
                 <element signature="e#0#118#0" expanded="true" />
                 <marker date="1557312519236" expanded="true" signature="1952:2061" ph="..." />
@@ -177,14 +174,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="195" column="31" selection-start-line="195" selection-start-column="31" selection-end-line="195" selection-end-column="31" />
+            <state relative-caret-position="170">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1557347913575" expanded="true" signature="5886:5887" ph="..." />
+                <marker date="1557350763398" expanded="true" signature="6363:6364" ph="..." />
               </folding>
             </state>
           </provider>
@@ -226,10 +223,10 @@
         <option value="$PROJECT_DIR$/heroselection.py" />
         <option value="$PROJECT_DIR$/clancastle.py" />
         <option value="$PROJECT_DIR$/missions.py" />
-        <option value="$PROJECT_DIR$/helpers.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/caves.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/helpers.py" />
       </list>
     </option>
   </component>
@@ -356,12 +353,12 @@
     <frame x="1672" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24755502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24755502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21030043" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21030043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,18 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heroselection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="160" column="25" lean-forward="true" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#118#0" expanded="true" />
-            <marker date="1557312519236" expanded="true" signature="1952:2061" ph="..." />
-            <marker date="1557312519236" expanded="true" signature="3815:3820" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/friends.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -565,27 +550,6 @@
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1557146737771" expanded="true" signature="1739:1740" ph="..." />
             <marker date="1557146737771" expanded="true" signature="1900:1905" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/missions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="195" column="31" selection-start-line="195" selection-start-column="31" selection-end-line="195" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1557347913575" expanded="true" signature="5886:5887" ph="..." />
           </folding>
         </state>
       </provider>
@@ -611,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/caves.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -626,6 +583,46 @@
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1557350433170" expanded="true" signature="2280:2281" ph="..." />
             <marker date="1557350433170" expanded="true" signature="5154:5155" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heroselection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#118#0" expanded="true" />
+            <marker date="1557312519236" expanded="true" signature="1952:2061" ph="..." />
+            <marker date="1557312519236" expanded="true" signature="3815:3820" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1557350763398" expanded="true" signature="6363:6364" ph="..." />
           </folding>
         </state>
       </provider>
