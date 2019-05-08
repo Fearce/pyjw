@@ -1,6 +1,6 @@
 import datetime
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
-    go_left, go_right, look_for_button, delay_next_check
+    go_left, go_right, look_for_button, delay_next_check, wait_on_img
 import pyautogui
 import time
 import settings
@@ -53,4 +53,16 @@ def refresh_cave():
     time.sleep(3)
     pyautogui.click(settings.game_x+1012, settings.game_y+725)  # set up all
     time.sleep(1)
-    escape(3)
+    escape(1)
+
+    # cave fights cave_fights_ready, 889, 509
+    pyautogui.click(settings.game_x + 370, settings.game_y + 419)  # click gold
+    time.sleep(1)
+    click(888, 500)
+    wait_on_img('imgs/cave_battle_go.png', 0.8)
+    cave_battle_go = pyautogui.locateOnScreen('imgs/cave_output.png', confidence=0.85)
+
+    escape(1)
+
+
+    escape(1)

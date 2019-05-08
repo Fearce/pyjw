@@ -22,9 +22,12 @@ daily_rewards = False
 events = False
 friends = False
 mailbox = False
-missions = True
 tournament = False
 trial_of_death = False
+
+missions = True  # Disable Missions to stop all missions
+missions_all = True  # Exchanging, experience potions, enchanting, friend currency
+
 
 portal = False  # Disable Portal to stop checking it altogether
 trials = True

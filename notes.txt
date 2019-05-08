@@ -39,7 +39,7 @@ add_close
 game patch 4.5, features skal nok fixes/opdateres
 
 08-05-2019
-fixes and optimizing. filmer den kører så jeg kan analyzere bagefter.		
+fixes and optimizing. filmer den kører så jeg kan analysere bagefter.		
 	Todo:
 		Ask for food -> Promo heroes til tournament -> Store buy & sell -> mission ads -> otherworld bash -> enchant mission -> xp pot mission -> cave attacks -> sapphire4gold mission 
 raids done

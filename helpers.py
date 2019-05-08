@@ -33,6 +33,8 @@ def wait_on_img(img, conf):
             break
         time.sleep(0.25)
         found = pyautogui.locateOnScreen(img, confidence=conf)
+        if found is not None:
+            return found
 
 
 def go_up():
