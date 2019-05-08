@@ -4,7 +4,7 @@ from clancastle import check_treasury, check_caravan, check_praises, check_raids
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
     speed_up_battle, wait_on_img
 from dailyrewards import click_daily_rewards
-from caves import check_cave
+from caves import check_cave, do_cave_fights, get_cave_gold
 from missions import check_missions
 from portal import check_portal
 from skillpoints import check_skill_points
@@ -78,6 +78,24 @@ def detect_game_state():
             settings.current_state = "Arena"
             return
 
+    state_cave_battle = pyautogui.locateOnScreen('imgs/state_cave_battle.png', confidence=0.95)
+    if state_cave_battle is not None:
+        if escape_sign_located is not None:
+            settings.current_state = "Cave Battles"
+            return
+
+    in_cave = pyautogui.locateOnScreen('imgs/in_cave.png', confidence=0.85)
+    if in_cave is not None:
+        if escape_sign_located is not None:
+            settings.current_state = "Cave"
+            return
+
+    cave_buy = pyautogui.locateOnScreen('imgs/cave_buy.png', confidence=0.8)
+    if cave_buy is not None:
+        if cave_buy is not None:
+            escape(2)
+            return
+
     walk_through_tod = pyautogui.locateOnScreen('imgs/walk_through_tod.png', confidence=0.95)
     if walk_through_tod is not None:
         if escape_sign_located is not None:
@@ -127,6 +145,14 @@ fail_count = 0
 
 def do_work():
     global fail_count
+    if settings.current_state == "Cave Battles":
+        do_cave_fights()
+
+    if settings.current_state == "Cave":
+        get_cave_gold()
+        click(888, 500)
+        escape(1)
+
     if settings.current_state == "In Battle":
         speed_up_battle()
 

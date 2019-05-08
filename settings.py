@@ -14,8 +14,9 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
 
 #### Enable / disable features
 arena = False
-campaign = True
-caves = False
+campaign = False
+caves = True
+cave_max_power = 39000
 chests = False
 coliseum = False
 daily_rewards = False
@@ -25,8 +26,8 @@ mailbox = False
 tournament = False
 trial_of_death = False
 
-missions = True  # Disable Missions to stop all missions
-missions_all = True  # Exchanging, experience potions, enchanting, friend currency
+missions = False  # Disable Missions to stop all missions
+missions_all = False  # Exchanging, experience potions, enchanting, friend currency
 
 
 portal = False  # Disable Portal to stop checking it altogether
@@ -34,13 +35,13 @@ trials = True
 otherworld = True
 
 # Clan Castle
-clan_castle = True  # Disable all clan castle features
+clan_castle = False  # Disable all clan castle features
 treasury = False
-clan_store = True
+clan_store = False
 praises = False
 caravan = False
-altar = True
-brawls = True
+altar = False
+brawls = False
 wheel = False
 raids = False
 

@@ -67,6 +67,7 @@ def click(x, y):
 def click_next():
     pyautogui.click(settings.game_x+1163, settings.game_y+585)
     time.sleep(1)
+    click(1142, 490)
 
 
 def click_image(img, msg, func):
