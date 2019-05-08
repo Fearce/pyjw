@@ -38,7 +38,9 @@ def open_mailbox():
         log("Receiving mail")
         click_on_box(reward)
         time.sleep(1)
-        escape(2)
+        escape(1)
+        time.sleep(0.5)
+        open_mailbox()
     else:
         log("No mail available")
         escape(1)

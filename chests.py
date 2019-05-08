@@ -36,7 +36,8 @@ def open_chests():
         log("Opening wooden chest")
         click_on_box(wood_chest)
         time.sleep(4)
-        escape(2)
+        escape(1)
+        open_chests()
     elif precious_chest is not None:
         log("Opening precious chest")
         click_on_box(precious_chest)

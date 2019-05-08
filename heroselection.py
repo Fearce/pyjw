@@ -74,7 +74,7 @@ def select_hero(hero):
     if hero_found is not None:
         log(hero + " found.")
         click_on_box(hero_found)
-        time.sleep(1)
+        time.sleep(0.1)
     else:
 
         pyautogui.moveTo(settings.game_x+630, settings.game_y+350)
@@ -87,7 +87,7 @@ def select_hero(hero):
             drag_count = 0
         else:
             drag_count += 1
-        time.sleep(1)
+        time.sleep(0.1)
         select_hero(hero)
 
 

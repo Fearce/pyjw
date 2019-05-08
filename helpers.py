@@ -139,7 +139,16 @@ def look_for_button(img, msg, func):
                 break
             no_heart = pyautogui.locateOnScreen('imgs/no_heart.png', confidence=0.88)
             if no_heart is not None:
-                log("Friend currency currently awaiting")
+                log("Ad available!")
+                click_on_box(no_heart)
+                time.sleep(1)
+                click(807-18, 615-33)
+                time.sleep(3)
+                accept = pyautogui.locateOnScreen('imgs/unity_accept.png', confidence=0.9)
+                if accept is not None:
+                    click_on_box(accept)
+                log("Giving ad 45 seconds to finish")
+                time.sleep(45)
                 break
 
         chest = pyautogui.locateOnScreen(img, confidence=0.88)
@@ -160,3 +169,17 @@ def look_for_button(img, msg, func):
             drag_count = 0
         # check_chests()
     escape(2)
+
+
+def speed_up_battle():
+    times_four = pyautogui.locateOnScreen('imgs/times_four.png', confidence=0.95)
+    if times_four is not None:
+        return
+    time.sleep(1)
+    times_one = pyautogui.locateOnScreen('imgs/times_one.png', confidence=0.95)
+    if times_one is not None:
+        click_on_box(times_one)
+    time.sleep(1)
+    times_two = pyautogui.locateOnScreen('imgs/times_two.png', confidence=0.95)
+    if times_two is not None:
+        click_on_box(times_one)

@@ -16,6 +16,7 @@ def check_trial_of_death():
         return
     if delay_next_check(10, last_check):
         return
+    log("Checking Trial of Death")
     click_image('imgs/tod_ready.PNG', "Trial of Death ready", do_trial_of_death)
 
 

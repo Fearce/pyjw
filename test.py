@@ -1,7 +1,8 @@
 from campaign import check_campaign
 from clancastle import check_treasury, check_caravan, check_praises, check_raids, check_wheel_of_fortune, check_altar, \
     check_clan_store, check_clan_castle
-from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next
+from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
+    speed_up_battle, wait_on_img
 from dailyrewards import click_daily_rewards
 from caves import check_cave
 from missions import check_missions
@@ -34,9 +35,10 @@ pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/te
 
 
 def detect_game_state():
-    reward_for_support = pyautogui.locateOnScreen('imgs/reward_for_support.PNG', confidence=0.95)
+    reward_for_support = pyautogui.locateOnScreen('imgs/reward_for_support.PNG', confidence=1)
     if reward_for_support is not None:
         settings.current_state = "Reward!"
+        log("Taking reward")
         click_on_box(reward_for_support)
         time.sleep(60)
         escape(1)
@@ -115,7 +117,14 @@ def clan_castle_func(func):
         func()
 
 
+fail_count = 0
+
+
 def do_work():
+    global fail_count
+    if settings.current_state == "In Battle":
+        speed_up_battle()
+
     if settings.current_state == "Trial Win":
         finish_trial()
 
@@ -185,8 +194,36 @@ def do_work():
 
     if settings.current_state == "Working":
         log("Unknown game state, trying to correct")
+        fail_count += 1
+        # escape(1)
+        # time.sleep(2)
+        jw_help = pyautogui.locateOnScreen('imgs/jw_help.png', confidence=1)
+        if jw_help is not None:
+            log("Selecting game")
+            click_on_box(jw_help)
+            time.sleep(60)
+        jw_facebook = pyautogui.locateOnScreen('imgs/jw_facebook.png', confidence=0.95)
+        if jw_facebook is not None:
+            log("Closing facebook tab")
+            click_on_box(jw_facebook)
+        ad_close = pyautogui.locateOnScreen('imgs/ad_close.png', confidence=0.95)
+        if ad_close is not None:
+            log("Closing ad")
+            click_on_box(ad_close)
         escape(1)
-
+        if fail_count > 5:
+            fail_count = 0
+            log("Something wrong, restarting game")
+            game_exit = pyautogui.locateOnScreen('imgs/game_exit.png', confidence=0.95)
+            if game_exit is not None:
+                log("Exiting game")
+                click_on_box(game_exit)
+                time.sleep(2)
+                jw_game = pyautogui.locateOnScreen('imgs/jw_game.png', confidence=0.95)
+                if jw_game is not None:
+                    log("Starting game")
+                    click_on_box(jw_game)
+                    wait_on_img('imgs/herosbutton.png')
 
 def main_loop(args):
     settings.current_state = "Working"
