@@ -15,7 +15,7 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
 #### Enable / disable features
 arena = False
 campaign = False
-caves = True
+caves = False
 cave_max_power = 39000
 chests = False
 coliseum = False
@@ -26,7 +26,7 @@ mailbox = False
 tournament = False
 trial_of_death = False
 
-missions = True  # Disable Missions to stop all missions
+missions = False  # Disable Missions to stop all missions
 missions_all = False  # Exchanging, experience potions, enchanting, friend currency
 
 
@@ -48,8 +48,8 @@ raids = False
 # Hero upgrades
 skill_points = False
 leveling = False
-elevating = False
-equipping = False
+elevating = True
+equipping = True
 
 # Store options
 clan_heroes = ["Superslug_Caliban", "Amok_the_Prince_of_Naga"]

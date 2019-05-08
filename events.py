@@ -6,7 +6,11 @@ import settings
 import datetime
 
 last_check = datetime.datetime.now()
-last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
+if last_check.hour == 0:
+    last_check = last_check.replace(minute=0)
+else:
+    last_check = last_check.replace(hour=last_check.hour - 1)  # Remove 1 hour to make sure it checks first run
+
 
 def check_events():
     global last_check

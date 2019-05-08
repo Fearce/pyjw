@@ -31,6 +31,8 @@ import sys
 import pygubu
 import pytesseract
 
+from upgrades import check_upgrades
+
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
 
@@ -190,6 +192,9 @@ def do_work():
 
     if settings.current_state == "Victory":
         click_next()
+
+    if settings.current_state == "Home Screen" or settings.current_state == "Clan Castle":
+        check_upgrades()
 
     if settings.current_state == "Home Screen":
         arrow_expand = pyautogui.locateOnScreen('imgs/arrow_expand.png', confidence=0.95)

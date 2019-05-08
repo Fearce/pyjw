@@ -8,7 +8,11 @@ from helpers import log, click_image, delay_next_check, click_on_box
 from heroselection import select_hero
 
 last_check = datetime.datetime.now()
-last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
+if last_check.hour == 0:
+    last_check = last_check.replace(minute=0)
+else:
+    last_check = last_check.replace(hour=last_check.hour - 1)  # Remove 1 hour to make sure it checks first run
+
 
 def check_tournament():
     global last_check

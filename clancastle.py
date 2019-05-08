@@ -8,7 +8,10 @@ import datetime
 from heroselection import select_raid_heroes
 
 last_castle = datetime.datetime.now()
-last_castle = last_castle.replace(hour=last_castle.hour - 1)  # Remove 1 hour to make sure it checks first run
+if last_castle.hour == 0:
+    last_castle = last_castle.replace(minute=0)
+else:
+    last_castle = last_castle.replace(hour=last_castle.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
 def check_clan_castle():
@@ -30,7 +33,10 @@ def check_clan_castle():
 
 
 last_treasury = datetime.datetime.now()
-last_treasury = last_treasury.replace(hour=last_treasury.hour - 1)  # Remove 1 hour to make sure it checks first run
+if last_treasury.hour == 0:
+    last_treasury = last_treasury.replace(minute=0)
+else:
+    last_treasury = last_treasury.replace(hour=last_treasury.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
 # clan_castle_func(check_treasury)
@@ -65,8 +71,12 @@ def treasury_donate():
     escape(1)
 
 
+
 last_caravan = datetime.datetime.now()
-last_caravan = last_caravan.replace(hour=last_caravan.hour - 1)  # Remove 1 hour to make sure it checks first run
+if last_caravan.hour == 0:
+    last_caravan = last_caravan.replace(minute=0)
+else:
+    last_caravan = last_caravan.replace(hour=last_caravan.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
 # clan_castle_func(check_caravan)
@@ -101,7 +111,10 @@ def join_caravan():
 
 
 last_praises = datetime.datetime.now()
-last_praises = last_praises.replace(hour=last_praises.hour - 1)  # Remove 1 hour to make sure it checks first run
+if last_praises.hour == 0:
+    last_praises = last_praises.replace(minute=0)
+else:
+    last_praises = last_praises.replace(hour=last_praises.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
 
@@ -156,7 +169,10 @@ def give_praises():
     escape(1)
 
 last_raids = datetime.datetime.now()
-last_raids = last_raids.replace(hour=last_raids.hour - 1)  # Remove 1 hour to make sure it checks first run
+if last_raids.hour == 0:
+    last_raids = last_raids.replace(minute=0)
+else:
+    last_raids = last_raids.replace(hour=last_raids.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
 # clan_castle_func(check_raids)
@@ -208,7 +224,10 @@ def do_raids():
             break
 
 last_wheel = datetime.datetime.now()
-last_wheel = last_wheel.replace(hour=last_wheel.hour - 1)  # Remove 1 hour to make sure it checks first run
+if last_wheel.hour == 0:
+    last_wheel = last_wheel.replace(minute=0)
+else:
+    last_wheel = last_wheel.replace(hour=last_wheel.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
 # clan_castle_func(check_wheel_of_fortune)
@@ -242,7 +261,10 @@ def do_wheel_of_fortune():
     time.sleep(2)
 
 last_altar = datetime.datetime.now()
-last_altar = last_altar.replace(hour=last_altar.hour - 1)  # Remove 1 hour to make sure it checks first run
+if last_altar.hour == 0:
+    last_altar = last_altar.replace(minute=0)
+else:
+    last_altar = last_altar.replace(hour=last_altar.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
 # clan_castle_func(check_altar)
@@ -277,7 +299,10 @@ def altar_contribute():
 
 
 last_store = datetime.datetime.now()
-last_store = last_store.replace(hour=last_store.hour - 1)  # Remove 1 hour to make sure it checks first run
+if last_store.hour == 0:
+    last_store = last_store.replace(minute=0)
+else:
+    last_store = last_store.replace(hour=last_store.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
 # clan_castle_func(check_clan_store)

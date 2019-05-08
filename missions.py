@@ -13,7 +13,11 @@ missions_continue = 'imgs/missions_continue.PNG'
 mission_campaign_arrow = 'imgs/mission_campaign_arrow.PNG'
 
 last_check = datetime.datetime.now()
-last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
+if last_check.hour == 0:
+    last_check = last_check.replace(minute=0)
+else:
+    last_check = last_check.replace(hour=last_check.hour - 1)  # Remove 1 hour to make sure it checks first run
+
 
 # ad_watch
 def check_missions():
