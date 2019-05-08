@@ -25,7 +25,7 @@ def select_heroes(mode):
 
 
 def deselect_heroes():
-    log("Deselecting heroes")
+    log("Deselecting Arena heroes")
     wait = 0.15
     pyautogui.click(settings.game_x + 335 - 2, settings.game_y + 707 - 30)
     time.sleep(wait)
@@ -39,6 +39,7 @@ def deselect_heroes():
 
 
 def select_arena_heroes():
+    log("Selecting Arena heroes")
     wait = 0.15
     pyautogui.click(settings.game_x + 167 - 2, settings.game_y + 315 - 30)
     time.sleep(wait)
@@ -52,11 +53,12 @@ def select_arena_heroes():
 
 
 def select_tod_heroes(comp):
+    log("Selecting ToD heroes")
     for x in comp:
         select_hero(x)
-    time.sleep(1)
+    time.sleep(0.15)
     pyautogui.click(settings.game_x + 1100, settings.game_y + 670)
-    time.sleep(1)
+    time.sleep(0.15)
 
 promo_drag_count = 0
 def select_promo_hero(mode):
@@ -78,7 +80,7 @@ def select_hero(hero):
     else:
 
         pyautogui.moveTo(settings.game_x+630, settings.game_y+350)
-        time.sleep(0.3)
+        time.sleep(0.2)
         if drag_count < 8:
             pyautogui.drag(0, -90, 0.2, button='left')
         else:

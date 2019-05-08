@@ -16,7 +16,7 @@ def check_arena():
         return
     if delay_next_check(5, last_check):
         return
-    log("Checking Arena")
+    #log("Checking Arena")
     click_image('imgs/arena_ready.PNG', "Checking Arena", do_arena_battle)
     #arena_ready = pyautogui.locateOnScreen('imgs/arena_ready.PNG', confidence=0.95)
     #if arena_ready is not None:

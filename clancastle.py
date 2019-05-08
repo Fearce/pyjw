@@ -1,5 +1,5 @@
 from helpers import delay_next_check, log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, \
-    click, click_next, look_for_button, go_down
+    click, click_next, look_for_button, go_down, wait_on_img
 import pyautogui
 import time
 import settings
@@ -126,9 +126,9 @@ def check_praises():
 
 
 def give_praises():
-    time.sleep(3)
+    wait_on_img('imgs/praises_members.png', 0.8)
     click(1165, 440)  # Click members
-    time.sleep(5)
+    wait_on_img('imgs/praise_ready.png', 0.8)
     praises_none = pyautogui.locateOnScreen('imgs/praises_none.png', confidence=0.999)
     praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
     if praises_none is not None:

@@ -223,7 +223,7 @@ def do_work():
                 if jw_game is not None:
                     log("Starting game")
                     click_on_box(jw_game)
-                    wait_on_img('imgs/herosbutton.png')
+                    wait_on_img('imgs/herosbutton.png', 0.9)
 
 def main_loop(args):
     settings.current_state = "Working"

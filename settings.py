@@ -13,18 +13,18 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
                    "Assassin_Torus", "Fire_Eril", "Crystallon_Rarh"]
 
 #### Enable / disable features
-arena = True
+arena = False
 campaign = True
-caves = True
+caves = False
 chests = True
-coliseum = True
-daily_rewards = True
-events = True
+coliseum = False
+daily_rewards = False
+events = False
 friends = True
 mailbox = True
 missions = True
 tournament = True
-trial_of_death = True
+trial_of_death = False
 
 portal = True  # Disable Portal to stop checking it altogether
 trials = True
@@ -42,7 +42,7 @@ wheel = True
 raids = True
 
 # Hero upgrades
-skill_points = True
+skill_points = False
 leveling = False
 elevating = False
 equipping = False

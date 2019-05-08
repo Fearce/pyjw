@@ -34,12 +34,16 @@ def check_mailbox():
 def open_mailbox():
     time.sleep(1)
     reward = pyautogui.locateOnScreen('imgs/mailbox_receive.png', confidence=0.75)
+    mailbox_more = pyautogui.locateOnScreen('imgs/mailbox_more.png', confidence=1)
     if reward is not None:
         log("Receiving mail")
         click_on_box(reward)
         time.sleep(1)
         escape(1)
-        time.sleep(0.5)
+        time.sleep(1)
+        open_mailbox()
+    elif mailbox_more is not None:
+        click_on_box(mailbox_more)
         open_mailbox()
     else:
         log("No mail available")

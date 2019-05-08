@@ -16,7 +16,7 @@ def check_chests():
     if delay_next_check(5, last_check):
         return
     last_check = datetime.datetime.now()
-    log("Checking chests")
+    log("Checking Chests")
     chest = pyautogui.locateOnScreen('imgs/chestavailable.png', confidence=0.85)
     if chest is None:
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
