@@ -58,10 +58,21 @@ def go_up():
     pyautogui.drag(0, 90, 0.2, button='left')
 
 
+def go_up_far():
+    pyautogui.moveTo(settings.game_x + 630, settings.game_y + 365)
+    time.sleep(0.1)
+    pyautogui.drag(0, 300, 0.2, button='left')
+
+
 def go_down():
     pyautogui.moveTo(settings.game_x + 630, settings.game_y + 365)
     time.sleep(0.2)
     pyautogui.drag(0, -90, 0.2, button='left')
+
+def go_down_far():
+    pyautogui.moveTo(settings.game_x + 630, settings.game_y + 365)
+    time.sleep(0.1)
+    pyautogui.drag(0, -300, 0.2, button='left')
 
 def go_left():
     pyautogui.moveTo(settings.game_x+630, settings.game_y+365)

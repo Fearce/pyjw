@@ -12,6 +12,7 @@ tod_comp4 = ["Healer_Cassandra", "Necromancer_Khardur", "Ronald_the_Inquisitor",
 campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Grog",
                    "Assassin_Torus", "Fire_Eril", "Crystallon_Rarh"]
 
+settings_all = False  # If this is set to true everything is enabled
 #### Enable / disable features
 arena = False
 campaign = False
@@ -26,7 +27,7 @@ mailbox = False
 tournament = False
 trial_of_death = False
 
-missions = True  # Disable Missions to stop all missions
+missions = False  # Disable Missions to stop all missions
 missions_all = False  # Exchanging, experience potions, enchanting, friend currency
 
 
@@ -36,19 +37,20 @@ otherworld = True
 otherworld_bash = True  # This will keep fighting until the otherworld is complete
 
 # Clan Castle
-clan_castle = True  # Disable all clan castle features
+clan_castle = False  # Disable all clan castle features
 treasury = False
 clan_store = True
 praises = False
 caravan = False
-altar = True
-brawls = True
-wheel = True
-raids = True
+altar = False
+brawls = False
+wheel = False
+raids = False
 
 # Hero upgrades
-skill_points = False
-leveling = False
+skill_points = False  # Add skill points, takes a while, so disable if no need
+leveling = False  # To use this, set to true, it takes a while to scroll past all heroes, so disable if no need
+current_level = 86  # Set the level you wish to level heroes to
 elevating = False
 equipping = False
 
@@ -68,4 +70,4 @@ y_scaling = 800 / resolution_y
 settings_array = [arena, campaign, caves, chests, clan_castle, coliseum, daily_rewards, events, friends,
                   mailbox, missions, tournament, trial_of_death, portal, trials, otherworld, treasury,
                   clan_store, praises, caravan, altar, brawls, wheel, raids, skill_points, leveling, elevating,
-                  equipping]
+                  equipping, otherworld_bash]
