@@ -33,6 +33,7 @@ missions_all = False  # Exchanging, experience potions, enchanting, friend curre
 portal = True  # Disable Portal to stop checking it altogether
 trials = True
 otherworld = True
+otherworld_bash = True  # This will keep fighting until the otherworld is complete
 
 # Clan Castle
 clan_castle = True  # Disable all clan castle features
@@ -54,7 +55,7 @@ equipping = False
 # Store options
 clan_heroes = ["Superslug_Caliban", "Amok_the_Prince_of_Naga"]
 
-### End of settings
+#### End of settings
 
 # Game variables
 current_state = "Offline"

@@ -1,6 +1,6 @@
 import datetime
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
-    go_left, go_right, look_for_button, delay_next_check
+    go_left, go_right, look_for_button, delay_next_check, wait_on_img
 import pyautogui
 import time
 import settings
@@ -108,11 +108,15 @@ def do_otherworld():
         click(630, 440)
     otherworld_current = pyautogui.locateOnScreen('imgs/otherworld_current.png', confidence=0.8)
     if otherworld_current is not None:
+        log("Doing current otherworld")
         click_on_box(otherworld_current)
         time.sleep(4)
         otherworld_battle = pyautogui.locateOnScreen('imgs/otherworld_battle.png', confidence=0.8)
         if otherworld_battle is not None:
+            log("Doing otherworld battle")
             click_on_box(otherworld_battle)
+        else:
+            otherworld_bash()
         time.sleep(5)
         escape(4)
         #trial_vip = pyautogui.locateOnScreen('imgs/trial_vip.png', confidence=0.9)
@@ -129,5 +133,28 @@ def do_otherworld():
         #    click_on_box(to_battle)
 
 
-def otherworld_brute_force():
-    log("todo spam otherworld for hours")
+def otherworld_bash():
+    global completed
+    log("Starting otherworld bash, make sure the composition you want to use is selected")
+    completed = False
+    while completed is False:
+        bash_complete = pyautogui.locateOnScreen('imgs/bash_complete.png', confidence=0.8)
+        if bash_complete is not None:
+            log("No more attempts")
+            completed = True
+            break
+        click(1051, 700)  # Start battle
+        time.sleep(5)
+        click(198, 715)   # Speed up
+        time.sleep(1)
+        click(198, 715)   # Speed up
+        time.sleep(3)
+        wait_on_img('imgs/bash_next.png', 0.8, 200)
+        click(1150, 500)  # Next
+        time.sleep(3)
+        otherworld_current = pyautogui.locateOnScreen('imgs/otherworld_current.png', confidence=0.8)
+        if otherworld_current is not None:
+            log("Doing current otherworld")
+            click_on_box(otherworld_current)
+            time.sleep(4)
+    escape(2)
