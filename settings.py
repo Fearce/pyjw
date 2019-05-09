@@ -30,17 +30,17 @@ missions = True  # Disable Missions to stop all missions
 missions_all = False  # Exchanging, experience potions, enchanting, friend currency
 
 
-portal = True  # Disable Portal to stop checking it altogether
+portal = False  # Disable Portal to stop checking it altogether
 trials = True
 otherworld = True
 otherworld_bash = True  # This will keep fighting until the otherworld is complete
 
 # Clan Castle
 clan_castle = True  # Disable all clan castle features
-treasury = True
+treasury = False
 clan_store = True
-praises = True
-caravan = True
+praises = False
+caravan = False
 altar = True
 brawls = True
 wheel = True

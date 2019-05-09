@@ -141,9 +141,9 @@ def check_praises():
 
 
 def give_praises():
-    wait_on_img('imgs/praises_members.png', 0.8)
+    wait_on_img('imgs/praises_members.png', 0.8,60)
     click(1165, 440)  # Click members
-    wait_on_img('imgs/praise_ready.png', 0.8)
+    wait_on_img('imgs/praise_ready.png', 0.8,60)
     praises_none = pyautogui.locateOnScreen('imgs/praises_none.png', confidence=0.999)
     praise_ready = pyautogui.locateOnScreen('imgs/praise_ready.png', confidence=0.85)
     if praises_none is not None:
@@ -197,10 +197,10 @@ def check_raids():
 def do_raids():
     global last_raids
     # no raids todo
-    time.sleep(1)
+    time.sleep(1.5)
     battle_cave_go = pyautogui.locateOnScreen('imgs/battle_cave_go.png', confidence=0.9)
-    for x in range(0,7):
-        no_clan_attempts = pyautogui.locateOnScreen('imgs/no_clan_attempts.png', confidence=0.9)
+    for x in range(0, 7):
+        no_clan_attempts = pyautogui.locateOnScreen('imgs/no_clan_attempts.png', confidence=0.98)
         if no_clan_attempts is not None:
             log("No more clan attempts")
             last_raids = datetime.datetime.now()
@@ -211,7 +211,7 @@ def do_raids():
             battle_cave_go = pyautogui.locateOnScreen('imgs/battle_cave_go.png', confidence=0.9)
         else:
             click_on_box(battle_cave_go)
-            wait_on_img('imgs/battle_start.png', 0.8)
+            wait_on_img('imgs/battle_start.png', 0.8,60)
             empty_slot = pyautogui.locateOnScreen('imgs/empty_slot.png', confidence=0.9)
             if empty_slot is not None:
                 click(746, 566)

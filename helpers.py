@@ -139,7 +139,7 @@ drag_count = 0
 
 def look_for_button(img, msg, func):
     global drag_count
-    for x in range(0, 11):
+    for x in range(0, 13):  # previously 18
         time.sleep(1)
 
         if msg == "Friend Heart":
