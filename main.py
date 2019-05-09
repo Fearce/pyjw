@@ -173,7 +173,7 @@ def check_friends2():
             time.sleep(2)
             thank = click_on_image(friend_thank, "Thanks", 0.88)
             if thank is not None:
-                wait_on_img(facebook_send, 0.88)
+                wait_on_img(facebook_send, 0.88, 120)
                 click_on_image(facebook_send, "Facebook send button", 0.88)
             gold = click_on_image(friend_gold, "gold", 0.88)
             if gold is not None:
@@ -184,6 +184,7 @@ def check_friends2():
         if send is not None:
             time.sleep(4)
             click_on_image(facebook_send, "Facebook send button", 0.88)
+    escape()
 
 
 def check_shops():

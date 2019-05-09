@@ -33,13 +33,15 @@ def check_cave():
         refresh_cave()
 
 
+first_check = True
 def refresh_cave():
+    global first_check
     #pyautogui.click(settings.game_x+905, settings.game_y+544)  # click cave
     time.sleep(1)
     pyautogui.click(settings.game_x+370, settings.game_y+419)  # click gold
     time.sleep(2)
     cave_output = pyautogui.locateOnScreen('imgs/caves_mined.png', confidence=0.85)
-    if cave_output is not None:
+    if cave_output is not None and first_check:
         log("Cave currently running")
         escape(1)
         do_cave_fights()
@@ -58,7 +60,12 @@ def refresh_cave():
     time.sleep(3)
     pyautogui.click(settings.game_x+1012, settings.game_y+725)  # set up all
     time.sleep(1)
-    escape(2)
+    first_check = True
+    escape(1)
+    time.sleep(0.2)
+    escape(1)
+    do_cave_fights()
+    escape(1)
     do_cave_fights()
 
 
@@ -68,7 +75,7 @@ def do_cave_fights():
     # cave fights cave_fights_ready, 889, 509
     log("Checking cave fights")
     cave_buy = pyautogui.locateOnScreen('imgs/cave_buy.png', confidence=0.8)
-    cave_no_attempts = pyautogui.locateOnScreen('imgs/cave_no_attempts.png', confidence=0.8)
+    cave_no_attempts = pyautogui.locateOnScreen('imgs/cave_no_attempts.png', confidence=0.85)
     if cave_buy is not None or cave_no_attempts is not None:
         log("No cave attempts, leaving")
         escape(1)
@@ -98,7 +105,7 @@ def do_cave_fights():
                     log("Power " + str(p) + " is too high, searching for new opponent")
                     click(1047, 670)
                     time.sleep(4)
-                    return
+                    #return
             except ValueError:
                 if p == ". 0":
                     log("0")

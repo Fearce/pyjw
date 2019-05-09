@@ -15,15 +15,15 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
 #### Enable / disable features
 arena = False
 campaign = False
-caves = True
+caves = False
 cave_max_power = 39000
-chests = True
-coliseum = True
-daily_rewards = True
+chests = False
+coliseum = False
+daily_rewards = False
 events = False
-friends = True
-mailbox = True
-tournament = True
+friends = False
+mailbox = False
+tournament = False
 trial_of_death = False
 
 missions = True  # Disable Missions to stop all missions

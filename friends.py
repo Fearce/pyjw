@@ -1,7 +1,7 @@
 import datetime
 
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
-    go_left, go_right, look_for_button, delay_next_check
+    go_left, go_right, look_for_button, delay_next_check, wait_on_img
 import pyautogui
 import time
 import settings
@@ -49,9 +49,9 @@ def check_friends():
         last_check = last_check.replace(hour=last_check.hour - 1)
 
 def give_friend_currency():
-    time.sleep(2)
+    wait_on_img(friend_send, 100)
     click_image(friend_send, "Send Button", wait)
-    time.sleep(4)
+    wait_on_img(facebook_send, 100)
     click_image(facebook_send, "Facebook send button", wait)
 
 

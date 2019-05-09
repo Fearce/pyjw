@@ -42,20 +42,21 @@ def check_missions():
             if reward is None:
                 ad_watch = pyautogui.locateOnScreen('imgs/ad_watch.png', confidence=0.9)
                 time.sleep(1)
-                click_on_box(ad_watch)
-                time.sleep(3)
-                accept = pyautogui.locateOnScreen('imgs/unity_accept.png', confidence=0.9)
-                if accept is not None:
-                    click_on_box(accept)
-                # log("Giving ad 45 seconds to finish")
-                log("Waiting for ad to finish")
-                wait_on_ad(0.75)
-                ad_close = pyautogui.locateOnScreen('imgs/ad_close.png', confidence=0.75)
-                click_on_box(ad_close)
-                log("Ad closed")
-                wait_on_img('imgs/herosbutton.png', 0.9)
-                escape(1)
-                return
+                if ad_watch is not None:
+                    click_on_box(ad_watch)
+                    time.sleep(3)
+                    accept = pyautogui.locateOnScreen('imgs/unity_accept.png', confidence=0.9)
+                    if accept is not None:
+                        click_on_box(accept)
+                    # log("Giving ad 45 seconds to finish")
+                    log("Waiting for ad to finish")
+                    wait_on_ad(0.75, 60)
+                    ad_close = pyautogui.locateOnScreen('imgs/ad_close.png', confidence=0.75)
+                    click_on_box(ad_close)
+                    log("Ad closed")
+                    wait_on_img('imgs/herosbutton.png', 0.9, 60)
+                    escape(1)
+                    return
 
         # After or no rewards
         log("No rewards, leaving missions")
@@ -63,9 +64,9 @@ def check_missions():
             for x in range(0, 5):
                 go_down()
                 time.sleep(1)
-        missions_continue = pyautogui.locateOnScreen('imgs/missions_continue.png', confidence=0.9)
-        if missions_continue is not None:
-            click_on_box(missions_continue)
+            missions_continue = pyautogui.locateOnScreen('imgs/missions_continue.png', confidence=0.9)
+            if missions_continue is not None:
+                click_on_box(missions_continue)
         # sapphire_for_gold - turn - escape
         # experience_potion_mission - apply - click blue - escape2
         # enchant_mission - click orange_item or purple_item - click enchant_item - click enchant_go - escape2
