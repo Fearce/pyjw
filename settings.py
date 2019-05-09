@@ -1,7 +1,7 @@
 # User settings
 resolution_x = 1280  # Game window resolution width
 resolution_y = 800  # Game window resolution height
-wait_time = 5  # Amount of seconds to wait between each cycle
+wait_time = 1  # Amount of seconds to wait between each cycle
 amount_heroes = 67
 tod_comp1 = ["Elf_Maiden_Alisia", "Ninja_Meego", "Tagath_the_Potionbrewer", "Norak_the_Virtuous", "General_Kurbatov"]
 tod_comp2 = ["Nymph_Edera", "Naga_Kertana", "Drowned_Samara", "Beastborn_Raider_Miaba", "Master_Hideus"]
@@ -15,41 +15,41 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
 #### Enable / disable features
 arena = False
 campaign = False
-caves = False
+caves = True
 cave_max_power = 39000
-chests = False
-coliseum = False
-daily_rewards = False
+chests = True
+coliseum = True
+daily_rewards = True
 events = False
-friends = False
-mailbox = False
-tournament = False
+friends = True
+mailbox = True
+tournament = True
 trial_of_death = False
 
-missions = False  # Disable Missions to stop all missions
+missions = True  # Disable Missions to stop all missions
 missions_all = False  # Exchanging, experience potions, enchanting, friend currency
 
 
-portal = False  # Disable Portal to stop checking it altogether
+portal = True  # Disable Portal to stop checking it altogether
 trials = True
 otherworld = True
 
 # Clan Castle
-clan_castle = False  # Disable all clan castle features
-treasury = False
-clan_store = False
-praises = False
-caravan = False
-altar = False
-brawls = False
-wheel = False
-raids = False
+clan_castle = True  # Disable all clan castle features
+treasury = True
+clan_store = True
+praises = True
+caravan = True
+altar = True
+brawls = True
+wheel = True
+raids = True
 
 # Hero upgrades
 skill_points = False
 leveling = False
-elevating = True
-equipping = True
+elevating = False
+equipping = False
 
 # Store options
 clan_heroes = ["Superslug_Caliban", "Amok_the_Prince_of_Naga"]

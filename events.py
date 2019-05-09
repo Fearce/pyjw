@@ -24,6 +24,7 @@ def check_events():
         last_check = datetime.datetime.now()
         click_on_box(event)
         check_lab()
+        check_wayback()
 
 
 lab_done = False
@@ -47,4 +48,26 @@ def check_lab():
             click(1040, 610)
             time.sleep(3)
             lab_done = True
+        escape(3)
+
+
+wayback_done = 0
+def check_wayback():
+    global wayback_done
+    if wayback_done >= 2:
+        log("Way back home already done, escaping")
+        escape(2)
+        return
+    time.sleep(1)
+    wayback = pyautogui.locateOnScreen('imgs/wayback.PNG', confidence=0.88)
+    if wayback is not None:
+        log("Way back home event found.")
+        time.sleep(1)
+        lab_three = pyautogui.locateOnScreen('imgs/lab_three.PNG', confidence=0.88)
+        if lab_three is not None:
+            click_on_box(lab_three)
+            time.sleep(2)
+            click(1024, 700)
+            wayback_done += 1
+            time.sleep(3)
         escape(3)

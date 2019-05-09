@@ -41,12 +41,12 @@ def wait_on_ad(conf):
 
 
 
-def wait_on_img(img, conf):
+def wait_on_img(img, conf, amount):
     count = 0
     found = pyautogui.locateOnScreen(img, confidence=conf)
     while found is None:
         count += 1  # Fail safe to stop after 480 attempts at locating image
-        if count > 480:
+        if count > amount:
             break
         time.sleep(0.25)
         found = pyautogui.locateOnScreen(img, confidence=conf)

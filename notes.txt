@@ -43,6 +43,9 @@ fixes and optimizing. filmer den kører så jeg kan analysere bagefter.
 	Todo:
 		Ask for food -> Promo heroes til tournament -> Store buy & sell -> mission ads -> otherworld bash -> enchant mission -> xp pot mission -> cave attacks -> sapphire4gold mission 
 raids done
+time fix, tons of stuff added, working on finishing features
+
+tomorrow - fix upgrading, asking for food, more store shit, otherworld bash, test missions
 		
 		
 		

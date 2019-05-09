@@ -49,6 +49,7 @@ def detect_game_state():
     add_close_located = pyautogui.locateOnScreen('imgs/add_close.PNG', confidence=0.95)
     if add_close_located is not None:
         settings.current_state = "Advertisement"
+        log("Escaping ad")
         escape(1)
         return
 
@@ -95,6 +96,7 @@ def detect_game_state():
     cave_buy = pyautogui.locateOnScreen('imgs/cave_buy.png', confidence=0.8)
     if cave_buy is not None:
         if cave_buy is not None:
+            log("Escaping cave buy")
             escape(2)
             return
 
@@ -151,6 +153,7 @@ def do_work():
         do_cave_fights()
 
     if settings.current_state == "Cave":
+        log("Getting cave gold")
         get_cave_gold()
         click(888, 500)
         escape(1)
@@ -188,6 +191,7 @@ def do_work():
         do_trial_of_death()
 
     if settings.current_state == "Hero Select":
+        log("Escaping hero select")
         escape(2)
 
     if settings.current_state == "Victory":
@@ -199,6 +203,7 @@ def do_work():
     if settings.current_state == "Home Screen":
         arrow_expand = pyautogui.locateOnScreen('imgs/arrow_expand.png', confidence=0.95)
         if arrow_expand is not None:
+            log("Expanding arrow")
             click_on_box(arrow_expand)
         if settings.arena:
             home_screen_func(check_arena)

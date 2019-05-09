@@ -26,7 +26,7 @@ def select_heroes(mode):
 
 def deselect_heroes():
     log("Deselecting Arena heroes")
-    wait = 0.15
+    wait = 0.25
     pyautogui.click(settings.game_x + 335 - 2, settings.game_y + 707 - 30)
     time.sleep(wait)
     pyautogui.click(settings.game_x + 482 - 2, settings.game_y + 707 - 30)
@@ -40,7 +40,7 @@ def deselect_heroes():
 
 def select_arena_heroes():
     log("Selecting Arena heroes")
-    wait = 0.15
+    wait = 0.25
     pyautogui.click(settings.game_x + 167 - 2, settings.game_y + 315 - 30)
     time.sleep(wait)
     pyautogui.click(settings.game_x + 355 - 2, settings.game_y + 315 - 30)
