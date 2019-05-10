@@ -68,7 +68,7 @@ def give_levels():
         bottom = pyautogui.locateOnScreen('imgs/levels/bottom.png', confidence=0.99)
         if bottom is not None:
             log("Reached bottom, leaving")
-            escape(3)
+            escape(4)
             return
         go_down()
         give_levels()

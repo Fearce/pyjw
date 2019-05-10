@@ -216,8 +216,10 @@ def speed_up_battle():
     time.sleep(1)
     times_one = pyautogui.locateOnScreen('imgs/times_one.png', confidence=0.95)
     if times_one is not None:
+        log("Speeding up battle")
         click_on_box(times_one)
     time.sleep(1)
     times_two = pyautogui.locateOnScreen('imgs/times_two.png', confidence=0.95)
     if times_two is not None:
+        log("Speeding up battle")
         click_on_box(times_one)

@@ -206,32 +206,46 @@ def do_work():
             log("Expanding arrow")
             click_on_box(arrow_expand)
         if settings.arena:
+            log("Arena check")
             home_screen_func(check_arena)
         if settings.trial_of_death:
+            log("trial_of_death check")
             home_screen_func(check_trial_of_death)
         if settings.skill_points:
+            log("skill_points check")
             home_screen_func(check_skill_points)
         if settings.coliseum:
+            log("coliseum check")
             home_screen_func(check_coliseum)
         if settings.tournament:
+            log("tournament check")
             home_screen_func(check_tournament)
         if settings.events:
+            log("events check")
             home_screen_func(check_events)
         if settings.caves:
+            log("caves check")
             home_screen_func(check_cave)
         if settings.chests:
+            log("chests check")
             home_screen_func(check_chests)
         if settings.mailbox:
+            log("mailbox check")
             home_screen_func(check_mailbox)
         if settings.missions:
+            log("missions check")
             home_screen_func(check_missions)
         if settings.friends:
+            log("friends check")
             home_screen_func(check_friends)
         if settings.portal:
+            log("portal check")
             home_screen_func(check_portal)
         if settings.campaign:
+            log("campaign check")
             home_screen_func(check_campaign)
         if settings.clan_castle:
+            log("clan_castle check")
             home_screen_func(check_clan_castle)
 
     if settings.current_state == "Clan Raids":
@@ -270,7 +284,7 @@ def do_work():
                 if jw_game is not None:
                     log("Starting game")
                     click_on_box(jw_game)
-                    wait_on_img('imgs/herosbutton.png', 0.9)
+                    wait_on_img('imgs/herosbutton.png', 0.9, 360)
 
 def main_loop(args):
     settings.current_state = "Working"

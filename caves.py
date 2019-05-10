@@ -144,6 +144,7 @@ def do_cave_fights():
 def get_cave_gold():
     cave_gold = pyautogui.locateOnScreen('imgs/cave_gold.png', confidence=0.9)
     if cave_gold is not None:
+        log("Clicking cave gold")
         click_on_box(cave_gold)
         time.sleep(1)
         #escape(1)

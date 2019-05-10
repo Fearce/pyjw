@@ -1,7 +1,7 @@
 import datetime
 
 from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
-    delay_next_check
+    delay_next_check, wait_on_img
 from heroselection import enter_lowest
 import pyautogui
 import time
@@ -39,6 +39,7 @@ def do_arena_battle():
     waiting = pyautogui.locateOnScreen('imgs/dont_wait.PNG', confidence=0.97)
     if no_battles_ready is None and waiting is None:
         log("Arena battles available. Doing Battle!")
+        wait_on_img('imgs/arena_store.PNG', 0.9, 100)
         power1 = get_value_from_rect(settings.game_x+241-2, settings.game_y+425-29+49, settings.game_x+325-2, settings.game_y+505-29)
         power2 = get_value_from_rect(settings.game_x + 528 - 2, settings.game_y + 425 - 29 + 49, settings.game_x + 605 - 2, settings.game_y + 505 - 29)
         power3 = get_value_from_rect(settings.game_x + 818 - 2, settings.game_y + 425 - 29 + 49, settings.game_x + 890 - 2, settings.game_y + 505 - 29)
