@@ -22,7 +22,7 @@ def check_cave():
     last_check = datetime.datetime.now()
 
     log("Checking Cave")
-    cave_ready = pyautogui.locateOnScreen('imgs/cave_ready.png', confidence=0.88)
+    cave_ready = pyautogui.locateOnScreen('imgs/cave_ready.png', confidence=0.9)
     if cave_ready is None:
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
         if heroes_button_located is None:
@@ -38,6 +38,9 @@ def refresh_cave():
     global first_check
     #pyautogui.click(settings.game_x+905, settings.game_y+544)  # click cave
     time.sleep(1)
+    in_cave = pyautogui.locateOnScreen('imgs/in_cave.png', confidence=0.85)
+    if in_cave is None:
+        return
     pyautogui.click(settings.game_x+370, settings.game_y+419)  # click gold
     time.sleep(2)
     cave_output = pyautogui.locateOnScreen('imgs/caves_mined.png', confidence=0.85)
