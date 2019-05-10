@@ -69,7 +69,7 @@ def detect_game_state():
             settings.current_state = "Home Screen"
             return
 
-    tod_win = pyautogui.locateOnScreen('imgs/tod_win.png', confidence=0.95)
+    tod_win = pyautogui.locateOnScreen('imgs/tod_win.png', confidence=0.88)
     if tod_win is not None:
         if escape_sign_located is not None:
             settings.current_state = "Trial Win"

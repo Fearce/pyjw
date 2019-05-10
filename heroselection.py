@@ -66,8 +66,13 @@ def select_promo_hero(mode):
     promo_img = 'imgs/heroes/promo_hero.PNG'
     log("Looking for promo hero")
 
+recursion_limit = 0
 def select_hero(hero):
-    global drag_count
+    global drag_count, recursion_limit
+    recursion_limit += 1
+    if recursion_limit >= 50:
+        recursion_limit = 0
+        return
     tournament_clock = pyautogui.locateOnScreen('imgs/tournament_clock.PNG', confidence=0.88)
     if tournament_clock is not None:
         return
