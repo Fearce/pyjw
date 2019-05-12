@@ -37,19 +37,22 @@ def do_trial_of_death():
         log("1/3 trials left, entering hero select")
         trial_number = 3
 
-
-    hit_the_road = pyautogui.locateOnScreen('imgs/hit_the_road.PNG', confidence=0.95)
+    time.sleep(3)
+    hit_the_road = pyautogui.locateOnScreen('imgs/hit_the_road.PNG', confidence=0.98)
     if hit_the_road is not None:
         click_on_box(hit_the_road)
         time.sleep(1)
         #finish_trial()
         wait_on_img('imgs/trial_free.PNG', 0.95, 20)
-        pyautogui.click(settings.game_x+901, settings.game_y+721)
-
-        time.sleep(2)
-        select_heroes("Trial " + str(trial_number))
+        if pyautogui.locateOnScreen('imgs/trial_free.PNG', confidence=0.95) is not None:
+            pyautogui.click(settings.game_x+901, settings.game_y+721)
+            time.sleep(2)
+            select_heroes("Trial " + str(trial_number))
+        else:
+            finish_trial()
     else:
         log("Trial not ready, escaping")
+        finish_trial()
         escape(1)
 
 

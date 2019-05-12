@@ -22,7 +22,7 @@ def check_cave():
     last_check = datetime.datetime.now()
 
     log("Checking Cave")
-    cave_ready = pyautogui.locateOnScreen('imgs/cave_ready.png', confidence=0.9)
+    cave_ready = pyautogui.locateOnScreen('imgs/cave_ready.png', confidence=0.95)
     if cave_ready is None:
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
         if heroes_button_located is None:

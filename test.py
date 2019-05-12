@@ -133,6 +133,7 @@ def home_screen_func(func):
     if settings.current_state != "Home Screen":
         do_work()
     else:
+        escape(1)
         func()
 
 
@@ -141,6 +142,7 @@ def clan_castle_func(func):
     if settings.current_state != "Clan Castle":
         do_work()
     else:
+        escape(1)
         func()
 
 

@@ -18,18 +18,16 @@ def check_events():
         return
     #if delay_next_check(5, last_check):
     #    return
-    event = pyautogui.locateOnScreen('imgs/event.PNG', confidence=0.88)
+    event = pyautogui.locateOnScreen('imgs/event.PNG', confidence=0.92)
     if event is not None:
         log("Checking event.")
         last_check = datetime.datetime.now()
         click_on_box(event)
         check_lab()
         check_wayback()
-
+        check_magic()
 
 lab_done = False
-
-
 def check_lab():
     global lab_done
     if lab_done:
@@ -70,4 +68,26 @@ def check_wayback():
             click(1024, 700)
             wayback_done += 1
             time.sleep(3)
+        escape(3)
+        
+        
+magic_done = False
+def check_magic():
+    global magic_done
+    if magic_done:
+        log("Magic against the power already done, escaping")
+        escape(2)
+        return
+    time.sleep(1)
+    magic = pyautogui.locateOnScreen('imgs/magic.PNG', confidence=0.88)
+    if magic is not None:
+        log("Magic against the power event found.")
+        time.sleep(1)
+        magic_three = pyautogui.locateOnScreen('imgs/lab_three.PNG', confidence=0.88)
+        if magic_three is not None:
+            click_on_box(magic_three)
+            time.sleep(2)
+            click(1040, 610)
+            time.sleep(3)
+            magic_done = True
         escape(3)
