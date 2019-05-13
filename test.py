@@ -75,7 +75,7 @@ def detect_game_state():
             settings.current_state = "Trial Win"
             return
 
-    arena_available_battles = pyautogui.locateOnScreen('imgs/arena_available_battles.png', confidence=0.95)
+    arena_available_battles = pyautogui.locateOnScreen('imgs/arena_available_battles.png', confidence=0.97)
     if arena_available_battles is not None:
         if escape_sign_located is not None:
             settings.current_state = "Arena"
@@ -131,18 +131,20 @@ def detect_game_state():
 def home_screen_func(func):
     detect_game_state()
     if settings.current_state != "Home Screen":
+        log("Wrong state, escaping")
+        escape(1)
         do_work()
     else:
-        escape(1)
         func()
 
 
 def clan_castle_func(func):
     detect_game_state()
     if settings.current_state != "Clan Castle":
+        log("Wrong state, escaping")
+        escape(1)
         do_work()
     else:
-        escape(1)
         func()
 
 
@@ -185,9 +187,6 @@ def do_work():
         if settings.clan_store:
             clan_castle_func(check_clan_store)
        # escape(1)
-
-    if settings.current_state == "Arena":
-        do_arena_battle()
 
     if settings.current_state == "Trial of Death":
         do_trial_of_death()
@@ -252,6 +251,9 @@ def do_work():
 
     if settings.current_state == "Clan Raids":
         do_raids()
+
+    if settings.current_state == "Arena":
+        do_arena_battle()
 
         # home_screen_func(check_upgrades)
 

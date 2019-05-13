@@ -87,7 +87,7 @@ def check_magic():
         if magic_three is not None:
             click_on_box(magic_three)
             time.sleep(2)
-            click(1040, 610)
+            click(1024, 700)
             time.sleep(3)
             magic_done = True
         escape(3)

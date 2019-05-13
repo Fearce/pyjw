@@ -15,9 +15,12 @@ def delay_next_check(delay_min, last_check):
     if now.minute >= delay_min:
         now = now.replace(minute=now.minute - delay_min)
     else:
-        now = now.replace(hour=now.hour - 1)
-        for x in range(0, delay_min - now.minute):
-            now = now.replace(minute=now.minute + 1)
+        try:
+            now = now.replace(hour=now.hour - 1)
+            for x in range(0, delay_min - now.minute):
+                now = now.replace(minute=now.minute + 1)
+        except ValueError:
+            log("Value error, time is changing")
     if now < last_check:
         # log(delay_msg)
         return True
@@ -179,13 +182,18 @@ def look_for_button(img, msg, func):
                 #log("Giving ad 45 seconds to finish")
                 log("Waiting for ad to finish")
                 wait_on_ad(0.75, 200)
-                #wait_on_img('imgs/ad_close.png', 0.75)
+                wait_on_img('imgs/ad_close.png', 0.75,80 )
                 ad_close = pyautogui.locateOnScreen('imgs/ad_close.png', confidence=0.75)
-                click_on_box(ad_close)
-                log("Ad closed")
-                wait_on_img('imgs/herosbutton.png', 0.9, 60)
-                escape(1)
-                return
+                if ad_close is not None:
+                    click_on_box(ad_close)
+                    log("Ad closed")
+                    wait_on_img('imgs/herosbutton.png', 0.9, 60)
+                    escape(1)
+                    return
+                else:
+                    log("Trying to escape ad")
+                    escape(1)
+                    return
                 # break
 
         chest = pyautogui.locateOnScreen(img, confidence=0.88)
