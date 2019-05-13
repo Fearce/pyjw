@@ -138,8 +138,9 @@ def otherworld_bash():
     log("Starting otherworld bash, make sure the composition you want to use is selected")
     completed = False
     while completed is False:
+        otherworld_complete = pyautogui.locateOnScreen('imgs/otherworld_complete.png', confidence=0.9)
         bash_complete = pyautogui.locateOnScreen('imgs/bash_complete.png', confidence=0.8)
-        if bash_complete is not None:
+        if bash_complete is not None or otherworld_complete is not None:
             log("No more attempts")
             completed = True
             break

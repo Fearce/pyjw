@@ -137,6 +137,8 @@ def locate_game_window():
         settings.game_x_start = x - 47  # Game distance from Memu Icon
         settings.game_y_start = y + 13
         log("Game window found at " + str(settings.game_x_start) + ", " + str(settings.game_y_start))
+        log("Selecting game window")
+        click_on_box(img_box)
         return settings.game_x_start, settings.game_y_start
     log("Game window not found")
     return 0, 0

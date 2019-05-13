@@ -21,6 +21,7 @@ def check_arena():
     if delay_next_check(5, last_check):
         return
     #log("Checking Arena")
+    time.sleep(1)
     click_image('imgs/arena_ready.PNG', "Checking Arena", do_arena_battle)
     #arena_ready = pyautogui.locateOnScreen('imgs/arena_ready.PNG', confidence=0.95)
     #if arena_ready is not None:
@@ -37,9 +38,14 @@ def do_arena_battle():
     last_check = datetime.datetime.now()
     no_battles_ready = pyautogui.locateOnScreen('imgs/no_battles_ready.PNG', confidence=0.97)
     waiting = pyautogui.locateOnScreen('imgs/dont_wait.PNG', confidence=0.97)
+    log("Current state : " + settings.current_state)
     if no_battles_ready is None and waiting is None:
         log("Arena battles available. Doing Battle!")
-        wait_on_img('imgs/arena_store.PNG', 0.9, 100)
+        wait_on_img('imgs/arena_store.PNG', 0.9, 30)
+        arena_store = pyautogui.locateOnScreen('imgs/arena_store.PNG', confidence=0.9)
+        if arena_store is None:
+            log("Escaping arena check")
+            return
         power1 = get_value_from_rect(settings.game_x+241-2, settings.game_y+425-29+49, settings.game_x+325-2, settings.game_y+505-29)
         power2 = get_value_from_rect(settings.game_x + 528 - 2, settings.game_y + 425 - 29 + 49, settings.game_x + 605 - 2, settings.game_y + 505 - 29)
         power3 = get_value_from_rect(settings.game_x + 818 - 2, settings.game_y + 425 - 29 + 49, settings.game_x + 890 - 2, settings.game_y + 505 - 29)

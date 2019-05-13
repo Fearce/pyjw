@@ -59,9 +59,10 @@ def detect_game_state():
         settings.current_state = "Daily Rewards"
         return
 
-    heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
+    heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton2.png', confidence=0.98)
     escape_sign_located = pyautogui.locateOnScreen('imgs/escape1.PNG', confidence=0.95)
     if heroes_button_located is not None:
+        log("Heroes button located")
         if escape_sign_located is not None:
             settings.current_state = "Clan Castle"
             return
@@ -75,7 +76,7 @@ def detect_game_state():
             settings.current_state = "Trial Win"
             return
 
-    arena_available_battles = pyautogui.locateOnScreen('imgs/arena_available_battles.png', confidence=0.97)
+    arena_available_battles = pyautogui.locateOnScreen('imgs/arena_available_battles.png', confidence=0.98)
     if arena_available_battles is not None:
         if escape_sign_located is not None:
             settings.current_state = "Arena"
@@ -100,7 +101,7 @@ def detect_game_state():
             escape(2)
             return
 
-    walk_through_tod = pyautogui.locateOnScreen('imgs/walk_through_tod.png', confidence=0.95)
+    walk_through_tod = pyautogui.locateOnScreen('imgs/walk_through_tod.png', confidence=0.98)
     if walk_through_tod is not None:
         if escape_sign_located is not None:
             settings.current_state = "Trial of Death"
@@ -126,6 +127,10 @@ def detect_game_state():
     if clan_raids is not None:
         settings.current_state = "Clan Raids"
         return
+    else:
+        settings.current_state = "Working"
+
+
 
 
 def home_screen_func(func):
@@ -135,7 +140,9 @@ def home_screen_func(func):
         escape(1)
         do_work()
     else:
+        log("Game state is : " + settings.current_state)
         func()
+        time.sleep(1)
 
 
 def clan_castle_func(func):
@@ -146,6 +153,7 @@ def clan_castle_func(func):
         do_work()
     else:
         func()
+        time.sleep(1)
 
 
 fail_count = 0
@@ -154,6 +162,7 @@ fail_count = 0
 def do_work():
     global fail_count
     if settings.current_state == "Cave Battles":
+        log("Cave fight")
         do_cave_fights()
 
     if settings.current_state == "Cave":
@@ -166,9 +175,11 @@ def do_work():
         speed_up_battle()
 
     if settings.current_state == "Trial Win":
+        log("Trial finish")
         finish_trial()
 
     if settings.current_state == "Daily Rewards":
+        log("Daily rewards")
         click_daily_rewards()
 
     if settings.current_state == "Clan Castle":
@@ -189,6 +200,7 @@ def do_work():
        # escape(1)
 
     if settings.current_state == "Trial of Death":
+        log("In trial")
         do_trial_of_death()
 
     if settings.current_state == "Hero Select":
@@ -196,9 +208,11 @@ def do_work():
         escape(2)
 
     if settings.current_state == "Victory":
+        log("Victory")
         click_next()
 
     if settings.current_state == "Home Screen" or settings.current_state == "Clan Castle":
+        log("Upgrades")
         check_upgrades()
 
     if settings.current_state == "Home Screen":
@@ -226,6 +240,7 @@ def do_work():
             home_screen_func(check_events)
         if settings.caves:
             log("caves check")
+            log(settings.current_state)
             home_screen_func(check_cave)
         if settings.chests:
             log("chests check")
@@ -250,9 +265,11 @@ def do_work():
             home_screen_func(check_clan_castle)
 
     if settings.current_state == "Clan Raids":
+        log("Clan raids")
         do_raids()
 
     if settings.current_state == "Arena":
+        log("Arena state")
         do_arena_battle()
 
         # home_screen_func(check_upgrades)
