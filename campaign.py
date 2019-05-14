@@ -17,14 +17,14 @@ else:
 
 def get_food():
     global current_food
-    food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1055,
+    food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1060,
                                settings.game_y + 45)
     try:
         food = int(food)
         current_food = food
         log("Current food is: " + str(food))
     except ValueError:
-        food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1060,
+        food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1055,
                                      settings.game_y + 45)
         try:
             food = int(food)

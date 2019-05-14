@@ -33,6 +33,12 @@ def check_coliseum():
 def do_coliseum():
     global last_check
     last_check = datetime.datetime.now()
+    time.sleep(3)
+    coliseum_store = pyautogui.locateOnScreen('imgs/coliseum_store.PNG', confidence=0.9)
+    if coliseum_store is None:
+        log("Clicking ok")
+        click(856, 655)
+        time.sleep(4)
     if pyautogui.locateOnScreen('imgs/0_2.PNG', confidence=0.95) is None:
         power1 = get_value_from_rect(settings.game_x + 245, settings.game_y + 425 - 29 + 49, settings.game_x + 325 - 2, settings.game_y + 505 - 29)
         power2 = get_value_from_rect(settings.game_x + 528 - 2, settings.game_y + 425 - 29 + 49, settings.game_x + 605 - 2, settings.game_y + 505 - 29)

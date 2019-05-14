@@ -133,6 +133,7 @@ def do_otherworld():
         #    click_on_box(to_battle)
 
 
+# Fix after complete
 def otherworld_bash():
     global completed
     log("Starting otherworld bash, make sure the composition you want to use is selected")

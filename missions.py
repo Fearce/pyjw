@@ -54,8 +54,8 @@ def check_missions():
                     ad_close = pyautogui.locateOnScreen('imgs/ad_close.png', confidence=0.75)
                     click_on_box(ad_close)
                     log("Ad closed")
-                    wait_on_img('imgs/herosbutton.png', 0.9, 60)
-                    escape(1)
+                    #wait_on_img('imgs/herosbutton.png', 0.9, 60)
+                    #escape(1)
                     return
 
         # After or no rewards

@@ -121,6 +121,7 @@ def detect_game_state():
     auto_on = pyautogui.locateOnScreen('imgs/auto_on.png', confidence=0.95)
     if auto_on is not None:
         settings.current_state = "In Battle"
+        speed_up_battle()
         return
 
     clan_raids = pyautogui.locateOnScreen('imgs/clan_raids.png', confidence=0.95)
@@ -138,7 +139,8 @@ def home_screen_func(func):
     if settings.current_state != "Home Screen":
         log("Wrong state, escaping")
         escape(1)
-        do_work()
+        return
+        #do_work()
     else:
         log("Game state is : " + settings.current_state)
         func()
@@ -150,7 +152,8 @@ def clan_castle_func(func):
     if settings.current_state != "Clan Castle":
         log("Wrong state, escaping")
         escape(1)
-        do_work()
+        return
+        #do_work()
     else:
         func()
         time.sleep(1)
@@ -171,8 +174,7 @@ def do_work():
         click(888, 500)
         escape(1)
 
-    if settings.current_state == "In Battle":
-        speed_up_battle()
+    #if settings.current_state == "In Battle":
 
     if settings.current_state == "Trial Win":
         log("Trial finish")
@@ -197,7 +199,7 @@ def do_work():
             clan_castle_func(check_altar)
         if settings.clan_store:
             clan_castle_func(check_clan_store)
-       # escape(1)
+        escape(1)
 
     if settings.current_state == "Trial of Death":
         log("In trial")

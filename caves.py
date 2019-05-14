@@ -33,7 +33,7 @@ def check_cave():
         refresh_cave()
 
 
-first_check = True
+first_check = False
 def refresh_cave():
     global first_check
     #pyautogui.click(settings.game_x+905, settings.game_y+544)  # click cave
