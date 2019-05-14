@@ -332,7 +332,7 @@ def main_loop(args):
 # Init
 if __name__ == '__main__':
     try:
-        log('Press Ctrl-C to quit.')
+        log('Press CTRL-ALT-Delete to quit or close the program.')
         settings.game_x, settings.game_y = locate_game_window()
         main_loop, args = main_loop("Start")
         while True:

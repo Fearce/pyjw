@@ -51,9 +51,19 @@ def check_missions():
                     # log("Giving ad 45 seconds to finish")
                     log("Waiting for ad to finish")
                     wait_on_ad(0.75, 60)
+                    time.sleep(1)
                     ad_close = pyautogui.locateOnScreen('imgs/ad_close.png', confidence=0.75)
-                    click_on_box(ad_close)
-                    log("Ad closed")
+                    if ad_close is None:
+                        ad_close = pyautogui.locateOnScreen('imgs/ad_close2.png', confidence=0.75)
+                        if ad_close is None:
+                            ad_close = pyautogui.locateOnScreen('imgs/add_close.png', confidence=0.75)
+                    if ad_close is not None:
+                        click_on_box(ad_close)
+                        log("Ad closed")
+                    else:
+                        log("Problem with closing ad, escaping")
+                        escape(1)
+                        return
                     #wait_on_img('imgs/herosbutton.png', 0.9, 60)
                     #escape(1)
                     return

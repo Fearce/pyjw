@@ -14,41 +14,41 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
 
 settings_all = False  # If this is set to true everything is enabled
 #### Enable / disable features
-arena = True
+arena = False
 campaign = True
 caves = True
 cave_max_power = 39000
 chests = True
-coliseum = True
-daily_rewards = True
-events = True
+coliseum = False
+daily_rewards = False
+events = False
 friends = True
-mailbox = True
-tournament = True
-trial_of_death = True
+mailbox = False
+tournament = False
+trial_of_death = False
 
 missions = True  # Disable Missions to stop all missions
 missions_all = False  # Exchanging, experience potions, enchanting, friend currency
 
 
-portal = True  # Disable Portal to stop checking it altogether
+portal = False  # Disable Portal to stop checking it altogether
 trials = True
 otherworld = True
 otherworld_bash = True  # This will keep fighting until the otherworld is complete
 
 # Clan Castle
-clan_castle = True  # Disable all clan castle features
-treasury = True
-clan_store = True
-praises = True
-caravan = True
-altar = True
-brawls = True
-wheel = True
-raids = True
+clan_castle = False  # Disable all clan castle features
+treasury = False
+clan_store = False
+praises = False
+caravan = False
+altar = False
+brawls = False
+wheel = False
+raids = False
 
 # Hero upgrades
-skill_points = True  # Add skill points, takes a while, so disable if no need
+skill_points = False  # Add skill points, takes a while, so disable if no need
 leveling = False  # To use this, set to true, it takes a while to scroll past all heroes, so disable if no need
 current_level = 86  # Set the level you wish to level heroes to
 elevating = False
