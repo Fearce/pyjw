@@ -200,7 +200,7 @@ def do_raids():
     time.sleep(1.5)
     battle_cave_go = pyautogui.locateOnScreen('imgs/battle_cave_go.png', confidence=0.9)
     for x in range(0, 7):
-        no_clan_attempts = pyautogui.locateOnScreen('imgs/no_clan_attempts.png', confidence=0.98)
+        no_clan_attempts = pyautogui.locateOnScreen('imgs/no_clan_attempts.png', confidence=0.99)
         if no_clan_attempts is not None:
             log("No more clan attempts")
             last_raids = datetime.datetime.now()
@@ -222,6 +222,8 @@ def do_raids():
             #click_on_box(pyautogui.locateOnScreen('imgs/battle_start.png', confidence=0.9))
             time.sleep(1)
             break
+    log("Seems no raid is available at the moment, escaping")
+    escape(1)
 
 last_wheel = datetime.datetime.now()
 if last_wheel.hour == 0:

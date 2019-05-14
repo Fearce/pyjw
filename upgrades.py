@@ -34,17 +34,17 @@ def check_upgrades():
                 #log("What now boss?")
                 #time.sleep(20)
 
-        for x in range(0, 60):
+        for x in range(0, 40):
             upgrade_elevate = pyautogui.locateOnScreen('imgs/upgrade_elevate.png', confidence=0.95)
             upgrade_equipment = pyautogui.locateOnScreen('imgs/upgrade_equipment.png', confidence=0.95)
             if upgrade_elevate is not None and settings.elevating:
                 click_on_box(upgrade_elevate)
                 do_upgrade()
-                break
+                #break
             if upgrade_equipment is not None and settings.equipping:
                 click_on_box(upgrade_equipment)
                 do_upgrade()
-                break
+                #break
             log(str(x))
             go_right()
             go_right()
@@ -85,7 +85,8 @@ def do_upgrade():
         click(464, 676)  # Elevate
         time.sleep(1)
         escape(3)
-        check_upgrades()
+        #check_upgrades()
+        return
 
     equipment_upgrade = pyautogui.locateOnScreen('imgs/equipment_upgrade.png', confidence=0.95)
     if equipment_upgrade is not None:
@@ -101,12 +102,14 @@ def do_upgrade():
             click(776, 418)  # Continue
             equipment_missing = pyautogui.locateOnScreen('imgs/equipment_missing.png', confidence=0.88)
             # To be continued
+        time.sleep(1)
         click(1030, 723)  # Assemble
         time.sleep(3.5)
         click(335, 720)  # Equip
         time.sleep(1)
         escape(1)
-        check_upgrades()
+        #check_upgrades()
+        return
 
     equipment_give = pyautogui.locateOnScreen('imgs/equipment_give.png', confidence=0.95)
     if equipment_give is not None:
@@ -116,5 +119,6 @@ def do_upgrade():
         click(816, 623)  # Equip
         time.sleep(3.5)
         escape(1)
-        check_upgrades()
+        #check_upgrades()
+        return
 

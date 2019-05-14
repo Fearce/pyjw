@@ -187,18 +187,18 @@ def do_work():
     if settings.current_state == "Clan Castle":
         if settings.treasury:
             clan_castle_func(check_treasury)
+        if settings.clan_store:
+            clan_castle_func(check_clan_store)
         if settings.caravan:
             clan_castle_func(check_caravan)
         if settings.praises:
             clan_castle_func(check_praises)
-        if settings.raids:
-            clan_castle_func(check_raids)
         if settings.wheel:
             clan_castle_func(check_wheel_of_fortune)
         if settings.altar:
             clan_castle_func(check_altar)
-        if settings.clan_store:
-            clan_castle_func(check_clan_store)
+        if settings.raids:
+            clan_castle_func(check_raids)
         escape(1)
 
     if settings.current_state == "Trial of Death":
