@@ -88,7 +88,7 @@ def check_otherworld():
     if not settings.otherworld:
         return
     time.sleep(2)
-    otherworld_ready = pyautogui.locateOnScreen('imgs/otherworld_ready2.png', confidence=0.91)
+    otherworld_ready = pyautogui.locateOnScreen('imgs/otherworld_ready2.png', confidence=0.97)
     if otherworld_ready is not None:
         log("Clicking otherworld")
         click_on_box(otherworld_ready)

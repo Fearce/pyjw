@@ -76,6 +76,7 @@ def refresh_cave():
 
 def do_cave_fights():
     # cave fights cave_fights_ready, 889, 509
+    time.sleep(2)
     log("Checking cave fights")
     cave_buy = pyautogui.locateOnScreen('imgs/cave_buy.png', confidence=0.8)
     cave_no_attempts = pyautogui.locateOnScreen('imgs/cave_no_attempts.png', confidence=0.85)

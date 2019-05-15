@@ -13,7 +13,7 @@ from desktopmagic.screengrab_win32 import (
     getRectAsImage, getDisplaysAsImages)
 import pytesseract
 
-from helpers import wait_on_img
+from helpers import wait_on_img, click_on_box, click
 
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
@@ -254,6 +254,19 @@ def campaign_chapters2():
                 coords = click_on_image(battle_start, "Start battle!", 0.9)
                 time.sleep(2)
                 pyautogui.click(coords)
+                ask_for_food = pyautogui.locateOnScreen('imgs/in_cave.png', confidence=0.85)
+                if ask_for_food is not None:
+                    click_on_box(ask_for_food)
+                    time.sleep(2)
+                    click(540, 655)
+                    time.sleep(1)
+                    click(900, 662)
+                    time.sleep(3)
+                    click(891, 95)
+                    time.sleep(1)
+                    import helpers
+                    helpers.escape(4)
+                    return
 
             import helpers
             helpers.escape(2)
