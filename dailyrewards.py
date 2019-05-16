@@ -21,6 +21,7 @@ def click_daily_rewards2():
 def click_daily_rewards():
     if not settings.daily_rewards:
         return
+    log("Clicking all the rewards")
     pyautogui.click(settings.game_x + 320 - 138, settings.game_y + 485 - 146)  # click each reward once
     time.sleep(0.2)
     pyautogui.click(settings.game_x + 320 - 138, settings.game_y + 485 - 146)  # click each reward once

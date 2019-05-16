@@ -82,3 +82,284 @@
 14:06:06 Unknown game state, trying to correct
 14:06:07 Cycle done, waiting 1 seconds and restarting
 14:06:08 Bot disabled
+14:55:04 Press CTRL-ALT-Delete to quit or close the program.
+14:55:04 Game window found at 34, 42
+14:55:04 Selecting game window
+14:55:37 Press CTRL-ALT-Delete to quit or close the program.
+14:55:41 Bot enabled
+14:55:41 Press CTRL-ALT-Delete to quit or close the program.
+14:55:41 Game window found at 7, 47
+14:55:41 Selecting game window
+14:55:43 Current state is: Daily Rewards
+14:55:43 Daily rewards
+14:55:43 Cycle done, waiting 1 seconds and restarting
+14:55:45 Current state is: Daily Rewards
+14:55:45 Daily rewards
+14:55:45 Cycle done, waiting 1 seconds and restarting
+14:55:47 Current state is: Daily Rewards
+14:55:47 Daily rewards
+14:55:47 Cycle done, waiting 1 seconds and restarting
+14:55:49 Current state is: Daily Rewards
+14:55:49 Daily rewards
+14:55:49 Cycle done, waiting 1 seconds and restarting
+14:55:51 Current state is: Daily Rewards
+14:55:51 Daily rewards
+14:55:51 Cycle done, waiting 1 seconds and restarting
+14:55:53 Current state is: Daily Rewards
+14:55:53 Daily rewards
+14:55:53 Cycle done, waiting 1 seconds and restarting
+14:55:55 Current state is: Daily Rewards
+14:55:55 Daily rewards
+14:55:55 Cycle done, waiting 1 seconds and restarting
+14:55:56 Bot disabled
+14:58:16 Press CTRL-ALT-Delete to quit or close the program.
+14:58:21 Bot enabled
+14:58:21 Press CTRL-ALT-Delete to quit or close the program.
+14:58:21 Game window found at 10, 41
+14:58:21 Selecting game window
+14:58:22 Current state is: Daily Rewards
+14:58:22 Daily rewards
+14:58:22 Cycle done, waiting 1 seconds and restarting
+14:58:24 Current state is: Daily Rewards
+14:58:24 Daily rewards
+14:58:24 Cycle done, waiting 1 seconds and restarting
+14:58:27 Current state is: Daily Rewards
+14:58:27 Daily rewards
+14:58:27 Cycle done, waiting 1 seconds and restarting
+14:58:27 Bot disabled
+15:03:08 Press CTRL-ALT-Delete to quit or close the program.
+15:03:13 Bot enabled
+15:03:13 Press CTRL-ALT-Delete to quit or close the program.
+15:03:13 Game window found at 10, 41
+15:03:13 Selecting game window
+15:03:16 Heroes button located
+15:03:16 Current state is: Home Screen
+15:03:16 Upgrades
+15:03:16 Arena check
+15:03:18 Heroes button located
+15:03:18 Game state is : Home Screen
+15:03:19 Checking Arena
+15:03:25 Current state : Home Screen
+15:03:25 Arena battles available. Doing Battle!
+15:03:28 1: 39333. 2: 37000. 3: 36509.
+15:03:28 Lowest power found: 36509. Entering hero select.
+15:03:30 Deselecting Arena heroes
+15:03:32 Selecting heroes for Arena
+15:03:32 Selecting Arena heroes
+15:03:34 Entering battle
+15:03:37 Bot disabled
+15:03:37 trial_of_death check
+15:03:42 Wrong state, escaping
+15:03:42 caves check
+15:03:42 Hero Select
+15:03:50 Speeding up battle
+15:03:52 Speeding up battle
+15:03:53 Wrong state, escaping
+15:03:53 missions check
+15:06:10 Press CTRL-ALT-Delete to quit or close the program.
+15:06:11 Bot enabled
+15:06:11 Press CTRL-ALT-Delete to quit or close the program.
+15:06:11 Game window found at 10, 41
+15:06:11 Selecting game window
+15:06:14 Heroes button located
+15:06:14 Current state is: Home Screen
+15:06:14 Upgrades
+15:06:14 Arena check
+15:06:16 Heroes button located
+15:06:16 Game state is : Home Screen
+15:06:18 trial_of_death check
+15:06:20 Heroes button located
+15:06:20 Game state is : Home Screen
+15:06:20 Checking Trial of Death
+15:06:20 Trial of Death ready
+15:06:25 3/3 trials left, entering hero select
+15:06:31 Bot disabled
+15:06:33 Selecting heroes for Trial 1
+15:06:33 Selecting ToD heroes
+15:06:33 Looking for Elf_Maiden_Alisia
+15:06:34 Elf_Maiden_Alisia found.
+15:06:35 Looking for Ninja_Meego
+15:06:37 Looking for Ninja_Meego
+15:09:23 Press CTRL-ALT-Delete to quit or close the program.
+15:09:25 Bot enabled
+15:09:37 Bot disabled
+15:09:40 Bot enabled
+15:09:54 Press CTRL-ALT-Delete to quit or close the program.
+15:09:56 Bot enabled
+15:11:00 Press CTRL-ALT-Delete to quit or close the program.
+15:11:02 Bot enabled
+15:12:47 Press CTRL-ALT-Delete to quit or close the program.
+15:12:49 Bot enabled
+15:16:18 Press CTRL-ALT-Delete to quit or close the program.
+15:16:20 Bot enabled
+15:16:20 Press CTRL-ALT-Delete to quit or close the program.
+15:16:20 Game window found at 10, 41
+15:16:20 Selecting game window
+15:16:22 Heroes button located
+15:16:22 Current state is: Home Screen
+15:16:22 Upgrades
+15:16:23 Arena check
+15:16:25 Heroes button located
+15:16:25 Game state is : Home Screen
+15:16:26 Checking Arena
+15:16:29 Bot disabled
+15:16:31 Current state : Home Screen
+15:16:31 Arena battles available. Doing Battle!
+15:16:34 1: 34501. 2: 39790. 3: 18464.
+15:16:34 Lowest power found: 18464. Entering hero select.
+15:16:36 Deselecting Arena heroes
+15:16:38 Selecting heroes for Arena
+15:16:38 Selecting Arena heroes
+15:16:40 Entering battle
+15:16:43 trial_of_death check
+15:16:46 Wrong state, escaping
+15:16:46 caves check
+15:16:46 Arena
+15:22:23 Press CTRL-ALT-Delete to quit or close the program.
+15:22:24 Bot enabled
+15:22:28 Bot disabled
+15:22:36 Bot enabled
+15:22:40 Bot disabled
+15:23:44 Press CTRL-ALT-Delete to quit or close the program.
+15:23:45 Bot enabled
+15:25:08 Press CTRL-ALT-Delete to quit or close the program.
+15:25:09 Bot enabled
+15:25:09 Press CTRL-ALT-Delete to quit or close the program.
+15:25:09 Game window found at 10, 41
+15:25:09 Selecting game window
+15:25:11 Heroes button located
+15:25:11 Current state is: Home Screen
+15:25:11 Upgrades
+15:25:12 Arena check
+15:25:13 Heroes button located
+15:25:13 Game state is : Home Screen
+15:25:15 Checking Arena
+15:25:16 Bot disabled
+15:25:20 Current state : Home Screen
+15:25:20 Arena battles available. Doing Battle!
+15:25:22 1: 34501. 2: 39790. 3: 18464.
+15:25:22 Lowest power found: 18464. Entering hero select.
+15:25:24 Deselecting Arena heroes
+15:25:26 Selecting heroes for Arena
+15:25:26 Selecting Arena heroes
+15:25:28 Entering battle
+15:25:31 trial_of_death check
+15:25:38 Speeding up battle
+15:25:40 Speeding up battle
+15:25:40 Wrong state, escaping
+15:25:41 caves check
+15:25:41 In Battle
+15:25:45 Wrong state, escaping
+15:25:46 missions check
+15:25:51 Wrong state, escaping
+15:25:51 portal check
+15:25:54 Wrong state, escaping
+15:25:54 clan_castle check
+15:25:56 Heroes button located
+15:25:56 Game state is : Home Screen
+15:25:57 Cycle done, waiting 1 seconds and restarting
+15:29:00 Press CTRL-ALT-Delete to quit or close the program.
+15:29:05 Bot enabled
+15:29:05 Press CTRL-ALT-Delete to quit or close the program.
+15:29:06 Game window found at 10, 41
+15:29:06 Selecting game window
+15:29:08 Heroes button located
+15:29:08 Current state is: Home Screen
+15:29:08 Upgrades
+15:29:08 Arena check
+15:29:10 Heroes button located
+15:29:10 Game state is : Home Screen
+15:29:12 trial_of_death check
+15:29:14 Heroes button located
+15:29:14 Game state is : Home Screen
+15:29:14 Checking Trial of Death
+15:29:14 Trial of Death ready
+15:29:19 3/3 trials left, entering hero select
+15:29:27 Selecting heroes for Trial 1
+15:29:27 Selecting ToD heroes
+15:29:27 Looking for Elf_Maiden_Alisia
+15:29:27 Elf_Maiden_Alisia found.
+15:29:28 Looking for Ninja_Meego
+15:29:30 Looking for Ninja_Meego
+15:29:31 Looking for Ninja_Meego
+15:29:31 Ninja_Meego found.
+15:29:33 Looking for Tagath_the_Potionbrewer
+15:29:33 Tagath_the_Potionbrewer found.
+15:29:34 Looking for Norak_the_Virtuous
+15:29:34 Norak_the_Virtuous found.
+15:29:35 Looking for General_Kurbatov
+15:29:36 General_Kurbatov found.
+15:29:38 caves check
+15:29:38 Home Screen
+15:29:42 Wrong state, escaping
+15:29:42 missions check
+15:29:49 Speeding up battle
+15:29:51 Speeding up battle
+15:29:51 Wrong state, escaping
+15:29:52 portal check
+15:29:57 Wrong state, escaping
+15:29:58 clan_castle check
+15:30:03 Wrong state, escaping
+15:30:03 Cycle done, waiting 1 seconds and restarting
+15:30:09 Current state is: In Battle
+15:30:09 Cycle done, waiting 1 seconds and restarting
+15:30:16 Current state is: In Battle
+15:30:16 Cycle done, waiting 1 seconds and restarting
+15:30:22 Current state is: In Battle
+15:30:22 Cycle done, waiting 1 seconds and restarting
+15:30:28 Current state is: In Battle
+15:30:28 Cycle done, waiting 1 seconds and restarting
+15:30:34 Current state is: In Battle
+15:30:34 Cycle done, waiting 1 seconds and restarting
+15:30:39 Current state is: Victory
+15:30:39 Victory
+15:30:41 Cycle done, waiting 1 seconds and restarting
+15:30:45 Current state is: Trial of Death
+15:30:45 In trial
+15:30:45 3/3 trials left, entering hero select
+15:31:05 Cycle done, waiting 1 seconds and restarting
+15:31:11 Current state is: Victory
+15:31:11 Victory
+15:31:12 Cycle done, waiting 1 seconds and restarting
+15:31:16 Current state is: Trial of Death
+15:31:16 In trial
+15:31:17 2/3 trials left, entering hero select
+15:31:20 Trial not ready, escaping
+15:31:24 Cycle done, waiting 1 seconds and restarting
+15:31:30 Current state is: Working
+15:31:30 Unknown game state, trying to correct
+15:31:31 Cycle done, waiting 1 seconds and restarting
+15:31:34 Heroes button located
+15:31:34 Current state is: Home Screen
+15:31:34 Upgrades
+15:31:34 Arena check
+15:31:35 Heroes button located
+15:31:35 Game state is : Home Screen
+15:31:37 Checking Arena
+15:31:42 Current state : Home Screen
+15:31:42 Arena battles available. Doing Battle!
+15:31:44 1: 38533. 2: 39189. 3: 34591.
+15:31:44 Lowest power found: 34591. Entering hero select.
+15:31:46 Deselecting Arena heroes
+15:31:48 Selecting heroes for Arena
+15:31:48 Selecting Arena heroes
+15:31:50 Entering battle
+15:31:53 trial_of_death check
+15:32:00 Speeding up battle
+15:32:01 Speeding up battle
+15:32:02 Wrong state, escaping
+15:32:03 caves check
+15:32:03 In Battle
+15:32:08 Wrong state, escaping
+15:32:08 missions check
+15:32:13 Wrong state, escaping
+15:32:14 portal check
+15:32:19 Wrong state, escaping
+15:32:19 clan_castle check
+15:32:22 Wrong state, escaping
+15:32:22 Arena state
+15:32:23 Current state : Arena
+15:32:23 Arena battles available. Doing Battle!
+15:32:37 Bot disabled, wait for current cycle to be done or force-quit the program
+15:32:42 Escaping arena check
+15:32:42 Cycle done, waiting 1 seconds and restarting

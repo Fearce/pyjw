@@ -25,8 +25,9 @@
             <property name="font">TkDefaultFont</property>
             <property name="height">10</property>
             <property name="relief">flat</property>
+            <property name="state">normal</property>
             <property name="text" translatable="yes">Initializing</property>
-            <property name="width">50</property>
+            <property name="width">65</property>
             <layout>
               <property name="column">0</property>
               <property name="propagate">True</property>
@@ -49,7 +50,7 @@
       </object>
     </child>
     <child>
-      <object class="tk.Button" id="start_stop">
+      <object class="tk.Button" id="btn_start_stop">
         <property name="anchor">n</property>
         <property name="command">start_stop</property>
         <property name="compound">top</property>

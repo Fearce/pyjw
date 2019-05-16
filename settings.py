@@ -13,7 +13,7 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
                    "Assassin_Torus", "Fire_Eril", "Crystallon_Rarh"]
 
 
-settings_all = False  # If this is set to true everything is enabled
+#settings_all = False  # If this is set to true everything is enabled
 #### Enable / disable features
 arena = True
 campaign = False

@@ -133,6 +133,11 @@ def detect_game_state():
         settings.current_state = "Working"
 
 
+def escape_on_disable(func):
+    if not settings.enabled:
+        return
+    else:
+        func()
 
 
 def home_screen_func(func):
@@ -144,7 +149,7 @@ def home_screen_func(func):
         #do_work()
     else:
         log("Game state is : " + settings.current_state)
-        func()
+        escape_on_disable(func)
         time.sleep(1)
 
 
@@ -156,7 +161,7 @@ def clan_castle_func(func):
         return
         #do_work()
     else:
-        func()
+        escape_on_disable(func)
         time.sleep(1)
 
 
@@ -167,11 +172,11 @@ def do_work():
     global fail_count
     if settings.current_state == "Cave Battles":
         log("Cave fight")
-        do_cave_fights()
+        escape_on_disable(do_cave_fights)
 
     if settings.current_state == "Cave":
         log("Getting cave gold")
-        get_cave_gold()
+        escape_on_disable(get_cave_gold)
         click(888, 500)
         escape(1)
 
@@ -179,11 +184,11 @@ def do_work():
 
     if settings.current_state == "Trial Win":
         log("Trial finish")
-        finish_trial()
+        escape_on_disable(finish_trial)
 
     if settings.current_state == "Daily Rewards":
         log("Daily rewards")
-        click_daily_rewards()
+        escape_on_disable(click_daily_rewards)
 
     if settings.current_state == "Clan Castle":
         if settings.treasury:
@@ -204,7 +209,7 @@ def do_work():
 
     if settings.current_state == "Trial of Death":
         log("In trial")
-        do_trial_of_death()
+        escape_on_disable(do_trial_of_death)
 
     if settings.current_state == "Hero Select":
         log("Escaping hero select")
@@ -353,8 +358,8 @@ def program():
     global main_loop, args
     try:
         log('Press CTRL-ALT-Delete to quit or close the program.')
-        settings.game_x, settings.game_y = locate_game_window()
         if settings.enabled:
+            settings.game_x, settings.game_y = locate_game_window()
             main_loop, args = main_loop("Start")
         else:
             return
