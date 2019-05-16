@@ -1,3 +1,4 @@
+import handlers
 from campaign import check_campaign
 from clancastle import check_treasury, check_caravan, check_praises, check_raids, check_wheel_of_fortune, check_altar, \
     check_clan_store, check_clan_castle, do_raids
@@ -342,8 +343,7 @@ class Application:
 
         # Configure callbacks
         callbacks = {
-            #'attack_start': attack_start,
-
+            'start_stop': handlers.start_stop,
         }
 
         builder.connect_callbacks(callbacks)
@@ -356,10 +356,12 @@ def program():
         settings.game_x, settings.game_y = locate_game_window()
         if settings.enabled:
             main_loop, args = main_loop("Start")
+        else:
+            return
         while True:
-            if settings.enabled:
-                main_loop, args = main_loop(*args)
-            time.sleep(0.1)
+            if not settings.enabled:
+                return
+            main_loop, args = main_loop(*args)
     except KeyboardInterrupt:
         print('\n')
     except pyautogui.FailSafeException:
@@ -367,7 +369,7 @@ def program():
 
 
 def start_program():
-    time.sleep(2)  # Wait a few secs to load GUI
+    time.sleep(1)  # Wait a few secs to load GUI
     program()
 
 

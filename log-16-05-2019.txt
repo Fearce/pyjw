@@ -5,3 +5,80 @@
 13:45:09 Game window not found
 13:45:23 Press CTRL-ALT-Delete to quit or close the program.
 13:45:24 Game window not found
+13:46:17 Press CTRL-ALT-Delete to quit or close the program.
+13:46:18 Game window not found
+13:57:20 Press CTRL-ALT-Delete to quit or close the program.
+13:57:21 Game window not found
+13:58:13 Press CTRL-ALT-Delete to quit or close the program.
+13:58:14 Game window not found
+13:58:36 Press CTRL-ALT-Delete to quit or close the program.
+13:58:37 Game window not found
+13:59:05 Press CTRL-ALT-Delete to quit or close the program.
+13:59:05 Game window not found
+14:00:00 Press CTRL-ALT-Delete to quit or close the program.
+14:00:01 Game window not found
+14:00:02 Pressed button
+14:00:02 Bot disabled
+14:00:32 Press CTRL-ALT-Delete to quit or close the program.
+14:00:33 Game window not found
+14:00:34 Pressed button
+14:00:34 Bot disabled
+14:00:38 Pressed button
+14:00:38 Bot disabled
+14:00:40 Pressed button
+14:00:40 Bot disabled
+14:00:48 Pressed button
+14:00:48 Bot disabled
+14:01:22 Press CTRL-ALT-Delete to quit or close the program.
+14:01:22 Game window not found
+14:01:23 Pressed button
+14:01:23 Bot enabled
+14:01:25 Pressed button
+14:01:25 Bot disabled
+14:01:26 Pressed button
+14:01:26 Bot enabled
+14:01:28 Pressed button
+14:01:28 Bot disabled
+14:02:15 Press CTRL-ALT-Delete to quit or close the program.
+14:02:15 Game window not found
+14:02:16 Pressed button
+14:02:16 Bot enabled
+14:02:18 Pressed button
+14:02:18 Bot disabled
+14:02:20 Pressed button
+14:02:20 Bot enabled
+14:02:21 Pressed button
+14:02:21 Bot disabled
+14:03:10 Press CTRL-ALT-Delete to quit or close the program.
+14:03:10 Game window not found
+14:03:15 Bot enabled
+14:03:15 Press CTRL-ALT-Delete to quit or close the program.
+14:03:15 Game window found at 46, 53
+14:03:15 Selecting game window
+14:03:21 Current state is: Working
+14:03:21 Unknown game state, trying to correct
+14:03:22 Cycle done, waiting 1 seconds and restarting
+14:04:23 Press CTRL-ALT-Delete to quit or close the program.
+14:04:23 Game window not found
+14:04:26 Bot enabled
+14:04:26 Press CTRL-ALT-Delete to quit or close the program.
+14:04:27 Game window found at 34, 42
+14:04:27 Selecting game window
+14:04:32 Current state is: Working
+14:04:32 Unknown game state, trying to correct
+14:04:33 Cycle done, waiting 1 seconds and restarting
+14:04:35 Bot disabled
+14:04:39 Current state is: Working
+14:04:39 Unknown game state, trying to correct
+14:04:41 Cycle done, waiting 1 seconds and restarting
+14:05:43 Press CTRL-ALT-Delete to quit or close the program.
+14:05:43 Game window found at 34, 42
+14:05:43 Selecting game window
+14:06:00 Bot enabled
+14:06:00 Press CTRL-ALT-Delete to quit or close the program.
+14:06:00 Game window found at 34, 42
+14:06:00 Selecting game window
+14:06:06 Current state is: Working
+14:06:06 Unknown game state, trying to correct
+14:06:07 Cycle done, waiting 1 seconds and restarting
+14:06:08 Bot disabled
