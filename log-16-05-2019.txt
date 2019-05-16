@@ -2257,3 +2257,53 @@
 21:00:06 Game state is : Home Screen
 21:00:07 Upgrades
 21:00:07 Cycle done, waiting 1 seconds and restarting
+21:03:38 Bot enabled
+21:03:38 Press CTRL-ALT-Delete to quit or close the program.
+21:03:38 Game window found at 2, 35
+21:03:38 Selecting game window
+21:03:41 Heroes button located
+21:03:41 Current state is: Home Screen
+21:03:42 campaign check
+21:03:44 Heroes button located
+21:03:44 Game state is : Home Screen
+21:03:45 Upgrades
+21:03:45 Cycle done, waiting 1 seconds and restarting
+21:03:48 Heroes button located
+21:03:48 Current state is: Home Screen
+21:03:48 campaign check
+21:03:50 Heroes button located
+21:03:51 Game state is : Home Screen
+21:03:52 Upgrades
+21:03:52 Cycle done, waiting 1 seconds and restarting
+21:03:55 Heroes button located
+21:03:55 Current state is: Home Screen
+21:03:55 Bot disabled, wait for current cycle to be done or force-quit the program
+21:03:55 campaign check
+21:04:03 Press CTRL-ALT-Delete to quit or close the program.
+21:04:04 Enabling all settings
+21:04:04 Disabling all settings
+21:04:07 Bot enabled
+21:04:07 Press CTRL-ALT-Delete to quit or close the program.
+21:04:07 Game window found at 2, 35
+21:04:07 Selecting game window
+21:04:10 Heroes button located
+21:04:10 Current state is: Home Screen
+21:04:10 campaign check
+21:04:12 Heroes button located
+21:04:12 Game state is : Home Screen
+21:04:12 Checking Campaign
+21:04:13 Current food is: 207
+21:04:13 Trying to spend food
+21:04:15 Checking Ninja_Meego
+21:04:19 Current food is: 207
+21:04:31 Checking Hanna_the_Inquisitor
+21:04:35 Current food is: 207
+21:05:02 Upgrades
+21:05:02 Cycle done, waiting 1 seconds and restarting
+21:05:10 Current state is: Working
+21:05:10 Unknown game state, trying to correct
+21:05:12 Cycle done, waiting 1 seconds and restarting
+21:05:17 Bot disabled, wait for current cycle to be done or force-quit the program
+21:05:19 Current state is: Working
+21:05:19 Unknown game state, trying to correct
+21:05:21 Cycle done, waiting 1 seconds and restarting

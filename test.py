@@ -13,7 +13,7 @@ from tournament import check_tournament
 from trialofdeath import check_trial_of_death, do_trial_of_death, finish_trial
 from coliseum import check_coliseum, do_coliseum
 from arena import check_arena, do_arena_battle
-from chests import check_chests
+from chests import check_chests, locked_treasure
 from friends import check_friends
 from mailbox import check_mailbox
 from events import check_events
@@ -125,6 +125,11 @@ def detect_game_state():
         speed_up_battle()
         return
 
+    locked_treasure = pyautogui.locateOnScreen('imgs/locked_treasure.png', confidence=0.95)
+    if locked_treasure is not None:
+        settings.current_state = "Locked Treasure"
+        return
+
     clan_raids = pyautogui.locateOnScreen('imgs/clan_raids.png', confidence=0.95)
     if clan_raids is not None:
         settings.current_state = "Clan Raids"
@@ -173,6 +178,10 @@ def do_work():
     if settings.current_state == "Cave Battles":
         log("Cave fight")
         escape_on_disable(do_cave_fights)
+
+    if settings.current_state == "Locked Treasure":
+        # log("Opening Treasure")
+        escape_on_disable(locked_treasure)
 
     if settings.current_state == "Cave":
         log("Getting cave gold")

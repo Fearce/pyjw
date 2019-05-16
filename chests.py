@@ -12,6 +12,11 @@ else:
     last_check = last_check.replace(hour=last_check.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 
+def locked_treasure():
+    log("Opening treasure")
+    # TODO Click on locked treasures, escape if didnt work
+    
+
 def check_chests():
     global last_check
     if not settings.chests:
