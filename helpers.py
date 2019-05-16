@@ -116,9 +116,20 @@ def click_on_box(box):
     time.sleep(0.5)
 
 
-def log(msg):
-    print(str(datetime.datetime.now().strftime("%H:%M:%S")) + ": " + msg)
+def current_time():  # Makes sure the log frame isn't flooded and returns current time.
+    log_count = int(settings.app.builder.get_object('text_logframe').index('end-1c').split('.')[0])
+    if log_count > 9:
+        settings.app.builder.get_object('text_logframe').delete("end-1c linestart", "end")
+    return datetime.datetime.now().strftime("%H:%M:%S")
 
+
+def log(msg):
+    log_message = current_time() + " " + msg + "\n"
+    print(log_message)
+    log_file_name = "log-" + datetime.datetime.now().strftime("%d-%m-%Y") + ".txt"
+    log_file = open(log_file_name, 'a+')
+    log_file.write(log_message)
+    settings.app.builder.get_object('text_logframe').insert('1.0', log_message)
 
 def get_value_from_rect(x1, y1, x2, y2):
     image = getRectAsImage((int(x1), int(y1), int(x2), int(y2)))

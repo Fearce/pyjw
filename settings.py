@@ -12,6 +12,7 @@ tod_comp4 = ["Healer_Cassandra", "Necromancer_Khardur", "Ronald_the_Inquisitor",
 campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Grog",
                    "Assassin_Torus", "Fire_Eril", "Crystallon_Rarh"]
 
+
 settings_all = False  # If this is set to true everything is enabled
 #### Enable / disable features
 arena = True
@@ -60,6 +61,8 @@ clan_heroes = ["Superslug_Caliban", "Amok_the_Prince_of_Naga"]
 #### End of settings
 
 # Game variables
+enabled = False
+app = None
 current_state = "Offline"
 game_x = 0
 game_y = 0

@@ -329,15 +329,58 @@ def main_loop(args):
     return main_loop, (args,)
 
 
-# Init
-if __name__ == '__main__':
+class Application:
+    def __init__(self, master):
+        # 1: Create a builder
+        self.builder = builder = pygubu.Builder()
+
+        # 2: Load an ui file
+        builder.add_from_file('pyjw.ui')
+
+        # 3: Create the widget using a master as parent
+        self.mainwindow = builder.get_object('jw_frame', master)
+
+        # Configure callbacks
+        callbacks = {
+            #'attack_start': attack_start,
+
+        }
+
+        builder.connect_callbacks(callbacks)
+
+
+def program():
+    global main_loop, args
     try:
         log('Press CTRL-ALT-Delete to quit or close the program.')
         settings.game_x, settings.game_y = locate_game_window()
-        main_loop, args = main_loop("Start")
+        if settings.enabled:
+            main_loop, args = main_loop("Start")
         while True:
-            main_loop, args = main_loop(*args)
+            if settings.enabled:
+                main_loop, args = main_loop(*args)
+            time.sleep(0.1)
     except KeyboardInterrupt:
         print('\n')
     except pyautogui.FailSafeException:
         log("Stopping")
+
+
+def start_program():
+    time.sleep(2)  # Wait a few secs to load GUI
+    program()
+
+
+# Init
+if __name__ == '__main__':
+    sys.setrecursionlimit(100000)
+    threading.stack_size(200000000)
+    thread = threading.Thread(target=start_program)
+    thread.start()
+    root = tkinter.Tk()
+    settings.app = Application(root)
+    root.title("Juggernaut Wars Bot")
+    # print(app.builder.get_variable('attack_status'))
+    # test_variable()
+    # print(app.builder.get_variable('attack_status'))
+    root.mainloop()

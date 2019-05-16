@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="tk.Frame" id="jw_frame">
+    <property name="height">500</property>
+    <property name="width">500</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+    </layout>
+    <child>
+      <object class="ttk.Frame" id="jw_logframe">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+          <property name="sticky">sw</property>
+        </layout>
+        <child>
+          <object class="tk.Text" id="text_logframe">
+            <property name="cursor">arrow</property>
+            <property name="exportselection">false</property>
+            <property name="font">TkDefaultFont</property>
+            <property name="height">10</property>
+            <property name="relief">flat</property>
+            <property name="text" translatable="yes">Initializing</property>
+            <property name="width">50</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+              <property name="sticky">sw</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
