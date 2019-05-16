@@ -44,7 +44,7 @@ def check_treasury():
     global last_treasury
     if not settings.treasury:
         return
-    if delay_next_check(59, last_treasury):
+    if delay_next_check(2, last_treasury):
         return
     last_treasury = datetime.datetime.now()
     log("Checking Treasury.")
@@ -84,7 +84,7 @@ def check_caravan():
     global last_caravan
     if not settings.caravan:
         return
-    if delay_next_check(59, last_caravan):
+    if delay_next_check(2, last_caravan):
         return
     last_caravan = datetime.datetime.now()
     log("Checking Caravan.")
@@ -125,7 +125,7 @@ def check_praises():
     global last_praises
     if not settings.praises:
         return
-    if delay_next_check(59, last_praises):
+    if delay_next_check(2, last_praises):
         return
     last_praises = datetime.datetime.now()
     log("Checking Praises.")

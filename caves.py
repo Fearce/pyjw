@@ -17,7 +17,7 @@ def check_cave():
     if not settings.caves:
         return
     # delay_msg = "Checked skillpoints at " + str(last_check) + ". Waiting until 30 minutes has passed"
-    if delay_next_check(6, last_check):
+    if delay_next_check(2, last_check):
         return
     last_check = datetime.datetime.now()
 
@@ -95,55 +95,65 @@ def do_cave_fights():
         cave_battle_go = pyautogui.locateOnScreen('imgs/cave_battle_go2.png', confidence=0.8)
     if cave_battle_go is not None:
         log("Going")
+        cave_fight(cave_battle_go)
 
-        power1 = get_value_from_rect(settings.game_x+635, settings.game_y+171-40, settings.game_x+720, settings.game_y+197-28)
-        power2 = get_value_from_rect(settings.game_x + 639, settings.game_y + 385-34, settings.game_x + 716, settings.game_y + 410-30)
-        power3 = get_value_from_rect(settings.game_x + 639, settings.game_y + 598-34, settings.game_x + 716, settings.game_y + 623-30)
-        log(power1)
-        log(power2)
-        log(power3)
-        powers = [power1,power2,power3]
-        for p in powers:
-            try:
-                if int(p) > settings.cave_max_power:
-                    log("Power " + str(p) + " is too high, searching for new opponent")
-                    click(1047, 670)
-                    time.sleep(4)
-                    #return
-            except ValueError:
-                if p == ". 0":
-                    log("0")
-                else:
-                    log("Error parsing power " + str(p))
 
-        #time.sleep(10)
-        cave_empty = pyautogui.locateOnScreen('imgs/cave_empty.png', confidence=0.8)
-        #if cave_empty is None:
-        #    log("Heroes full, going")
-        click_on_box(cave_battle_go)
-
-        time.sleep(2)
-        cave_empty = pyautogui.locateOnScreen('imgs/cave_empty.png', confidence=0.85)
-
-        while cave_empty is not None:
-            log("Picking hero for cave battle")
-            hero_red = pyautogui.locateOnScreen('imgs/hero_red.png', confidence=0.95)
-            if hero_red is None:
-                go_down()
-                time.sleep(1)
+def cave_fight(cave_battle_go):
+    time.sleep(2)
+    power1 = get_value_from_rect(settings.game_x + 635, settings.game_y + 171 - 40, settings.game_x + 720,
+                                 settings.game_y + 197 - 28)
+    power2 = get_value_from_rect(settings.game_x + 639, settings.game_y + 385 - 34, settings.game_x + 716,
+                                 settings.game_y + 410 - 30)
+    power3 = get_value_from_rect(settings.game_x + 639, settings.game_y + 598 - 34, settings.game_x + 716,
+                                 settings.game_y + 623 - 30)
+    log(power1)
+    log(power2)
+    log(power3)
+    powers = [power1, power2, power3]
+    for p in powers:
+        try:
+            if int(p) > settings.cave_max_power:
+                log("Power " + str(p) + " is too high, searching for new opponent")
+                click(1047, 670)
+                time.sleep(4)
+                cave_fight(cave_battle_go)
+                return
+        except ValueError:
+            if p == ". 0":
+                log("0")
             else:
-                click_on_box(hero_red)
-                time.sleep(1)
-            cave_empty = pyautogui.locateOnScreen('imgs/cave_empty.png', confidence=0.8)
-        time.sleep(1)
-        cave_battle_start = pyautogui.locateOnScreen('imgs/cave_battle.png', confidence=0.8)
-        if cave_battle_start is not None:
-            log("Starting cave battle.")
-            click_on_box(cave_battle_start)
-    #log("Cave battles done")
-    #escape(1)
+                log("Error parsing power " + str(p))
 
-    #escape(1)
+    # time.sleep(10)
+    cave_empty = pyautogui.locateOnScreen('imgs/cave_empty.png', confidence=0.8)
+    # if cave_empty is None:
+    #    log("Heroes full, going")
+    click_on_box(cave_battle_go)
+
+    time.sleep(2)
+    cave_empty = pyautogui.locateOnScreen('imgs/cave_empty.png', confidence=0.85)
+
+    while cave_empty is not None:
+        log("Picking hero for cave battle")
+        hero_red = pyautogui.locateOnScreen('imgs/hero_red.png', confidence=0.95)
+        if hero_red is None:
+            go_down()
+            time.sleep(1)
+        else:
+            click_on_box(hero_red)
+            time.sleep(1)
+        cave_empty = pyautogui.locateOnScreen('imgs/cave_empty.png', confidence=0.8)
+    time.sleep(1)
+    cave_battle_start = pyautogui.locateOnScreen('imgs/cave_battle.png', confidence=0.8)
+    if cave_battle_start is not None:
+        log("Starting cave battle.")
+        click_on_box(cave_battle_start)
+
+
+# log("Cave battles done")
+# escape(1)
+
+# escape(1)
 
 def get_cave_gold():
     cave_gold = pyautogui.locateOnScreen('imgs/cave_gold.png', confidence=0.9)

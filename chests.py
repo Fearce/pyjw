@@ -16,7 +16,7 @@ def check_chests():
     global last_check
     if not settings.chests:
         return
-    if delay_next_check(5, last_check):
+    if delay_next_check(2, last_check):
         return
     last_check = datetime.datetime.now()
     log("Checking Chests")

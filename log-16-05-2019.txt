@@ -1483,3 +1483,777 @@
 18:32:33 Checking Cave
 18:32:35 Cave button found, clicking
 18:32:40 Bot disabled, wait for current cycle to be done or force-quit the program
+18:33:29 Press CTRL-ALT-Delete to quit or close the program.
+18:33:34 Enabling all settings
+18:33:36 Bot enabled
+18:33:36 Press CTRL-ALT-Delete to quit or close the program.
+18:33:36 Game window found at 2, 38
+18:33:36 Selecting game window
+18:33:38 Heroes button located
+18:33:38 Current state is: Home Screen
+18:33:38 Arena check
+18:33:40 Heroes button located
+18:33:40 Game state is : Home Screen
+18:33:42 trial_of_death check
+18:33:44 Heroes button located
+18:33:44 Game state is : Home Screen
+18:33:44 Checking Trial of Death
+18:33:45 skill_points check
+18:33:47 Heroes button located
+18:33:47 Game state is : Home Screen
+18:33:47 Checking skill points
+18:33:54 6
+18:33:54 Distributing points
+18:33:54 distributing point 0
+18:33:55 hero is filled, checking next
+18:33:56 6
+18:33:56 distributing point 1
+18:33:57 hero is filled, checking next
+18:33:57 6
+18:33:57 distributing point 2
+18:33:59 hero is filled, checking next
+18:33:59 6
+18:33:59 distributing point 3
+18:34:00 hero is filled, checking next
+18:34:00 6
+18:34:00 distributing point 4
+18:34:02 hero is filled, checking next
+18:34:02 6
+18:34:02 distributing point 5
+18:34:03 hero is filled, checking next
+18:34:04 6
+18:34:04 distributing point 6
+18:34:05 hero is filled, checking next
+18:34:05 6
+18:34:05 distributing point 7
+18:34:06 hero is filled, checking next
+18:34:07 6
+18:34:07 distributing point 8
+18:34:08 hero is filled, checking next
+18:34:08 6
+18:34:08 distributing point 9
+18:34:10 hero is filled, checking next
+18:34:10 6
+18:34:10 distributing point 10
+18:34:11 hero is filled, checking next
+18:34:11 6
+18:34:11 distributing point 11
+18:34:13 adding point
+18:34:14 
+18:34:14 distributing point 12
+18:34:14 Tesseract error, waiting until next cycle
+18:34:14 Done distributing points
+18:34:16 coliseum check
+18:34:18 Heroes button located
+18:34:18 Game state is : Home Screen
+18:34:18 Checking Coliseum
+18:34:19 tournament check
+18:34:21 Heroes button located
+18:34:21 Game state is : Home Screen
+18:34:22 events check
+18:34:24 Heroes button located
+18:34:24 Game state is : Home Screen
+18:34:25 caves check
+18:34:25 Home Screen
+18:34:27 Heroes button located
+18:34:27 Game state is : Home Screen
+18:34:27 Checking Cave
+18:34:28 Cave button found, clicking
+18:34:48 Checking cave fights
+18:34:50 Clicking fight
+18:34:53 Going
+18:34:55 
+18:34:55 -
+18:34:55 -
+18:34:55 Error parsing power 
+18:34:55 Error parsing power -
+18:34:55 Error parsing power -
+18:35:00 Starting cave battle.
+18:35:03 Checking cave fights
+18:35:04 Clicking fight
+18:35:10 chests check
+18:35:16 Speeding up battle
+18:35:18 Speeding up battle
+18:35:19 Wrong state, escaping
+18:35:20 mailbox check
+18:35:25 Wrong state, escaping
+18:35:25 missions check
+18:35:28 Wrong state, escaping
+18:35:29 friends check
+18:35:30 Heroes button located
+18:35:30 Game state is : Home Screen
+18:35:30 Checking friends
+18:35:33 Looking for Friend Heart button
+18:35:36 Looking for Friend Heart button
+18:35:39 Looking for Friend Heart button
+18:35:42 Looking for Friend Heart button
+18:35:45 Looking for Friend Heart button
+18:35:48 Looking for Friend Heart button
+18:35:51 Looking for Friend Heart button
+18:35:54 Looking for Friend Heart button
+18:35:57 Looking for Friend Heart button
+18:36:00 Looking for Friend Heart button
+18:36:03 Looking for Friend Heart button
+18:36:06 Looking for Friend Heart button
+18:36:10 Looking for Friend Heart button
+18:36:15 portal check
+18:36:17 Heroes button located
+18:36:17 Game state is : Home Screen
+18:36:17 Checking portal
+18:36:19 Trial not available
+18:36:21 Otherworld not available
+18:36:23 campaign check
+18:36:24 Heroes button located
+18:36:24 Game state is : Home Screen
+18:36:24 Checking Campaign
+18:36:25 Current food is: 293
+18:36:25 Trying to spend food
+18:36:27 Checking Ninja_Meego
+18:36:31 Current food is: 293
+18:36:48 clan_castle check
+18:36:49 Heroes button located
+18:36:49 Game state is : Home Screen
+18:36:49 Checking Clan Castle.
+18:36:51 Looking for Clan Castle button
+18:36:54 Looking for Clan Castle button
+18:36:56 Looking for Clan Castle button
+18:36:59 Looking for Clan Castle button
+18:37:01 Looking for Clan Castle button
+18:37:04 Clan Castle button found, clicking
+18:37:06 Checking Treasury.
+18:37:14 Upgrades
+18:38:24 Reached bottom, leaving
+18:38:27 0
+18:38:30 1
+18:38:34 2
+18:38:38 3
+18:38:41 4
+18:40:26 Press CTRL-ALT-Delete to quit or close the program.
+18:40:33 Enabling all settings
+18:40:33 Bot enabled
+18:40:33 Press CTRL-ALT-Delete to quit or close the program.
+18:40:34 Game window found at 2, 38
+18:40:34 Selecting game window
+18:40:36 Heroes button located
+18:40:36 Current state is: Home Screen
+18:40:36 Arena check
+18:40:38 Heroes button located
+18:40:38 Game state is : Home Screen
+18:40:40 trial_of_death check
+18:40:42 Heroes button located
+18:40:42 Game state is : Home Screen
+18:40:42 Checking Trial of Death
+18:40:43 skill_points check
+18:40:45 Heroes button located
+18:40:45 Game state is : Home Screen
+18:40:45 Checking skill points
+18:40:52 6
+18:40:52 Distributing points
+18:40:52 distributing point 0
+18:40:53 hero is filled, checking next
+18:40:53 6
+18:40:53 distributing point 1
+18:40:55 hero is filled, checking next
+18:40:55 6
+18:40:55 distributing point 2
+18:41:01 Bot disabled, wait for current cycle to be done or force-quit the program
+20:33:10 Press CTRL-ALT-Delete to quit or close the program.
+20:33:15 Enabling all settings
+20:33:26 Bot enabled
+20:33:26 Press CTRL-ALT-Delete to quit or close the program.
+20:33:26 Game window found at 2, 35
+20:33:26 Selecting game window
+20:33:29 Heroes button located
+20:33:29 Current state is: Home Screen
+20:33:29 Arena check
+20:33:31 Heroes button located
+20:33:31 Game state is : Home Screen
+20:33:34 trial_of_death check
+20:33:36 Heroes button located
+20:33:36 Game state is : Home Screen
+20:33:36 Checking Trial of Death
+20:33:37 skill_points check
+20:33:39 Heroes button located
+20:33:39 Game state is : Home Screen
+20:33:40 Checking skill points
+20:33:47 15
+20:33:47 Distributing points
+20:33:47 distributing point 0
+20:33:48 hero is filled, checking next
+20:33:49 15
+20:33:49 distributing point 1
+20:33:50 Bot disabled, wait for current cycle to be done or force-quit the program
+20:33:50 hero is filled, checking next
+20:33:51 15
+20:33:51 distributing point 2
+20:33:52 hero is filled, checking next
+20:33:52 15
+20:33:52 distributing point 3
+20:33:54 hero is filled, checking next
+20:33:54 -
+20:33:54 distributing point 4
+20:33:54 Tesseract error, waiting until next cycle
+20:33:55 Done distributing points
+20:33:57 coliseum check
+20:33:59 Heroes button located
+20:33:59 Game state is : Home Screen
+20:34:00 tournament check
+20:34:02 Heroes button located
+20:34:02 Game state is : Home Screen
+20:34:03 events check
+20:34:05 Heroes button located
+20:34:05 Game state is : Home Screen
+20:34:06 caves check
+20:34:06 Home Screen
+20:34:08 Heroes button located
+20:34:08 Game state is : Home Screen
+20:34:09 chests check
+20:34:11 Heroes button located
+20:34:11 Game state is : Home Screen
+20:34:12 mailbox check
+20:34:14 Heroes button located
+20:34:14 Game state is : Home Screen
+20:34:15 missions check
+20:34:17 Heroes button located
+20:34:17 Game state is : Home Screen
+20:34:18 friends check
+20:34:20 Heroes button located
+20:34:20 Game state is : Home Screen
+20:34:21 portal check
+20:34:23 Heroes button located
+20:34:23 Game state is : Home Screen
+20:34:24 campaign check
+20:34:26 Heroes button located
+20:34:26 Game state is : Home Screen
+20:34:27 clan_castle check
+20:34:29 Heroes button located
+20:34:29 Game state is : Home Screen
+20:34:30 Upgrades
+20:34:30 Cycle done, waiting 1 seconds and restarting
+20:35:00 Bot enabled
+20:35:00 Press CTRL-ALT-Delete to quit or close the program.
+20:35:01 Game window found at 2, 35
+20:35:01 Selecting game window
+20:35:03 Heroes button located
+20:35:03 Current state is: Home Screen
+20:35:04 coliseum check
+20:35:06 Heroes button located
+20:35:06 Game state is : Home Screen
+20:35:06 Checking Coliseum
+20:35:07 events check
+20:35:09 Heroes button located
+20:35:09 Game state is : Home Screen
+20:35:11 caves check
+20:35:11 Home Screen
+20:35:13 Heroes button located
+20:35:13 Game state is : Home Screen
+20:35:13 Checking Cave
+20:35:15 Cave button found, clicking
+20:35:35 Checking cave fights
+20:35:37 Clicking fight
+20:35:43 Checking cave fights
+20:35:45 Clicking fight
+20:35:48 Going
+20:35:51 39857
+20:35:51 -
+20:35:51 -
+20:35:51 Power 39857 is too high, searching for new opponent
+20:35:55 Error parsing power -
+20:35:55 Error parsing power -
+20:36:00 Starting cave battle.
+20:36:03 chests check
+20:36:08 Wrong state, escaping
+20:36:09 mailbox check
+20:36:17 Speeding up battle
+20:36:19 Speeding up battle
+20:36:19 Wrong state, escaping
+20:36:20 missions check
+20:36:26 Wrong state, escaping
+20:36:26 friends check
+20:36:33 Wrong state, escaping
+20:36:33 campaign check
+20:36:39 Wrong state, escaping
+20:36:39 clan_castle check
+20:36:43 Wrong state, escaping
+20:36:43 Cycle done, waiting 1 seconds and restarting
+20:36:48 Current state is: Cave
+20:36:48 Getting cave gold
+20:36:49 Cycle done, waiting 1 seconds and restarting
+20:36:53 Current state is: Cave Battles
+20:36:53 Cave fight
+20:36:55 Checking cave fights
+20:36:57 Clicking fight
+20:37:01 Going
+20:37:02 25647
+20:37:03 36209
+20:37:03 38623
+20:37:06 Picking hero for cave battle
+20:37:09 Picking hero for cave battle
+20:37:11 Picking hero for cave battle
+20:37:14 Picking hero for cave battle
+20:37:16 Picking hero for cave battle
+20:37:20 Starting cave battle.
+20:37:21 Cycle done, waiting 1 seconds and restarting
+20:37:30 Speeding up battle
+20:37:32 Speeding up battle
+20:37:32 Current state is: In Battle
+20:37:32 Cycle done, waiting 1 seconds and restarting
+20:37:39 Current state is: In Battle
+20:37:39 Cycle done, waiting 1 seconds and restarting
+20:37:50 Current state is: In Battle
+20:37:50 Cycle done, waiting 1 seconds and restarting
+20:37:56 Current state is: Victory
+20:37:56 Victory
+20:37:57 Cycle done, waiting 1 seconds and restarting
+20:38:02 Current state is: Cave Battles
+20:38:02 Cave fight
+20:38:04 Checking cave fights
+20:38:06 Clicking fight
+20:38:09 Going
+20:38:11 . 0
+20:38:11 36209
+20:38:11 38623
+20:38:11 0
+20:38:14 Picking hero for cave battle
+20:38:17 Picking hero for cave battle
+20:38:21 Starting cave battle.
+20:38:21 Cycle done, waiting 1 seconds and restarting
+20:38:28 Current state is: Hero Select
+20:38:28 Escaping hero select
+20:38:29 Cycle done, waiting 1 seconds and restarting
+20:38:38 Speeding up battle
+20:38:40 Speeding up battle
+20:38:40 Current state is: In Battle
+20:38:40 Cycle done, waiting 1 seconds and restarting
+20:38:48 Current state is: In Battle
+20:38:48 Cycle done, waiting 1 seconds and restarting
+20:38:54 Current state is: Victory
+20:38:54 Victory
+20:38:56 Cycle done, waiting 1 seconds and restarting
+20:39:00 Current state is: Cave Battles
+20:39:00 Cave fight
+20:39:02 Checking cave fights
+20:39:04 Clicking fight
+20:39:07 Going
+20:39:09 . 0
+20:39:09 . 0
+20:39:09 38623
+20:39:09 0
+20:39:09 0
+20:39:14 Starting cave battle.
+20:39:15 Cycle done, waiting 1 seconds and restarting
+20:39:21 Current state is: Hero Select
+20:39:21 Escaping hero select
+20:39:22 Cycle done, waiting 1 seconds and restarting
+20:39:31 Speeding up battle
+20:39:33 Speeding up battle
+20:39:34 Current state is: In Battle
+20:39:34 Cycle done, waiting 1 seconds and restarting
+20:39:41 Current state is: In Battle
+20:39:41 Cycle done, waiting 1 seconds and restarting
+20:39:48 Current state is: Victory
+20:39:48 Victory
+20:39:49 Cycle done, waiting 1 seconds and restarting
+20:39:53 Current state is: Cave
+20:39:53 Getting cave gold
+20:39:54 Clicking cave gold
+20:39:56 Cycle done, waiting 1 seconds and restarting
+20:40:00 Current state is: Cave
+20:40:00 Getting cave gold
+20:40:02 Cycle done, waiting 1 seconds and restarting
+20:40:06 Current state is: Cave
+20:40:06 Getting cave gold
+20:40:07 Cycle done, waiting 1 seconds and restarting
+20:40:12 Current state is: Cave Battles
+20:40:12 Cave fight
+20:40:14 Checking cave fights
+20:40:16 Clicking fight
+20:40:19 Going
+20:40:21 44031
+20:40:21 43798
+20:40:21 43042
+20:40:21 Power 44031 is too high, searching for new opponent
+20:40:25 Power 43798 is too high, searching for new opponent
+20:40:29 Power 43042 is too high, searching for new opponent
+20:40:38 Starting cave battle.
+20:40:39 Cycle done, waiting 1 seconds and restarting
+20:40:45 Current state is: Hero Select
+20:40:45 Escaping hero select
+20:40:46 Cycle done, waiting 1 seconds and restarting
+20:40:47 Bot disabled, wait for current cycle to be done or force-quit the program
+20:43:23 Press CTRL-ALT-Delete to quit or close the program.
+20:43:25 Enabling all settings
+20:43:46 Bot enabled
+20:43:46 Press CTRL-ALT-Delete to quit or close the program.
+20:43:47 Game window found at 2, 35
+20:43:47 Selecting game window
+20:43:53 Current state is: Victory
+20:43:53 Victory
+20:43:54 Cycle done, waiting 1 seconds and restarting
+20:43:58 Current state is: Cave Battles
+20:43:58 Cave fight
+20:44:00 Checking cave fights
+20:44:02 Clicking fight
+20:44:06 Going
+20:44:07 . 0
+20:44:07 40542
+20:44:07 38159
+20:44:07 0
+20:44:07 Power 40542 is too high, searching for new opponent
+20:44:10 Bot disabled, wait for current cycle to be done or force-quit the program
+20:44:13 . 0
+20:44:13 40542
+20:44:13 38159
+20:44:14 0
+20:44:14 Power 40542 is too high, searching for new opponent
+20:44:20 . .
+20:44:20 35853
+20:44:20 21554
+20:44:20 Error parsing power . .
+20:44:25 Starting cave battle.
+20:44:25 Cycle done, waiting 1 seconds and restarting
+20:45:48 Bot enabled
+20:45:48 Press CTRL-ALT-Delete to quit or close the program.
+20:45:48 Game window found at 2, 35
+20:45:48 Selecting game window
+20:45:55 Current state is: Victory
+20:45:55 Victory
+20:45:56 Cycle done, waiting 1 seconds and restarting
+20:46:00 Current state is: Cave Battles
+20:46:00 Cave fight
+20:46:02 Checking cave fights
+20:46:04 Clicking fight
+20:46:08 Going
+20:46:09 38519
+20:46:09 . 7652
+20:46:09 21554
+20:46:09 Error parsing power . 7652
+20:46:13 Picking hero for cave battle
+20:46:15 Picking hero for cave battle
+20:46:18 Picking hero for cave battle
+20:46:20 Picking hero for cave battle
+20:46:23 Picking hero for cave battle
+20:46:27 Starting cave battle.
+20:46:27 Cycle done, waiting 1 seconds and restarting
+20:46:34 Current state is: Hero Select
+20:46:34 Escaping hero select
+20:46:35 Cycle done, waiting 1 seconds and restarting
+20:46:43 Speeding up battle
+20:46:45 Speeding up battle
+20:46:46 Current state is: In Battle
+20:46:46 Cycle done, waiting 1 seconds and restarting
+20:46:53 Current state is: In Battle
+20:46:53 Cycle done, waiting 1 seconds and restarting
+20:47:00 Current state is: Victory
+20:47:00 Victory
+20:47:01 Cycle done, waiting 1 seconds and restarting
+20:47:05 Current state is: Cave Battles
+20:47:06 Cave fight
+20:47:08 Checking cave fights
+20:47:09 Clicking fight
+20:47:13 Going
+20:47:14 . 0
+20:47:14 . 7652
+20:47:14 21554
+20:47:14 0
+20:47:14 Error parsing power . 7652
+20:47:19 Starting cave battle.
+20:47:20 Cycle done, waiting 1 seconds and restarting
+20:47:29 Speeding up battle
+20:47:31 Speeding up battle
+20:47:31 Current state is: In Battle
+20:47:31 Cycle done, waiting 1 seconds and restarting
+20:47:36 Current state is: Cave Battles
+20:47:36 Cave fight
+20:47:38 Checking cave fights
+20:47:39 Clicking fight
+20:47:43 Going
+20:47:44 . 0
+20:47:44 . 0
+20:47:44 21554
+20:47:44 0
+20:47:44 0
+20:47:49 Starting cave battle.
+20:47:50 Cycle done, waiting 1 seconds and restarting
+20:47:59 Speeding up battle
+20:48:01 Speeding up battle
+20:48:02 Current state is: In Battle
+20:48:02 Cycle done, waiting 1 seconds and restarting
+20:48:09 Current state is: Victory
+20:48:09 Victory
+20:48:10 Cycle done, waiting 1 seconds and restarting
+20:48:15 Current state is: Cave
+20:48:15 Getting cave gold
+20:48:15 Clicking cave gold
+20:48:17 Cycle done, waiting 1 seconds and restarting
+20:48:22 Current state is: Cave
+20:48:22 Getting cave gold
+20:48:23 Cycle done, waiting 1 seconds and restarting
+20:48:27 Current state is: Cave Battles
+20:48:27 Cave fight
+20:48:29 Checking cave fights
+20:48:31 Clicking fight
+20:48:35 Going
+20:48:37 33704
+20:48:37 -
+20:48:37 -
+20:48:37 Error parsing power -
+20:48:37 Error parsing power -
+20:48:42 Starting cave battle.
+20:48:42 Cycle done, waiting 1 seconds and restarting
+20:48:52 Speeding up battle
+20:48:54 Speeding up battle
+20:48:54 Current state is: In Battle
+20:48:54 Cycle done, waiting 1 seconds and restarting
+20:49:01 Current state is: Victory
+20:49:01 Victory
+20:49:02 Cycle done, waiting 1 seconds and restarting
+20:49:07 Current state is: Cave
+20:49:07 Getting cave gold
+20:49:07 Clicking cave gold
+20:49:10 Cycle done, waiting 1 seconds and restarting
+20:49:14 Current state is: Cave
+20:49:14 Getting cave gold
+20:49:15 Cycle done, waiting 1 seconds and restarting
+20:49:19 Current state is: Cave Battles
+20:49:19 Cave fight
+20:49:21 Checking cave fights
+20:49:23 Clicking fight
+20:49:27 Going
+20:49:28 
+20:49:28 40499
+20:49:28 36796
+20:49:28 Error parsing power 
+20:49:28 Power 40499 is too high, searching for new opponent
+20:49:34 . 31278
+20:49:34 -
+20:49:34 -
+20:49:34 Error parsing power . 31278
+20:49:34 Error parsing power -
+20:49:34 Error parsing power -
+20:49:39 Starting cave battle.
+20:49:40 Cycle done, waiting 1 seconds and restarting
+20:49:49 Speeding up battle
+20:49:51 Speeding up battle
+20:49:52 Current state is: In Battle
+20:49:52 Cycle done, waiting 1 seconds and restarting
+20:49:59 Current state is: In Battle
+20:49:59 Cycle done, waiting 1 seconds and restarting
+20:50:06 Current state is: Victory
+20:50:06 Victory
+20:50:07 Cycle done, waiting 1 seconds and restarting
+20:50:11 Current state is: Cave
+20:50:11 Getting cave gold
+20:50:12 Clicking cave gold
+20:50:14 Cycle done, waiting 1 seconds and restarting
+20:50:18 Current state is: Cave
+20:50:18 Getting cave gold
+20:50:19 Cycle done, waiting 1 seconds and restarting
+20:50:24 Current state is: Cave Battles
+20:50:24 Cave fight
+20:50:26 Checking cave fights
+20:50:27 Clicking fight
+20:50:31 Going
+20:50:33 
+20:50:33 -
+20:50:33 -
+20:50:33 Error parsing power 
+20:50:33 Error parsing power -
+20:50:33 Error parsing power -
+20:50:38 Starting cave battle.
+20:50:39 Cycle done, waiting 1 seconds and restarting
+20:50:48 Speeding up battle
+20:50:50 Speeding up battle
+20:50:50 Current state is: In Battle
+20:50:50 Cycle done, waiting 1 seconds and restarting
+20:50:57 Current state is: Victory
+20:50:57 Victory
+20:50:59 Cycle done, waiting 1 seconds and restarting
+20:51:03 Current state is: Cave
+20:51:03 Getting cave gold
+20:51:03 Clicking cave gold
+20:51:06 Cycle done, waiting 1 seconds and restarting
+20:51:10 Current state is: Cave
+20:51:10 Getting cave gold
+20:51:11 Cycle done, waiting 1 seconds and restarting
+20:51:15 Current state is: Cave Battles
+20:51:15 Cave fight
+20:51:17 Checking cave fights
+20:51:19 Clicking fight
+20:51:23 Going
+20:51:25 37604
+20:51:25 -
+20:51:25 -
+20:51:25 Error parsing power -
+20:51:25 Error parsing power -
+20:51:30 Starting cave battle.
+20:51:30 Cycle done, waiting 1 seconds and restarting
+20:51:37 Current state is: Hero Select
+20:51:37 Escaping hero select
+20:51:38 Cycle done, waiting 1 seconds and restarting
+20:51:46 Speeding up battle
+20:51:48 Speeding up battle
+20:51:49 Current state is: In Battle
+20:51:49 Cycle done, waiting 1 seconds and restarting
+20:51:56 Current state is: Victory
+20:51:56 Victory
+20:51:57 Cycle done, waiting 1 seconds and restarting
+20:52:01 Current state is: Cave
+20:52:01 Getting cave gold
+20:52:02 Clicking cave gold
+20:52:04 Cycle done, waiting 1 seconds and restarting
+20:52:08 Current state is: Cave
+20:52:08 Getting cave gold
+20:52:09 Cycle done, waiting 1 seconds and restarting
+20:52:13 Current state is: Cave Battles
+20:52:13 Cave fight
+20:52:15 Checking cave fights
+20:52:17 Clicking fight
+20:52:21 Going
+20:52:23 30864
+20:52:23 -
+20:52:23 -
+20:52:23 Error parsing power -
+20:52:23 Error parsing power -
+20:52:28 Starting cave battle.
+20:52:28 Cycle done, waiting 1 seconds and restarting
+20:52:37 Speeding up battle
+20:52:39 Speeding up battle
+20:52:40 Current state is: In Battle
+20:52:40 Cycle done, waiting 1 seconds and restarting
+20:52:46 Current state is: Victory
+20:52:46 Victory
+20:52:48 Cycle done, waiting 1 seconds and restarting
+20:52:52 Current state is: Cave
+20:52:52 Getting cave gold
+20:52:52 Clicking cave gold
+20:52:55 Cycle done, waiting 1 seconds and restarting
+20:52:59 Current state is: Cave
+20:52:59 Getting cave gold
+20:53:00 Cycle done, waiting 1 seconds and restarting
+20:53:05 Escaping cave buy
+20:53:06 Current state is: Working
+20:53:06 Unknown game state, trying to correct
+20:53:07 Cycle done, waiting 1 seconds and restarting
+20:53:10 Heroes button located
+20:53:10 Current state is: Home Screen
+20:53:11 skill_points check
+20:53:13 Heroes button located
+20:53:13 Game state is : Home Screen
+20:53:13 Checking skill points
+20:53:20 15
+20:53:20 Distributing points
+20:53:20 distributing point 0
+20:53:21 hero is filled, checking next
+20:53:21 15
+20:53:21 distributing point 1
+20:53:23 hero is filled, checking next
+20:53:23 15
+20:53:23 distributing point 2
+20:53:24 hero is filled, checking next
+20:53:25 15
+20:53:25 distributing point 3
+20:53:26 hero is filled, checking next
+20:53:27 15
+20:53:27 distributing point 4
+20:53:28 hero is filled, checking next
+20:53:28 15
+20:53:28 distributing point 5
+20:53:30 hero is filled, checking next
+20:53:30 15
+20:53:30 distributing point 6
+20:53:31 hero is filled, checking next
+20:53:32 15
+20:53:32 distributing point 7
+20:53:33 hero is filled, checking next
+20:53:33 15
+20:53:33 distributing point 8
+20:53:35 hero is filled, checking next
+20:53:35 15
+20:53:35 distributing point 9
+20:53:36 hero is filled, checking next
+20:53:37 41
+20:53:37 distributing point 10
+20:53:38 hero is filled, checking next
+20:53:39 41
+20:53:39 distributing point 11
+20:53:40 hero is filled, checking next
+20:53:41 
+20:53:41 distributing point 12
+20:53:41 Tesseract error, waiting until next cycle
+20:53:42 Done distributing points
+20:53:44 coliseum check
+20:53:46 Heroes button located
+20:53:46 Game state is : Home Screen
+20:53:46 Checking Coliseum
+20:53:47 events check
+20:53:49 Heroes button located
+20:53:49 Game state is : Home Screen
+20:53:51 caves check
+20:53:51 Home Screen
+20:53:52 Heroes button located
+20:53:52 Game state is : Home Screen
+20:53:52 Checking Cave
+20:53:55 Cave button found, clicking
+20:54:15 Checking cave fights
+20:54:15 No cave attempts, leaving
+20:54:18 Checking cave fights
+20:54:20 Clicking fight
+20:54:26 chests check
+20:54:28 Heroes button located
+20:54:28 Game state is : Home Screen
+20:54:28 Checking Chests
+20:54:31 Opening wooden chest
+20:54:36 Bot disabled, wait for current cycle to be done or force-quit the program
+20:54:38 No chests available
+20:54:39 mailbox check
+20:54:41 Heroes button located
+20:54:41 Game state is : Home Screen
+20:54:42 missions check
+20:54:44 Heroes button located
+20:54:44 Game state is : Home Screen
+20:54:45 friends check
+20:54:47 Heroes button located
+20:54:47 Game state is : Home Screen
+20:54:48 campaign check
+20:54:50 Heroes button located
+20:54:50 Game state is : Home Screen
+20:54:51 clan_castle check
+20:54:53 Heroes button located
+20:54:53 Game state is : Home Screen
+20:54:54 Upgrades
+20:54:54 Cycle done, waiting 1 seconds and restarting
+20:58:56 Disabling all settings
+20:58:58 Bot enabled
+20:58:58 Press CTRL-ALT-Delete to quit or close the program.
+20:58:58 Game window found at 2, 35
+20:58:58 Selecting game window
+20:59:01 Heroes button located
+20:59:01 Current state is: Home Screen
+20:59:01 campaign check
+20:59:03 Heroes button located
+20:59:03 Game state is : Home Screen
+20:59:03 Checking Campaign
+20:59:04 Current food is: 267
+20:59:04 Trying to spend food
+20:59:06 Checking Ninja_Meego
+20:59:11 Current food is: 414
+20:59:22 Checking Hanna_the_Inquisitor
+20:59:27 Current food is: 414
+20:59:54 Upgrades
+20:59:54 Cycle done, waiting 1 seconds and restarting
+20:59:57 Heroes button located
+20:59:57 Current state is: Home Screen
+20:59:57 campaign check
+20:59:59 Heroes button located
+20:59:59 Game state is : Home Screen
+21:00:00 Upgrades
+21:00:00 Cycle done, waiting 1 seconds and restarting
+21:00:03 Bot disabled, wait for current cycle to be done or force-quit the program
+21:00:03 Heroes button located
+21:00:03 Current state is: Home Screen
+21:00:04 campaign check
+21:00:06 Heroes button located
+21:00:06 Game state is : Home Screen
+21:00:07 Upgrades
+21:00:07 Cycle done, waiting 1 seconds and restarting

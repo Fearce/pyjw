@@ -18,7 +18,7 @@ def check_arena():
     global last_check
     if not settings.arena:
         return
-    if delay_next_check(5, last_check):
+    if delay_next_check(2, last_check):
         return
     #log("Checking Arena")
     time.sleep(1)

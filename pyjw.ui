@@ -23,11 +23,11 @@
             <property name="cursor">arrow</property>
             <property name="exportselection">false</property>
             <property name="font">TkDefaultFont</property>
-            <property name="height">10</property>
+            <property name="height">18</property>
             <property name="relief">flat</property>
             <property name="state">normal</property>
             <property name="text" translatable="yes">Initializing</property>
-            <property name="width">50</property>
+            <property name="width">60</property>
             <layout>
               <property name="column">0</property>
               <property name="propagate">True</property>

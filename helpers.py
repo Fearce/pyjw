@@ -118,7 +118,7 @@ def click_on_box(box):
 
 def current_time():  # Makes sure the log frame isn't flooded and returns current time.
     log_count = int(settings.app.builder.get_object('text_logframe').index('end-1c').split('.')[0])
-    if log_count > 9:
+    if log_count > 18:
         settings.app.builder.get_object('text_logframe').delete("end-1c linestart", "end")
     return datetime.datetime.now().strftime("%H:%M:%S")
 
