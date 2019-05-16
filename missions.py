@@ -71,8 +71,8 @@ def check_missions():
         # After or no rewards
         log("No rewards, leaving missions")
         if settings.missions_all:
-            for x in range(0, 5):
-                log("Looking for mission")
+            for x in range(1, 7):
+                log("Looking for mission, scrolling down " + str(x) + "/7 times")
                 go_down()
                 time.sleep(1)
             missions_continue = pyautogui.locateOnScreen('imgs/missions_continue.png', confidence=0.9)
