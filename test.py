@@ -349,6 +349,9 @@ class Application:
         # Configure callbacks
         callbacks = {
             'start_stop': handlers.start_stop,
+            'settings_all': handlers.enable_disable_all,
+            'settings_arena': handlers.arena,
+
         }
 
         builder.connect_callbacks(callbacks)
@@ -384,10 +387,10 @@ if __name__ == '__main__':
     threading.stack_size(200000000)
     thread = threading.Thread(target=start_program)
     thread.start()
-    root = tkinter.Tk()
-    settings.app = Application(root)
-    root.title("Juggernaut Wars Bot")
+    settings.root = tkinter.Tk()
+    settings.app = Application(settings.root)
+    settings.root.title("Juggernaut Wars Bot")
     # print(app.builder.get_variable('attack_status'))
     # test_variable()
     # print(app.builder.get_variable('attack_status'))
-    root.mainloop()
+    settings.root.mainloop()

@@ -363,3 +363,84 @@
 15:32:37 Bot disabled, wait for current cycle to be done or force-quit the program
 15:32:42 Escaping arena check
 15:32:42 Cycle done, waiting 1 seconds and restarting
+15:46:47 Press CTRL-ALT-Delete to quit or close the program.
+15:47:41 Press CTRL-ALT-Delete to quit or close the program.
+16:15:26 Press CTRL-ALT-Delete to quit or close the program.
+16:15:56 Press CTRL-ALT-Delete to quit or close the program.
+16:16:34 Press CTRL-ALT-Delete to quit or close the program.
+16:16:49 Press CTRL-ALT-Delete to quit or close the program.
+16:17:17 Press CTRL-ALT-Delete to quit or close the program.
+16:21:34 Press CTRL-ALT-Delete to quit or close the program.
+16:22:06 Press CTRL-ALT-Delete to quit or close the program.
+16:22:51 Press CTRL-ALT-Delete to quit or close the program.
+16:22:51 Bot enabled
+16:22:51 Press CTRL-ALT-Delete to quit or close the program.
+16:22:52 Game window not found
+16:22:53 Bot disabled, wait for current cycle to be done or force-quit the program
+16:23:11 Press CTRL-ALT-Delete to quit or close the program.
+16:23:12 Enabling all settings
+16:23:13 Enabling all settings
+16:23:14 Enabling all settings
+16:23:15 Enabling all settings
+16:23:38 Press CTRL-ALT-Delete to quit or close the program.
+16:23:39 Enabling all settings
+16:23:41 Disabling all settings
+16:30:14 Press CTRL-ALT-Delete to quit or close the program.
+16:30:37 Press CTRL-ALT-Delete to quit or close the program.
+16:30:38 Disabling arena
+16:30:39 Enabling arena
+16:30:41 Disabling arena
+16:30:42 Enabling arena
+16:30:55 Press CTRL-ALT-Delete to quit or close the program.
+16:30:56 Enabling arena
+16:31:01 Enabling all settings
+16:31:03 Disabling all settings
+16:31:04 Enabling all settings
+16:31:04 Disabling all settings
+16:34:01 Press CTRL-ALT-Delete to quit or close the program.
+16:34:03 Enabling all settings
+16:34:16 Press CTRL-ALT-Delete to quit or close the program.
+16:34:18 Enabling arena
+16:34:19 Disabling arena
+16:34:21 Enabling all settings
+16:36:14 Press CTRL-ALT-Delete to quit or close the program.
+16:36:15 Enabling arena
+16:36:16 Disabling arena
+16:36:16 Enabling all settings
+16:42:31 Press CTRL-ALT-Delete to quit or close the program.
+16:42:33 Enabling all settings
+16:42:53 Press CTRL-ALT-Delete to quit or close the program.
+16:42:54 Enabling all settings
+16:43:08 Press CTRL-ALT-Delete to quit or close the program.
+16:43:11 Enabling all settings
+16:43:11 PY_VAR2
+16:43:14 Disabling all settings
+16:43:15 Enabling all settings
+16:43:15 PY_VAR2
+16:43:33 Press CTRL-ALT-Delete to quit or close the program.
+16:43:34 Enabling all settings
+16:43:34 False
+16:43:36 Disabling all settings
+16:43:37 Enabling all settings
+16:43:37 False
+16:43:38 Disabling all settings
+16:44:02 Press CTRL-ALT-Delete to quit or close the program.
+16:44:04 Enabling all settings
+16:44:04 False
+16:44:04 True
+16:44:07 Disabling all settings
+16:44:36 Press CTRL-ALT-Delete to quit or close the program.
+16:44:37 Enabling all settings
+16:44:39 Disabling all settings
+16:44:39 Enabling all settings
+16:44:39 Disabling all settings
+16:44:40 Enabling all settings
+16:44:41 Disabling all settings
+16:44:42 Enabling arena
+16:44:43 Disabling arena
+16:44:44 Enabling arena
+16:44:44 Disabling arena
+16:44:45 Enabling arena
+16:44:45 Disabling arena
+16:44:46 Enabling all settings
+16:44:46 Disabling all settings

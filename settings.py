@@ -15,7 +15,7 @@ campaign_heroes = ["Ninja_Meego", "Hanna_the_Inquisitor", "Beastborn_Warrior_Gro
 
 #settings_all = False  # If this is set to true everything is enabled
 #### Enable / disable features
-arena = True
+arena = False
 campaign = False
 caves = True
 cave_max_power = 39000
@@ -63,6 +63,7 @@ clan_heroes = ["Superslug_Caliban", "Amok_the_Prince_of_Naga"]
 # Game variables
 enabled = False
 app = None
+root = None
 current_state = "Offline"
 game_x = 0
 game_y = 0

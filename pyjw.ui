@@ -15,8 +15,8 @@
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
-          <property name="row">7</property>
-          <property name="sticky">sw</property>
+          <property name="row">11</property>
+          <property name="sticky">s</property>
         </layout>
         <child>
           <object class="tk.Text" id="text_logframe">
@@ -39,13 +39,19 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_2">
-        <property name="text" translatable="yes">Checkbutton_2</property>
+      <object class="ttk.Checkbutton" id="check_settings_all">
+        <property name="command">settings_all</property>
+        <property name="offvalue">False</property>
+        <property name="onvalue">True</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">All settings</property>
+        <property name="variable">boolean:settings_all</property>
         <layout>
           <property name="column">0</property>
+          <property name="pady">20</property>
           <property name="propagate">True</property>
-          <property name="row">1</property>
-          <property name="sticky">nw</property>
+          <property name="row">0</property>
+          <property name="sticky">n</property>
         </layout>
       </object>
     </child>
@@ -61,8 +67,341 @@
           <property name="padx">30</property>
           <property name="pady">20</property>
           <property name="propagate">True</property>
+          <property name="row">0</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="check_arena">
+        <property name="command">settings_arena</property>
+        <property name="cursor">arrow</property>
+        <property name="text" translatable="yes">Arena</property>
+        <property name="variable">boolean:arena_check</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
           <property name="row">1</property>
           <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="check_tod">
+        <property name="text" translatable="yes">Trial of Death</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_3">
+        <property name="text" translatable="yes">Checkbutton_3</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_4">
+        <property name="text" translatable="yes">Checkbutton_4</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_5">
+        <property name="text" translatable="yes">Checkbutton_5</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_6">
+        <property name="text" translatable="yes">Checkbutton_6</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_7">
+        <property name="text" translatable="yes">Checkbutton_7</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_8">
+        <property name="text" translatable="yes">Checkbutton_8</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_9">
+        <property name="text" translatable="yes">Checkbutton_9</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_10">
+        <property name="text" translatable="yes">Checkbutton_10</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_11">
+        <property name="text" translatable="yes">Checkbutton_11</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_12">
+        <property name="text" translatable="yes">Checkbutton_12</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_13">
+        <property name="text" translatable="yes">Checkbutton_13</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_14">
+        <property name="text" translatable="yes">Checkbutton_14</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_15">
+        <property name="text" translatable="yes">Checkbutton_15</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_16">
+        <property name="text" translatable="yes">Checkbutton_16</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_17">
+        <property name="text" translatable="yes">Checkbutton_17</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_18">
+        <property name="text" translatable="yes">Checkbutton_18</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_19">
+        <property name="text" translatable="yes">Checkbutton_19</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_20">
+        <property name="text" translatable="yes">Checkbutton_20</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_21">
+        <property name="text" translatable="yes">Checkbutton_21</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_22">
+        <property name="text" translatable="yes">Checkbutton_22</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">8</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_23">
+        <property name="text" translatable="yes">Checkbutton_23</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">8</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_24">
+        <property name="text" translatable="yes">Checkbutton_24</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">8</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_25">
+        <property name="text" translatable="yes">Checkbutton_25</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">9</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_26">
+        <property name="text" translatable="yes">Checkbutton_26</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">9</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_27">
+        <property name="text" translatable="yes">Checkbutton_27</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">9</property>
+          <property name="sticky">ne</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_28">
+        <property name="text" translatable="yes">Checkbutton_28</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">10</property>
+          <property name="sticky">nw</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_29">
+        <property name="text" translatable="yes">Checkbutton_29</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">10</property>
+          <property name="sticky">n</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Checkbutton" id="Checkbutton_30">
+        <property name="text" translatable="yes">Checkbutton_30</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">10</property>
+          <property name="sticky">ne</property>
         </layout>
       </object>
     </child>

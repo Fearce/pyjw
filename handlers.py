@@ -50,18 +50,30 @@ all_settings = False
 
 def enable_disable_all():
     global all_settings
-    if not all_settings:
+    if all_settings:
+        log("Disabling all settings")
+        settings.app.builder.get_variable("arena_check").set(False)
+        all_settings = False
         for x in settings.settings_array:
             x = False
     else:
+        log("Enabling all settings")
+        settings.app.builder.get_variable("arena_check").set(True)
+        #log(str(var.get()))
+        #var.set(True)
+        #log(str(var.get()))
+        #settings.root.nametowidget("check_arena").Select()
+        all_settings = True
         for x in settings.settings_array:
             x = True
 
 
 def arena():
     if settings.arena:
+        log("Disabling arena")
         settings.arena = False
     else:
+        log("Enabling arena")
         settings.arena = True
 
 
