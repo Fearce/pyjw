@@ -2307,3 +2307,73 @@
 21:05:19 Current state is: Working
 21:05:19 Unknown game state, trying to correct
 21:05:21 Cycle done, waiting 1 seconds and restarting
+21:09:42 Bot enabled
+21:09:42 Press CTRL-ALT-Delete to quit or close the program.
+21:09:42 Game window found at 2, 35
+21:09:42 Selecting game window
+21:09:45 Heroes button located
+21:09:45 Current state is: Home Screen
+21:09:45 missions check
+21:09:47 Heroes button located
+21:09:47 Game state is : Home Screen
+21:09:47 Checking missions
+21:10:26 No rewards, leaving missions
+21:10:27 campaign check
+21:10:29 Heroes button located
+21:10:29 Game state is : Home Screen
+21:10:29 Checking Campaign
+21:10:30 Current food is: 200
+21:10:30 Trying to spend food
+21:10:32 Checking Ninja_Meego
+21:10:36 Current food is: 200
+21:10:48 Checking Hanna_the_Inquisitor
+21:10:52 Current food is: 200
+21:11:04 Checking Beastborn_Warrior_Grog
+21:11:08 Current food is: 200
+21:11:35 clan_castle check
+21:11:37 Heroes button located
+21:11:37 Game state is : Home Screen
+21:11:37 Checking Clan Castle.
+21:11:39 Looking for Clan Castle button
+21:11:42 Looking for Clan Castle button
+21:11:44 Looking for Clan Castle button
+21:11:47 Looking for Clan Castle button
+21:11:49 Looking for Clan Castle button
+21:11:52 Looking for Clan Castle button
+21:11:54 Looking for Clan Castle button
+21:11:57 Looking for Clan Castle button
+21:11:59 Clan Castle button found, clicking
+21:12:04 Upgrades
+21:12:04 Cycle done, waiting 1 seconds and restarting
+21:12:07 Heroes button located
+21:12:07 Current state is: Home Screen
+21:12:07 missions check
+21:12:09 Heroes button located
+21:12:09 Game state is : Home Screen
+21:12:09 Checking missions
+21:12:13 No rewards, leaving missions
+21:12:14 campaign check
+21:12:16 Heroes button located
+21:12:16 Game state is : Home Screen
+21:12:17 clan_castle check
+21:12:19 Heroes button located
+21:12:19 Game state is : Home Screen
+21:12:20 Upgrades
+21:12:20 Cycle done, waiting 1 seconds and restarting
+21:12:23 Heroes button located
+21:12:23 Current state is: Home Screen
+21:12:24 missions check
+21:12:25 Heroes button located
+21:12:25 Game state is : Home Screen
+21:12:26 campaign check
+21:12:28 Heroes button located
+21:12:28 Game state is : Home Screen
+21:12:29 clan_castle check
+21:12:31 Heroes button located
+21:12:31 Game state is : Home Screen
+21:12:32 Upgrades
+21:12:32 Cycle done, waiting 1 seconds and restarting
+21:12:35 Bot disabled, wait for current cycle to be done or force-quit the program
+21:12:35 Heroes button located
+21:12:35 Current state is: Home Screen
+21:12:36 missions check

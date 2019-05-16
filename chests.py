@@ -15,7 +15,7 @@ else:
 def locked_treasure():
     log("Opening treasure")
     # TODO Click on locked treasures, escape if didnt work
-    
+
 
 def check_chests():
     global last_check

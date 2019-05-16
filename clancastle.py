@@ -180,7 +180,7 @@ def check_raids():
     global last_raids
     if not settings.raids:
         return
-    if delay_next_check(59, last_raids):
+    if delay_next_check(2, last_raids):
         return
     last_raids = datetime.datetime.now()
     log("Checking Battle Cave.")
@@ -237,7 +237,7 @@ def check_wheel_of_fortune():
     global last_wheel
     if not settings.wheel:
         return
-    if delay_next_check(59, last_wheel):
+    if delay_next_check(2, last_wheel):
         return
     last_wheel = datetime.datetime.now()
     log("Checking Wheel of Fortune.")
@@ -274,7 +274,7 @@ def check_altar():
     global last_altar
     if not settings.altar:
         return
-    if delay_next_check(59, last_altar):
+    if delay_next_check(2, last_altar):
         return
     last_altar = datetime.datetime.now()
     log("Checking Altar.")
@@ -312,7 +312,7 @@ def check_clan_store():
     global last_store
     if not settings.clan_store:
         return
-    if delay_next_check(59, last_store):
+    if delay_next_check(2, last_store):
         return
     last_store = datetime.datetime.now()
     log("Checking Clan Store.")

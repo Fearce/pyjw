@@ -29,7 +29,7 @@ def check_friends():
     global last_check
     if not settings.friends:
         return
-    if delay_next_check(30, last_check):
+    if delay_next_check(5, last_check):
         return
     log("Checking friends")
     heart = pyautogui.locateOnScreen('imgs/friend_currency.PNG', confidence=0.88)
