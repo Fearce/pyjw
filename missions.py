@@ -72,11 +72,15 @@ def check_missions():
         log("No rewards, leaving missions")
         if settings.missions_all:
             for x in range(0, 5):
+                log("Looking for mission")
                 go_down()
                 time.sleep(1)
             missions_continue = pyautogui.locateOnScreen('imgs/missions_continue.png', confidence=0.9)
             if missions_continue is not None:
+                log("Mission found, doing missions!")
                 click_on_box(missions_continue)
+                time.sleep(2) # Wait for mission to be clicked
+                do_mission()
         # sapphire_for_gold - turn - escape
         # experience_potion_mission - apply - click blue - escape2
         # enchant_mission - click orange_item or purple_item - click enchant_item - click enchant_go - escape2
@@ -84,3 +88,62 @@ def check_missions():
         escape(1)
     else:
         log("Can't find missions")
+
+def do_mission():
+    time.sleep(2)
+    hero_power = pyautogui.locateOnScreen('imgs/hero_power.png', confidence=0.9)
+    if hero_power is not None:
+        enchant_mission()
+        do_mission()
+
+    sapphire_for_gold = pyautogui.locateOnScreen('imgs/sapphire_for_gold.png', confidence=0.9)
+    if sapphire_for_gold is not None:
+        sapphire_for_gold_mission()
+        do_mission()
+
+    experience_potion_mission = pyautogui.locateOnScreen('imgs/experience_potion_mission.png', confidence=0.9)
+    if experience_potion_mission is not None:
+        experience_mission()
+        do_mission()
+
+
+def experience_mission():
+    log("TODO")
+    log("Doing experience potion mission")
+    apply = pyautogui.locateOnScreen('imgs/apply.png', confidence=0.9)
+    if apply is not None:
+        log("Clicking apply")
+        click_on_box(apply)
+        time.sleep(1)
+        escape(1)
+
+def sapphire_for_gold_mission():
+    log("Doing sapphire for gold mission")
+    turn = pyautogui.locateOnScreen('imgs/turn.png', confidence=0.9)
+    if turn is not None:
+        log("Clicking turn")
+        click_on_box(turn)
+        time.sleep(1)
+        escape(1)
+
+def enchant_mission():
+    log("Doing enchanting mission")
+    empty_star_orange = pyautogui.locateOnScreen('imgs/empty_star_orange.png', confidence=0.9)
+    empty_star_purple = pyautogui.locateOnScreen('imgs/empty_star_purple.png', confidence=0.9)
+    if empty_star_orange is not None or empty_star_purple is not None:
+        log("Clicking item to be enchanted")
+        if empty_star_orange is not None:
+            click_on_box(empty_star_orange)
+        else:
+            click_on_box(empty_star_purple)
+        time.sleep(2)
+        enchant_item = pyautogui.locateOnScreen('imgs/enchant_item.png', confidence=0.9)
+        if enchant_item is not None:
+            log("Clicking enchanting material")
+            click_on_box(enchant_item)
+            time.sleep(2)
+            enchant_go = pyautogui.locateOnScreen('imgs/enchant_go.png', confidence=0.9)
+            if enchant_go is not None:
+                log("Enchanting item and escaping")
+                click_on_box(enchant_go)
+                escape(2)

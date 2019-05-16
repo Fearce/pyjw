@@ -23,7 +23,8 @@ def delay_next_check(delay_min, last_check):
             log("Value error, time is changing")
     if now < last_check:
         # log(delay_msg)
-        return True
+        #return True  # Uncomment to allow delays
+        return False
     return False
 
 

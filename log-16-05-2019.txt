@@ -2562,3 +2562,138 @@
 21:23:50 Heroes button located
 21:23:50 Game state is : Home Screen
 21:23:51 Cycle done, waiting 1 seconds and restarting
+21:25:26 Bot enabled
+21:25:26 Press CTRL-ALT-Delete to quit or close the program.
+21:25:27 Game window found at 2, 35
+21:25:27 Selecting game window
+21:25:29 Heroes button located
+21:25:29 Current state is: Home Screen
+21:25:30 Expanding arrow
+21:25:30 missions check
+21:25:32 Heroes button located
+21:25:32 Game state is : Home Screen
+21:25:32 Checking missions
+21:25:43 No rewards, leaving missions
+21:25:54 Cycle done, waiting 1 seconds and restarting
+21:25:56 Bot disabled, wait for current cycle to be done or force-quit the program
+21:26:01 Current state is: Working
+21:26:01 Unknown game state, trying to correct
+21:26:03 Cycle done, waiting 1 seconds and restarting
+21:37:38 Press CTRL-ALT-Delete to quit or close the program.
+21:37:42 Bot enabled
+21:37:42 Press CTRL-ALT-Delete to quit or close the program.
+21:37:42 Game window found at 2, 35
+21:37:42 Selecting game window
+21:37:45 Heroes button located
+21:37:45 Current state is: Home Screen
+21:37:45 Expanding arrow
+21:37:46 missions check
+21:37:47 Heroes button located
+21:37:47 Game state is : Home Screen
+21:37:47 Checking missions
+21:37:51 No rewards, leaving missions
+21:38:05 Cycle done, waiting 1 seconds and restarting if enabled.
+21:39:17 Press CTRL-ALT-Delete to quit or close the program.
+21:39:21 Bot enabled
+21:39:21 Press CTRL-ALT-Delete to quit or close the program.
+21:39:21 Game window found at 2, 35
+21:39:21 Selecting game window
+21:39:23 Heroes button located
+21:39:23 Current state is: Home Screen
+21:39:24 Expanding arrow
+21:39:24 missions check
+21:39:26 Heroes button located
+21:39:26 Game state is : Home Screen
+21:39:26 Checking missions
+21:39:29 No rewards, leaving missions
+21:39:29 Looking for mission
+21:39:31 Looking for mission
+21:39:33 Looking for mission
+21:39:34 Looking for mission
+21:39:36 Looking for mission
+21:39:38 Mission found, doing missions!
+21:41:27 Press CTRL-ALT-Delete to quit or close the program.
+21:41:31 Bot enabled
+21:41:31 Press CTRL-ALT-Delete to quit or close the program.
+21:41:31 Game window found at 2, 35
+21:41:31 Selecting game window
+21:41:34 Heroes button located
+21:41:34 Current state is: Home Screen
+21:41:34 Expanding arrow
+21:41:35 missions check
+21:41:36 Heroes button located
+21:41:36 Game state is : Home Screen
+21:41:36 Checking missions
+21:41:40 No rewards, leaving missions
+21:41:40 Looking for mission
+21:41:41 Looking for mission
+21:41:43 Looking for mission
+21:41:45 Looking for mission
+21:41:46 Looking for mission
+21:41:48 Mission found, doing missions!
+21:41:53 Doing enchanting mission
+21:41:54 Clicking item to be enchanted
+21:41:57 Clicking enchanting material
+21:42:00 Enchanting item and escaping
+21:42:07 Cycle done, waiting 1 seconds and restarting if enabled.
+21:42:15 Current state is: Working
+21:42:15 Unknown game state, trying to correct
+21:42:16 Cycle done, waiting 1 seconds and restarting if enabled.
+21:42:19 Heroes button located
+21:42:19 Current state is: Home Screen
+21:42:19 Expanding arrow
+21:42:20 missions check
+21:42:22 Heroes button located
+21:42:22 Game state is : Home Screen
+21:42:23 Cycle done, waiting 1 seconds and restarting if enabled.
+21:42:25 Heroes button located
+21:42:25 Current state is: Home Screen
+21:42:26 missions check
+21:42:28 Heroes button located
+21:42:28 Game state is : Home Screen
+21:42:29 Cycle done, waiting 1 seconds and restarting if enabled.
+21:42:31 Heroes button located
+21:42:31 Current state is: Home Screen
+21:42:32 missions check
+21:42:33 Heroes button located
+21:42:33 Game state is : Home Screen
+21:42:34 Cycle done, waiting 1 seconds and restarting if enabled.
+21:42:37 Heroes button located
+21:42:37 Current state is: Home Screen
+21:42:37 missions check
+21:42:39 Heroes button located
+21:42:39 Game state is : Home Screen
+21:42:40 Cycle done, waiting 1 seconds and restarting if enabled.
+21:42:43 Heroes button located
+21:42:43 Current state is: Home Screen
+21:42:43 missions check
+21:42:45 Heroes button located
+21:42:45 Game state is : Home Screen
+21:43:26 Press CTRL-ALT-Delete to quit or close the program.
+21:43:29 Bot enabled
+21:43:29 Press CTRL-ALT-Delete to quit or close the program.
+21:43:30 Game window found at 2, 35
+21:43:30 Selecting game window
+21:43:32 Heroes button located
+21:43:32 Current state is: Home Screen
+21:43:32 missions check
+21:43:34 Heroes button located
+21:43:34 Game state is : Home Screen
+21:43:34 Checking missions
+21:43:44 No rewards, leaving missions
+21:43:44 Looking for mission
+21:43:46 Looking for mission
+21:43:48 Looking for mission
+21:43:49 Looking for mission
+21:43:51 Looking for mission
+21:43:53 Mission found, doing missions!
+21:43:58 Doing sapphire for gold mission
+21:43:59 Clicking turn
+21:44:06 Cycle done, waiting 1 seconds and restarting if enabled.
+21:44:08 Heroes button located
+21:44:08 Current state is: Home Screen
+21:44:09 Expanding arrow
+21:44:09 missions check
+21:44:11 Heroes button located
+21:44:11 Game state is : Home Screen
+21:44:11 Checking missions
