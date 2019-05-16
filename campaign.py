@@ -44,7 +44,7 @@ def get_food():
 
 def check_campaign():
     global last_check
-    if delay_next_check(20, last_check):
+    if delay_next_check(10, last_check):
         return
     last_check = datetime.datetime.now()
     log("Checking Campaign")

@@ -17,7 +17,7 @@ def check_cave():
     if not settings.caves:
         return
     # delay_msg = "Checked skillpoints at " + str(last_check) + ". Waiting until 30 minutes has passed"
-    if delay_next_check(20, last_check):
+    if delay_next_check(6, last_check):
         return
     last_check = datetime.datetime.now()
 

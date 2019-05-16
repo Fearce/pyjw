@@ -5,8 +5,18 @@ import time
 import settings
 import datetime
 
+last_check = datetime.datetime.now()
+if last_check.hour == 0:
+    last_check = last_check.replace(minute=0)
+else:
+    last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
 
+    
 def check_upgrades():
+    global last_check
+    if delay_next_check(59, last_check):
+        return
+    last_check = datetime.datetime.now()
     #log("Searching for equipment & Elevation upgrades")
     if settings.leveling or settings.equipping or settings.elevating:
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)

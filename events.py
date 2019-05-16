@@ -26,6 +26,7 @@ def check_events():
         check_lab()
         check_wayback()
         check_magic()
+        check_tree_of_life()
 
 lab_done = False
 def check_lab():
@@ -69,6 +70,29 @@ def check_wayback():
             wayback_done += 1
             time.sleep(3)
         escape(3)
+
+
+tree_of_life_done = 0
+def check_tree_of_life():
+    global tree_of_life_done
+    if tree_of_life_done >= 2:
+        log("Tree of Life already done, escaping")
+        escape(2)
+        return
+    time.sleep(1)
+    wayback = pyautogui.locateOnScreen('imgs/tree_of_life.PNG', confidence=0.88)
+    if wayback is not None:
+        log("Tree of Life event found.")
+        time.sleep(1)
+        lab_three = pyautogui.locateOnScreen('imgs/lab_three.PNG', confidence=0.88)
+        if lab_three is not None:
+            click_on_box(lab_three)
+            time.sleep(2)
+            click(1024, 700)
+            tree_of_life_done += 1
+            time.sleep(3)
+        escape(3)
+
         
         
 magic_done = False

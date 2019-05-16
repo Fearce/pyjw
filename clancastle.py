@@ -199,7 +199,7 @@ def do_raids():
     # no raids todo
     time.sleep(1.5)
     battle_cave_go = pyautogui.locateOnScreen('imgs/battle_cave_go.png', confidence=0.9)
-    for x in range(0, 7):
+    for x in range(0, 11):
         no_clan_attempts = pyautogui.locateOnScreen('imgs/no_clan_attempts.png', confidence=0.99)
         if no_clan_attempts is not None:
             log("No more clan attempts")

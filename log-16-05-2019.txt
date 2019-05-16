@@ -598,3 +598,787 @@
 17:22:58 Current state is: Home Screen
 17:22:58 Upgrades
 17:23:48 Press CTRL-ALT-Delete to quit or close the program.
+17:33:19 Enabling all settings
+17:34:10 Bot enabled
+17:34:10 Press CTRL-ALT-Delete to quit or close the program.
+17:34:11 Game window found at 2, 38
+17:34:11 Selecting game window
+17:34:13 Heroes button located
+17:34:13 Current state is: Home Screen
+17:34:13 Upgrades
+17:34:13 Arena check
+17:34:15 Heroes button located
+17:34:15 Game state is : Home Screen
+17:34:16 Checking Arena
+17:34:22 Current state : Home Screen
+17:34:22 Arena battles available. Doing Battle!
+17:34:24 1: 39075. 2: 40086. 3: 34261.
+17:34:24 Lowest power found: 34261. Entering hero select.
+17:34:26 Deselecting Arena heroes
+17:34:28 Selecting heroes for Arena
+17:34:28 Selecting Arena heroes
+17:34:30 Entering battle
+17:34:33 trial_of_death check
+17:34:39 Speeding up battle
+17:34:41 Speeding up battle
+17:34:42 Wrong state, escaping
+17:34:42 coliseum check
+17:34:48 Wrong state, escaping
+17:34:48 tournament check
+17:34:53 Wrong state, escaping
+17:34:53 events check
+17:34:59 Wrong state, escaping
+17:34:59 caves check
+17:34:59 Working
+17:35:01 Wrong state, escaping
+17:35:02 chests check
+17:35:04 Heroes button located
+17:35:04 Game state is : Home Screen
+17:35:04 Checking Chests
+17:35:06 Looking for Chest button
+17:35:08 Chest button found, clicking
+17:35:12 Opening wooden chest
+17:35:19 No chests available
+17:35:22 mailbox check
+17:35:23 Heroes button located
+17:35:23 Game state is : Home Screen
+17:35:23 Checking mail
+17:35:27 No mail available
+17:35:28 missions check
+17:35:30 Heroes button located
+17:35:30 Game state is : Home Screen
+17:35:30 Checking missions
+17:35:40 No rewards, leaving missions
+17:35:41 friends check
+17:35:47 Wrong state, escaping
+17:35:47 portal check
+17:35:48 Bot disabled, wait for current cycle to be done or force-quit the program
+17:35:49 Heroes button located
+17:35:49 Game state is : Home Screen
+17:35:50 campaign check
+17:35:51 Heroes button located
+17:35:51 Game state is : Home Screen
+17:35:52 clan_castle check
+17:35:54 Heroes button located
+17:35:54 Game state is : Home Screen
+17:35:55 Cycle done, waiting 1 seconds and restarting
+17:40:01 Bot enabled
+17:40:01 Press CTRL-ALT-Delete to quit or close the program.
+17:40:02 Game window found at 2, 38
+17:40:02 Selecting game window
+17:40:04 Heroes button located
+17:40:04 Current state is: Home Screen
+17:40:04 Upgrades
+17:40:04 Arena check
+17:40:06 Heroes button located
+17:40:06 Game state is : Home Screen
+17:40:08 trial_of_death check
+17:40:10 Heroes button located
+17:40:10 Game state is : Home Screen
+17:40:10 Checking Trial of Death
+17:40:10 Trial of Death ready
+17:40:16 1/3 trials left, entering hero select
+17:40:25 Selecting heroes for Trial 3
+17:40:25 Selecting ToD heroes
+17:40:26 Looking for Arzgar_the_Herald_of_Death
+17:40:26 Arzgar_the_Herald_of_Death found.
+17:40:27 Looking for Hitay_the_Spirit_of_Flame
+17:40:28 Hitay_the_Spirit_of_Flame found.
+17:40:29 Looking for Crystalloid_Vern
+17:40:29 Crystalloid_Vern found.
+17:40:30 Looking for Samurai_Yasi
+17:40:31 Samurai_Yasi found.
+17:40:32 Looking for Guard_Langerd
+17:40:32 Guard_Langerd found.
+17:40:34 coliseum check
+17:40:39 Wrong state, escaping
+17:40:40 tournament check
+17:40:47 Speeding up battle
+17:40:49 Speeding up battle
+17:40:50 Wrong state, escaping
+17:40:50 events check
+17:40:56 Wrong state, escaping
+17:40:57 caves check
+17:40:57 In Battle
+17:41:03 Wrong state, escaping
+17:41:04 chests check
+17:41:10 Wrong state, escaping
+17:41:10 mailbox check
+17:41:17 Wrong state, escaping
+17:41:17 missions check
+17:41:23 Wrong state, escaping
+17:41:24 friends check
+17:41:30 Wrong state, escaping
+17:41:31 portal check
+17:41:36 Wrong state, escaping
+17:41:37 campaign check
+17:41:39 Wrong state, escaping
+17:41:39 clan_castle check
+17:41:43 Wrong state, escaping
+17:41:44 Cycle done, waiting 1 seconds and restarting
+17:41:47 Heroes button located
+17:41:47 Current state is: Home Screen
+17:41:47 Upgrades
+17:41:47 Arena check
+17:41:49 Heroes button located
+17:41:49 Game state is : Home Screen
+17:41:51 trial_of_death check
+17:41:53 Heroes button located
+17:41:53 Game state is : Home Screen
+17:41:54 coliseum check
+17:41:56 Heroes button located
+17:41:56 Game state is : Home Screen
+17:41:56 Checking Coliseum
+17:41:58 tournament check
+17:41:59 Heroes button located
+17:41:59 Game state is : Home Screen
+17:42:01 events check
+17:42:03 Heroes button located
+17:42:03 Game state is : Home Screen
+17:42:03 Checking event.
+17:42:09 caves check
+17:42:09 Home Screen
+17:42:15 Wrong state, escaping
+17:42:16 chests check
+17:42:18 Heroes button located
+17:42:18 Game state is : Home Screen
+17:42:18 Checking Chests
+17:42:20 Opening wooden chest
+17:42:27 No chests available
+17:42:29 mailbox check
+17:42:31 Heroes button located
+17:42:31 Game state is : Home Screen
+17:42:31 Checking mail
+17:42:34 No mail available
+17:42:36 missions check
+17:42:38 Heroes button located
+17:42:38 Game state is : Home Screen
+17:42:38 Checking missions
+17:42:43 Bot disabled, wait for current cycle to be done or force-quit the program
+17:42:48 No rewards, leaving missions
+17:42:49 friends check
+17:42:56 Wrong state, escaping
+17:42:56 portal check
+17:42:58 Heroes button located
+17:42:58 Game state is : Home Screen
+17:42:59 campaign check
+17:43:01 Heroes button located
+17:43:01 Game state is : Home Screen
+17:43:02 clan_castle check
+17:43:04 Heroes button located
+17:43:04 Game state is : Home Screen
+17:43:05 Cycle done, waiting 1 seconds and restarting
+17:45:11 Bot enabled
+17:45:11 Press CTRL-ALT-Delete to quit or close the program.
+17:45:12 Game window found at 2, 38
+17:45:12 Selecting game window
+17:45:13 Current state is: Daily Rewards
+17:45:13 Daily rewards
+17:45:13 Clicking all the rewards
+17:45:23 Cycle done, waiting 1 seconds and restarting
+17:45:30 Current state is: Working
+17:45:30 Unknown game state, trying to correct
+17:45:32 Cycle done, waiting 1 seconds and restarting
+17:45:35 Heroes button located
+17:45:35 Current state is: Home Screen
+17:45:35 Upgrades
+17:45:35 Arena check
+17:45:37 Heroes button located
+17:45:37 Game state is : Home Screen
+17:45:39 trial_of_death check
+17:45:41 Heroes button located
+17:45:41 Game state is : Home Screen
+17:45:42 coliseum check
+17:45:44 Heroes button located
+17:45:44 Game state is : Home Screen
+17:45:44 Checking Coliseum
+17:45:45 tournament check
+17:45:47 Heroes button located
+17:45:47 Game state is : Home Screen
+17:45:49 events check
+17:45:50 Heroes button located
+17:45:50 Game state is : Home Screen
+17:45:51 Checking event.
+17:45:57 caves check
+17:45:57 Home Screen
+17:46:03 Wrong state, escaping
+17:46:03 chests check
+17:46:05 Heroes button located
+17:46:05 Game state is : Home Screen
+17:46:06 mailbox check
+17:46:08 Heroes button located
+17:46:08 Game state is : Home Screen
+17:46:09 missions check
+17:46:11 Heroes button located
+17:46:11 Game state is : Home Screen
+17:46:11 Checking missions
+17:46:27 No rewards, leaving missions
+17:46:28 friends check
+17:46:30 Heroes button located
+17:46:30 Game state is : Home Screen
+17:46:30 Checking friends
+17:46:33 Send Button
+17:46:39 Facebook send button
+17:46:57 portal check
+17:47:03 Wrong state, escaping
+17:47:04 campaign check
+17:47:06 Heroes button located
+17:47:06 Game state is : Home Screen
+17:47:06 Checking Campaign
+17:47:06 Current food is: 176
+17:47:06 Trying to spend food
+17:47:08 Checking Ninja_Meego
+17:47:13 Current food is: 176
+17:48:07 clan_castle check
+17:48:09 Heroes button located
+17:48:09 Game state is : Home Screen
+17:48:09 Checking Clan Castle.
+17:48:11 Cycle done, waiting 1 seconds and restarting
+17:48:14 Heroes button located
+17:48:14 Current state is: Clan Castle
+17:48:16 Heroes button located
+17:48:16 Checking Treasury.
+17:48:29 Wrong state, escaping
+17:48:32 Heroes button located
+17:48:32 Checking Caravan.
+17:48:34 Looking for Caravan button
+17:48:36 Looking for Caravan button
+17:48:39 Looking for Caravan button
+17:48:41 Looking for Caravan button
+17:48:44 Looking for Caravan button
+17:48:47 Looking for Caravan button
+17:48:49 Caravan button found, clicking
+17:49:02 Heroes button located
+17:49:02 Wrong state, escaping
+17:49:05 Heroes button located
+17:49:05 Wrong state, escaping
+17:49:07 Heroes button located
+17:49:07 Wrong state, escaping
+17:49:10 Heroes button located
+17:49:10 Wrong state, escaping
+17:49:11 Upgrades
+17:49:11 Arena check
+17:49:13 Heroes button located
+17:49:13 Game state is : Home Screen
+17:49:15 trial_of_death check
+17:49:17 Heroes button located
+17:49:17 Game state is : Home Screen
+17:49:18 coliseum check
+17:49:20 Heroes button located
+17:49:20 Game state is : Home Screen
+17:49:20 Checking Coliseum
+17:49:21 Bot disabled, wait for current cycle to be done or force-quit the program
+17:49:22 tournament check
+17:49:24 Heroes button located
+17:49:24 Game state is : Home Screen
+17:49:25 events check
+17:49:26 Heroes button located
+17:49:26 Game state is : Home Screen
+17:49:27 caves check
+17:49:27 Home Screen
+17:49:29 Heroes button located
+17:49:29 Game state is : Home Screen
+17:49:30 chests check
+17:49:32 Heroes button located
+17:49:32 Game state is : Home Screen
+17:49:33 mailbox check
+17:49:35 Heroes button located
+17:49:35 Game state is : Home Screen
+17:49:36 missions check
+17:49:37 Heroes button located
+17:49:37 Game state is : Home Screen
+17:49:38 friends check
+17:49:40 Heroes button located
+17:49:40 Game state is : Home Screen
+17:49:41 portal check
+17:49:43 Heroes button located
+17:49:43 Game state is : Home Screen
+17:49:44 campaign check
+17:49:46 Heroes button located
+17:49:46 Game state is : Home Screen
+17:49:47 clan_castle check
+17:49:48 Heroes button located
+17:49:48 Game state is : Home Screen
+17:49:49 Cycle done, waiting 1 seconds and restarting
+17:54:02 Bot enabled
+17:54:02 Press CTRL-ALT-Delete to quit or close the program.
+17:54:02 Game window found at 2, 38
+17:54:02 Selecting game window
+17:54:05 Heroes button located
+17:54:05 Current state is: Home Screen
+17:54:05 Upgrades
+17:54:05 Arena check
+17:54:07 Heroes button located
+17:54:07 Game state is : Home Screen
+17:54:09 trial_of_death check
+17:54:11 Heroes button located
+17:54:11 Game state is : Home Screen
+17:54:11 Checking Trial of Death
+17:54:11 Trial of Death ready
+17:54:17 1/3 trials left, entering hero select
+17:54:39 coliseum check
+17:54:45 Wrong state, escaping
+17:54:45 tournament check
+17:54:49 Wrong state, escaping
+17:54:50 events check
+17:54:51 Heroes button located
+17:54:51 Game state is : Home Screen
+17:54:52 Checking event.
+17:54:58 caves check
+17:54:58 Home Screen
+17:55:04 Wrong state, escaping
+17:55:04 chests check
+17:55:06 Heroes button located
+17:55:06 Game state is : Home Screen
+17:55:06 Checking Chests
+17:55:09 Opening wooden chest
+17:55:16 No chests available
+17:55:17 mailbox check
+17:55:19 Heroes button located
+17:55:19 Game state is : Home Screen
+17:55:19 Checking mail
+17:55:23 Receiving mail
+17:55:31 Receiving mail
+17:55:37 No mail available
+17:55:39 missions check
+17:55:40 Heroes button located
+17:55:40 Game state is : Home Screen
+17:55:40 Checking missions
+17:55:55 Waiting for ad to finish
+17:56:26 Ad closed
+17:56:27 friends check
+17:56:33 Wrong state, escaping
+17:56:34 portal check
+17:56:36 Heroes button located
+17:56:36 Game state is : Home Screen
+17:56:36 Checking portal
+17:56:38 Looking for Portal button
+17:56:40 Looking for Portal button
+17:56:43 Looking for Portal button
+17:56:45 Looking for Portal button
+17:56:48 Looking for Portal button
+17:56:50 Looking for Portal button
+17:56:53 Portal button found, clicking
+17:56:57 Clicking trial
+17:57:17 Clicking otherworld
+17:57:22 Doing current otherworld
+17:57:27 Starting otherworld bash, make sure the composition you want to use is selected
+17:58:12 Doing current otherworld
+17:58:55 Doing current otherworld
+17:59:42 Doing current otherworld
+18:00:31 Doing current otherworld
+18:00:34 Bot disabled, wait for current cycle to be done or force-quit the program
+18:06:08 Press CTRL-ALT-Delete to quit or close the program.
+18:06:14 Enabling all settings
+18:06:43 Bot enabled
+18:06:43 Press CTRL-ALT-Delete to quit or close the program.
+18:06:44 Game window found at 2, 38
+18:06:44 Selecting game window
+18:06:46 Heroes button located
+18:06:46 Current state is: Home Screen
+18:06:46 Upgrades
+18:06:46 Arena check
+18:06:48 Heroes button located
+18:06:48 Game state is : Home Screen
+18:06:50 trial_of_death check
+18:06:52 Heroes button located
+18:06:52 Game state is : Home Screen
+18:06:52 Checking Trial of Death
+18:06:53 coliseum check
+18:06:55 Heroes button located
+18:06:55 Game state is : Home Screen
+18:06:55 Checking Coliseum
+18:06:56 tournament check
+18:06:57 Heroes button located
+18:06:57 Game state is : Home Screen
+18:06:59 events check
+18:07:00 Heroes button located
+18:07:00 Game state is : Home Screen
+18:07:01 Checking event.
+18:07:07 Tree of Life event found.
+18:07:16 caves check
+18:07:16 Home Screen
+18:07:23 Speeding up battle
+18:07:25 Speeding up battle
+18:07:25 Wrong state, escaping
+18:07:26 chests check
+18:07:31 Wrong state, escaping
+18:07:31 mailbox check
+18:07:37 Wrong state, escaping
+18:07:37 missions check
+18:07:42 Wrong state, escaping
+18:07:43 friends check
+18:07:47 Wrong state, escaping
+18:07:48 portal check
+18:07:53 Wrong state, escaping
+18:07:53 campaign check
+18:07:55 Heroes button located
+18:07:55 Game state is : Home Screen
+18:07:55 Checking Campaign
+18:07:55 Current food is: 87
+18:07:55 Trying to spend food
+18:07:57 Checking Ninja_Meego
+18:08:02 Current food is: 87
+18:08:18 clan_castle check
+18:08:20 Heroes button located
+18:08:20 Game state is : Home Screen
+18:08:20 Checking Clan Castle.
+18:08:21 Cycle done, waiting 1 seconds and restarting
+18:08:24 Heroes button located
+18:08:24 Current state is: Clan Castle
+18:08:26 Heroes button located
+18:08:26 Checking Treasury.
+18:08:34 Heroes button located
+18:08:34 Checking Clan Store.
+18:08:49 Heroes button located
+18:08:49 Checking Caravan.
+18:08:57 Heroes button located
+18:08:57 Checking Praises.
+18:09:03 Praises ready
+18:09:03 Found praise
+18:09:12 Praises ready
+18:09:12 Found praise
+18:09:20 Praises ready
+18:09:20 Found praise
+18:09:29 Praises ready
+18:09:32 Praises ready
+18:09:32 Found praise
+18:09:41 Praises ready
+18:09:44 Praises ready
+18:09:44 Found praise
+18:09:53 Praises ready
+18:09:56 Praises ready
+18:09:56 Found praise
+18:10:08 Heroes button located
+18:10:08 Checking Wheel of Fortune.
+18:10:10 Looking for Wheel of Fortune button
+18:10:12 Looking for Wheel of Fortune button
+18:10:15 Looking for Wheel of Fortune button
+18:10:17 Looking for Wheel of Fortune button
+18:10:19 Looking for Wheel of Fortune button
+18:10:22 Looking for Wheel of Fortune button
+18:10:24 Looking for Wheel of Fortune button
+18:10:27 Looking for Wheel of Fortune button
+18:10:29 Looking for Wheel of Fortune button
+18:10:32 Wheel of Fortune button found, clicking
+18:10:53 Heroes button located
+18:10:53 Wrong state, escaping
+18:10:55 Heroes button located
+18:10:55 Wrong state, escaping
+18:10:56 Upgrades
+18:10:56 Arena check
+18:10:58 Heroes button located
+18:10:58 Game state is : Home Screen
+18:11:00 trial_of_death check
+18:11:02 Heroes button located
+18:11:02 Game state is : Home Screen
+18:11:02 Checking Trial of Death
+18:11:03 coliseum check
+18:11:05 Heroes button located
+18:11:05 Game state is : Home Screen
+18:11:05 Checking Coliseum
+18:11:06 tournament check
+18:11:08 Heroes button located
+18:11:08 Game state is : Home Screen
+18:11:09 events check
+18:11:11 Heroes button located
+18:11:11 Game state is : Home Screen
+18:11:11 Checking event.
+18:11:17 Tree of Life event found.
+18:11:26 caves check
+18:11:26 Home Screen
+18:11:33 Speeding up battle
+18:11:35 Speeding up battle
+18:11:35 Wrong state, escaping
+18:11:36 chests check
+18:11:41 Wrong state, escaping
+18:11:41 mailbox check
+18:11:46 Wrong state, escaping
+18:11:47 missions check
+18:11:55 Wrong state, escaping
+18:11:55 friends check
+18:12:00 Wrong state, escaping
+18:12:01 portal check
+18:12:02 Heroes button located
+18:12:02 Game state is : Home Screen
+18:12:02 Checking portal
+18:12:04 Trial not available
+18:12:07 Otherworld not available
+18:12:08 campaign check
+18:12:10 Heroes button located
+18:12:10 Game state is : Home Screen
+18:12:11 clan_castle check
+18:12:13 Heroes button located
+18:12:13 Game state is : Home Screen
+18:12:13 Checking Clan Castle.
+18:12:14 Cycle done, waiting 1 seconds and restarting
+18:12:17 Heroes button located
+18:12:17 Current state is: Clan Castle
+18:12:19 Heroes button located
+18:12:21 Heroes button located
+18:12:24 Heroes button located
+18:12:26 Heroes button located
+18:12:29 Heroes button located
+18:12:32 Heroes button located
+18:12:32 Checking Altar.
+18:12:33 Looking for Altar button
+18:12:36 Looking for Altar button
+18:12:38 Looking for Altar button
+18:12:41 Looking for Altar button
+18:12:43 Looking for Altar button
+18:12:46 Looking for Altar button
+18:12:48 Looking for Altar button
+18:12:51 Looking for Altar button
+18:12:53 Looking for Altar button
+18:12:56 Looking for Altar button
+18:12:58 Looking for Altar button
+18:13:01 Altar button found, clicking
+18:13:11 Heroes button located
+18:13:11 Wrong state, escaping
+18:13:12 Upgrades
+18:13:13 Expanding arrow
+18:13:13 Arena check
+18:13:15 Heroes button located
+18:13:15 Game state is : Home Screen
+18:13:17 trial_of_death check
+18:13:19 Heroes button located
+18:13:19 Game state is : Home Screen
+18:13:19 Checking Trial of Death
+18:13:20 coliseum check
+18:13:22 Heroes button located
+18:13:22 Game state is : Home Screen
+18:13:22 Checking Coliseum
+18:13:23 tournament check
+18:13:25 Heroes button located
+18:13:25 Game state is : Home Screen
+18:13:26 events check
+18:13:28 Heroes button located
+18:13:28 Game state is : Home Screen
+18:13:29 caves check
+18:13:29 Home Screen
+18:13:30 Heroes button located
+18:13:30 Game state is : Home Screen
+18:13:30 Checking Cave
+18:13:49 Checking cave fights
+18:13:50 Clicking fight
+18:13:57 Checking cave fights
+18:13:58 Clicking fight
+18:14:03 chests check
+18:14:05 Heroes button located
+18:14:05 Game state is : Home Screen
+18:14:05 Checking Chests
+18:14:07 Opening wooden chest
+18:14:14 No chests available
+18:14:16 mailbox check
+18:14:17 Heroes button located
+18:14:17 Game state is : Home Screen
+18:14:17 Checking mail
+18:14:20 No mail available
+18:14:22 missions check
+18:14:24 Heroes button located
+18:14:24 Game state is : Home Screen
+18:14:24 Checking missions
+18:14:56 No rewards, leaving missions
+18:14:57 friends check
+18:14:59 Heroes button located
+18:14:59 Game state is : Home Screen
+18:14:59 Checking friends
+18:15:01 Ad available!
+18:15:06 Waiting for ad to finish
+18:15:17 Ad closed
+18:15:37 portal check
+18:15:42 Wrong state, escaping
+18:15:42 campaign check
+18:15:44 Heroes button located
+18:15:44 Game state is : Home Screen
+18:15:45 clan_castle check
+18:15:47 Heroes button located
+18:15:47 Game state is : Home Screen
+18:15:47 Checking Clan Castle.
+18:15:49 Cycle done, waiting 1 seconds and restarting
+18:15:51 Heroes button located
+18:15:51 Current state is: Clan Castle
+18:15:53 Heroes button located
+18:15:55 Heroes button located
+18:15:58 Heroes button located
+18:16:01 Heroes button located
+18:16:03 Heroes button located
+18:16:06 Heroes button located
+18:16:08 Heroes button located
+18:16:08 Checking Battle Cave.
+18:16:10 Looking for Battle Cave button
+18:16:13 Looking for Battle Cave button
+18:16:15 Battle Cave button found, clicking
+18:16:29 Seems no raid is available at the moment, escaping
+18:16:32 Upgrades
+18:16:32 Cycle done, waiting 1 seconds and restarting
+18:16:34 Heroes button located
+18:16:34 Current state is: Home Screen
+18:16:34 Upgrades
+18:16:35 Arena check
+18:16:36 Heroes button located
+18:16:36 Game state is : Home Screen
+18:16:39 trial_of_death check
+18:16:40 Heroes button located
+18:16:40 Game state is : Home Screen
+18:16:40 Checking Trial of Death
+18:16:42 coliseum check
+18:16:43 Heroes button located
+18:16:43 Game state is : Home Screen
+18:16:43 Checking Coliseum
+18:16:45 tournament check
+18:16:46 Heroes button located
+18:16:46 Game state is : Home Screen
+18:16:47 events check
+18:16:49 Heroes button located
+18:16:49 Game state is : Home Screen
+18:16:50 caves check
+18:16:50 Home Screen
+18:16:52 Heroes button located
+18:16:52 Game state is : Home Screen
+18:16:53 chests check
+18:16:55 Heroes button located
+18:16:55 Game state is : Home Screen
+18:16:56 mailbox check
+18:16:57 Heroes button located
+18:16:57 Game state is : Home Screen
+18:16:58 missions check
+18:17:00 Heroes button located
+18:17:00 Game state is : Home Screen
+18:17:00 Checking missions
+18:17:03 No rewards, leaving missions
+18:17:05 friends check
+18:17:06 Heroes button located
+18:17:06 Game state is : Home Screen
+18:17:06 Checking friends
+18:17:09 Looking for Friend Heart button
+18:17:12 Looking for Friend Heart button
+18:17:15 Looking for Friend Heart button
+18:17:18 Looking for Friend Heart button
+18:17:21 Looking for Friend Heart button
+18:17:24 Looking for Friend Heart button
+18:17:27 Looking for Friend Heart button
+18:17:30 Looking for Friend Heart button
+18:17:33 Looking for Friend Heart button
+18:17:36 Looking for Friend Heart button
+18:17:39 Looking for Friend Heart button
+18:17:42 Looking for Friend Heart button
+18:17:45 Looking for Friend Heart button
+18:18:08 portal check
+18:18:10 Heroes button located
+18:18:10 Game state is : Home Screen
+18:18:11 campaign check
+18:18:13 Heroes button located
+18:18:13 Game state is : Home Screen
+18:18:14 clan_castle check
+18:18:15 Heroes button located
+18:18:15 Game state is : Home Screen
+18:18:15 Checking Clan Castle.
+18:18:17 Looking for Clan Castle button
+18:18:20 Looking for Clan Castle button
+18:18:22 Looking for Clan Castle button
+18:18:25 Clan Castle button found, clicking
+18:18:29 Cycle done, waiting 1 seconds and restarting
+18:18:32 Heroes button located
+18:18:32 Current state is: Home Screen
+18:18:32 Upgrades
+18:18:32 Arena check
+18:18:34 Heroes button located
+18:18:34 Game state is : Home Screen
+18:18:36 trial_of_death check
+18:18:38 Heroes button located
+18:18:38 Game state is : Home Screen
+18:18:38 Checking Trial of Death
+18:18:39 coliseum check
+18:18:41 Heroes button located
+18:18:41 Game state is : Home Screen
+18:18:41 Checking Coliseum
+18:18:42 tournament check
+18:18:43 Heroes button located
+18:18:43 Game state is : Home Screen
+18:18:45 events check
+18:18:46 Heroes button located
+18:18:46 Game state is : Home Screen
+18:18:48 caves check
+18:18:48 Home Screen
+18:18:49 Heroes button located
+18:18:49 Game state is : Home Screen
+18:18:50 chests check
+18:18:52 Heroes button located
+18:18:52 Game state is : Home Screen
+18:18:53 mailbox check
+18:18:55 Heroes button located
+18:18:55 Game state is : Home Screen
+18:18:56 missions check
+18:18:57 Heroes button located
+18:18:57 Game state is : Home Screen
+18:18:58 friends check
+18:19:00 Heroes button located
+18:19:00 Game state is : Home Screen
+18:19:01 portal check
+18:19:02 Heroes button located
+18:19:02 Game state is : Home Screen
+18:19:03 campaign check
+18:19:05 Heroes button located
+18:19:05 Game state is : Home Screen
+18:19:06 clan_castle check
+18:19:08 Heroes button located
+18:19:08 Game state is : Home Screen
+18:19:09 Cycle done, waiting 1 seconds and restarting
+18:19:11 Heroes button located
+18:19:11 Current state is: Home Screen
+18:19:11 Upgrades
+18:19:12 Arena check
+18:19:13 Heroes button located
+18:19:13 Game state is : Home Screen
+18:19:15 Bot disabled, wait for current cycle to be done or force-quit the program
+18:19:16 trial_of_death check
+18:19:17 Heroes button located
+18:19:17 Game state is : Home Screen
+18:19:18 coliseum check
+18:19:20 Heroes button located
+18:19:20 Game state is : Home Screen
+18:19:21 tournament check
+18:19:22 Heroes button located
+18:19:22 Game state is : Home Screen
+18:19:23 events check
+18:19:25 Heroes button located
+18:19:25 Game state is : Home Screen
+18:19:26 caves check
+18:19:26 Home Screen
+18:19:27 Heroes button located
+18:19:27 Game state is : Home Screen
+18:19:28 chests check
+18:19:30 Heroes button located
+18:19:30 Game state is : Home Screen
+18:19:31 mailbox check
+18:19:33 Heroes button located
+18:19:33 Game state is : Home Screen
+18:19:34 missions check
+18:19:35 Heroes button located
+18:19:35 Game state is : Home Screen
+18:19:36 friends check
+18:19:38 Heroes button located
+18:19:38 Game state is : Home Screen
+18:19:39 portal check
+18:19:40 Heroes button located
+18:19:40 Game state is : Home Screen
+18:19:41 campaign check
+18:19:43 Heroes button located
+18:19:43 Game state is : Home Screen
+18:19:44 clan_castle check
+18:19:46 Heroes button located
+18:19:46 Game state is : Home Screen
+18:19:47 Cycle done, waiting 1 seconds and restarting
+18:28:00 Press CTRL-ALT-Delete to quit or close the program.
+18:28:01 Enabling all settings
+18:28:02 Bot enabled
+18:28:02 Press CTRL-ALT-Delete to quit or close the program.
+18:28:02 Game window found at 2, 38
+18:28:02 Selecting game window
+18:28:04 Heroes button located
+18:28:04 Current state is: Home Screen
+18:28:04 Upgrades
+18:28:40 Stopping
+18:28:48 Bot disabled, wait for current cycle to be done or force-quit the program
+18:28:50 Disabling all settings
