@@ -14,11 +14,12 @@ else:
 
 def check_upgrades():
     global last_check
-    if delay_next_check(59, last_check):
+    if delay_next_check(2, last_check):
         return
     last_check = datetime.datetime.now()
     #log("Searching for equipment & Elevation upgrades")
     if settings.leveling or settings.equipping or settings.elevating:
+        log("Checking upgrades")
         heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)
         if heroes_button_located is not None:
             click_on_box(heroes_button_located)

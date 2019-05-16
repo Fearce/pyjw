@@ -208,6 +208,7 @@ def do_raids():
             return
         if battle_cave_go is None:
             go_down()
+            time.sleep(1.5)
             battle_cave_go = pyautogui.locateOnScreen('imgs/battle_cave_go.png', confidence=0.9)
         else:
             click_on_box(battle_cave_go)

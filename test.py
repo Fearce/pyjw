@@ -287,7 +287,6 @@ def do_work():
 
         # home_screen_func(check_upgrades)
     if settings.current_state == "Home Screen" or settings.current_state == "Clan Castle":
-        log("Upgrades")
         check_upgrades()
 
     if settings.current_state == "Working":
@@ -334,7 +333,7 @@ def main_loop(args):
     do_work()
 
     # Wait wait_time sec and start over
-    log("Cycle done, waiting " + str(settings.wait_time) + " seconds and restarting")
+    log("Cycle done, waiting " + str(settings.wait_time) + " seconds and restarting if enabled.")
     # settings.current_state = "Waiting"
     if settings.current_state == "Home Screen":
         time.sleep(settings.wait_time)

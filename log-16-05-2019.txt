@@ -2377,3 +2377,188 @@
 21:12:35 Heroes button located
 21:12:35 Current state is: Home Screen
 21:12:36 missions check
+21:14:32 Press CTRL-ALT-Delete to quit or close the program.
+21:14:49 Bot enabled
+21:14:49 Press CTRL-ALT-Delete to quit or close the program.
+21:14:49 Game window found at 2, 35
+21:14:49 Selecting game window
+21:14:52 Heroes button located
+21:14:52 Current state is: Home Screen
+21:14:52 friends check
+21:14:54 Heroes button located
+21:14:54 Game state is : Home Screen
+21:14:54 Checking friends
+21:14:57 Looking for Friend Heart button
+21:15:01 Looking for Friend Heart button
+21:15:04 Looking for Friend Heart button
+21:15:07 Looking for Friend Heart button
+21:15:11 Looking for Friend Heart button
+21:15:14 Looking for Friend Heart button
+21:15:17 Looking for Friend Heart button
+21:15:20 Looking for Friend Heart button
+21:15:24 Looking for Friend Heart button
+21:15:27 Looking for Friend Heart button
+21:15:30 Looking for Friend Heart button
+21:15:34 Looking for Friend Heart button
+21:15:37 Looking for Friend Heart button
+21:15:51 clan_castle check
+21:15:54 Heroes button located
+21:15:54 Game state is : Home Screen
+21:15:54 Checking Clan Castle.
+21:15:56 Looking for Clan Castle button
+21:15:59 Looking for Clan Castle button
+21:16:01 Looking for Clan Castle button
+21:16:04 Looking for Clan Castle button
+21:16:06 Looking for Clan Castle button
+21:16:09 Clan Castle button found, clicking
+21:16:13 Upgrades
+21:16:13 Cycle done, waiting 1 seconds and restarting
+21:16:17 Heroes button located
+21:16:17 Current state is: Home Screen
+21:16:17 friends check
+21:16:19 Heroes button located
+21:16:19 Game state is : Home Screen
+21:16:20 clan_castle check
+21:16:23 Heroes button located
+21:16:23 Game state is : Home Screen
+21:16:24 Upgrades
+21:16:24 Cycle done, waiting 1 seconds and restarting
+21:16:26 Bot disabled, wait for current cycle to be done or force-quit the program
+21:16:27 Heroes button located
+21:16:27 Current state is: Home Screen
+21:16:27 friends check
+21:16:29 Heroes button located
+21:16:29 Game state is : Home Screen
+21:16:30 clan_castle check
+21:16:38 Wrong state, escaping
+21:16:38 Unknown game state, trying to correct
+21:16:40 Cycle done, waiting 1 seconds and restarting
+21:17:03 Press CTRL-ALT-Delete to quit or close the program.
+21:17:07 Bot enabled
+21:17:07 Press CTRL-ALT-Delete to quit or close the program.
+21:17:07 Game window found at 2, 35
+21:17:07 Selecting game window
+21:17:10 Heroes button located
+21:17:10 Current state is: Home Screen
+21:17:10 clan_castle check
+21:17:12 Heroes button located
+21:17:12 Game state is : Home Screen
+21:17:12 Checking Clan Castle.
+21:17:14 Upgrades
+21:17:14 Cycle done, waiting 1 seconds and restarting
+21:17:17 Heroes button located
+21:17:17 Current state is: Clan Castle
+21:17:19 Heroes button located
+21:17:19 Checking Battle Cave.
+21:17:21 Looking for Battle Cave button
+21:17:24 Looking for Battle Cave button
+21:17:26 Battle Cave button found, clicking
+21:17:48 Bot disabled, wait for current cycle to be done or force-quit the program
+21:19:00 Press CTRL-ALT-Delete to quit or close the program.
+21:19:10 Bot enabled
+21:19:10 Press CTRL-ALT-Delete to quit or close the program.
+21:19:11 Game window found at 2, 35
+21:19:11 Selecting game window
+21:19:13 Heroes button located
+21:19:13 Current state is: Home Screen
+21:19:14 clan_castle check
+21:19:16 Heroes button located
+21:19:16 Game state is : Home Screen
+21:19:16 Checking Clan Castle.
+21:19:18 Cycle done, waiting 1 seconds and restarting
+21:19:21 Heroes button located
+21:19:21 Current state is: Clan Castle
+21:19:23 Heroes button located
+21:19:23 Checking Battle Cave.
+21:19:25 Looking for Battle Cave button
+21:19:27 Looking for Battle Cave button
+21:19:30 Battle Cave button found, clicking
+21:20:01 Seems no raid is available at the moment, escaping
+21:20:04 Cycle done, waiting 1 seconds and restarting
+21:20:14 Speeding up battle
+21:20:16 Speeding up battle
+21:20:16 Current state is: In Battle
+21:20:16 Cycle done, waiting 1 seconds and restarting
+21:20:24 Current state is: In Battle
+21:20:24 Cycle done, waiting 1 seconds and restarting
+21:20:31 Current state is: In Battle
+21:20:31 Cycle done, waiting 1 seconds and restarting
+21:20:39 Current state is: In Battle
+21:20:39 Cycle done, waiting 1 seconds and restarting
+21:20:46 Current state is: In Battle
+21:20:46 Cycle done, waiting 1 seconds and restarting
+21:20:53 Current state is: Victory
+21:20:53 Victory
+21:20:54 Cycle done, waiting 1 seconds and restarting
+21:21:02 Current state is: Clan Raids
+21:21:02 Clan raids
+21:21:15 Seems no raid is available at the moment, escaping
+21:21:16 Cycle done, waiting 1 seconds and restarting
+21:21:25 Speeding up battle
+21:21:27 Speeding up battle
+21:21:28 Current state is: In Battle
+21:21:28 Cycle done, waiting 1 seconds and restarting
+21:21:35 Current state is: In Battle
+21:21:35 Cycle done, waiting 1 seconds and restarting
+21:21:43 Current state is: In Battle
+21:21:43 Cycle done, waiting 1 seconds and restarting
+21:21:50 Current state is: In Battle
+21:21:50 Cycle done, waiting 1 seconds and restarting
+21:21:57 Current state is: In Battle
+21:21:57 Cycle done, waiting 1 seconds and restarting
+21:22:04 Current state is: Victory
+21:22:04 Victory
+21:22:05 Cycle done, waiting 1 seconds and restarting
+21:22:13 Current state is: Clan Raids
+21:22:13 Clan raids
+21:22:27 Seems no raid is available at the moment, escaping
+21:22:27 Cycle done, waiting 1 seconds and restarting
+21:22:36 Speeding up battle
+21:22:38 Speeding up battle
+21:22:39 Current state is: In Battle
+21:22:39 Cycle done, waiting 1 seconds and restarting
+21:22:46 Current state is: In Battle
+21:22:46 Cycle done, waiting 1 seconds and restarting
+21:22:54 Current state is: In Battle
+21:22:54 Cycle done, waiting 1 seconds and restarting
+21:23:00 Current state is: Victory
+21:23:00 Victory
+21:23:01 Cycle done, waiting 1 seconds and restarting
+21:23:09 Current state is: Clan Raids
+21:23:09 Clan raids
+21:23:11 No more clan attempts
+21:23:12 Cycle done, waiting 1 seconds and restarting
+21:23:15 Heroes button located
+21:23:15 Current state is: Clan Castle
+21:23:17 Heroes button located
+21:23:18 Cycle done, waiting 1 seconds and restarting
+21:23:21 Heroes button located
+21:23:21 Current state is: Home Screen
+21:23:22 clan_castle check
+21:23:24 Heroes button located
+21:23:24 Game state is : Home Screen
+21:23:24 Checking Clan Castle.
+21:23:26 Cycle done, waiting 1 seconds and restarting
+21:23:29 Heroes button located
+21:23:29 Current state is: Clan Castle
+21:23:31 Heroes button located
+21:23:32 Cycle done, waiting 1 seconds and restarting
+21:23:35 Heroes button located
+21:23:35 Current state is: Home Screen
+21:23:35 clan_castle check
+21:23:38 Heroes button located
+21:23:38 Game state is : Home Screen
+21:23:39 Cycle done, waiting 1 seconds and restarting
+21:23:42 Heroes button located
+21:23:42 Current state is: Home Screen
+21:23:42 clan_castle check
+21:23:44 Heroes button located
+21:23:44 Game state is : Home Screen
+21:23:45 Cycle done, waiting 1 seconds and restarting
+21:23:47 Bot disabled, wait for current cycle to be done or force-quit the program
+21:23:48 Heroes button located
+21:23:48 Current state is: Home Screen
+21:23:48 clan_castle check
+21:23:50 Heroes button located
+21:23:50 Game state is : Home Screen
+21:23:51 Cycle done, waiting 1 seconds and restarting
