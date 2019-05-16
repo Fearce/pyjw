@@ -219,10 +219,6 @@ def do_work():
         log("Victory")
         click_next()
 
-    if settings.current_state == "Home Screen" or settings.current_state == "Clan Castle":
-        log("Upgrades")
-        check_upgrades()
-
     if settings.current_state == "Home Screen":
         arrow_expand = pyautogui.locateOnScreen('imgs/arrow_expand.png', confidence=0.95)
         if arrow_expand is not None:
@@ -281,6 +277,9 @@ def do_work():
         do_arena_battle()
 
         # home_screen_func(check_upgrades)
+    if settings.current_state == "Home Screen" or settings.current_state == "Clan Castle":
+        log("Upgrades")
+        check_upgrades()
 
     if settings.current_state == "Working":
         log("Unknown game state, trying to correct")

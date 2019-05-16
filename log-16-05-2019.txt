@@ -1382,3 +1382,104 @@
 18:28:40 Stopping
 18:28:48 Bot disabled, wait for current cycle to be done or force-quit the program
 18:28:50 Disabling all settings
+18:31:18 Press CTRL-ALT-Delete to quit or close the program.
+18:31:23 Enabling all settings
+18:31:24 Bot enabled
+18:31:24 Press CTRL-ALT-Delete to quit or close the program.
+18:31:25 Game window found at 2, 38
+18:31:25 Selecting game window
+18:31:27 Heroes button located
+18:31:27 Current state is: Home Screen
+18:31:27 Arena check
+18:31:29 Heroes button located
+18:31:29 Game state is : Home Screen
+18:31:31 trial_of_death check
+18:31:33 Heroes button located
+18:31:33 Game state is : Home Screen
+18:31:33 Checking Trial of Death
+18:31:34 skill_points check
+18:31:36 Heroes button located
+18:31:36 Game state is : Home Screen
+18:31:36 Checking skill points
+18:31:43 15
+18:31:43 Distributing points
+18:31:43 distributing point 0
+18:31:44 hero is filled, checking next
+18:31:44 15
+18:31:44 distributing point 1
+18:31:45 hero is filled, checking next
+18:31:46 15
+18:31:46 distributing point 2
+18:31:47 hero is filled, checking next
+18:31:47 15
+18:31:47 distributing point 3
+18:31:48 hero is filled, checking next
+18:31:49 15
+18:31:49 distributing point 4
+18:31:50 hero is filled, checking next
+18:31:50 15
+18:31:50 distributing point 5
+18:31:52 hero is filled, checking next
+18:31:52 15
+18:31:52 distributing point 6
+18:31:53 hero is filled, checking next
+18:31:53 15
+18:31:53 distributing point 7
+18:31:55 adding point
+18:31:56 14
+18:31:56 distributing point 8
+18:31:57 adding point
+18:31:58 13
+18:31:58 distributing point 9
+18:31:59 hero is filled, checking next
+18:32:00 13
+18:32:00 distributing point 10
+18:32:01 hero is filled, checking next
+18:32:01 13
+18:32:01 distributing point 11
+18:32:02 adding point
+18:32:04 12
+18:32:04 distributing point 12
+18:32:05 adding point
+18:32:06 1
+18:32:06 distributing point 13
+18:32:07 adding point
+18:32:08 10
+18:32:08 distributing point 14
+18:32:09 hero is filled, checking next
+18:32:10 10
+18:32:10 distributing point 15
+18:32:11 adding point
+18:32:12 9
+18:32:12 distributing point 16
+18:32:13 adding point
+18:32:14 8
+18:32:14 distributing point 17
+18:32:15 adding point
+18:32:16 7
+18:32:16 distributing point 18
+18:32:18 hero is filled, checking next
+18:32:18 7
+18:32:18 distributing point 19
+18:32:19 adding point
+18:32:20 
+18:32:20 distributing point 20
+18:32:20 Tesseract error, waiting until next cycle
+18:32:21 Done distributing points
+18:32:23 coliseum check
+18:32:24 Heroes button located
+18:32:24 Game state is : Home Screen
+18:32:24 Checking Coliseum
+18:32:26 tournament check
+18:32:27 Heroes button located
+18:32:27 Game state is : Home Screen
+18:32:29 events check
+18:32:30 Heroes button located
+18:32:30 Game state is : Home Screen
+18:32:32 caves check
+18:32:32 Home Screen
+18:32:33 Heroes button located
+18:32:33 Game state is : Home Screen
+18:32:33 Checking Cave
+18:32:35 Cave button found, clicking
+18:32:40 Bot disabled, wait for current cycle to be done or force-quit the program
