@@ -444,3 +444,157 @@
 16:44:45 Disabling arena
 16:44:46 Enabling all settings
 16:44:46 Disabling all settings
+16:46:01 Press CTRL-ALT-Delete to quit or close the program.
+16:46:04 Enabling all settings
+16:46:04 Disabling all settings
+16:47:49 Press CTRL-ALT-Delete to quit or close the program.
+16:47:51 Enabling all settings
+16:47:52 Disabling all settings
+16:47:53 Bot enabled
+16:47:53 Press CTRL-ALT-Delete to quit or close the program.
+16:47:54 Game window found at 10, 41
+16:47:54 Selecting game window
+16:47:56 Heroes button located
+16:47:56 Current state is: Home Screen
+16:47:56 Upgrades
+16:47:57 trial_of_death check
+16:47:59 Heroes button located
+16:47:59 Game state is : Home Screen
+16:47:59 Checking Trial of Death
+16:47:59 Trial of Death ready
+16:48:03 Bot disabled, wait for current cycle to be done or force-quit the program
+16:48:05 2/3 trials left, entering hero select
+16:48:12 Selecting heroes for Trial 2
+16:48:12 Selecting ToD heroes
+16:48:13 Looking for Nymph_Edera
+16:48:13 Nymph_Edera found.
+16:48:14 Looking for Naga_Kertana
+16:48:15 Naga_Kertana found.
+16:48:16 Looking for Drowned_Samara
+16:48:16 Drowned_Samara found.
+16:48:17 Looking for Beastborn_Raider_Miaba
+16:48:18 Beastborn_Raider_Miaba found.
+16:48:19 Looking for Master_Hideus
+16:48:19 Master_Hideus found.
+16:48:21 caves check
+16:48:21 Home Screen
+16:48:26 Wrong state, escaping
+16:48:27 missions check
+16:48:34 Speeding up battle
+16:48:36 Speeding up battle
+16:48:37 Wrong state, escaping
+16:48:37 portal check
+16:48:44 Wrong state, escaping
+16:48:44 clan_castle check
+16:48:50 Wrong state, escaping
+16:48:51 Cycle done, waiting 1 seconds and restarting
+16:55:51 Press CTRL-ALT-Delete to quit or close the program.
+17:12:32 Press CTRL-ALT-Delete to quit or close the program.
+17:12:33 Enabling all settings
+17:12:34 Disabling all settings
+17:12:34 Enabling all settings
+17:12:35 Disabling all settings
+17:12:35 Enabling all settings
+17:12:37 Disabling all settings
+17:12:37 Enabling all settings
+17:12:38 Disabling all settings
+17:13:15 Press CTRL-ALT-Delete to quit or close the program.
+17:13:18 Enabling all settings
+17:13:34 Disabling all settings
+17:13:52 Enabling arena
+17:13:54 Disabling arena
+17:13:55 Enabling all settings
+17:13:59 Disabling all settings
+17:14:29 Press CTRL-ALT-Delete to quit or close the program.
+17:14:34 Bot enabled
+17:14:34 Press CTRL-ALT-Delete to quit or close the program.
+17:14:34 Game window found at 10, 41
+17:14:34 Selecting game window
+17:14:40 Current state is: Victory
+17:14:40 Victory
+17:14:41 Cycle done, waiting 1 seconds and restarting
+17:14:44 Current state is: Trial Win
+17:14:44 Trial finish
+17:14:47 Cycle done, waiting 1 seconds and restarting
+17:14:53 Current state is: Victory
+17:14:53 Victory
+17:14:54 Cycle done, waiting 1 seconds and restarting
+17:14:58 Current state is: Trial of Death
+17:14:58 In trial
+17:14:59 1/3 trials left, entering hero select
+17:15:03 Trial not ready, escaping
+17:15:06 Cycle done, waiting 1 seconds and restarting
+17:15:09 Heroes button located
+17:15:09 Current state is: Home Screen
+17:15:09 Upgrades
+17:15:09 Cycle done, waiting 1 seconds and restarting
+17:15:12 Heroes button located
+17:15:12 Current state is: Home Screen
+17:15:12 Upgrades
+17:15:12 Cycle done, waiting 1 seconds and restarting
+17:19:39 Press CTRL-ALT-Delete to quit or close the program.
+17:19:44 Bot enabled
+17:19:44 Press CTRL-ALT-Delete to quit or close the program.
+17:19:44 Game window found at 10, 41
+17:19:44 Selecting game window
+17:19:47 Heroes button located
+17:19:47 Current state is: Home Screen
+17:19:47 Upgrades
+17:19:47 Arena check
+17:19:49 Heroes button located
+17:19:49 Game state is : Home Screen
+17:19:50 Checking Arena
+17:19:55 Current state : Home Screen
+17:19:55 Arena battles available. Doing Battle!
+17:19:57 1: 38467. 2: 38083. 3: 39638.
+17:19:57 Lowest power found: 38083. Entering hero select.
+17:19:59 Deselecting Arena heroes
+17:20:01 Selecting heroes for Arena
+17:20:01 Selecting Arena heroes
+17:20:04 Entering battle
+17:20:07 Cycle done, waiting 1 seconds and restarting
+17:20:14 Speeding up battle
+17:20:16 Speeding up battle
+17:20:17 Current state is: In Battle
+17:20:17 Cycle done, waiting 1 seconds and restarting
+17:20:24 Current state is: In Battle
+17:20:24 Cycle done, waiting 1 seconds and restarting
+17:20:29 Current state is: Victory
+17:20:29 Victory
+17:20:31 Cycle done, waiting 1 seconds and restarting
+17:20:37 Current state is: Working
+17:20:37 Unknown game state, trying to correct
+17:20:39 Cycle done, waiting 1 seconds and restarting
+17:20:42 Current state is: Arena
+17:20:42 Arena state
+17:20:43 Current state : Arena
+17:20:43 Not ready for arena battle
+17:20:43 Cycle done, waiting 1 seconds and restarting
+17:20:46 Heroes button located
+17:20:46 Current state is: Home Screen
+17:20:46 Upgrades
+17:20:46 Arena check
+17:20:48 Heroes button located
+17:20:48 Game state is : Home Screen
+17:20:49 Cycle done, waiting 1 seconds and restarting
+17:20:52 Heroes button located
+17:20:52 Current state is: Home Screen
+17:20:52 Upgrades
+17:20:52 Arena check
+17:20:52 Bot disabled, wait for current cycle to be done or force-quit the program
+17:20:54 Heroes button located
+17:20:54 Game state is : Home Screen
+17:20:55 Cycle done, waiting 1 seconds and restarting
+17:22:06 Press CTRL-ALT-Delete to quit or close the program.
+17:22:32 Press CTRL-ALT-Delete to quit or close the program.
+17:22:42 Enabling all settings
+17:22:43 Disabling all settings
+17:22:44 Enabling all settings
+17:22:55 Bot enabled
+17:22:55 Press CTRL-ALT-Delete to quit or close the program.
+17:22:56 Game window found at 2, 38
+17:22:56 Selecting game window
+17:22:58 Heroes button located
+17:22:58 Current state is: Home Screen
+17:22:58 Upgrades
+17:23:48 Press CTRL-ALT-Delete to quit or close the program.

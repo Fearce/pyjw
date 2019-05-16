@@ -27,7 +27,7 @@
             <property name="relief">flat</property>
             <property name="state">normal</property>
             <property name="text" translatable="yes">Initializing</property>
-            <property name="width">65</property>
+            <property name="width">50</property>
             <layout>
               <property name="column">0</property>
               <property name="propagate">True</property>
@@ -88,7 +88,9 @@
     </child>
     <child>
       <object class="ttk.Checkbutton" id="check_tod">
+        <property name="command">settings_trial_of_death</property>
         <property name="text" translatable="yes">Trial of Death</property>
+        <property name="variable">boolean:tod_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -98,8 +100,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_3">
-        <property name="text" translatable="yes">Checkbutton_3</property>
+      <object class="ttk.Checkbutton" id="check_campaign">
+        <property name="command">settings_campaign</property>
+        <property name="text" translatable="yes">Campaign</property>
+        <property name="variable">boolean:campaign_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -109,8 +113,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_4">
-        <property name="text" translatable="yes">Checkbutton_4</property>
+      <object class="ttk.Checkbutton" id="check_caves">
+        <property name="command">settings_caves</property>
+        <property name="text" translatable="yes">Caves</property>
+        <property name="variable">boolean:caves_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -120,8 +126,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_5">
-        <property name="text" translatable="yes">Checkbutton_5</property>
+      <object class="ttk.Checkbutton" id="check_chests">
+        <property name="command">settings_chests</property>
+        <property name="text" translatable="yes">Chests</property>
+        <property name="variable">boolean:chests_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -131,8 +139,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_6">
-        <property name="text" translatable="yes">Checkbutton_6</property>
+      <object class="ttk.Checkbutton" id="check_coliseum">
+        <property name="command">settings_coliseum</property>
+        <property name="text" translatable="yes">Coliseum</property>
+        <property name="variable">boolean:coliseum_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -142,8 +152,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_7">
-        <property name="text" translatable="yes">Checkbutton_7</property>
+      <object class="ttk.Checkbutton" id="check_daily_rewards">
+        <property name="command">settings_daily_rewards</property>
+        <property name="text" translatable="yes">Daily Rewards</property>
+        <property name="variable">boolean:daily_rewards_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -153,8 +165,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_8">
-        <property name="text" translatable="yes">Checkbutton_8</property>
+      <object class="ttk.Checkbutton" id="check_events">
+        <property name="command">settings_events</property>
+        <property name="text" translatable="yes">Events</property>
+        <property name="variable">boolean:events_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -164,8 +178,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_9">
-        <property name="text" translatable="yes">Checkbutton_9</property>
+      <object class="ttk.Checkbutton" id="check_all_missions">
+        <property name="command">settings_all_missions</property>
+        <property name="text" translatable="yes">All Missions</property>
+        <property name="variable">boolean:all_missions_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -175,8 +191,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_10">
-        <property name="text" translatable="yes">Checkbutton_10</property>
+      <object class="ttk.Checkbutton" id="check_mailbox">
+        <property name="command">settings_mailbox</property>
+        <property name="text" translatable="yes">Mailbox</property>
+        <property name="variable">boolean:mailbox_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -186,8 +204,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_11">
-        <property name="text" translatable="yes">Checkbutton_11</property>
+      <object class="ttk.Checkbutton" id="check_tournament">
+        <property name="command">settings_tournament</property>
+        <property name="text" translatable="yes">Tournament</property>
+        <property name="variable">boolean:tournament_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -197,8 +217,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_12">
-        <property name="text" translatable="yes">Checkbutton_12</property>
+      <object class="ttk.Checkbutton" id="check_missions">
+        <property name="command">settings_missions</property>
+        <property name="text" translatable="yes">Missions</property>
+        <property name="variable">boolean:missions_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -208,8 +230,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_13">
-        <property name="text" translatable="yes">Checkbutton_13</property>
+      <object class="ttk.Checkbutton" id="check_portal">
+        <property name="command">settings_portal</property>
+        <property name="text" translatable="yes">Portal</property>
+        <property name="variable">boolean:portal_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -219,8 +243,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_14">
-        <property name="text" translatable="yes">Checkbutton_14</property>
+      <object class="ttk.Checkbutton" id="check_trials">
+        <property name="command">settings_trials</property>
+        <property name="text" translatable="yes">Trials</property>
+        <property name="variable">boolean:trials_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -230,8 +256,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_15">
-        <property name="text" translatable="yes">Checkbutton_15</property>
+      <object class="ttk.Checkbutton" id="check_otherworld">
+        <property name="command">settings_otherworld</property>
+        <property name="text" translatable="yes">Otherworld</property>
+        <property name="variable">boolean:otherworld_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -241,8 +269,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_16">
-        <property name="text" translatable="yes">Checkbutton_16</property>
+      <object class="ttk.Checkbutton" id="check_otherworld_bash">
+        <property name="command">settings_otherworld_bash</property>
+        <property name="text" translatable="yes">Otherworld Bash</property>
+        <property name="variable">boolean:otherworld_bash_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -252,8 +282,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_17">
-        <property name="text" translatable="yes">Checkbutton_17</property>
+      <object class="ttk.Checkbutton" id="check_clan_castle">
+        <property name="command">settings_clan_castle</property>
+        <property name="text" translatable="yes">Clan Castle</property>
+        <property name="variable">boolean:clan_castle_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -263,8 +295,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_18">
-        <property name="text" translatable="yes">Checkbutton_18</property>
+      <object class="ttk.Checkbutton" id="check_treasury">
+        <property name="command">settings_treasury</property>
+        <property name="text" translatable="yes">Treasury</property>
+        <property name="variable">boolean:treasury_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -274,8 +308,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_19">
-        <property name="text" translatable="yes">Checkbutton_19</property>
+      <object class="ttk.Checkbutton" id="check_clan_store">
+        <property name="command">settings_clan_store</property>
+        <property name="text" translatable="yes">Clan Store</property>
+        <property name="variable">boolean:clan_store_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -285,8 +321,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_20">
-        <property name="text" translatable="yes">Checkbutton_20</property>
+      <object class="ttk.Checkbutton" id="check_praises">
+        <property name="command">settings_praises</property>
+        <property name="text" translatable="yes">Praises</property>
+        <property name="variable">boolean:praises_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -296,8 +334,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_21">
-        <property name="text" translatable="yes">Checkbutton_21</property>
+      <object class="ttk.Checkbutton" id="check_caravan">
+        <property name="command">settings_caravan</property>
+        <property name="text" translatable="yes">Caravan</property>
+        <property name="variable">boolean:caravan_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -307,8 +347,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_22">
-        <property name="text" translatable="yes">Checkbutton_22</property>
+      <object class="ttk.Checkbutton" id="check_altar">
+        <property name="command">settings_altar</property>
+        <property name="text" translatable="yes">Altar</property>
+        <property name="variable">boolean:altar_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -318,8 +360,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_23">
-        <property name="text" translatable="yes">Checkbutton_23</property>
+      <object class="ttk.Checkbutton" id="check_brawls">
+        <property name="command">settings_brawls</property>
+        <property name="text" translatable="yes">Brawls</property>
+        <property name="variable">boolean:brawls_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -329,8 +373,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_24">
-        <property name="text" translatable="yes">Checkbutton_24</property>
+      <object class="ttk.Checkbutton" id="check_wheel">
+        <property name="command">settings_wheel</property>
+        <property name="text" translatable="yes">Wheel of Fortune</property>
+        <property name="variable">boolean:wheel_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -340,8 +386,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_25">
-        <property name="text" translatable="yes">Checkbutton_25</property>
+      <object class="ttk.Checkbutton" id="check_raids">
+        <property name="command">settings_raids</property>
+        <property name="text" translatable="yes">Clan Raids</property>
+        <property name="variable">boolean:raids_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -351,8 +399,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_26">
-        <property name="text" translatable="yes">Checkbutton_26</property>
+      <object class="ttk.Checkbutton" id="check_skill_points">
+        <property name="command">settings_skill_points</property>
+        <property name="text" translatable="yes">Skill Points</property>
+        <property name="variable">boolean:skill_points_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -362,8 +412,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_27">
-        <property name="text" translatable="yes">Checkbutton_27</property>
+      <object class="ttk.Checkbutton" id="check_leveling">
+        <property name="command">settings_leveling</property>
+        <property name="text" translatable="yes">Leveling</property>
+        <property name="variable">boolean:leveling_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -373,8 +425,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_28">
-        <property name="text" translatable="yes">Checkbutton_28</property>
+      <object class="ttk.Checkbutton" id="check_elevating">
+        <property name="command">settings_elevating</property>
+        <property name="text" translatable="yes">Elevating</property>
+        <property name="variable">boolean:elevating_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -384,8 +438,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_29">
-        <property name="text" translatable="yes">Checkbutton_29</property>
+      <object class="ttk.Checkbutton" id="check_equipping">
+        <property name="command">settings_equipping</property>
+        <property name="text" translatable="yes">Equipping</property>
+        <property name="variable">boolean:equipping_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -395,8 +451,10 @@
       </object>
     </child>
     <child>
-      <object class="ttk.Checkbutton" id="Checkbutton_30">
-        <property name="text" translatable="yes">Checkbutton_30</property>
+      <object class="ttk.Checkbutton" id="check_friends">
+        <property name="command">settings_friends</property>
+        <property name="text" translatable="yes">Friends</property>
+        <property name="variable">boolean:friends_check</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>

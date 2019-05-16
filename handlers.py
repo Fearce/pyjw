@@ -53,12 +53,130 @@ def enable_disable_all():
     if all_settings:
         log("Disabling all settings")
         settings.app.builder.get_variable("arena_check").set(False)
+        settings.arena = False
+        settings.app.builder.get_variable("tod_check").set(False)
+        settings.trial_of_death = False
+        settings.app.builder.get_variable("campaign_check").set(False)
+        settings.campaign = False
+        settings.app.builder.get_variable("caves_check").set(False)
+        settings.caves = False
+        settings.app.builder.get_variable("chests_check").set(False)
+        settings.chests = False
+        settings.app.builder.get_variable("coliseum_check").set(False)
+        settings.coliseum = False
+        settings.app.builder.get_variable("daily_rewards_check").set(False)
+        settings.daily_rewards = False
+        settings.app.builder.get_variable("events_check").set(False)
+        settings.events = False
+        settings.app.builder.get_variable("all_missions_check").set(False)
+        settings.missions_all = False
+        settings.app.builder.get_variable("mailbox_check").set(False)
+        settings.mailbox = False
+        settings.app.builder.get_variable("tournament_check").set(False)
+        settings.tournament = False
+        settings.app.builder.get_variable("missions_check").set(False)
+        settings.missions = False
+        settings.app.builder.get_variable("portal_check").set(False)
+        settings.portal = False
+        settings.app.builder.get_variable("trials_check").set(False)
+        settings.trials = False
+        settings.app.builder.get_variable("otherworld_check").set(False)
+        settings.otherworld = False
+        settings.app.builder.get_variable("otherworld_bash_check").set(False)
+        settings.otherworld_bash = False
+        settings.app.builder.get_variable("clan_castle_check").set(False)
+        settings.clan_castle = False
+        settings.app.builder.get_variable("treasury_check").set(False)
+        settings.treasury = False
+        settings.app.builder.get_variable("clan_store_check").set(False)
+        settings.clan_store = False
+        settings.app.builder.get_variable("praises_check").set(False)
+        settings.praises = False
+        settings.app.builder.get_variable("caravan_check").set(False)
+        settings.caravan = False
+        settings.app.builder.get_variable("altar_check").set(False)
+        settings.altar = False
+        settings.app.builder.get_variable("brawls_check").set(False)
+        settings.brawls = False
+        settings.app.builder.get_variable("wheel_check").set(False)
+        settings.wheel = False
+        settings.app.builder.get_variable("raids_check").set(False)
+        settings.raids = False
+        settings.app.builder.get_variable("skill_points_check").set(False)
+        settings.skill_points = False
+        settings.app.builder.get_variable("leveling_check").set(False)
+        settings.leveling = False
+        settings.app.builder.get_variable("elevating_check").set(False)
+        settings.elevating = False
+        settings.app.builder.get_variable("equipping_check").set(False)
+        settings.equipping = False
+        settings.app.builder.get_variable("friends_check").set(False)
+        settings.friends = False
         all_settings = False
         for x in settings.settings_array:
             x = False
     else:
         log("Enabling all settings")
         settings.app.builder.get_variable("arena_check").set(True)
+        settings.arena = True
+        settings.app.builder.get_variable("tod_check").set(True)
+        settings.trial_of_death = True
+        settings.app.builder.get_variable("campaign_check").set(True)
+        settings.campaign = True
+        settings.app.builder.get_variable("caves_check").set(True)
+        settings.caves = True
+        settings.app.builder.get_variable("chests_check").set(True)
+        settings.chests = True
+        settings.app.builder.get_variable("coliseum_check").set(True)
+        settings.coliseum = True
+        settings.app.builder.get_variable("daily_rewards_check").set(True)
+        settings.daily_rewards = True
+        settings.app.builder.get_variable("events_check").set(True)
+        settings.events = True
+        settings.app.builder.get_variable("all_missions_check").set(True)
+        settings.missions_all = True
+        settings.app.builder.get_variable("mailbox_check").set(True)
+        settings.mailbox = True
+        settings.app.builder.get_variable("tournament_check").set(True)
+        settings.tournament = True
+        settings.app.builder.get_variable("missions_check").set(True)
+        settings.missions = True
+        settings.app.builder.get_variable("portal_check").set(True)
+        settings.portal = True
+        settings.app.builder.get_variable("trials_check").set(True)
+        settings.trials = True
+        settings.app.builder.get_variable("otherworld_check").set(True)
+        settings.otherworld = True
+        settings.app.builder.get_variable("otherworld_bash_check").set(True)
+        settings.otherworld_bash = True
+        settings.app.builder.get_variable("clan_castle_check").set(True)
+        settings.clan_castle = True
+        settings.app.builder.get_variable("treasury_check").set(True)
+        settings.treasury = True
+        settings.app.builder.get_variable("clan_store_check").set(True)
+        settings.clan_store = True
+        settings.app.builder.get_variable("praises_check").set(True)
+        settings.praises = True
+        settings.app.builder.get_variable("caravan_check").set(True)
+        settings.caravan = True
+        settings.app.builder.get_variable("altar_check").set(True)
+        settings.altar = True
+        settings.app.builder.get_variable("brawls_check").set(True)
+        settings.brawls = True
+        settings.app.builder.get_variable("wheel_check").set(True)
+        settings.wheel = True
+        settings.app.builder.get_variable("raids_check").set(True)
+        settings.raids = True
+        settings.app.builder.get_variable("skill_points_check").set(True)
+        settings.skill_points = True
+        settings.app.builder.get_variable("leveling_check").set(True)
+        settings.leveling = True
+        settings.app.builder.get_variable("elevating_check").set(True)
+        settings.elevating = True
+        settings.app.builder.get_variable("equipping_check").set(True)
+        settings.equipping = True
+        settings.app.builder.get_variable("friends_check").set(True)
+        settings.friends = True
         #log(str(var.get()))
         #var.set(True)
         #log(str(var.get()))
@@ -70,10 +188,10 @@ def enable_disable_all():
 
 def arena():
     if settings.arena:
-        log("Disabling arena")
+        #log("Disabling arena")
         settings.arena = False
     else:
-        log("Enabling arena")
+        #log("Enabling arena")
         settings.arena = True
 
 
@@ -157,8 +275,12 @@ def missions():
         settings.missions = True
 
 
-missions_all = False  # Exchanging, experience potions, enchanting, friend currency
-
+#missions_all = False  # Exchanging, experience potions, enchanting, friend currency
+def missions_all():
+    if settings.missions_all:
+        settings.missions_all = False
+    else:
+        settings.missions_all = True
 
 def portal():
     if settings.portal:
