@@ -106,8 +106,8 @@ def click_image(img, msg, func):
         log(msg)
         click_on_box(img_ready)
         time.sleep(3)
-        pyautogui.click(settings.game_x + 1095 - 33, settings.game_y + 487 - 49)
-        time.sleep(1)
+        #pyautogui.click(settings.game_x + 1095 - 33, settings.game_y + 487 - 49)
+        #time.sleep(1)
         func()
 
 
@@ -137,6 +137,9 @@ def get_value_from_rect(x1, y1, x2, y2):
     image.save('screencapture_256_256.png', format='png')
     config = '-l digits1+digits+digits_comma --psm 10 --oem 3 -c tessedit_char_whitelist=0123456789'
     value = pytesseract.pytesseract.image_to_string(image, config=config)
+    value = value.strip('.')
+    value = value.strip(' ')
+    value = value.strip('/')
     return value
 
 

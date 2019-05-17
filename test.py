@@ -9,7 +9,7 @@ from caves import check_cave, do_cave_fights, get_cave_gold
 from missions import check_missions
 from portal import check_portal
 from skillpoints import check_skill_points
-from tournament import check_tournament
+from tournament import check_tournament, doing, do_tournament
 from trialofdeath import check_trial_of_death, do_trial_of_death, finish_trial
 from coliseum import check_coliseum, do_coliseum
 from arena import check_arena, do_arena_battle
@@ -128,6 +128,20 @@ def detect_game_state():
     locked_treasure = pyautogui.locateOnScreen('imgs/locked_treasure.png', confidence=0.95)
     if locked_treasure is not None:
         settings.current_state = "Locked Treasure"
+        return
+
+    tournament_battle = pyautogui.locateOnScreen('imgs/tournament_battle.PNG', confidence=0.95)
+    tournament_battle2 = pyautogui.locateOnScreen('imgs/tournament_battle2.PNG', confidence=0.95)
+    if tournament_battle2 is not None or tournament_battle is not None:
+        settings.current_state = "Tournament"
+        do_tournament()
+        return
+
+    in_arena = pyautogui.locateOnScreen('imgs/in_arena.png', confidence=0.95)
+    in_arena2 = pyautogui.locateOnScreen('imgs/in_arena2.png', confidence=0.95)
+    if in_arena2 is not None or in_arena is not None:
+        settings.current_state = "Tournament Battle"
+        doing()
         return
 
     clan_raids = pyautogui.locateOnScreen('imgs/clan_raids.png', confidence=0.95)

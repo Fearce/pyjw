@@ -28,7 +28,10 @@ def do_trial_of_death():
     global last_check
     last_check = datetime.datetime.now()
     trial_number = 1
-    if pyautogui.locateOnScreen('imgs/3.PNG', confidence=0.95) is not None:
+    if pyautogui.locateOnScreen('imgs/4.PNG', confidence=0.95) is not None:
+        log("4/4 trials left, entering hero select")
+        trial_number = 4
+    elif pyautogui.locateOnScreen('imgs/3.PNG', confidence=0.95) is not None:
         log("3/3 trials left, entering hero select")
     elif pyautogui.locateOnScreen('imgs/2.PNG', confidence=0.95) is not None:
         log("2/3 trials left, entering hero select")

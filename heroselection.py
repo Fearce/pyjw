@@ -70,13 +70,14 @@ recursion_limit = 0
 def select_hero(hero):
     global drag_count, recursion_limit
     recursion_limit += 1
-    if recursion_limit >= 50:
+    if recursion_limit >= 30:
         recursion_limit = 0
         return
     tournament_clock = pyautogui.locateOnScreen('imgs/tournament_clock.PNG', confidence=0.88)
     if tournament_clock is not None:
         return
     log("Looking for " + hero)
+    #log("Looking for " + hero + " " + str(recursion_limit)+"/30")
     hero_found = pyautogui.locateOnScreen('imgs/heroes/'+hero+'.PNG', confidence=0.88)
     if hero_found is not None:
         log(hero + " found.")

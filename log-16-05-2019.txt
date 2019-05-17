@@ -2697,3 +2697,5 @@
 21:44:11 Heroes button located
 21:44:11 Game state is : Home Screen
 21:44:11 Checking missions
+21:51:38 Press CTRL-ALT-Delete to quit or close the program.
+21:51:40 Enabling all settings
