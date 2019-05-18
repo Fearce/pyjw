@@ -95,7 +95,7 @@ def do_upgrade():
         time.sleep(2)
         click(464, 676)  # Elevate
         time.sleep(1)
-        escape(3)
+        escape(4)
         #check_upgrades()
         return
 
