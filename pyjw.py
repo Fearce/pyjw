@@ -2,7 +2,7 @@ import handlers
 from campaign import check_campaign
 from clancastle import check_treasury, check_caravan, check_praises, check_raids, check_wheel_of_fortune, check_altar, \
     check_clan_store, check_clan_castle, do_raids
-from helpers import log, locate_game_window, get_value_from_rect, click_on_box, escape, click_image, click, click_next, \
+from helpers import log, locate_game_window,  click_on_box, escape,  click, click_next, \
     speed_up_battle, wait_on_img
 from dailyrewards import click_daily_rewards
 from caves import check_cave, do_cave_fights, get_cave_gold
@@ -11,23 +11,17 @@ from portal import check_portal
 from skillpoints import check_skill_points
 from tournament import check_tournament, doing, do_tournament
 from trialofdeath import check_trial_of_death, do_trial_of_death, finish_trial
-from coliseum import check_coliseum, do_coliseum
+from coliseum import check_coliseum
 from arena import check_arena, do_arena_battle
 from chests import check_chests, locked_treasure
 from friends import check_friends
 from mailbox import check_mailbox
 from events import check_events
 import settings
-from heroselection import select_heroes, deselect_heroes, select_arena_heroes, select_tod_heroes, select_hero, \
-    enter_lowest
 import pyautogui
 import time
-import os
 import tkinter
 import threading
-import random
-import datetime
-import winsound
 import sys
 import pygubu
 import pytesseract
@@ -175,9 +169,13 @@ def home_screen_func(func):
 def clan_castle_func(func):
     detect_game_state()
     if settings.current_state != "Clan Castle":
-        log("Wrong state, escaping")
-        escape(1)
-        return
+        log("Going to clan castle.")
+        home_screen_func(check_clan_castle)
+        time.sleep(1)
+        escape_on_disable(func)
+        #time.sleep(1)
+        #escape(1)
+        #return
         #do_work()
     else:
         escape_on_disable(func)

@@ -1,6 +1,6 @@
 import threading
 
-import test
+import pyjw
 import settings
 import multiprocessing
 from helpers import log
@@ -35,7 +35,7 @@ def start_stop():
         settings.enabled = True
         threading.stack_size(200000000)
         # thread = multiprocessing.Process(target=test.program)
-        thread = StoppableThread(test.program)
+        thread = StoppableThread(pyjw.program)
         # thread = threading.Thread()
         thread.start()
 

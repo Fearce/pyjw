@@ -49,9 +49,9 @@ def check_friends():
         last_check = last_check.replace(hour=last_check.hour - 1)
 
 def give_friend_currency():
-    wait_on_img(friend_send, 0.9,80)
+    wait_on_img(friend_send, 0.9,30)
     click_image(friend_send, "Send Button", wait)
-    wait_on_img(facebook_send, 0.9, 80)
+    wait_on_img(facebook_send, 0.9, 30)
     click_image(facebook_send, "Facebook send button", wait)
 
 

@@ -1,0 +1,188 @@
+12:45:16 Press CTRL-ALT-Delete to quit or close the program.
+12:45:21 Enabling all settings
+12:45:25 Bot enabled
+12:45:46 Press CTRL-ALT-Delete to quit or close the program.
+12:45:46 Enabling all settings
+12:45:49 Bot enabled
+12:45:49 Press CTRL-ALT-Delete to quit or close the program.
+12:45:49 Game window found at 2, 28
+12:45:49 Selecting game window
+12:45:51 Current state is: Daily Rewards
+12:45:51 Daily rewards
+12:45:51 Clicking all the rewards
+12:46:01 Cycle done, waiting 1 seconds and restarting if enabled.
+12:46:09 Current state is: Working
+12:46:09 Unknown game state, trying to correct
+12:46:11 Cycle done, waiting 1 seconds and restarting if enabled.
+12:46:19 Current state is: Working
+12:46:19 Unknown game state, trying to correct
+12:46:20 Cycle done, waiting 1 seconds and restarting if enabled.
+12:46:23 Heroes button located
+12:46:23 Current state is: Home Screen
+12:46:23 Arena check
+12:46:25 Heroes button located
+12:46:25 Game state is : Home Screen
+12:46:26 Checking Arena
+12:46:30 Current state : Home Screen
+12:46:30 Arena battles available. Doing Battle!
+12:46:33 1: 18. 2: 1. 3: 10.
+12:46:33 Lowest power found: 1. Entering hero select.
+12:46:35 Deselecting Arena heroes
+12:46:37 Selecting heroes for Arena
+12:46:37 Selecting Arena heroes
+12:46:39 Entering battle
+12:46:42 trial_of_death check
+12:46:45 Wrong state, escaping
+12:46:45 skill_points check
+12:46:47 Heroes button located
+12:46:47 Game state is : Home Screen
+12:46:47 Checking skill points
+12:46:54 15
+12:46:54 Distributing points
+12:46:54 distributing point 0
+12:46:55 hero is filled, checking next
+12:46:55 15
+12:46:55 distributing point 1
+12:46:57 hero is filled, checking next
+12:46:57 15
+12:46:57 distributing point 2
+12:46:58 hero is filled, checking next
+12:46:59 15
+12:46:59 distributing point 3
+12:47:00 hero is filled, checking next
+12:47:00 15
+12:47:00 distributing point 4
+12:47:01 hero is filled, checking next
+12:47:02 15
+12:47:02 distributing point 5
+12:47:03 hero is filled, checking next
+12:47:03 15
+12:47:03 distributing point 6
+12:47:05 hero is filled, checking next
+12:47:05 15
+12:47:05 distributing point 7
+12:47:06 adding point
+12:47:07 14
+12:47:07 distributing point 8
+12:47:08 adding point
+12:47:09 13
+12:47:09 distributing point 9
+12:47:11 adding point
+12:47:12 180
+12:47:12 distributing point 10
+12:47:13 adding point
+12:47:14 1
+12:47:14 distributing point 11
+12:47:16 adding point
+12:47:17 10
+12:47:17 distributing point 12
+12:47:18 adding point
+12:47:19 9
+12:47:19 distributing point 13
+12:47:20 adding point
+12:47:21 8
+12:47:21 distributing point 14
+12:47:22 adding point
+12:47:24 7
+12:47:24 distributing point 15
+12:47:25 adding point
+12:47:26 0
+12:47:26 distributing point 16
+12:47:26 No points, breaking
+12:47:26 Done distributing points
+12:47:28 coliseum check
+12:47:30 Heroes button located
+12:47:30 Game state is : Home Screen
+12:47:30 Checking Coliseum
+12:47:31 tournament check
+12:47:33 Heroes button located
+12:47:33 Game state is : Home Screen
+12:47:34 events check
+12:47:36 Heroes button located
+12:47:36 Game state is : Home Screen
+12:47:36 Checking event.
+12:47:38 Laboratory of the Alchemist event found.
+12:47:52 caves check
+12:47:52 Home Screen
+12:47:54 Heroes button located
+12:47:54 Game state is : Home Screen
+12:47:54 Checking Cave
+12:47:56 Looking for Cave button
+12:47:58 Looking for Cave button
+12:48:01 Looking for Cave button
+12:48:03 Looking for Cave button
+12:48:06 Looking for Cave button
+12:48:08 Looking for Cave button
+12:48:11 Looking for Cave button
+12:48:13 Looking for Cave button
+12:48:16 Looking for Cave button
+12:48:18 Cave button found, clicking
+12:48:38 Checking cave fights
+12:48:40 Clicking fight
+12:48:46 Checking cave fights
+12:48:48 Clicking fight
+12:48:54 chests check
+12:48:55 Heroes button located
+12:48:55 Game state is : Home Screen
+12:48:55 Checking Chests
+12:48:58 Opening wooden chest
+12:49:05 Opening precious chest
+12:49:11 mailbox check
+12:49:18 Wrong state, escaping
+12:49:19 missions check
+12:49:19 Escaping ad
+12:49:20 Wrong state, escaping
+12:49:20 friends check
+12:49:22 Heroes button located
+12:49:22 Game state is : Home Screen
+12:49:22 Checking friends
+12:49:24 Looking for Friend Heart button
+12:49:28 Looking for Friend Heart button
+12:49:31 Looking for Friend Heart button
+12:49:34 Friend Heart button found, clicking
+12:51:18 Press CTRL-ALT-Delete to quit or close the program.
+12:51:19 Enabling all settings
+12:51:22 Bot enabled
+12:51:22 Press CTRL-ALT-Delete to quit or close the program.
+12:51:22 Game window found at 2, 28
+12:51:22 Selecting game window
+12:51:25 Heroes button located
+12:51:25 Current state is: Home Screen
+12:51:26 Arena check
+12:51:28 Heroes button located
+12:51:28 Game state is : Home Screen
+12:51:29 Checking Arena
+12:51:34 Current state : Home Screen
+12:51:34 Arena battles available. Doing Battle!
+12:51:36 1: 37957. 2: 26274. 3: 36249.
+12:51:36 Lowest power found: 26274. Entering hero select.
+12:51:38 Deselecting Arena heroes
+12:51:40 Selecting heroes for Arena
+12:51:40 Selecting Arena heroes
+12:51:42 Entering battle
+12:51:45 trial_of_death check
+12:51:50 Wrong state, escaping
+12:51:50 skill_points check
+12:51:57 Speeding up battle
+12:51:59 Speeding up battle
+12:51:59 Wrong state, escaping
+12:52:00 coliseum check
+12:52:05 Wrong state, escaping
+12:52:05 tournament check
+12:52:12 Wrong state, escaping
+12:52:13 events check
+12:52:15 Wrong state, escaping
+12:52:16 caves check
+12:52:16 Arena
+12:52:17 Heroes button located
+12:52:17 Game state is : Home Screen
+12:52:17 Checking Cave
+12:52:20 Looking for Cave button
+12:52:23 Looking for Cave button
+12:52:26 Looking for Cave button
+12:52:29 Looking for Cave button
+12:52:32 Looking for Cave button
+12:52:35 Looking for Cave button
+12:52:38 Looking for Cave button
+12:52:40 Bot disabled, wait for current cycle to be done or force-quit the program
+12:52:41 Looking for Cave button
