@@ -13,7 +13,11 @@ else:
 
 
 def locked_treasure():
-    log("Opening treasure")
+    log("Throwing away treasure")
+    escape(1)
+    throw_away = pyautogui.locateOnScreen('imgs/throw_away.png', confidence=0.85)
+    if throw_away is not None:
+        click_on_box(throw_away)
     # TODO Click on locked treasures, escape if didnt work
 
 

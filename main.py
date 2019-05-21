@@ -21,7 +21,6 @@ pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/te
 daily_reward_2 = 'imgs/daily_reward_2.PNG'
 daily_reward_3 = 'imgs/daily_reward_3.PNG'
 
-
 arch_escape = 'imgs/escape1.PNG'
 arch_available = 'imgs/archavailable.png'
 
@@ -36,10 +35,8 @@ skill_point_add = 'imgs/skillpointadd.PNG'
 skill_points_power = 'imgs/skillpointspower.PNG'
 skill_points_need = 'imgs/needsomeskillpoints.PNG'
 
-
 chest_available = 'imgs/chestavailable.PNG'
 free_wood_chest = 'imgs/freewoodchest.PNG'
-
 
 friend_currency = 'imgs/friend_currency.PNG'
 friend_send = 'imgs/friend_send.PNG'
@@ -84,10 +81,10 @@ in_the_name_of_the_light = 'imgs/in_the_name_of_the_light.PNG'
 next_button = 'imgs/next.PNG'
 
 
-
 ##Functions
 def log(msg):
     print(str(datetime.datetime.now().strftime("%H:%M:%S")) + ": " + msg)
+
 
 def click_on_image(img, name, confidence):
     imgBox = pyautogui.locateOnScreen(img, confidence=confidence)
@@ -97,6 +94,7 @@ def click_on_image(img, name, confidence):
         print("Clicking: " + name + " @ " + str(centerPoints))
         return centerPoints
     return None
+
 
 def skill_points():
     log("Checking skill points")
@@ -113,7 +111,8 @@ def skill_points():
         # If skill points are available
         log("Skill points available, trying to distribute.")
         for x in range(0, 2):  # Do skills 20 times
-            skillAddBox = pyautogui.locateOnScreen(skill_point_add, confidence=0.95)  # Find the + for adding skillpoints
+            skillAddBox = pyautogui.locateOnScreen(skill_point_add,
+                                                   confidence=0.95)  # Find the + for adding skillpoints
             needBox = pyautogui.locateOnScreen(skill_points_need, confidence=0.8)
             zeroBox = pyautogui.locateOnScreen(skill_points_available0, confidence=0.8)
             # When you have skillpoints, add them
@@ -134,14 +133,13 @@ def skill_points():
             if powBox is not None and needBox is None and zeroBox is None:
                 powBoxCoords = pyautogui.center(powBox)
                 x, y = powBoxCoords
-                pyautogui.click(x-65, y+280)
+                pyautogui.click(x - 65, y + 280)
                 time.sleep(0.2)
         log("Skill points distributed")
         escape()
     else:
         log("15 skill points not ready, waiting for next cycle")
         escape()
-
 
 
 def check_chests():
@@ -194,13 +192,14 @@ def check_shops():
         time.sleep(2)
         click_on_image(arch_escape, "Items sold, leaving", 0.8)
 
+
 def check_daily_rewards():
     log("Checking for daily rewards")
     reward_2 = pyautogui.locateOnScreen(daily_reward_2, confidence=0.9)
     if reward_2 is not None:
         reward_2_Coords = pyautogui.center(reward_2)
         x, y = reward_2_Coords
-        pyautogui.click(x+20, y-60)
+        pyautogui.click(x + 20, y - 60)
         time.sleep(2)
         pyautogui.click(x - 20, y - 250)
         time.sleep(2)
@@ -214,6 +213,7 @@ def check_daily_rewards():
         pyautogui.click(x - 20, y - 250)
         time.sleep(2)
         click_on_image(arch_escape, "Daily reward item 3 taken, leaving", 0.8)
+
 
 def close_adds():
     expand = click_on_image(menu_expand, "Missions", 0.9)
@@ -234,9 +234,11 @@ def close_adds():
         click_on_image(arch_escape, "Add closed, leaving", 0.8)
     escape()
 
+
 def campaign_chapters():
     for y in range(0, 3):
         campaign_chapters2()
+
 
 def campaign_chapters2():
     for x in range(0, 2):
@@ -329,6 +331,7 @@ def escape():
             pyautogui.move(-12, 0)
             pyautogui.drag(12, 0, 0.1, button='left')
 
+
 def check_mailbox():
     log("Checking mailbox")
     mbox = click_on_image(mailbox_available, "Mailbox", 0.9)
@@ -340,6 +343,7 @@ def check_mailbox():
             pyautogui.click(rec)
             time.sleep(1.5)
             click_on_image(arch_escape, "Reward received, leaving", 0.8)
+
 
 def check_missions():
     log("Checking missions")
@@ -356,7 +360,7 @@ def check_missions():
         if cont is not None:
             x, y = cont
             time.sleep(2.5)
-            pyautogui.click(x, y-290)
+            pyautogui.click(x, y - 290)
             time.sleep(2.5)
         # Campaign-mission clicked, correct
         camp_arrow = pyautogui.locateOnScreen(mission_campaign_arrow, confidence=0.9)
@@ -388,8 +392,6 @@ def arch_event():
     click_on_image(arch_available, "Arch Event", 0.8)
 
 
-
-
 ##Main loop
 def main():
     close_adds()
@@ -402,7 +404,7 @@ def main():
     close_adds()
 
     # Friend currency
-    #check_friends()
+    # check_friends()
     close_adds()
 
     # Shops
@@ -432,13 +434,12 @@ def main():
 
     # Trial of Death
 
-
-
     # Wait 30 sec and start over
     log("Checks done, waiting 20 seconds and restarting")
     time.sleep(20)
     close_adds()
     main()
+
 
 ##Init
 if __name__ == '__main__':

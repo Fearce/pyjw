@@ -60,7 +60,9 @@ def do_trial_of_death():
 
 
 def finish_trial():
+    log("Finishing trial")
     pyautogui.click(settings.game_x+580, settings.game_y+725)
     time.sleep(1.5)
     pyautogui.click(settings.game_x+770, settings.game_y+430)
     time.sleep(1)
+    escape(2)

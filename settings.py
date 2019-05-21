@@ -71,6 +71,9 @@ game_y = 0
 x_scaling = 1280 / resolution_x
 y_scaling = 800 / resolution_y
 
+game_x_start = 0
+game_y_start = 0
+
 settings_array = [arena, campaign, caves, chests, clan_castle, coliseum, daily_rewards, events, friends,
                   mailbox, missions, tournament, trial_of_death, portal, trials, otherworld, treasury,
                   clan_store, praises, caravan, altar, brawls, wheel, raids, skill_points, leveling, elevating,

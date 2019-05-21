@@ -27,8 +27,8 @@ def check_arena():
     #if arena_ready is not None:
     #    log("Arena ready")
     #    click_on_box(arena_ready)
-    #    time.sleep(3)
-    #    pyautogui.click(settings.game_x + 1095 - 33, settings.game_y + 487 - 49)
+    time.sleep(3)
+    pyautogui.click(settings.game_x + 1095 - 33, settings.game_y + 487 - 49)
     #    time.sleep(1)
     #    do_arena_battle()
 
@@ -41,6 +41,8 @@ def do_arena_battle():
     log("Current state : " + settings.current_state)
     if no_battles_ready is None and waiting is None:
         log("Arena battles available. Doing Battle!")
+        #time.sleep(1)
+        #escape(1)
         wait_on_img('imgs/arena_store.PNG', 0.9, 30)
         arena_store = pyautogui.locateOnScreen('imgs/arena_store.PNG', confidence=0.9)
         if arena_store is None:
