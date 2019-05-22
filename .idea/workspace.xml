@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed2bab7a-0832-4b64-afd1-a4fe55635a25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/caves.py" beforeDir="false" afterPath="$PROJECT_DIR$/caves.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-22-05-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log-22-05-2019.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/missions.py" beforeDir="false" afterPath="$PROJECT_DIR$/missions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyjw.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyjw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screencapture_256_256.png" beforeDir="false" afterPath="$PROJECT_DIR$/screencapture_256_256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upgrades.py" beforeDir="false" afterPath="$PROJECT_DIR$/upgrades.py" afterDir="false" />
-    </list>
+    <list default="true" id="ed2bab7a-0832-4b64-afd1-a4fe55635a25" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,8 +261,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1835" />
-    <option name="y" value="-5" />
+    <option name="x" value="1784" />
+    <option name="y" value="-3" />
     <option name="width" value="1529" />
     <option name="height" value="1037" />
   </component>
@@ -406,7 +399,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1835" y="-5" width="1529" height="1037" extended-state="0" />
+    <frame x="1784" y="-3" width="1529" height="1037" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2920354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
