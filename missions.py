@@ -91,6 +91,12 @@ def check_missions():
 
 def do_mission():
     time.sleep(2)
+    skill_add = pyautogui.locateOnScreen('imgs/skillpointadd.png', confidence=0.99)
+    if skill_add is not None:
+        log("Wrong mission, escaping")
+        escape(1)
+        return
+
     hero_power = pyautogui.locateOnScreen('imgs/hero_power.png', confidence=0.9)
     if hero_power is not None:
         enchant_mission()

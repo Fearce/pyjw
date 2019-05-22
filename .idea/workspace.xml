@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed2bab7a-0832-4b64-afd1-a4fe55635a25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caves.py" beforeDir="false" afterPath="$PROJECT_DIR$/caves.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log-21-05-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log-21-05-2019.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-22-05-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log-22-05-2019.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/missions.py" beforeDir="false" afterPath="$PROJECT_DIR$/missions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyjw.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyjw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screencapture_256_256.png" beforeDir="false" afterPath="$PROJECT_DIR$/screencapture_256_256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/skillpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgrades.py" beforeDir="false" afterPath="$PROJECT_DIR$/upgrades.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pyjw$test.coverage" NAME="test Coverage Results" MODIFIED="1558203652638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyjw$pyjw.coverage" NAME="pyjw Coverage Results" MODIFIED="1558510877194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyjw$pyjw.coverage" NAME="pyjw Coverage Results" MODIFIED="1558527715809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyjw$helpers.coverage" NAME="helpers Coverage Results" MODIFIED="1557348176711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -57,7 +55,7 @@
         <counts>
           <entry key="PNG" value="6" />
           <entry key="png" value="1" />
-          <entry key="py" value="327" />
+          <entry key="py" value="328" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
@@ -65,30 +63,30 @@
         <counts>
           <entry key="Image" value="7" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="327" />
+          <entry key="Python" value="328" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="23437" />
+          <entry key="py" value="23805" />
           <entry key="txt" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="161" />
-          <entry key="Python" value="23437" />
+          <entry key="Python" value="23805" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyjw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="282" column="33" lean-forward="true" selection-start-line="282" selection-start-column="33" selection-end-line="282" selection-end-column="33" />
+            <state relative-caret-position="448">
+              <caret line="419" column="19" lean-forward="true" selection-start-line="419" selection-start-column="19" selection-end-line="419" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -139,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skillpoints.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+            <state relative-caret-position="284">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding>
                 <element signature="e#0#136#0" expanded="true" />
               </folding>
@@ -151,11 +149,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caves.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1243">
-              <caret line="82" column="93" lean-forward="true" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
+            <state relative-caret-position="529">
+              <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1558468250092" expanded="true" signature="2649:2650" ph="..." />
+                <marker date="1558526456503" expanded="true" signature="2649:2650" ph="..." />
               </folding>
             </state>
           </provider>
@@ -170,15 +168,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heroselection.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upgrades.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+            <state relative-caret-position="431">
+              <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
               <folding>
-                <element signature="e#0#118#0" expanded="true" />
-                <marker date="1558093750637" expanded="true" signature="1952:2081" ph="..." />
-                <marker date="1558093750637" expanded="true" signature="4017:4022" ph="..." />
+                <element signature="e#0#185#0" expanded="true" />
+                <marker date="1558527681957" expanded="true" signature="2511:3078" ph="..." />
               </folding>
             </state>
           </provider>
@@ -187,11 +184,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/missions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="151" column="40" lean-forward="true" selection-start-line="151" selection-start-column="40" selection-end-line="151" selection-end-column="40" />
+            <state relative-caret-position="210">
+              <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1558469483913" expanded="true" signature="4324:4325" ph="..." />
+                <marker date="1558527082863" expanded="true" signature="4511:4512" ph="..." />
               </folding>
             </state>
           </provider>
@@ -246,7 +243,6 @@
         <option value="$PROJECT_DIR$/clancastle.py" />
         <option value="$PROJECT_DIR$/heroselection.py" />
         <option value="$PROJECT_DIR$/tournament.py" />
-        <option value="$PROJECT_DIR$/upgrades.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/handlers.py" />
         <option value="$PROJECT_DIR$/friends.py" />
@@ -255,12 +251,13 @@
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/trialofdeath.py" />
         <option value="$PROJECT_DIR$/skillpoints.py" />
-        <option value="$PROJECT_DIR$/caves.py" />
-        <option value="$PROJECT_DIR$/pyjw.py" />
         <option value="$PROJECT_DIR$/campaign.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/missions.py" />
         <option value="$PROJECT_DIR$/helpers.py" />
+        <option value="$PROJECT_DIR$/caves.py" />
+        <option value="$PROJECT_DIR$/missions.py" />
+        <option value="$PROJECT_DIR$/pyjw.py" />
+        <option value="$PROJECT_DIR$/upgrades.py" />
       </list>
     </option>
   </component>
@@ -410,14 +407,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1835" y="-5" width="1529" height="1037" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2920354" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2920354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928057" visible="true" weight="0.18715394" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928057" visible="true" weight="0.18715394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,17 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upgrades.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#185#0" expanded="true" />
-            <marker date="1558110288106" expanded="true" signature="2510:3077" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/friends.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -646,27 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skillpoints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caves.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1243">
-          <caret line="82" column="93" lean-forward="true" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1558468250092" expanded="true" signature="2649:2650" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/campaign.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -684,17 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
           <caret line="311" column="43" lean-forward="true" selection-start-line="311" selection-start-column="43" selection-end-line="311" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/missions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="151" column="40" lean-forward="true" selection-start-line="151" selection-start-column="40" selection-end-line="151" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1558469483913" expanded="true" signature="4324:4325" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,12 +669,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyjw.py">
+    <entry file="file://$PROJECT_DIR$/caves.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="282" column="33" lean-forward="true" selection-start-line="282" selection-start-column="33" selection-end-line="282" selection-end-column="33" />
+        <state relative-caret-position="529">
+          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <marker date="1558526456503" expanded="true" signature="2649:2650" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skillpoints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1558527082863" expanded="true" signature="4511:4512" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyjw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="419" column="19" lean-forward="true" selection-start-line="419" selection-start-column="19" selection-end-line="419" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upgrades.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#185#0" expanded="true" />
+            <marker date="1558527681957" expanded="true" signature="2511:3078" ph="..." />
           </folding>
         </state>
       </provider>

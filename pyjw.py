@@ -30,6 +30,8 @@ from upgrades import check_upgrades
 
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
+pyautogui.FAILSAFE = True
+
 
 def detect_game_state():
     reward_for_support = pyautogui.locateOnScreen('imgs/reward_for_support.PNG', confidence=1)
@@ -298,7 +300,7 @@ def do_work():
         do_arena_battle()
 
         # home_screen_func(check_upgrades)
-    if settings.current_state == "Home Screen" or settings.current_state == "Clan Castle":
+    if settings.current_state == "Home Screen":
         check_upgrades()
 
     if settings.current_state == "Working":
@@ -409,6 +411,7 @@ def program():
     global main_loop, args
     try:
         log('Press CTRL-ALT-Delete to quit or close the program.')
+        log("Turn off Otherworld Bash & Leveling if you don't need them.")
         if settings.enabled:
             settings.game_x, settings.game_y = locate_game_window()
             main_loop, args = main_loop("Start")
@@ -419,7 +422,8 @@ def program():
                 return
             main_loop, args = main_loop(*args)
     except KeyboardInterrupt:
-        print('\n')
+        log("Stopping")
+        sys.exit()
     except pyautogui.FailSafeException:
         log("Stopping")
 
@@ -428,6 +432,12 @@ def start_program():
     time.sleep(1)  # Wait a few secs to load GUI
     program()
 
+
+def ask_quit():
+    #from tkinter import messagebox
+    #if messagebox.askokcancel("Quit", "Close the program?"):
+    settings.root.destroy()
+    sys.exit()
 
 # Init
 if __name__ == '__main__':
@@ -441,4 +451,5 @@ if __name__ == '__main__':
     # print(app.builder.get_variable('attack_status'))
     # test_variable()
     # print(app.builder.get_variable('attack_status'))
+    settings.root.protocol("WM_DELETE_WINDOW", ask_quit)
     settings.root.mainloop()

@@ -14,7 +14,7 @@ else:
 
 def check_upgrades():
     global last_check
-    if delay_next_check(2, last_check):
+    if delay_next_check(20, last_check):
         return
     last_check = datetime.datetime.now()
     #log("Searching for equipment & Elevation upgrades")
@@ -115,6 +115,8 @@ def do_upgrade():
             # To be continued
         time.sleep(1)
         click(1030, 723)  # Assemble
+        time.sleep(1)
+        click(776, 418)  # Continue
         time.sleep(3.5)
         click(335, 720)  # Equip
         time.sleep(1)
