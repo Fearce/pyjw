@@ -108,13 +108,17 @@ def do_mission():
 
 
 def experience_mission():
-    log("TODO")
+    #log("TODO")
     log("Doing experience potion mission")
     apply = pyautogui.locateOnScreen('imgs/apply.png', confidence=0.9)
     if apply is not None:
         log("Clicking apply")
         click_on_box(apply)
-        time.sleep(1)
+        time.sleep(1.5)
+        missing_xp = pyautogui.locateOnScreen('imgs/missing_xp.png', confidence=0.96)
+        if missing_xp is not None:
+            click_on_box(missing_xp)
+            escape(1)
         escape(1)
 
 def sapphire_for_gold_mission():
@@ -146,4 +150,5 @@ def enchant_mission():
             if enchant_go is not None:
                 log("Enchanting item and escaping")
                 click_on_box(enchant_go)
-                escape(2)
+                time.sleep(1)
+                escape(3)

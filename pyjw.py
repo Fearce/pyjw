@@ -273,9 +273,6 @@ def do_work():
         if settings.mailbox:
             log("mailbox check")
             home_screen_func(check_mailbox)
-        if settings.missions:
-            log("missions check")
-            home_screen_func(check_missions)
         if settings.friends:
             log("friends check")
             home_screen_func(check_friends)
@@ -285,6 +282,9 @@ def do_work():
         if settings.campaign:
             log("campaign check")
             home_screen_func(check_campaign)
+        if settings.missions:
+            log("missions check")
+            home_screen_func(check_missions)
         if settings.clan_castle:
             log("clan_castle check")
             home_screen_func(check_clan_castle)

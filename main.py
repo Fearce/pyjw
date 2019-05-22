@@ -13,6 +13,7 @@ from desktopmagic.screengrab_win32 import (
     getRectAsImage, getDisplaysAsImages)
 import pytesseract
 
+import helpers
 from helpers import wait_on_img, click_on_box, click
 
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
@@ -309,7 +310,8 @@ def soul_stones(need_food):
                     coords = click_on_image(battle_start, "Start battle!", 0.9)
                     time.sleep(4)
                     pyautogui.click(coords)
-        escape()
+                helpers.escape(1)
+        #escape()
 
 
 def escape():

@@ -49,15 +49,15 @@ def check_skill_points():
                 if skill_add is None:
                     time.sleep(0.4)
                     click(493, 400)  # Next hero
-                    log("hero is filled, checking next")
+                    log("Hero is filled, checking next")
                 else:
                     time.sleep(0.4)
-                    log("adding point")
+                    log("Adding point")
                     click_on_box(skill_add)
                     time.sleep(0.2)
                 points = get_value_from_rect(settings.game_x + 759, settings.game_y + 198, settings.game_x + 795,
                                              settings.game_y + 225)
-                log(str(points))
+                log("Points available: " + str(points))
             except ValueError:
                 log("Tesseract error, waiting until next cycle")
                 escape(1)

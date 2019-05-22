@@ -1,0 +1,4 @@
+09:41:20 Press CTRL-ALT-Delete to quit or close the program.
+09:41:24 Enabling all settings
+09:41:28 Disabling all settings
+09:41:28 Enabling all settings

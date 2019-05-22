@@ -36,6 +36,7 @@ def check_cave():
 first_check = False
 def refresh_cave():
     global first_check
+    get_cave_gold()
     #pyautogui.click(settings.game_x+905, settings.game_y+544)  # click cave
     time.sleep(1)
     in_cave = pyautogui.locateOnScreen('imgs/in_cave.png', confidence=0.85)
@@ -80,7 +81,8 @@ def do_cave_fights():
     log("Checking cave fights")
     cave_buy = pyautogui.locateOnScreen('imgs/cave_buy.png', confidence=0.8)
     cave_no_attempts = pyautogui.locateOnScreen('imgs/cave_no_attempts.png', confidence=0.85)
-    if cave_buy is not None or cave_no_attempts is not None:
+    cave_10_attempts = pyautogui.locateOnScreen('imgs/cave_10_attempts.png', confidence=0.9)
+    if cave_buy is not None or cave_no_attempts is not None and cave_10_attempts is None:
         log("No cave attempts, leaving")
         escape(1)
         return
