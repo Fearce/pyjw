@@ -56,8 +56,8 @@ def check_treasury():
         look_for_button('imgs/treasury.png', "Treasury", treasury_donate)
     else:
         click_on_box(treasury)
-        time.sleep(1.5)
-        treasury_none = pyautogui.locateOnScreen('imgs/treasury_none.png', confidence=0.95)
+        time.sleep(2)
+        treasury_none = pyautogui.locateOnScreen('imgs/treasury_done.png', confidence=0.9)
         if treasury_none is not None:
             log("Treasury already done")
             escape(1)

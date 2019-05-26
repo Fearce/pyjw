@@ -154,6 +154,11 @@ def otherworld_bash():
         wait_on_img('imgs/bash_next.png', 0.8, 200)
         click(1150, 500)  # Next
         time.sleep(3)
+        otherworld_done = pyautogui.locateOnScreen('imgs/otherworld_current.png', confidence=0.95)
+        if otherworld_done is not None:
+            log("Otherworld completed")
+            escape(3)
+            return
         otherworld_current = pyautogui.locateOnScreen('imgs/otherworld_current.png', confidence=0.8)
         if otherworld_current is not None:
             log("Doing current otherworld")

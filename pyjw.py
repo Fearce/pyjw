@@ -150,7 +150,7 @@ def detect_game_state():
 
 def escape_on_disable(func):
     if not settings.enabled:
-        return
+        raise Exception('Program disabled')
     else:
         func()
 
@@ -439,6 +439,7 @@ def ask_quit():
     settings.root.destroy()
     sys.exit()
 
+
 # Init
 if __name__ == '__main__':
     sys.setrecursionlimit(100000)
@@ -448,8 +449,5 @@ if __name__ == '__main__':
     settings.root = tkinter.Tk()
     settings.app = Application(settings.root)
     settings.root.title("Juggernaut Wars Bot")
-    # print(app.builder.get_variable('attack_status'))
-    # test_variable()
-    # print(app.builder.get_variable('attack_status'))
     settings.root.protocol("WM_DELETE_WINDOW", ask_quit)
     settings.root.mainloop()

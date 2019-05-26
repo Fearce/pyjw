@@ -25,10 +25,11 @@ def start_stop():
     global thread
     # log("Pressed button")
     if settings.enabled:
-        log("Bot disabled, wait for current cycle to be done or force-quit the program")
+        log("Bot disabled")
         change_var('start_stop_string', "Enable bot")
         settings.enabled = False
         thread.stop()
+        raise Exception('Program disabled')
     else:
         log("Bot enabled")
         change_var('start_stop_string', "Disable bot")

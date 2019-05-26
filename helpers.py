@@ -129,6 +129,7 @@ def log(msg):
     log_file.write(log_message)
     settings.app.builder.get_object('text_logframe').insert('1.0', log_message)
 
+
 def get_value_from_rect(x1, y1, x2, y2):
     image = getRectAsImage((int(x1), int(y1), int(x2), int(y2)))
     image.save('screencapture_256_256.png', format='png')
@@ -207,6 +208,9 @@ def look_for_button(img, msg, func):
                 else:
                     log("Trying to escape ad")
                     escape(1)
+                    time.sleep(1)
+                    escape(1)
+                    time.sleep(1)
                     return
                 # break
 
