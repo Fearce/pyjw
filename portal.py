@@ -42,6 +42,8 @@ def check_trial():
         return
     time.sleep(1)
     trial_ready = pyautogui.locateOnScreen('imgs/trial_ready2.png', confidence=0.9)
+    if trial_ready is None:
+        trial_ready = pyautogui.locateOnScreen('imgs/trial_ready3.png', confidence=0.9)
     if trial_ready is not None:
         log("Clicking trial")
         click_on_box(trial_ready)

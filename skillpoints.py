@@ -16,7 +16,7 @@ def check_skill_points():
     if not settings.skill_points:
         return
     # delay_msg = "Checked skillpoints at " + str(last_check) + ". Waiting until 30 minutes has passed"
-    if delay_next_check(10, last_check):
+    if delay_next_check(15, last_check):
         return
 
     heroes_button_located = pyautogui.locateOnScreen('imgs/herosbutton.png', confidence=0.95)

@@ -1,0 +1,345 @@
+23:29:13 Enabling all settings
+23:29:21 Bot enabled
+23:29:21 Press CTRL-ALT-Delete to quit or close the program.
+23:29:21 Turn off Otherworld Bash & Leveling if you don't need them.
+23:29:21 Game window found at 4, 88
+23:29:21 Selecting game window
+23:29:24 Heroes button located
+23:29:24 Current state is: Home Screen
+23:29:25 Arena check
+23:29:27 Heroes button located
+23:29:27 Game state is : Home Screen
+23:29:29 Checking Arena
+23:29:33 Current state : Home Screen
+23:29:33 Arena battles available. Doing Battle!
+23:29:36 1: 36475. 2: 35862. 3: 33556.
+23:29:36 Lowest power found: 33556. Entering hero select.
+23:29:38 Deselecting Arena heroes
+23:29:40 Selecting heroes for Arena
+23:29:40 Selecting Arena heroes
+23:29:42 Entering battle
+23:29:49 trial_of_death check
+23:29:57 Speeding up battle
+23:30:00 Speeding up battle
+23:30:00 Wrong state, escaping
+23:30:01 skill_points check
+23:30:08 Wrong state, escaping
+23:30:09 coliseum check
+23:30:18 Wrong state, escaping
+23:30:19 tournament check
+23:30:22 Wrong state, escaping
+23:30:23 events check
+23:30:25 Heroes button located
+23:30:25 Game state is : Home Screen
+23:30:25 Checking event.
+23:30:33 caves check
+23:30:33 Home Screen
+23:30:45 Wrong state, escaping
+23:30:45 chests check
+23:30:48 Heroes button located
+23:30:48 Game state is : Home Screen
+23:30:48 Checking Chests
+23:30:51 Looking for Chest button
+23:30:54 Looking for Chest button
+23:30:57 Looking for Chest button
+23:31:01 Looking for Chest button
+23:31:04 Looking for Chest button
+23:31:07 Looking for Chest button
+23:31:10 Looking for Chest button
+23:31:13 Chest button found, clicking
+23:31:18 Opening wooden chest
+23:31:25 Opening precious chest
+23:31:33 mailbox check
+23:31:35 Heroes button located
+23:31:35 Game state is : Home Screen
+23:31:35 Checking mail
+23:31:39 Receiving mail
+23:31:48 Receiving mail
+23:31:57 Receiving mail
+23:32:04 No mail available
+23:32:06 friends check
+23:32:18 Wrong state, escaping
+23:32:19 portal check
+23:32:22 Heroes button located
+23:32:22 Game state is : Home Screen
+23:32:22 Checking portal
+23:32:25 Trial not available
+23:32:27 Clicking otherworld
+23:32:33 Doing current otherworld
+23:32:38 Doing otherworld battle
+23:32:47 campaign check
+23:32:50 Heroes button located
+23:32:50 Game state is : Home Screen
+23:32:50 Checking Campaign
+23:32:50 Current food is: 176
+23:32:50 Trying to spend food
+23:32:52 Checking Ninja_Meego
+23:32:57 Current food is: 176
+23:33:25 missions check
+23:33:28 Heroes button located
+23:33:28 Game state is : Home Screen
+23:33:28 Checking missions
+23:34:18 No rewards, leaving missions
+23:34:18 Looking for mission, scrolling down 1/9 times
+23:34:20 Looking for mission, scrolling down 2/9 times
+23:34:21 Looking for mission, scrolling down 3/9 times
+23:34:23 Looking for mission, scrolling down 4/9 times
+23:34:25 Looking for mission, scrolling down 5/9 times
+23:34:26 Looking for mission, scrolling down 6/9 times
+23:34:28 Looking for mission, scrolling down 7/9 times
+23:34:30 Looking for mission, scrolling down 8/9 times
+23:34:31 Looking for mission, scrolling down 9/9 times
+23:34:35 clan_castle check
+23:34:44 Wrong state, escaping
+23:34:45 Unknown game state, trying to correct
+23:34:46 Cycle done, waiting 1 seconds and restarting if enabled.
+23:34:50 Heroes button located
+23:34:50 Current state is: Home Screen
+23:34:50 Arena check
+23:34:52 Heroes button located
+23:34:52 Game state is : Home Screen
+23:34:58 trial_of_death check
+23:35:00 Heroes button located
+23:35:00 Wrong state, escaping
+23:35:01 skill_points check
+23:35:03 Heroes button located
+23:35:03 Game state is : Home Screen
+23:35:03 Checking skill points
+23:35:11 Hero is filled, checking next
+23:35:12 Points available: 15
+23:35:13 Hero is filled, checking next
+23:35:14 Points available: 15
+23:35:15 Hero is filled, checking next
+23:35:16 Points available: 15
+23:35:17 Hero is filled, checking next
+23:35:17 Points available: 15
+23:35:19 Hero is filled, checking next
+23:35:19 Points available: 15
+23:35:21 Hero is filled, checking next
+23:35:21 Points available: 15
+23:35:22 Hero is filled, checking next
+23:35:23 Points available: 15
+23:35:24 Hero is filled, checking next
+23:35:25 Points available: 15
+23:35:26 Hero is filled, checking next
+23:35:26 Points available: 15
+23:35:28 Hero is filled, checking next
+23:35:28 Points available: 15
+23:35:30 Hero is filled, checking next
+23:35:30 Points available: 15
+23:35:31 Hero is filled, checking next
+23:35:32 Points available: 15
+23:35:33 Hero is filled, checking next
+23:35:34 Points available: 15
+23:35:35 Hero is filled, checking next
+23:35:35 Points available: 15
+23:35:37 Hero is filled, checking next
+23:35:37 Points available: 15
+23:35:39 Hero is filled, checking next
+23:35:39 Points available: 15
+23:35:41 Hero is filled, checking next
+23:35:41 Points available: 15
+23:35:42 Hero is filled, checking next
+23:35:43 Points available: 15
+23:35:45 Hero is filled, checking next
+23:35:46 Points available: -
+23:35:46 Tesseract error, waiting until next cycle
+23:35:46 Done distributing points
+23:35:48 coliseum check
+23:35:59 Wrong state, escaping
+23:35:59 tournament check
+23:36:09 Wrong state, escaping
+23:36:09 events check
+23:36:19 Wrong state, escaping
+23:36:20 caves check
+23:36:20 Working
+23:36:29 Wrong state, escaping
+23:36:29 chests check
+23:36:39 Wrong state, escaping
+23:36:39 mailbox check
+23:36:48 Wrong state, escaping
+23:36:49 friends check
+23:36:58 Wrong state, escaping
+23:36:58 portal check
+23:37:07 Wrong state, escaping
+23:37:08 campaign check
+23:37:17 Wrong state, escaping
+23:37:17 missions check
+23:37:26 Wrong state, escaping
+23:37:27 clan_castle check
+23:37:36 Wrong state, escaping
+23:37:36 Unknown game state, trying to correct
+23:37:38 Cycle done, waiting 1 seconds and restarting if enabled.
+23:37:48 Current state is: Working
+23:37:48 Unknown game state, trying to correct
+23:37:50 Cycle done, waiting 1 seconds and restarting if enabled.
+23:38:00 Current state is: Working
+23:38:00 Unknown game state, trying to correct
+23:38:02 Cycle done, waiting 1 seconds and restarting if enabled.
+23:38:12 Current state is: Working
+23:38:12 Unknown game state, trying to correct
+23:38:14 Cycle done, waiting 1 seconds and restarting if enabled.
+23:38:24 Current state is: Working
+23:38:24 Unknown game state, trying to correct
+23:38:26 Something wrong, restarting game
+23:38:26 Exiting game
+23:38:29 Starting game
+23:39:15 Cycle done, waiting 1 seconds and restarting if enabled.
+23:39:19 Heroes button located
+23:39:19 Current state is: Home Screen
+23:39:19 Arena check
+23:39:21 Heroes button located
+23:39:21 Game state is : Home Screen
+23:39:23 Checking Arena
+23:39:27 Current state : Home Screen
+23:39:27 Arena battles available. Doing Battle!
+23:39:30 1: 39193. 2: 36738. 3: 41408.
+23:39:30 Lowest power found: 36738. Entering hero select.
+23:39:32 Deselecting Arena heroes
+23:39:34 Selecting heroes for Arena
+23:39:34 Selecting Arena heroes
+23:39:36 Entering battle
+23:39:42 trial_of_death check
+23:39:51 Speeding up battle
+23:39:53 Speeding up battle
+23:39:53 Wrong state, escaping
+23:39:54 skill_points check
+23:40:01 Wrong state, escaping
+23:40:02 coliseum check
+23:40:09 Wrong state, escaping
+23:40:10 tournament check
+23:40:17 Wrong state, escaping
+23:40:17 events check
+23:40:27 Wrong state, escaping
+23:40:28 caves check
+23:40:28 In Battle
+23:40:34 Wrong state, escaping
+23:40:34 chests check
+23:40:44 Wrong state, escaping
+23:40:45 mailbox check
+23:40:48 Wrong state, escaping
+23:40:48 friends check
+23:40:51 Heroes button located
+23:40:51 Game state is : Home Screen
+23:40:51 Checking friends
+23:40:55 Looking for Friend Heart button
+23:40:59 Friend Heart button found, clicking
+23:41:03 Send Button
+23:41:06 Bot disabled
+23:41:08 Facebook send button
+23:51:11 Bot enabled
+23:51:11 Press CTRL-ALT-Delete to quit or close the program.
+23:51:11 Turn off Otherworld Bash & Leveling if you don't need them.
+23:51:12 Game window found at 4, 88
+23:51:12 Selecting game window
+23:51:15 Heroes button located
+23:51:15 Current state is: Clan Castle
+23:51:17 Heroes button located
+23:51:17 Checking Clan Store.
+23:51:31 Cycle done, waiting 1 seconds and restarting if enabled.
+23:51:31 Bot disabled
+23:51:42 Bot enabled
+23:51:42 Press CTRL-ALT-Delete to quit or close the program.
+23:51:42 Turn off Otherworld Bash & Leveling if you don't need them.
+23:51:43 Game window found at 4, 88
+23:51:43 Selecting game window
+23:51:45 Heroes button located
+23:51:45 Current state is: Home Screen
+23:51:46 friends check
+23:51:48 Heroes button located
+23:51:48 Game state is : Home Screen
+23:51:48 Checking friends
+23:51:52 Ad available!
+23:51:57 Waiting for ad to finish
+23:53:01 Trying to escape ad
+23:53:17 Cycle done, waiting 1 seconds and restarting if enabled.
+23:53:27 Current state is: Working
+23:53:27 Unknown game state, trying to correct
+23:53:29 Cycle done, waiting 1 seconds and restarting if enabled.
+23:53:32 Heroes button located
+23:53:32 Current state is: Home Screen
+23:53:33 friends check
+23:53:35 Heroes button located
+23:53:35 Game state is : Home Screen
+23:53:35 Checking friends
+23:53:39 Looking for Friend Heart button
+23:53:43 Looking for Friend Heart button
+23:53:57 Cycle done, waiting 1 seconds and restarting if enabled.
+23:54:04 Bot disabled
+23:54:06 Current state is: Working
+23:54:06 Unknown game state, trying to correct
+23:54:08 Cycle done, waiting 1 seconds and restarting if enabled.
+23:54:09 Bot enabled
+23:54:09 Press CTRL-ALT-Delete to quit or close the program.
+23:54:09 Turn off Otherworld Bash & Leveling if you don't need them.
+23:54:09 Bot disabled
+23:54:09 Game window found at 4, 88
+23:54:09 Selecting game window
+23:54:16 Enabling all settings
+23:54:19 Bot enabled
+23:54:19 Press CTRL-ALT-Delete to quit or close the program.
+23:54:19 Turn off Otherworld Bash & Leveling if you don't need them.
+23:54:19 Game window found at 4, 88
+23:54:19 Selecting game window
+23:54:20 Current state is: Working
+23:54:20 Unknown game state, trying to correct
+23:54:22 Current state is: Working
+23:54:22 Unknown game state, trying to correct
+23:54:24 Cycle done, waiting 1 seconds and restarting if enabled.
+23:54:24 Heroes button located
+23:54:24 Current state is: Home Screen
+23:54:24 Arena check
+23:54:25 Cycle done, waiting 1 seconds and restarting if enabled.
+23:54:27 Heroes button located
+23:54:27 Game state is : Home Screen
+23:54:28 Heroes button located
+23:54:28 Current state is: Home Screen
+23:54:28 Arena check
+23:54:29 Heroes button located
+23:54:29 Checking Arena
+23:54:29 Current state is: Home Screen
+23:54:30 Arena check
+23:54:33 Wrong state, escaping
+23:54:34 trial_of_death check
+23:54:34 Current state : Arena
+23:54:34 Arena battles available. Doing Battle!
+23:54:38 Heroes button located
+23:54:38 Game state is : Home Screen
+23:54:38 Checking Trial of Death
+23:54:38 Trial of Death ready
+23:54:43 3/3 trials left, entering hero select
+23:54:43 Wrong state, escaping
+23:54:44 trial_of_death check
+23:54:47 Heroes button located
+23:54:47 Game state is : Home Screen
+23:54:47 Checking Trial of Death
+23:54:47 Trial not ready, escaping
+23:54:47 Bot disabled
+23:54:47 Finishing trial
+23:54:47 Trial of Death ready
+23:57:30 Press CTRL-ALT-Delete to quit or close the program.
+23:57:30 Turn off Otherworld Bash & Leveling if you don't need them.
+23:57:35 Enabling all settings
+23:57:37 Bot enabled
+23:57:37 Press CTRL-ALT-Delete to quit or close the program.
+23:57:37 Turn off Otherworld Bash & Leveling if you don't need them.
+23:57:37 Game window found at 6, 55
+23:57:37 Selecting game window
+23:57:40 Heroes button located
+23:57:40 Current state is: Home Screen
+23:57:40 Arena check
+23:57:43 Heroes button located
+23:57:43 Game state is : Home Screen
+23:57:44 Checking Arena
+23:57:49 Current state : Home Screen
+23:57:49 Arena battles available. Doing Battle!
+23:57:51 1: 37035. 2: 37160. 3: 29333.
+23:57:51 Lowest power found: 29333. Entering hero select.
+23:57:53 Bot disabled
+23:57:53 Deselecting Arena heroes
+23:57:55 Selecting heroes for Arena
+23:57:55 Selecting Arena heroes
+23:57:57 Entering battle
+23:58:04 trial_of_death check
+23:58:55 Press CTRL-ALT-Delete to quit or close the program.
+23:58:55 Turn off Otherworld Bash & Leveling if you don't need them.

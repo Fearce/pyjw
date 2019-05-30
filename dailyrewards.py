@@ -18,6 +18,7 @@ def click_daily_rewards2():
     time.sleep(0.5)
     escape(2)
 
+
 def click_daily_rewards():
     if not settings.daily_rewards:
         return

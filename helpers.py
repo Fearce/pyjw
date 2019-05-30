@@ -23,7 +23,7 @@ def delay_next_check(delay_min, last_check):
             log("Value error, time is changing")
     if now < last_check:
         # log(delay_msg)
-        #return True  # Uncomment to allow delays
+        # return True  # Uncomment to allow delays
         return False
     return False
 
@@ -69,32 +69,34 @@ def go_up_far():
 
 def go_down():
     pyautogui.moveTo(settings.game_x + 630, settings.game_y + 365)
-    time.sleep(0.2)
+    time.sleep(0.1)
     pyautogui.drag(0, -90, 0.2, button='left')
+
 
 def go_down_far():
     pyautogui.moveTo(settings.game_x + 630, settings.game_y + 365)
     time.sleep(0.1)
     pyautogui.drag(0, -300, 0.2, button='left')
 
+
 def go_left():
-    pyautogui.moveTo(settings.game_x+630, settings.game_y+365)
+    pyautogui.moveTo(settings.game_x + 630, settings.game_y + 365)
     time.sleep(0.2)
     pyautogui.drag(100, 0, 0.2, button='left')
 
 
 def go_right():
-    pyautogui.moveTo(settings.game_x+630, settings.game_y+365)
+    pyautogui.moveTo(settings.game_x + 630, settings.game_y + 365)
     time.sleep(0.2)
     pyautogui.drag(-100, 0, 0.2, button='left')
 
 
 def click(x, y):
-    pyautogui.click(settings.game_x+x, settings.game_y+y)
+    pyautogui.click(settings.game_x + x, settings.game_y + y)
 
 
 def click_next():
-    pyautogui.click(settings.game_x+1163, settings.game_y+585)
+    pyautogui.click(settings.game_x + 1163, settings.game_y + 585)
     time.sleep(1)
     click(1142, 490)
 
@@ -189,15 +191,15 @@ def look_for_button(img, msg, func):
                 log("Ad available!")
                 click_on_box(no_heart)
                 time.sleep(1)
-                click(807-18, 615-33)
+                click(807 - 18, 615 - 33)
                 time.sleep(3)
                 accept = pyautogui.locateOnScreen('imgs/unity_accept.png', confidence=0.9)
                 if accept is not None:
                     click_on_box(accept)
-                #log("Giving ad 45 seconds to finish")
+                # log("Giving ad 45 seconds to finish")
                 log("Waiting for ad to finish")
                 wait_on_ad(0.75, 200)
-                wait_on_img('imgs/ad_close.png', 0.75,80 )
+                wait_on_img('imgs/ad_close.png', 0.75, 80)
                 ad_close = pyautogui.locateOnScreen('imgs/ad_close.png', confidence=0.75)
                 if ad_close is not None:
                     click_on_box(ad_close)
@@ -231,7 +233,7 @@ def look_for_button(img, msg, func):
         if drag_count > 9:
             drag_count = 0
         # check_chests()
-        #time.sleep(0.5)
+        # time.sleep(0.5)
     escape(2)
 
 

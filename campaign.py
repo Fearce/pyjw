@@ -15,6 +15,7 @@ if last_check.hour == 0:
 else:
     last_check = last_check.replace(hour=last_check.hour-1)  # Remove 1 hour to make sure it checks first run
 
+
 def get_food():
     global current_food
     food = get_value_from_rect(settings.game_x + 1013, settings.game_y + 16, settings.game_x + 1060,
@@ -41,10 +42,9 @@ def get_food():
                 log("Can't read food")
 
 
-
 def check_campaign():
     global last_check
-    if delay_next_check(2, last_check):
+    if delay_next_check(15, last_check):
         return
     last_check = datetime.datetime.now()
     log("Checking Campaign")

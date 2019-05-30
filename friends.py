@@ -46,7 +46,10 @@ def check_friends():
     friend_collect = pyautogui.locateOnScreen('imgs/friend_collect.png', confidence=0.95)
     friend_send = pyautogui.locateOnScreen('imgs/friend_send.png', confidence=0.95)
     if friend_collect is not None or friend_send is not None:
-        last_check = last_check.replace(hour=last_check.hour - 1)
+        if last_check.hour == 0:
+            last_check = last_check.replace(minute=0)
+        else:
+            last_check = last_check.replace(hour=last_check.hour - 1)  # Remove 1 hour to make sure it checks first run
 
 def give_friend_currency():
     wait_on_img(friend_send, 0.9,30)

@@ -51,7 +51,7 @@ raids = False
 # Hero upgrades
 skill_points = False  # Add skill points, takes a while, so disable if no need
 leveling = False  # To use this, set to true, it takes a while to scroll past all heroes, so disable if no need
-current_level = 86  # Set the level you wish to level heroes to
+current_level = 87  # Set the level you wish to level heroes to
 elevating = False
 equipping = False
 

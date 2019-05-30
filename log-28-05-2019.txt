@@ -1,0 +1,3354 @@
+02:33:43 Press CTRL-ALT-Delete to quit or close the program.
+02:33:43 Turn off Otherworld Bash & Leveling if you don't need them.
+02:33:52 Enabling all settings
+02:40:06 Bot enabled
+02:40:06 Press CTRL-ALT-Delete to quit or close the program.
+02:40:06 Turn off Otherworld Bash & Leveling if you don't need them.
+02:40:07 Game window found at 2, 36
+02:40:07 Selecting game window
+02:40:10 Heroes button located
+02:40:10 Current state is: Home Screen
+02:40:10 Arena check
+02:40:12 Heroes button located
+02:40:12 Game state is : Home Screen
+02:40:14 Checking Arena
+02:40:18 Current state : Home Screen
+02:40:18 Arena battles available. Doing Battle!
+02:40:22 1: 18. 2: 1. 3: 10.
+02:40:22 Lowest power found: 1. Entering hero select.
+02:40:24 Deselecting Arena heroes
+02:40:26 Selecting heroes for Arena
+02:40:26 Selecting Arena heroes
+02:40:28 Entering battle
+02:40:34 trial_of_death check
+02:40:36 Heroes button located
+02:40:36 Game state is : Home Screen
+02:40:36 Checking Trial of Death
+02:40:37 Trial of Death ready
+02:40:41 3/3 trials left, entering hero select
+02:40:50 Selecting heroes for Trial 1
+02:40:50 Selecting ToD heroes
+02:40:50 Looking for Elf_Maiden_Alisia
+02:40:51 Elf_Maiden_Alisia found.
+02:40:52 Looking for Ninja_Meego
+02:40:53 Looking for Ninja_Meego
+02:40:55 Looking for Ninja_Meego
+02:40:57 Looking for Ninja_Meego
+02:40:57 Ninja_Meego found.
+02:40:58 Looking for Tagath_the_Potionbrewer
+02:41:00 Looking for Tagath_the_Potionbrewer
+02:41:01 Looking for Tagath_the_Potionbrewer
+02:41:03 Looking for Tagath_the_Potionbrewer
+02:41:05 Looking for Tagath_the_Potionbrewer
+02:41:06 Looking for Tagath_the_Potionbrewer
+02:41:08 Looking for Tagath_the_Potionbrewer
+02:41:10 Looking for Tagath_the_Potionbrewer
+02:41:11 Looking for Tagath_the_Potionbrewer
+02:41:13 Looking for Tagath_the_Potionbrewer
+02:41:15 Looking for Tagath_the_Potionbrewer
+02:41:16 Looking for Tagath_the_Potionbrewer
+02:41:17 Tagath_the_Potionbrewer found.
+02:41:18 Looking for Norak_the_Virtuous
+02:41:19 Looking for Norak_the_Virtuous
+02:41:21 Looking for Norak_the_Virtuous
+02:41:23 Looking for Norak_the_Virtuous
+02:41:24 Looking for Norak_the_Virtuous
+02:41:26 Looking for Norak_the_Virtuous
+02:41:26 Norak_the_Virtuous found.
+02:41:27 Looking for General_Kurbatov
+02:41:28 General_Kurbatov found.
+02:41:30 coliseum check
+02:41:36 Wrong state, escaping
+02:41:37 tournament check
+02:41:45 Speeding up battle
+02:41:47 Speeding up battle
+02:41:48 Wrong state, escaping
+02:41:48 events check
+02:41:55 Wrong state, escaping
+02:41:56 caves check
+02:41:56 In Battle
+02:42:03 Wrong state, escaping
+02:42:04 chests check
+02:42:10 Wrong state, escaping
+02:42:11 mailbox check
+02:42:18 Wrong state, escaping
+02:42:18 friends check
+02:42:25 Wrong state, escaping
+02:42:26 portal check
+02:42:33 Wrong state, escaping
+02:42:33 campaign check
+02:42:40 Wrong state, escaping
+02:42:41 missions check
+02:42:47 Wrong state, escaping
+02:42:47 clan_castle check
+02:42:50 Wrong state, escaping
+02:42:51 Cycle done, waiting 1 seconds and restarting if enabled.
+02:42:56 Current state is: Trial of Death
+02:42:56 In trial
+02:42:57 3/3 trials left, entering hero select
+02:43:17 Finishing trial
+02:43:20 Cycle done, waiting 1 seconds and restarting if enabled.
+02:43:23 Heroes button located
+02:43:23 Current state is: Home Screen
+02:43:24 Arena check
+02:43:26 Heroes button located
+02:43:26 Game state is : Home Screen
+02:43:27 Checking Arena
+02:43:32 Current state : Home Screen
+02:43:32 Arena battles available. Doing Battle!
+02:43:34 1: 41212. 2: 39265. 3: 33990.
+02:43:34 Lowest power found: 33990. Entering hero select.
+02:43:36 Deselecting Arena heroes
+02:43:38 Selecting heroes for Arena
+02:43:38 Selecting Arena heroes
+02:43:40 Entering battle
+02:43:47 trial_of_death check
+02:43:55 Speeding up battle
+02:43:57 Speeding up battle
+02:43:57 Wrong state, escaping
+02:43:58 coliseum check
+02:44:05 Wrong state, escaping
+02:44:05 tournament check
+02:44:11 Wrong state, escaping
+02:44:11 events check
+02:44:14 Wrong state, escaping
+02:44:15 caves check
+02:44:15 Arena
+02:44:17 Heroes button located
+02:44:17 Game state is : Home Screen
+02:44:17 Checking Cave
+02:44:41 Checking cave fights
+02:44:43 Clicking fight
+02:44:50 Checking cave fights
+02:44:52 Clicking fight
+02:44:57 chests check
+02:45:01 Wrong state, escaping
+02:45:01 mailbox check
+02:45:03 Heroes button located
+02:45:03 Game state is : Home Screen
+02:45:03 Checking mail
+02:45:06 Looking for Mailbox button
+02:45:09 Looking for Mailbox button
+02:45:12 Looking for Mailbox button
+02:45:15 Looking for Mailbox button
+02:45:19 Looking for Mailbox button
+02:45:22 Looking for Mailbox button
+02:45:25 Looking for Mailbox button
+02:45:28 Mailbox button found, clicking
+02:45:33 No mail available
+02:45:36 friends check
+02:45:38 Heroes button located
+02:45:38 Game state is : Home Screen
+02:45:38 Checking friends
+02:45:42 Looking for Friend Heart button
+02:45:46 Friend Heart button found, clicking
+02:45:49 Send Button
+02:45:55 Facebook send button
+02:46:13 portal check
+02:46:16 Heroes button located
+02:46:16 Game state is : Home Screen
+02:46:16 Checking portal
+02:46:19 Looking for Portal button
+02:46:22 Looking for Portal button
+02:46:25 Looking for Portal button
+02:46:28 Looking for Portal button
+02:46:31 Looking for Portal button
+02:46:34 Portal button found, clicking
+02:46:39 Trial not available
+02:46:41 Otherworld not available
+02:46:44 campaign check
+02:46:46 Heroes button located
+02:46:46 Game state is : Home Screen
+02:46:46 Checking Campaign
+02:46:46 Current food is: 177
+02:46:46 Trying to spend food
+02:46:48 Checking Ninja_Meego
+02:46:53 Current food is: 177
+02:47:20 missions check
+02:47:22 Heroes button located
+02:47:22 Game state is : Home Screen
+02:47:22 Checking missions
+02:47:59 Waiting for ad to finish
+02:48:15 Ad closed
+02:48:16 clan_castle check
+02:48:25 Wrong state, escaping
+02:48:26 Unknown game state, trying to correct
+02:48:27 Cycle done, waiting 1 seconds and restarting if enabled.
+02:48:30 Heroes button located
+02:48:30 Current state is: Home Screen
+02:48:31 Expanding arrow
+02:48:31 Arena check
+02:48:34 Heroes button located
+02:48:34 Game state is : Home Screen
+02:48:39 trial_of_death check
+02:48:48 Wrong state, escaping
+02:48:49 coliseum check
+02:48:51 Heroes button located
+02:48:51 Game state is : Home Screen
+02:48:51 Checking Coliseum
+02:48:51 Coliseum ready
+02:48:58 Clicking ok
+02:49:05 1: 504.41. 2: 466.8. 3: 473.11.
+02:49:05 Lowest power found: 466.8. Entering hero select.
+02:49:07 Entering battle
+02:49:10 tournament check
+02:49:15 Wrong state, escaping
+02:49:16 events check
+02:49:22 Wrong state, escaping
+02:49:22 caves check
+02:49:22 Hero Select
+02:49:28 Wrong state, escaping
+02:49:28 chests check
+02:49:34 Wrong state, escaping
+02:49:35 mailbox check
+02:49:44 Wrong state, escaping
+02:49:44 friends check
+02:49:50 Wrong state, escaping
+02:49:50 portal check
+02:49:56 Wrong state, escaping
+02:49:57 campaign check
+02:50:02 Wrong state, escaping
+02:50:03 missions check
+02:50:09 Wrong state, escaping
+02:50:09 clan_castle check
+02:50:16 Wrong state, escaping
+02:50:16 Cycle done, waiting 1 seconds and restarting if enabled.
+02:50:23 Current state is: Victory
+02:50:23 Victory
+02:50:24 Cycle done, waiting 1 seconds and restarting if enabled.
+02:50:30 Current state is: Victory
+02:50:30 Victory
+02:50:32 Cycle done, waiting 1 seconds and restarting if enabled.
+02:50:39 Current state is: Victory
+02:50:39 Victory
+02:50:40 Cycle done, waiting 1 seconds and restarting if enabled.
+02:50:47 Current state is: Victory
+02:50:47 Victory
+02:50:48 Cycle done, waiting 1 seconds and restarting if enabled.
+02:50:55 Current state is: Victory
+02:50:55 Victory
+02:50:56 Cycle done, waiting 1 seconds and restarting if enabled.
+02:51:03 Current state is: Victory
+02:51:03 Victory
+02:51:04 Cycle done, waiting 1 seconds and restarting if enabled.
+02:51:11 Current state is: Victory
+02:51:11 Victory
+02:51:12 Cycle done, waiting 1 seconds and restarting if enabled.
+02:51:19 Current state is: Victory
+02:51:19 Victory
+02:51:20 Cycle done, waiting 1 seconds and restarting if enabled.
+02:51:27 Current state is: Victory
+02:51:27 Victory
+02:51:28 Cycle done, waiting 1 seconds and restarting if enabled.
+02:51:34 Current state is: Victory
+02:51:34 Victory
+02:51:36 Cycle done, waiting 1 seconds and restarting if enabled.
+02:51:43 Current state is: Victory
+02:51:43 Victory
+02:51:44 Cycle done, waiting 1 seconds and restarting if enabled.
+02:51:48 Current state is: Arena
+02:51:48 Arena state
+02:51:49 Current state : Arena
+02:51:49 Arena battles available. Doing Battle!
+02:52:11 Escaping arena check
+02:52:11 Cycle done, waiting 1 seconds and restarting if enabled.
+02:52:15 Current state is: Arena
+02:52:15 Arena state
+02:52:16 Current state : Arena
+02:52:16 Arena battles available. Doing Battle!
+02:52:38 Escaping arena check
+02:52:38 Cycle done, waiting 1 seconds and restarting if enabled.
+02:52:42 Current state is: Arena
+02:52:42 Arena state
+02:52:43 Current state : Arena
+02:52:43 Arena battles available. Doing Battle!
+02:53:05 Escaping arena check
+02:53:05 Cycle done, waiting 1 seconds and restarting if enabled.
+02:53:09 Current state is: Arena
+02:53:09 Arena state
+02:53:10 Current state : Arena
+02:53:10 Arena battles available. Doing Battle!
+02:53:33 Escaping arena check
+02:53:33 Cycle done, waiting 1 seconds and restarting if enabled.
+02:53:42 Current state is: Working
+02:53:42 Unknown game state, trying to correct
+02:53:44 Cycle done, waiting 1 seconds and restarting if enabled.
+02:53:54 Current state is: Working
+02:53:54 Unknown game state, trying to correct
+02:53:55 Cycle done, waiting 1 seconds and restarting if enabled.
+02:54:05 Current state is: Working
+02:54:05 Unknown game state, trying to correct
+02:54:07 Cycle done, waiting 1 seconds and restarting if enabled.
+02:54:17 Current state is: Working
+02:54:17 Unknown game state, trying to correct
+02:54:19 Cycle done, waiting 1 seconds and restarting if enabled.
+02:54:22 Heroes button located
+02:54:22 Current state is: Home Screen
+02:54:22 Arena check
+02:54:24 Heroes button located
+02:54:24 Game state is : Home Screen
+02:54:26 Checking Arena
+02:54:30 Current state : Home Screen
+02:54:30 Arena battles available. Doing Battle!
+02:54:33 1: 39192. 2: 38806. 3: 29333.
+02:54:33 Lowest power found: 29333. Entering hero select.
+02:54:35 Deselecting Arena heroes
+02:54:37 Selecting heroes for Arena
+02:54:37 Selecting Arena heroes
+02:54:39 Entering battle
+02:54:45 trial_of_death check
+02:54:53 Speeding up battle
+02:54:55 Speeding up battle
+02:54:56 Wrong state, escaping
+02:54:57 coliseum check
+02:55:02 Wrong state, escaping
+02:55:03 tournament check
+02:55:06 Wrong state, escaping
+02:55:06 events check
+02:55:08 Heroes button located
+02:55:08 Game state is : Home Screen
+02:55:09 Checking event.
+02:55:16 caves check
+02:55:16 Home Screen
+02:55:25 Wrong state, escaping
+02:55:26 chests check
+02:55:28 Heroes button located
+02:55:28 Game state is : Home Screen
+02:55:28 Checking Chests
+02:55:31 Looking for Chest button
+02:55:34 Looking for Chest button
+02:55:38 Looking for Chest button
+02:55:41 Looking for Chest button
+02:55:44 Looking for Chest button
+02:55:47 Chest button found, clicking
+02:55:51 Opening wooden chest
+02:55:58 No chests available
+02:56:01 mailbox check
+02:56:03 Heroes button located
+02:56:03 Game state is : Home Screen
+02:56:03 Checking mail
+02:56:07 No mail available
+02:56:09 friends check
+02:56:11 Heroes button located
+02:56:11 Game state is : Home Screen
+02:56:11 Checking friends
+02:56:14 Ad available!
+02:56:20 Waiting for ad to finish
+02:56:48 Ad closed
+02:57:04 portal check
+02:57:06 Heroes button located
+02:57:06 Game state is : Home Screen
+02:57:06 Checking portal
+02:57:09 Looking for Portal button
+02:57:12 Looking for Portal button
+02:57:15 Looking for Portal button
+02:57:18 Looking for Portal button
+02:57:21 Portal button found, clicking
+02:57:26 Trial not available
+02:57:28 Otherworld not available
+02:57:31 campaign check
+02:57:33 Heroes button located
+02:57:33 Game state is : Home Screen
+02:57:33 Checking Campaign
+02:57:33 Current food is: 101
+02:57:33 Trying to spend food
+02:57:36 Checking Ninja_Meego
+02:57:40 Current food is: 101
+02:57:52 Checking Hanna_the_Inquisitor
+02:57:56 Current food is: 101
+02:58:23 missions check
+02:58:26 Heroes button located
+02:58:26 Game state is : Home Screen
+02:58:26 Checking missions
+02:58:42 No rewards, leaving missions
+02:58:42 Looking for mission, scrolling down 1/9 times
+02:58:43 Looking for mission, scrolling down 2/9 times
+02:58:45 Looking for mission, scrolling down 3/9 times
+02:58:47 Looking for mission, scrolling down 4/9 times
+02:58:48 Looking for mission, scrolling down 5/9 times
+02:58:50 Looking for mission, scrolling down 6/9 times
+02:58:52 Looking for mission, scrolling down 7/9 times
+02:58:53 Looking for mission, scrolling down 8/9 times
+02:58:55 Looking for mission, scrolling down 9/9 times
+02:58:57 Mission found, doing missions!
+02:59:03 Doing enchanting mission
+02:59:03 Clicking item to be enchanted
+02:59:06 Clicking enchanting material
+02:59:09 Enchanting item and escaping
+02:59:19 clan_castle check
+02:59:21 Heroes button located
+02:59:21 Game state is : Home Screen
+02:59:21 Checking Clan Castle.
+02:59:23 Checking upgrades
+02:59:24 0
+02:59:27 1
+02:59:31 2
+02:59:35 3
+02:59:38 4
+02:59:42 5
+02:59:46 6
+02:59:50 7
+02:59:53 8
+02:59:57 9
+03:00:01 10
+03:00:04 11
+03:00:08 12
+03:00:12 13
+03:00:15 14
+03:00:19 15
+03:00:23 16
+03:00:26 17
+03:00:30 18
+03:00:34 19
+03:00:37 20
+03:00:41 21
+03:00:45 22
+03:00:48 23
+03:00:52 24
+03:00:56 25
+03:00:59 26
+03:01:03 27
+03:01:07 28
+03:01:11 29
+03:01:14 30
+03:01:18 31
+03:01:22 32
+03:01:25 33
+03:01:29 34
+03:01:33 35
+03:01:36 36
+03:01:40 37
+03:01:44 38
+03:01:47 39
+03:01:50 Cycle done, waiting 1 seconds and restarting if enabled.
+03:01:59 Current state is: Working
+03:01:59 Unknown game state, trying to correct
+03:02:01 Something wrong, restarting game
+03:02:01 Exiting game
+03:02:04 Starting game
+03:02:52 Cycle done, waiting 1 seconds and restarting if enabled.
+03:02:55 Heroes button located
+03:02:55 Current state is: Home Screen
+03:02:55 Arena check
+03:02:57 Heroes button located
+03:02:57 Game state is : Home Screen
+03:02:59 Checking Arena
+03:03:03 Current state : Home Screen
+03:03:03 Arena battles available. Doing Battle!
+03:03:06 1: 40054. 2: 37437. 3: 35607.
+03:03:06 Lowest power found: 35607. Entering hero select.
+03:03:08 Deselecting Arena heroes
+03:03:10 Selecting heroes for Arena
+03:03:10 Selecting Arena heroes
+03:03:12 Entering battle
+03:03:18 trial_of_death check
+03:03:27 Speeding up battle
+03:03:29 Speeding up battle
+03:03:29 Wrong state, escaping
+03:03:30 coliseum check
+03:03:37 Wrong state, escaping
+03:03:37 tournament check
+03:03:43 Wrong state, escaping
+03:03:43 events check
+03:03:53 Wrong state, escaping
+03:03:53 caves check
+03:03:53 Working
+03:03:56 Wrong state, escaping
+03:03:57 chests check
+03:03:59 Heroes button located
+03:03:59 Game state is : Home Screen
+03:03:59 Checking Chests
+03:04:02 Looking for Chest button
+03:04:05 Looking for Chest button
+03:04:08 Looking for Chest button
+03:04:11 Looking for Chest button
+03:04:14 Looking for Chest button
+03:04:17 Looking for Chest button
+03:04:21 Chest button found, clicking
+03:04:25 Opening wooden chest
+03:04:32 No chests available
+03:04:35 mailbox check
+03:04:37 Heroes button located
+03:04:37 Game state is : Home Screen
+03:04:37 Checking mail
+03:04:40 No mail available
+03:04:42 friends check
+03:04:44 Heroes button located
+03:04:44 Game state is : Home Screen
+03:04:44 Checking friends
+03:04:48 Looking for Friend Heart button
+03:04:52 Looking for Friend Heart button
+03:04:55 Looking for Friend Heart button
+03:04:59 Looking for Friend Heart button
+03:05:03 Looking for Friend Heart button
+03:05:07 Looking for Friend Heart button
+03:05:11 Looking for Friend Heart button
+03:05:14 Looking for Friend Heart button
+03:05:18 Looking for Friend Heart button
+03:05:22 Looking for Friend Heart button
+03:05:26 Looking for Friend Heart button
+03:05:30 Looking for Friend Heart button
+03:05:33 Looking for Friend Heart button
+03:05:40 portal check
+03:05:42 Heroes button located
+03:05:42 Game state is : Home Screen
+03:05:42 Checking portal
+03:05:45 Looking for Portal button
+03:05:48 Looking for Portal button
+03:05:51 Portal button found, clicking
+03:05:55 Trial not available
+03:05:58 Otherworld not available
+03:06:00 campaign check
+03:06:02 Heroes button located
+03:06:02 Game state is : Home Screen
+03:06:02 Checking Campaign
+03:06:03 Current food is: 17
+03:06:04 missions check
+03:06:06 Heroes button located
+03:06:06 Game state is : Home Screen
+03:06:06 Checking missions
+03:06:22 No rewards, leaving missions
+03:06:22 Looking for mission, scrolling down 1/9 times
+03:06:24 Looking for mission, scrolling down 2/9 times
+03:06:26 Looking for mission, scrolling down 3/9 times
+03:06:27 Looking for mission, scrolling down 4/9 times
+03:06:29 Looking for mission, scrolling down 5/9 times
+03:06:31 Looking for mission, scrolling down 6/9 times
+03:06:32 Looking for mission, scrolling down 7/9 times
+03:06:34 Looking for mission, scrolling down 8/9 times
+03:06:36 Looking for mission, scrolling down 9/9 times
+03:06:38 Mission found, doing missions!
+03:06:45 clan_castle check
+03:06:47 Heroes button located
+03:06:47 Game state is : Home Screen
+03:06:47 Checking Clan Castle.
+03:06:50 Looking for Clan Castle button
+03:06:54 Looking for Clan Castle button
+03:06:57 Looking for Clan Castle button
+03:07:00 Looking for Clan Castle button
+03:07:03 Looking for Clan Castle button
+03:07:06 Clan Castle button found, clicking
+03:07:08 Checking Treasury.
+03:07:12 Treasury already done
+03:07:14 Checking upgrades
+03:07:22 Equipping item
+03:07:32 0
+03:07:36 1
+03:07:40 2
+03:07:44 3
+03:07:48 4
+03:07:51 5
+03:07:55 6
+03:07:59 7
+03:08:03 8
+03:08:06 9
+03:08:10 10
+03:08:14 11
+03:08:18 12
+03:08:22 13
+03:08:25 14
+03:08:29 15
+03:08:33 16
+03:08:37 17
+03:08:41 18
+03:08:44 19
+03:08:48 20
+03:08:52 21
+03:08:56 22
+03:09:00 23
+03:09:04 24
+03:09:07 25
+03:09:11 26
+03:09:15 27
+03:09:19 28
+03:09:23 29
+03:09:26 30
+03:09:30 31
+03:09:34 32
+03:09:38 33
+03:09:42 34
+03:09:45 35
+03:09:49 36
+03:09:53 37
+03:09:57 38
+03:10:00 39
+03:10:03 Cycle done, waiting 1 seconds and restarting if enabled.
+03:10:09 Bot disabled
+03:10:13 Current state is: Working
+03:10:13 Unknown game state, trying to correct
+03:10:14 Cycle done, waiting 1 seconds and restarting if enabled.
+03:11:21 Press CTRL-ALT-Delete to quit or close the program.
+03:11:21 Turn off Otherworld Bash & Leveling if you don't need them.
+03:11:23 Enabling all settings
+03:12:34 Disabling all settings
+03:12:37 Bot enabled
+03:12:37 Press CTRL-ALT-Delete to quit or close the program.
+03:12:37 Turn off Otherworld Bash & Leveling if you don't need them.
+03:12:37 Game window found at 2, 36
+03:12:37 Selecting game window
+03:12:40 Heroes button located
+03:12:40 Current state is: Home Screen
+03:12:40 Checking upgrades
+03:12:48 0
+03:12:54 1
+03:14:38 Press CTRL-ALT-Delete to quit or close the program.
+03:14:38 Turn off Otherworld Bash & Leveling if you don't need them.
+03:14:46 Bot enabled
+03:14:46 Press CTRL-ALT-Delete to quit or close the program.
+03:14:46 Turn off Otherworld Bash & Leveling if you don't need them.
+03:14:46 Game window found at 2, 36
+03:14:46 Selecting game window
+03:14:49 Heroes button located
+03:14:49 Current state is: Home Screen
+03:14:49 Checking upgrades
+03:14:58 0
+03:15:34 Press CTRL-ALT-Delete to quit or close the program.
+03:15:34 Turn off Otherworld Bash & Leveling if you don't need them.
+03:16:01 Bot enabled
+03:16:01 Press CTRL-ALT-Delete to quit or close the program.
+03:16:01 Turn off Otherworld Bash & Leveling if you don't need them.
+03:16:02 Game window found at 2, 36
+03:16:02 Selecting game window
+03:16:04 Heroes button located
+03:16:04 Current state is: Home Screen
+03:16:05 Checking upgrades
+03:16:14 0
+03:16:20 1
+03:16:21 Stopping
+03:17:03 Press CTRL-ALT-Delete to quit or close the program.
+03:17:03 Turn off Otherworld Bash & Leveling if you don't need them.
+03:17:06 Bot enabled
+03:17:06 Press CTRL-ALT-Delete to quit or close the program.
+03:17:06 Turn off Otherworld Bash & Leveling if you don't need them.
+03:17:06 Game window found at 2, 36
+03:17:06 Selecting game window
+03:17:09 Heroes button located
+03:17:09 Current state is: Home Screen
+03:17:09 Checking upgrades
+03:17:17 Doing upgrade
+03:17:19 0
+03:17:22 Stopping
+03:17:35 Press CTRL-ALT-Delete to quit or close the program.
+03:17:35 Turn off Otherworld Bash & Leveling if you don't need them.
+03:17:39 Bot enabled
+03:17:39 Press CTRL-ALT-Delete to quit or close the program.
+03:17:39 Turn off Otherworld Bash & Leveling if you don't need them.
+03:17:39 Game window found at 2, 36
+03:17:39 Selecting game window
+03:17:42 Heroes button located
+03:17:42 Current state is: Home Screen
+03:17:42 Checking upgrades
+03:17:50 Doing upgrade
+03:17:52 0
+03:17:56 Stopping
+03:18:42 Press CTRL-ALT-Delete to quit or close the program.
+03:18:42 Turn off Otherworld Bash & Leveling if you don't need them.
+03:18:44 Bot enabled
+03:18:44 Press CTRL-ALT-Delete to quit or close the program.
+03:18:44 Turn off Otherworld Bash & Leveling if you don't need them.
+03:18:44 Game window found at 2, 36
+03:18:44 Selecting game window
+03:18:47 Heroes button located
+03:18:47 Current state is: Home Screen
+03:18:48 Checking upgrades
+03:18:55 Doing upgrade
+03:18:57 Elevating/Evolving hero
+03:19:02 0
+03:19:05 Stopping
+03:20:04 Press CTRL-ALT-Delete to quit or close the program.
+03:20:04 Turn off Otherworld Bash & Leveling if you don't need them.
+03:20:26 Press CTRL-ALT-Delete to quit or close the program.
+03:20:26 Turn off Otherworld Bash & Leveling if you don't need them.
+03:20:30 Bot enabled
+03:20:30 Press CTRL-ALT-Delete to quit or close the program.
+03:20:30 Turn off Otherworld Bash & Leveling if you don't need them.
+03:20:31 Game window found at 2, 36
+03:20:31 Selecting game window
+03:20:33 Heroes button located
+03:20:33 Current state is: Home Screen
+03:20:34 Checking upgrades
+03:20:41 Doing upgrade
+03:20:43 Elevating/Evolving hero
+03:20:46 Doing upgrade
+03:20:48 Elevating/Evolving hero
+03:20:52 Doing upgrade
+03:20:53 Elevating/Evolving hero
+03:20:57 Doing upgrade
+03:20:59 Elevating/Evolving hero
+03:21:25 Press CTRL-ALT-Delete to quit or close the program.
+03:21:25 Turn off Otherworld Bash & Leveling if you don't need them.
+03:21:27 Bot enabled
+03:21:27 Press CTRL-ALT-Delete to quit or close the program.
+03:21:27 Turn off Otherworld Bash & Leveling if you don't need them.
+03:21:27 Game window found at 2, 36
+03:21:27 Selecting game window
+03:21:29 Bot disabled
+03:21:34 Current state is: Victory
+03:21:34 Victory
+03:21:36 Cycle done, waiting 1 seconds and restarting if enabled.
+03:22:33 Press CTRL-ALT-Delete to quit or close the program.
+03:22:33 Turn off Otherworld Bash & Leveling if you don't need them.
+03:22:36 Bot enabled
+03:22:36 Press CTRL-ALT-Delete to quit or close the program.
+03:22:36 Turn off Otherworld Bash & Leveling if you don't need them.
+03:22:36 Game window found at 2, 36
+03:22:36 Selecting game window
+03:22:39 Heroes button located
+03:22:39 Current state is: Home Screen
+03:22:39 Checking upgrades
+03:22:47 Doing upgrade
+03:22:49 Elevating/Evolving hero
+03:22:56 Cycle done, waiting 1 seconds and restarting if enabled.
+03:22:59 Heroes button located
+03:23:00 Current state is: Home Screen
+03:23:00 Checking upgrades
+03:23:04 0
+03:23:10 1
+03:23:15 2
+03:23:21 3
+03:23:31 Doing upgrade
+03:23:32 Elevating/Evolving hero
+03:23:38 Cycle done, waiting 1 seconds and restarting if enabled.
+03:24:48 Press CTRL-ALT-Delete to quit or close the program.
+03:24:48 Turn off Otherworld Bash & Leveling if you don't need them.
+03:26:16 Press CTRL-ALT-Delete to quit or close the program.
+03:26:16 Turn off Otherworld Bash & Leveling if you don't need them.
+03:26:31 Enabling all settings
+03:26:40 Bot enabled
+03:26:40 Press CTRL-ALT-Delete to quit or close the program.
+03:26:40 Turn off Otherworld Bash & Leveling if you don't need them.
+03:26:40 Game window found at 2, 36
+03:26:40 Selecting game window
+03:26:43 Heroes button located
+03:26:43 Current state is: Home Screen
+03:26:43 Arena check
+03:26:46 Heroes button located
+03:26:46 Game state is : Home Screen
+03:26:51 trial_of_death check
+03:26:53 Heroes button located
+03:26:53 Game state is : Home Screen
+03:26:53 Checking Trial of Death
+03:26:54 Trial of Death ready
+03:26:59 2/3 trials left, entering hero select
+03:27:07 Selecting heroes for Trial 2
+03:27:07 Selecting ToD heroes
+03:27:07 Looking for Nymph_Edera
+03:27:08 Nymph_Edera found.
+03:27:09 Looking for Naga_Kertana
+03:27:09 Naga_Kertana found.
+03:27:10 Looking for Drowned_Samara
+03:27:11 Drowned_Samara found.
+03:27:12 Looking for Beastborn_Raider_Miaba
+03:27:12 Beastborn_Raider_Miaba found.
+03:27:13 Looking for Master_Hideus
+03:27:14 Master_Hideus found.
+03:27:16 coliseum check
+03:27:22 Wrong state, escaping
+03:27:22 tournament check
+03:27:31 Speeding up battle
+03:27:33 Speeding up battle
+03:27:34 Wrong state, escaping
+03:27:35 events check
+03:27:42 Wrong state, escaping
+03:27:42 caves check
+03:27:42 In Battle
+03:27:49 Wrong state, escaping
+03:27:50 chests check
+03:27:57 Wrong state, escaping
+03:27:57 mailbox check
+03:28:04 Wrong state, escaping
+03:28:05 friends check
+03:28:11 Wrong state, escaping
+03:28:12 portal check
+03:28:18 Wrong state, escaping
+03:28:18 campaign check
+03:28:21 Wrong state, escaping
+03:28:21 missions check
+03:28:26 Wrong state, escaping
+03:28:26 clan_castle check
+03:28:28 Heroes button located
+03:28:28 Game state is : Home Screen
+03:28:28 Checking Clan Castle.
+03:28:30 Cycle done, waiting 1 seconds and restarting if enabled.
+03:28:33 Heroes button located
+03:28:33 Current state is: Clan Castle
+03:28:35 Heroes button located
+03:28:35 Checking Treasury.
+03:28:47 Heroes button located
+03:28:47 Checking Clan Store.
+03:29:02 Heroes button located
+03:29:02 Checking Caravan.
+03:29:12 Heroes button located
+03:29:12 Checking Praises.
+03:29:18 Praises ready
+03:29:18 Found praise
+03:29:27 Praises ready
+03:29:27 Found praise
+03:29:36 Praises ready
+03:29:36 Found praise
+03:29:45 Praises ready
+03:29:49 Praises ready
+03:29:49 Found praise
+03:29:57 Praises ready
+03:30:01 Praises ready
+03:30:01 Found praise
+03:30:10 Praises ready
+03:30:13 Praises ready
+03:30:13 Found praise
+03:30:25 Heroes button located
+03:30:25 Checking Wheel of Fortune.
+03:30:28 Looking for Wheel of Fortune button
+03:30:31 Looking for Wheel of Fortune button
+03:30:34 Looking for Wheel of Fortune button
+03:30:37 Looking for Wheel of Fortune button
+03:30:41 Looking for Wheel of Fortune button
+03:30:44 Looking for Wheel of Fortune button
+03:30:47 Looking for Wheel of Fortune button
+03:30:50 Looking for Wheel of Fortune button
+03:30:53 Looking for Wheel of Fortune button
+03:30:56 Wheel of Fortune button found, clicking
+03:31:17 Heroes button located
+03:31:17 Going to clan castle.
+03:31:19 Heroes button located
+03:31:19 Game state is : Home Screen
+03:31:19 Checking Clan Castle.
+03:31:22 Checking Altar.
+03:31:25 Looking for Altar button
+03:31:28 Looking for Altar button
+03:31:31 Looking for Altar button
+03:31:34 Looking for Altar button
+03:31:37 Looking for Altar button
+03:31:40 Looking for Altar button
+03:31:43 Looking for Altar button
+03:31:47 Looking for Altar button
+03:31:50 Looking for Altar button
+03:31:53 Looking for Altar button
+03:31:56 Looking for Altar button
+03:31:59 Altar button found, clicking
+03:32:09 Heroes button located
+03:32:09 Going to clan castle.
+03:32:11 Heroes button located
+03:32:11 Game state is : Home Screen
+03:32:11 Checking Clan Castle.
+03:32:14 Checking Battle Cave.
+03:32:17 Looking for Battle Cave button
+03:32:20 Looking for Battle Cave button
+03:32:23 Battle Cave button found, clicking
+03:33:00 Seems no raid is available at the moment, escaping
+03:33:02 Expanding arrow
+03:33:03 Arena check
+03:33:05 Heroes button located
+03:33:05 Game state is : Home Screen
+03:33:10 trial_of_death check
+03:33:12 Heroes button located
+03:33:12 Game state is : Home Screen
+03:33:12 Checking Trial of Death
+03:33:13 Trial of Death ready
+03:33:18 2/3 trials left, entering hero select
+03:35:19 Bot disabled
+03:35:20 Bot enabled
+03:35:20 Press CTRL-ALT-Delete to quit or close the program.
+03:35:20 Turn off Otherworld Bash & Leveling if you don't need them.
+03:35:20 Game window found at 2, 36
+03:35:20 Selecting game window
+03:35:23 Current state is: Trial Win
+03:35:23 Trial finish
+03:35:23 Finishing trial
+03:35:27 Cycle done, waiting 1 seconds and restarting if enabled.
+03:35:30 Heroes button located
+03:35:30 Current state is: Home Screen
+03:35:31 Arena check
+03:35:33 Heroes button located
+03:35:33 Game state is : Home Screen
+03:35:38 trial_of_death check
+03:35:40 Heroes button located
+03:35:40 Game state is : Home Screen
+03:35:40 Checking Trial of Death
+03:35:42 coliseum check
+03:35:44 Heroes button located
+03:35:44 Game state is : Home Screen
+03:35:44 Checking Coliseum
+03:35:44 Coliseum ready
+03:35:54 1: 643.01. 2: 1530.0. 3: 473.11.
+03:35:54 Lowest power found: 473.11. Entering hero select.
+03:35:56 Entering battle
+03:35:59 tournament check
+03:36:05 Wrong state, escaping
+03:36:05 events check
+03:36:11 Wrong state, escaping
+03:36:11 caves check
+03:36:11 Hero Select
+03:36:17 Wrong state, escaping
+03:36:17 chests check
+03:36:23 Wrong state, escaping
+03:36:24 mailbox check
+03:36:29 Wrong state, escaping
+03:36:30 friends check
+03:36:35 Wrong state, escaping
+03:36:36 portal check
+03:36:41 Wrong state, escaping
+03:36:42 campaign check
+03:36:48 Wrong state, escaping
+03:36:48 missions check
+03:36:51 Wrong state, escaping
+03:36:52 clan_castle check
+03:37:00 Wrong state, escaping
+03:37:01 Unknown game state, trying to correct
+03:37:03 Cycle done, waiting 1 seconds and restarting if enabled.
+03:37:12 Current state is: Working
+03:37:12 Unknown game state, trying to correct
+03:37:14 Cycle done, waiting 1 seconds and restarting if enabled.
+03:37:24 Current state is: Working
+03:37:24 Unknown game state, trying to correct
+03:37:26 Cycle done, waiting 1 seconds and restarting if enabled.
+03:37:32 Current state is: Victory
+03:37:32 Victory
+03:37:33 Cycle done, waiting 1 seconds and restarting if enabled.
+03:37:40 Current state is: Victory
+03:37:40 Victory
+03:37:41 Cycle done, waiting 1 seconds and restarting if enabled.
+03:37:48 Current state is: Victory
+03:37:48 Victory
+03:37:49 Cycle done, waiting 1 seconds and restarting if enabled.
+03:37:59 Current state is: Working
+03:37:59 Unknown game state, trying to correct
+03:38:00 Cycle done, waiting 1 seconds and restarting if enabled.
+03:38:10 Current state is: Working
+03:38:10 Unknown game state, trying to correct
+03:38:11 Cycle done, waiting 1 seconds and restarting if enabled.
+03:38:22 Current state is: Working
+03:38:22 Unknown game state, trying to correct
+03:38:23 Something wrong, restarting game
+03:38:24 Exiting game
+03:38:27 Starting game
+03:39:09 Cycle done, waiting 1 seconds and restarting if enabled.
+03:39:12 Heroes button located
+03:39:12 Current state is: Home Screen
+03:39:13 Arena check
+03:39:15 Heroes button located
+03:39:15 Game state is : Home Screen
+03:39:20 trial_of_death check
+03:39:22 Heroes button located
+03:39:22 Game state is : Home Screen
+03:39:22 Checking Trial of Death
+03:39:24 coliseum check
+03:39:26 Heroes button located
+03:39:26 Game state is : Home Screen
+03:39:26 Checking Coliseum
+03:39:28 tournament check
+03:39:30 Heroes button located
+03:39:30 Game state is : Home Screen
+03:39:32 events check
+03:39:34 Heroes button located
+03:39:34 Game state is : Home Screen
+03:39:34 Checking event.
+03:39:42 caves check
+03:39:42 Home Screen
+03:39:51 Wrong state, escaping
+03:39:51 chests check
+03:39:53 Heroes button located
+03:39:54 Game state is : Home Screen
+03:39:54 Checking Chests
+03:39:57 Looking for Chest button
+03:40:00 Looking for Chest button
+03:40:03 Looking for Chest button
+03:40:06 Looking for Chest button
+03:40:09 Looking for Chest button
+03:40:12 Looking for Chest button
+03:40:16 Chest button found, clicking
+03:40:20 Opening wooden chest
+03:40:27 No chests available
+03:40:30 mailbox check
+03:40:32 Heroes button located
+03:40:32 Game state is : Home Screen
+03:40:32 Checking mail
+03:40:35 No mail available
+03:40:37 friends check
+03:40:39 Heroes button located
+03:40:39 Game state is : Home Screen
+03:40:39 Checking friends
+03:40:43 Looking for Friend Heart button
+03:40:47 Looking for Friend Heart button
+03:40:51 Looking for Friend Heart button
+03:40:55 Looking for Friend Heart button
+03:40:58 Looking for Friend Heart button
+03:41:02 Looking for Friend Heart button
+03:41:06 Looking for Friend Heart button
+03:41:10 Looking for Friend Heart button
+03:41:14 Looking for Friend Heart button
+03:41:18 Looking for Friend Heart button
+03:41:22 Looking for Friend Heart button
+03:41:26 Looking for Friend Heart button
+03:41:30 Looking for Friend Heart button
+03:41:36 portal check
+03:41:38 Heroes button located
+03:41:38 Game state is : Home Screen
+03:41:38 Checking portal
+03:41:41 Looking for Portal button
+03:41:44 Looking for Portal button
+03:41:48 Portal button found, clicking
+03:41:52 Trial not available
+03:41:55 Otherworld not available
+03:41:57 campaign check
+03:41:59 Heroes button located
+03:41:59 Game state is : Home Screen
+03:41:59 Checking Campaign
+03:42:00 Current food is: 197
+03:42:00 Trying to spend food
+03:42:02 Checking Ninja_Meego
+03:42:08 Current food is: 197
+03:42:21 Checking Hanna_the_Inquisitor
+03:42:27 Current food is: 197
+03:43:04 missions check
+03:43:06 Heroes button located
+03:43:06 Game state is : Home Screen
+03:43:07 Checking missions
+03:43:28 No rewards, leaving missions
+03:43:28 Looking for mission, scrolling down 1/9 times
+03:43:30 Looking for mission, scrolling down 2/9 times
+03:43:31 Looking for mission, scrolling down 3/9 times
+03:43:33 Looking for mission, scrolling down 4/9 times
+03:43:35 Looking for mission, scrolling down 5/9 times
+03:43:36 Looking for mission, scrolling down 6/9 times
+03:43:38 Looking for mission, scrolling down 7/9 times
+03:43:39 Looking for mission, scrolling down 8/9 times
+03:43:41 Looking for mission, scrolling down 9/9 times
+03:43:43 Mission found, doing missions!
+03:43:49 Doing experience potion mission
+03:43:50 Clicking apply
+03:43:59 clan_castle check
+03:44:01 Heroes button located
+03:44:01 Game state is : Home Screen
+03:44:01 Checking Clan Castle.
+03:44:04 Looking for Clan Castle button
+03:44:08 Looking for Clan Castle button
+03:44:11 Looking for Clan Castle button
+03:44:14 Looking for Clan Castle button
+03:44:17 Looking for Clan Castle button
+03:44:20 Clan Castle button found, clicking
+03:44:22 Checking Treasury.
+03:44:26 Treasury already done
+03:44:28 Cycle done, waiting 1 seconds and restarting if enabled.
+03:44:31 Heroes button located
+03:44:31 Current state is: Home Screen
+03:44:32 Expanding arrow
+03:44:32 Arena check
+03:44:35 Heroes button located
+03:44:35 Game state is : Home Screen
+03:44:40 trial_of_death check
+03:44:42 Heroes button located
+03:44:42 Game state is : Home Screen
+03:44:42 Checking Trial of Death
+03:44:44 coliseum check
+03:44:46 Heroes button located
+03:44:46 Game state is : Home Screen
+03:44:46 Checking Coliseum
+03:44:47 tournament check
+03:44:50 Heroes button located
+03:44:50 Game state is : Home Screen
+03:44:51 events check
+03:44:54 Heroes button located
+03:44:54 Game state is : Home Screen
+03:44:54 Checking event.
+03:45:02 caves check
+03:45:02 Home Screen
+03:45:11 Wrong state, escaping
+03:45:12 chests check
+03:45:14 Heroes button located
+03:45:14 Game state is : Home Screen
+03:45:14 Checking Chests
+03:45:17 No chests available
+03:45:18 mailbox check
+03:45:20 Heroes button located
+03:45:20 Game state is : Home Screen
+03:45:20 Checking mail
+03:45:24 Looking for Mailbox button
+03:45:27 Looking for Mailbox button
+03:45:30 Looking for Mailbox button
+03:45:33 Looking for Mailbox button
+03:45:36 Looking for Mailbox button
+03:45:39 Looking for Mailbox button
+03:45:42 Looking for Mailbox button
+03:45:45 Looking for Mailbox button
+03:45:48 Looking for Mailbox button
+03:45:51 Looking for Mailbox button
+03:45:55 Mailbox button found, clicking
+03:46:00 No mail available
+03:46:03 friends check
+03:46:05 Heroes button located
+03:46:05 Game state is : Home Screen
+03:46:05 Checking friends
+03:46:09 Looking for Friend Heart button
+03:46:13 Looking for Friend Heart button
+03:46:16 Looking for Friend Heart button
+03:46:20 Looking for Friend Heart button
+03:46:24 Looking for Friend Heart button
+03:46:28 Looking for Friend Heart button
+03:46:32 Looking for Friend Heart button
+03:46:36 Looking for Friend Heart button
+03:46:39 Looking for Friend Heart button
+03:46:43 Looking for Friend Heart button
+03:46:47 Looking for Friend Heart button
+03:46:51 Looking for Friend Heart button
+03:46:55 Looking for Friend Heart button
+03:47:01 portal check
+03:47:03 Heroes button located
+03:47:03 Game state is : Home Screen
+03:47:03 Checking portal
+03:47:06 Looking for Portal button
+03:47:09 Looking for Portal button
+03:47:12 Portal button found, clicking
+03:47:17 Trial not available
+03:47:19 Otherworld not available
+03:47:21 campaign check
+03:47:24 Heroes button located
+03:47:24 Game state is : Home Screen
+03:47:24 Checking Campaign
+03:47:25 Current food is: 119
+03:47:25 Trying to spend food
+03:47:27 Checking Ninja_Meego
+03:47:32 Current food is: 120
+03:47:44 Checking Hanna_the_Inquisitor
+03:47:50 Current food is: 120
+03:48:02 Checking Beastborn_Warrior_Grog
+03:48:07 Current food is: 120
+03:48:49 missions check
+03:48:51 Heroes button located
+03:48:51 Game state is : Home Screen
+03:48:51 Checking missions
+03:49:02 No rewards, leaving missions
+03:49:02 Looking for mission, scrolling down 1/9 times
+03:49:03 Looking for mission, scrolling down 2/9 times
+03:49:05 Looking for mission, scrolling down 3/9 times
+03:49:07 Looking for mission, scrolling down 4/9 times
+03:49:08 Looking for mission, scrolling down 5/9 times
+03:49:10 Looking for mission, scrolling down 6/9 times
+03:49:11 Looking for mission, scrolling down 7/9 times
+03:49:13 Looking for mission, scrolling down 8/9 times
+03:49:14 Looking for mission, scrolling down 9/9 times
+03:49:16 Mission found, doing missions!
+03:49:24 clan_castle check
+03:49:28 Wrong state, escaping
+03:49:28 Cycle done, waiting 1 seconds and restarting if enabled.
+03:49:32 Heroes button located
+03:49:32 Current state is: Home Screen
+03:49:32 Expanding arrow
+03:49:33 Arena check
+03:49:35 Heroes button located
+03:49:35 Game state is : Home Screen
+03:49:40 trial_of_death check
+03:49:42 Heroes button located
+03:49:42 Game state is : Home Screen
+03:49:42 Checking Trial of Death
+03:49:43 Trial of Death ready
+03:49:48 1/3 trials left, entering hero select
+03:49:56 Selecting heroes for Trial 3
+03:49:56 Selecting ToD heroes
+03:49:56 Looking for Arzgar_the_Herald_of_Death
+03:49:58 Looking for Arzgar_the_Herald_of_Death
+03:49:59 Looking for Arzgar_the_Herald_of_Death
+03:50:01 Looking for Arzgar_the_Herald_of_Death
+03:50:03 Looking for Arzgar_the_Herald_of_Death
+03:50:04 Looking for Arzgar_the_Herald_of_Death
+03:50:06 Looking for Arzgar_the_Herald_of_Death
+03:50:07 Looking for Arzgar_the_Herald_of_Death
+03:50:09 Looking for Arzgar_the_Herald_of_Death
+03:50:10 Looking for Arzgar_the_Herald_of_Death
+03:50:12 Looking for Arzgar_the_Herald_of_Death
+03:50:14 Looking for Arzgar_the_Herald_of_Death
+03:50:15 Looking for Arzgar_the_Herald_of_Death
+03:50:17 Looking for Arzgar_the_Herald_of_Death
+03:50:18 Looking for Arzgar_the_Herald_of_Death
+03:50:20 Looking for Arzgar_the_Herald_of_Death
+03:50:21 Looking for Arzgar_the_Herald_of_Death
+03:50:23 Looking for Arzgar_the_Herald_of_Death
+03:50:25 Looking for Arzgar_the_Herald_of_Death
+03:50:26 Looking for Arzgar_the_Herald_of_Death
+03:50:28 Looking for Arzgar_the_Herald_of_Death
+03:50:29 Looking for Arzgar_the_Herald_of_Death
+03:50:31 Looking for Arzgar_the_Herald_of_Death
+03:50:33 Looking for Arzgar_the_Herald_of_Death
+03:50:34 Looking for Hitay_the_Spirit_of_Flame
+03:50:36 Looking for Hitay_the_Spirit_of_Flame
+03:50:37 Looking for Hitay_the_Spirit_of_Flame
+03:50:39 Looking for Hitay_the_Spirit_of_Flame
+03:50:41 Looking for Hitay_the_Spirit_of_Flame
+03:50:42 Looking for Hitay_the_Spirit_of_Flame
+03:50:44 Looking for Hitay_the_Spirit_of_Flame
+03:50:45 Looking for Hitay_the_Spirit_of_Flame
+03:50:47 Looking for Hitay_the_Spirit_of_Flame
+03:50:47 Hitay_the_Spirit_of_Flame found.
+03:50:49 Looking for Crystalloid_Vern
+03:50:49 Crystalloid_Vern found.
+03:50:50 Looking for Samurai_Yasi
+03:50:51 Samurai_Yasi found.
+03:50:52 Looking for Guard_Langerd
+03:50:52 Guard_Langerd found.
+03:50:54 coliseum check
+03:51:00 Wrong state, escaping
+03:51:00 tournament check
+03:51:09 Speeding up battle
+03:51:11 Speeding up battle
+03:51:12 Wrong state, escaping
+03:51:12 events check
+03:51:19 Wrong state, escaping
+03:51:19 caves check
+03:51:19 In Battle
+03:51:26 Wrong state, escaping
+03:51:27 chests check
+03:51:34 Wrong state, escaping
+03:51:34 mailbox check
+03:51:41 Wrong state, escaping
+03:51:42 friends check
+03:51:49 Wrong state, escaping
+03:51:49 portal check
+03:51:59 Wrong state, escaping
+03:52:00 campaign check
+03:52:02 Wrong state, escaping
+03:52:03 missions check
+03:52:07 Wrong state, escaping
+03:52:08 clan_castle check
+03:52:10 Heroes button located
+03:52:10 Game state is : Home Screen
+03:52:10 Checking Clan Castle.
+03:52:12 Cycle done, waiting 1 seconds and restarting if enabled.
+03:52:15 Heroes button located
+03:52:15 Current state is: Clan Castle
+03:52:17 Heroes button located
+03:52:17 Checking Treasury.
+03:52:20 Treasury already done
+03:52:24 Heroes button located
+03:52:24 Checking Clan Store.
+03:52:39 Heroes button located
+03:52:39 Checking Caravan.
+03:52:42 Looking for Caravan button
+03:52:45 Looking for Caravan button
+03:52:48 Looking for Caravan button
+03:52:52 Looking for Caravan button
+03:52:55 Caravan button found, clicking
+03:53:06 Heroes button located
+03:53:06 Checking Praises.
+03:53:49 lul no praises
+03:53:52 Heroes button located
+03:53:52 Checking Wheel of Fortune.
+03:53:56 Looking for Wheel of Fortune button
+03:53:59 Looking for Wheel of Fortune button
+03:54:02 Wheel of Fortune button found, clicking
+03:54:23 Heroes button located
+03:54:23 Checking Altar.
+03:54:26 Looking for Altar button
+03:54:29 Looking for Altar button
+03:54:32 Looking for Altar button
+03:54:36 Looking for Altar button
+03:54:39 Looking for Altar button
+03:54:42 Looking for Altar button
+03:54:45 Looking for Altar button
+03:54:48 Looking for Altar button
+03:54:51 Looking for Altar button
+03:54:54 Looking for Altar button
+03:54:57 Looking for Altar button
+03:55:00 Altar button found, clicking
+03:55:11 Heroes button located
+03:55:11 Checking Battle Cave.
+03:55:14 Looking for Battle Cave button
+03:55:17 Looking for Battle Cave button
+03:55:21 Battle Cave button found, clicking
+03:55:57 Seems no raid is available at the moment, escaping
+03:56:00 Cycle done, waiting 1 seconds and restarting if enabled.
+03:56:04 Heroes button located
+03:56:04 Current state is: Home Screen
+03:56:04 Expanding arrow
+03:56:05 Arena check
+03:56:07 Heroes button located
+03:56:07 Game state is : Home Screen
+03:56:12 trial_of_death check
+03:56:15 Heroes button located
+03:56:15 Game state is : Home Screen
+03:56:15 Checking Trial of Death
+03:56:15 Trial of Death ready
+03:56:20 1/3 trials left, entering hero select
+03:56:41 Finishing trial
+03:56:46 coliseum check
+03:56:48 Heroes button located
+03:56:48 Game state is : Home Screen
+03:56:48 Checking Coliseum
+03:56:50 tournament check
+03:56:52 Heroes button located
+03:56:52 Game state is : Home Screen
+03:56:54 events check
+03:56:56 Heroes button located
+03:56:56 Game state is : Home Screen
+03:56:57 Checking event.
+03:57:04 caves check
+03:57:04 Home Screen
+03:57:14 Wrong state, escaping
+03:57:14 chests check
+03:57:17 Heroes button located
+03:57:17 Game state is : Home Screen
+03:57:17 Checking Chests
+03:57:20 Looking for Chest button
+03:57:23 Looking for Chest button
+03:57:26 Looking for Chest button
+03:57:30 Looking for Chest button
+03:57:33 Looking for Chest button
+03:57:36 Chest button found, clicking
+03:57:40 No chests available
+03:57:43 mailbox check
+03:57:45 Heroes button located
+03:57:45 Game state is : Home Screen
+03:57:45 Checking mail
+03:57:48 Looking for Mailbox button
+03:57:51 Looking for Mailbox button
+03:57:54 Looking for Mailbox button
+03:57:57 Looking for Mailbox button
+03:58:01 Looking for Mailbox button
+03:58:04 Looking for Mailbox button
+03:58:07 Looking for Mailbox button
+03:58:10 Looking for Mailbox button
+03:58:13 Looking for Mailbox button
+03:58:16 Looking for Mailbox button
+03:58:19 Looking for Mailbox button
+03:58:22 Looking for Mailbox button
+03:58:25 Looking for Mailbox button
+03:58:28 friends check
+03:58:30 Heroes button located
+03:58:30 Wrong state, escaping
+03:58:31 portal check
+03:58:33 Heroes button located
+03:58:33 Game state is : Home Screen
+03:58:33 Checking portal
+03:58:36 Looking for Portal button
+03:58:40 Looking for Portal button
+03:58:43 Portal button found, clicking
+03:58:47 Trial not available
+03:58:50 Otherworld not available
+03:58:52 campaign check
+03:58:54 Heroes button located
+03:58:54 Game state is : Home Screen
+03:58:54 Checking Campaign
+03:58:55 Current food is: 22
+03:58:56 missions check
+03:58:58 Heroes button located
+03:58:58 Game state is : Home Screen
+03:58:58 Checking missions
+03:59:02 No rewards, leaving missions
+03:59:02 Looking for mission, scrolling down 1/9 times
+03:59:03 Looking for mission, scrolling down 2/9 times
+03:59:05 Looking for mission, scrolling down 3/9 times
+03:59:06 Looking for mission, scrolling down 4/9 times
+03:59:08 Looking for mission, scrolling down 5/9 times
+03:59:09 Looking for mission, scrolling down 6/9 times
+03:59:11 Looking for mission, scrolling down 7/9 times
+03:59:13 Looking for mission, scrolling down 8/9 times
+03:59:14 Looking for mission, scrolling down 9/9 times
+03:59:16 Mission found, doing missions!
+03:59:25 clan_castle check
+03:59:29 Wrong state, escaping
+03:59:29 Cycle done, waiting 1 seconds and restarting if enabled.
+03:59:33 Heroes button located
+03:59:33 Current state is: Home Screen
+03:59:33 Expanding arrow
+03:59:34 Arena check
+03:59:36 Heroes button located
+03:59:36 Game state is : Home Screen
+03:59:42 trial_of_death check
+03:59:44 Heroes button located
+03:59:44 Game state is : Home Screen
+03:59:44 Checking Trial of Death
+03:59:45 coliseum check
+03:59:48 Heroes button located
+03:59:48 Game state is : Home Screen
+03:59:48 Checking Coliseum
+03:59:49 tournament check
+03:59:51 Heroes button located
+03:59:51 Game state is : Home Screen
+03:59:53 events check
+03:59:55 Heroes button located
+03:59:56 Game state is : Home Screen
+03:59:56 Checking event.
+04:00:03 caves check
+04:00:03 Home Screen
+04:00:06 Heroes button located
+04:00:06 Game state is : Home Screen
+04:00:06 Checking Cave
+04:00:30 Checking cave fights
+04:00:32 Clicking fight
+04:00:39 Checking cave fights
+04:00:41 Clicking fight
+04:00:46 chests check
+04:00:50 Wrong state, escaping
+04:00:51 mailbox check
+04:00:53 Heroes button located
+04:00:53 Game state is : Home Screen
+04:00:53 Checking mail
+04:00:56 Looking for Mailbox button
+04:00:59 Looking for Mailbox button
+04:01:02 Looking for Mailbox button
+04:01:05 Looking for Mailbox button
+04:01:09 Looking for Mailbox button
+04:01:12 Looking for Mailbox button
+04:01:15 Looking for Mailbox button
+04:01:18 Looking for Mailbox button
+04:01:21 Looking for Mailbox button
+04:01:24 Looking for Mailbox button
+04:01:27 Looking for Mailbox button
+04:01:30 Looking for Mailbox button
+04:01:33 Looking for Mailbox button
+04:01:36 friends check
+04:01:38 Heroes button located
+04:01:38 Game state is : Home Screen
+04:01:38 Checking friends
+04:01:42 Looking for Friend Heart button
+04:01:46 Looking for Friend Heart button
+04:01:50 Looking for Friend Heart button
+04:01:54 Looking for Friend Heart button
+04:01:58 Looking for Friend Heart button
+04:02:02 Looking for Friend Heart button
+04:02:06 Looking for Friend Heart button
+04:02:10 Looking for Friend Heart button
+04:02:13 Looking for Friend Heart button
+04:02:17 Looking for Friend Heart button
+04:02:21 Looking for Friend Heart button
+04:02:25 Looking for Friend Heart button
+04:02:29 Looking for Friend Heart button
+04:02:35 portal check
+04:02:38 Heroes button located
+04:02:38 Game state is : Home Screen
+04:02:38 Checking portal
+04:02:41 Trial not available
+04:02:43 Otherworld not available
+04:02:45 campaign check
+04:02:47 Heroes button located
+04:02:47 Game state is : Home Screen
+04:02:47 Checking Campaign
+04:02:47 Current food is: 23
+04:02:48 missions check
+04:02:51 Heroes button located
+04:02:51 Game state is : Home Screen
+04:02:51 Checking missions
+04:02:54 No rewards, leaving missions
+04:02:54 Looking for mission, scrolling down 1/9 times
+04:02:56 Looking for mission, scrolling down 2/9 times
+04:02:57 Looking for mission, scrolling down 3/9 times
+04:02:59 Looking for mission, scrolling down 4/9 times
+04:03:01 Looking for mission, scrolling down 5/9 times
+04:03:02 Looking for mission, scrolling down 6/9 times
+04:03:04 Looking for mission, scrolling down 7/9 times
+04:03:05 Looking for mission, scrolling down 8/9 times
+04:03:07 Looking for mission, scrolling down 9/9 times
+04:03:09 Mission found, doing missions!
+04:03:17 clan_castle check
+04:03:21 Wrong state, escaping
+04:03:21 Cycle done, waiting 1 seconds and restarting if enabled.
+04:03:25 Heroes button located
+04:03:25 Current state is: Home Screen
+04:03:25 Expanding arrow
+04:03:26 Arena check
+04:03:28 Heroes button located
+04:03:28 Game state is : Home Screen
+04:03:33 trial_of_death check
+04:03:36 Heroes button located
+04:03:36 Game state is : Home Screen
+04:03:36 Checking Trial of Death
+04:03:37 coliseum check
+04:03:39 Heroes button located
+04:03:39 Game state is : Home Screen
+04:03:39 Checking Coliseum
+04:03:41 tournament check
+04:03:43 Heroes button located
+04:03:43 Game state is : Home Screen
+04:03:45 events check
+04:03:47 Heroes button located
+04:03:47 Game state is : Home Screen
+04:03:49 caves check
+04:03:49 Home Screen
+04:03:51 Heroes button located
+04:03:51 Game state is : Home Screen
+04:03:51 Checking Cave
+04:04:15 Checking cave fights
+04:04:17 Clicking fight
+04:04:24 Checking cave fights
+04:04:26 Clicking fight
+04:04:31 chests check
+04:04:35 Wrong state, escaping
+04:04:36 mailbox check
+04:04:38 Heroes button located
+04:04:38 Game state is : Home Screen
+04:04:38 Checking mail
+04:04:41 Looking for Mailbox button
+04:04:44 Looking for Mailbox button
+04:04:47 Looking for Mailbox button
+04:04:50 Looking for Mailbox button
+04:04:53 Looking for Mailbox button
+04:04:57 Looking for Mailbox button
+04:05:00 Looking for Mailbox button
+04:05:03 Looking for Mailbox button
+04:05:06 Looking for Mailbox button
+04:05:09 Looking for Mailbox button
+04:05:12 Mailbox button found, clicking
+04:05:17 No mail available
+04:05:20 friends check
+04:05:22 Heroes button located
+04:05:22 Game state is : Home Screen
+04:05:22 Checking friends
+04:05:26 Looking for Friend Heart button
+04:05:30 Looking for Friend Heart button
+04:05:34 Looking for Friend Heart button
+04:05:38 Looking for Friend Heart button
+04:05:42 Looking for Friend Heart button
+04:05:46 Looking for Friend Heart button
+04:05:50 Looking for Friend Heart button
+04:05:54 Looking for Friend Heart button
+04:05:58 Looking for Friend Heart button
+04:06:01 Looking for Friend Heart button
+04:06:05 Looking for Friend Heart button
+04:06:09 Looking for Friend Heart button
+04:06:13 Looking for Friend Heart button
+04:06:30 portal check
+04:06:32 Heroes button located
+04:06:32 Game state is : Home Screen
+04:06:32 Checking portal
+04:06:35 Looking for Portal button
+04:06:38 Looking for Portal button
+04:06:42 Portal button found, clicking
+04:06:46 Trial not available
+04:06:48 Otherworld not available
+04:06:51 campaign check
+04:06:53 Heroes button located
+04:06:53 Game state is : Home Screen
+04:06:53 Checking Campaign
+04:06:53 Current food is: 23
+04:06:54 missions check
+04:06:57 Heroes button located
+04:06:57 Game state is : Home Screen
+04:06:57 Checking missions
+04:07:00 No rewards, leaving missions
+04:07:00 Looking for mission, scrolling down 1/9 times
+04:07:02 Looking for mission, scrolling down 2/9 times
+04:07:03 Looking for mission, scrolling down 3/9 times
+04:07:05 Looking for mission, scrolling down 4/9 times
+04:07:06 Looking for mission, scrolling down 5/9 times
+04:07:08 Looking for mission, scrolling down 6/9 times
+04:07:10 Looking for mission, scrolling down 7/9 times
+04:07:11 Looking for mission, scrolling down 8/9 times
+04:07:13 Looking for mission, scrolling down 9/9 times
+04:07:15 Mission found, doing missions!
+04:07:22 clan_castle check
+04:07:26 Wrong state, escaping
+04:07:27 Cycle done, waiting 1 seconds and restarting if enabled.
+04:07:30 Heroes button located
+04:07:30 Current state is: Home Screen
+04:07:30 Expanding arrow
+04:07:31 Arena check
+04:07:33 Heroes button located
+04:07:33 Game state is : Home Screen
+04:07:39 trial_of_death check
+04:07:41 Heroes button located
+04:07:41 Game state is : Home Screen
+04:07:41 Checking Trial of Death
+04:07:42 coliseum check
+04:07:44 Heroes button located
+04:07:44 Game state is : Home Screen
+04:07:44 Checking Coliseum
+04:07:46 tournament check
+04:07:48 Heroes button located
+04:07:48 Game state is : Home Screen
+04:07:50 events check
+04:07:52 Heroes button located
+04:07:52 Game state is : Home Screen
+04:07:53 caves check
+04:07:53 Home Screen
+04:07:56 Heroes button located
+04:07:56 Game state is : Home Screen
+04:07:56 Checking Cave
+04:08:20 Checking cave fights
+04:08:22 Clicking fight
+04:08:28 Checking cave fights
+04:08:31 Clicking fight
+04:08:36 chests check
+04:08:39 Wrong state, escaping
+04:08:40 mailbox check
+04:08:42 Heroes button located
+04:08:42 Game state is : Home Screen
+04:08:42 Checking mail
+04:08:45 Looking for Mailbox button
+04:08:48 Looking for Mailbox button
+04:08:51 Looking for Mailbox button
+04:08:54 Looking for Mailbox button
+04:08:57 Looking for Mailbox button
+04:09:00 Looking for Mailbox button
+04:09:03 Looking for Mailbox button
+04:09:07 Looking for Mailbox button
+04:09:10 Looking for Mailbox button
+04:09:13 Looking for Mailbox button
+04:09:16 Looking for Mailbox button
+04:09:19 Looking for Mailbox button
+04:09:22 Looking for Mailbox button
+04:09:25 friends check
+04:09:27 Heroes button located
+04:09:27 Game state is : Home Screen
+04:09:27 Checking friends
+04:09:31 Looking for Friend Heart button
+04:09:35 Looking for Friend Heart button
+04:09:39 Looking for Friend Heart button
+04:09:43 Looking for Friend Heart button
+04:09:47 Looking for Friend Heart button
+04:09:51 Looking for Friend Heart button
+04:09:54 Looking for Friend Heart button
+04:09:58 Looking for Friend Heart button
+04:10:02 Looking for Friend Heart button
+04:10:06 Looking for Friend Heart button
+04:10:10 Looking for Friend Heart button
+04:10:14 Looking for Friend Heart button
+04:10:18 Looking for Friend Heart button
+04:10:24 portal check
+04:10:26 Heroes button located
+04:10:26 Game state is : Home Screen
+04:10:26 Checking portal
+04:10:29 Looking for Portal button
+04:10:32 Looking for Portal button
+04:10:35 Looking for Portal button
+04:10:38 Portal button found, clicking
+04:10:43 Trial not available
+04:10:45 Otherworld not available
+04:10:48 campaign check
+04:10:50 Heroes button located
+04:10:50 Game state is : Home Screen
+04:10:50 Checking Campaign
+04:10:51 Current food is: 24
+04:10:52 missions check
+04:10:54 Heroes button located
+04:10:54 Game state is : Home Screen
+04:10:54 Checking missions
+04:10:57 No rewards, leaving missions
+04:10:57 Looking for mission, scrolling down 1/9 times
+04:10:59 Looking for mission, scrolling down 2/9 times
+04:11:00 Looking for mission, scrolling down 3/9 times
+04:11:02 Looking for mission, scrolling down 4/9 times
+04:11:04 Looking for mission, scrolling down 5/9 times
+04:11:05 Looking for mission, scrolling down 6/9 times
+04:11:07 Looking for mission, scrolling down 7/9 times
+04:11:08 Looking for mission, scrolling down 8/9 times
+04:11:10 Looking for mission, scrolling down 9/9 times
+04:11:12 Mission found, doing missions!
+04:11:20 clan_castle check
+04:11:23 Wrong state, escaping
+04:11:24 Cycle done, waiting 1 seconds and restarting if enabled.
+04:11:27 Heroes button located
+04:11:27 Current state is: Home Screen
+04:11:27 Expanding arrow
+04:11:28 Arena check
+04:11:30 Heroes button located
+04:11:30 Game state is : Home Screen
+04:11:36 trial_of_death check
+04:11:38 Heroes button located
+04:11:38 Game state is : Home Screen
+04:11:38 Checking Trial of Death
+04:11:40 coliseum check
+04:11:42 Heroes button located
+04:11:42 Game state is : Home Screen
+04:11:42 Checking Coliseum
+04:11:43 tournament check
+04:11:46 Heroes button located
+04:11:46 Game state is : Home Screen
+04:11:48 events check
+04:11:50 Heroes button located
+04:11:50 Game state is : Home Screen
+04:11:51 caves check
+04:11:51 Home Screen
+04:11:54 Heroes button located
+04:11:54 Game state is : Home Screen
+04:11:54 Checking Cave
+04:12:18 Checking cave fights
+04:12:20 Clicking fight
+04:12:27 Checking cave fights
+04:12:29 Clicking fight
+04:12:34 chests check
+04:12:37 Wrong state, escaping
+04:12:38 mailbox check
+04:12:40 Heroes button located
+04:12:40 Game state is : Home Screen
+04:12:40 Checking mail
+04:12:43 Looking for Mailbox button
+04:12:46 Looking for Mailbox button
+04:12:49 Mailbox button found, clicking
+04:12:55 No mail available
+04:12:57 friends check
+04:12:59 Heroes button located
+04:12:59 Game state is : Home Screen
+04:12:59 Checking friends
+04:13:03 Looking for Friend Heart button
+04:13:07 Looking for Friend Heart button
+04:13:11 Looking for Friend Heart button
+04:13:15 Looking for Friend Heart button
+04:13:19 Looking for Friend Heart button
+04:13:23 Looking for Friend Heart button
+04:13:27 Looking for Friend Heart button
+04:13:30 Looking for Friend Heart button
+04:13:34 Looking for Friend Heart button
+04:13:38 Looking for Friend Heart button
+04:13:42 Looking for Friend Heart button
+04:13:46 Looking for Friend Heart button
+04:13:50 Looking for Friend Heart button
+04:13:55 portal check
+04:13:58 Heroes button located
+04:13:58 Game state is : Home Screen
+04:13:58 Checking portal
+04:14:00 Trial not available
+04:14:03 Otherworld not available
+04:14:04 campaign check
+04:14:07 Heroes button located
+04:14:07 Game state is : Home Screen
+04:14:07 Checking Campaign
+04:14:07 Current food is: 47
+04:14:07 Trying to spend food
+04:14:09 Checking Ninja_Meego
+04:14:14 Current food is: 47
+04:14:26 Checking Hanna_the_Inquisitor
+04:14:30 Current food is: 47
+04:14:42 Checking Beastborn_Warrior_Grog
+04:14:47 Current food is: 47
+04:15:06 missions check
+04:15:08 Heroes button located
+04:15:08 Game state is : Home Screen
+04:15:08 Checking missions
+04:15:11 No rewards, leaving missions
+04:15:11 Looking for mission, scrolling down 1/9 times
+04:15:13 Looking for mission, scrolling down 2/9 times
+04:15:15 Looking for mission, scrolling down 3/9 times
+04:15:16 Looking for mission, scrolling down 4/9 times
+04:15:18 Looking for mission, scrolling down 5/9 times
+04:15:19 Looking for mission, scrolling down 6/9 times
+04:15:21 Looking for mission, scrolling down 7/9 times
+04:15:22 Looking for mission, scrolling down 8/9 times
+04:15:24 Looking for mission, scrolling down 9/9 times
+04:15:26 Mission found, doing missions!
+04:15:34 clan_castle check
+04:15:38 Wrong state, escaping
+04:15:38 Cycle done, waiting 1 seconds and restarting if enabled.
+04:15:41 Heroes button located
+04:15:41 Current state is: Home Screen
+04:15:41 Expanding arrow
+04:15:42 Arena check
+04:15:44 Heroes button located
+04:15:44 Game state is : Home Screen
+04:15:50 trial_of_death check
+04:15:52 Heroes button located
+04:15:52 Game state is : Home Screen
+04:15:52 Checking Trial of Death
+04:15:53 coliseum check
+04:15:55 Heroes button located
+04:15:55 Game state is : Home Screen
+04:15:55 Checking Coliseum
+04:15:57 tournament check
+04:15:59 Heroes button located
+04:15:59 Game state is : Home Screen
+04:16:01 events check
+04:16:03 Heroes button located
+04:16:03 Game state is : Home Screen
+04:16:04 caves check
+04:16:04 Home Screen
+04:16:06 Heroes button located
+04:16:06 Game state is : Home Screen
+04:16:06 Checking Cave
+04:16:30 Checking cave fights
+04:16:33 Clicking fight
+04:16:39 Checking cave fights
+04:16:41 Clicking fight
+04:16:46 chests check
+04:16:50 Wrong state, escaping
+04:16:51 mailbox check
+04:16:53 Heroes button located
+04:16:53 Game state is : Home Screen
+04:16:53 Checking mail
+04:16:56 Looking for Mailbox button
+04:16:59 Looking for Mailbox button
+04:17:02 Looking for Mailbox button
+04:17:05 Looking for Mailbox button
+04:17:08 Looking for Mailbox button
+04:17:11 Looking for Mailbox button
+04:17:14 Looking for Mailbox button
+04:17:17 Looking for Mailbox button
+04:17:20 Looking for Mailbox button
+04:17:24 Looking for Mailbox button
+04:17:27 Looking for Mailbox button
+04:17:30 Mailbox button found, clicking
+04:17:35 No mail available
+04:17:38 friends check
+04:17:40 Heroes button located
+04:17:40 Game state is : Home Screen
+04:17:40 Checking friends
+04:17:44 Looking for Friend Heart button
+04:17:48 Looking for Friend Heart button
+04:17:51 Looking for Friend Heart button
+04:17:55 Looking for Friend Heart button
+04:17:59 Looking for Friend Heart button
+04:18:03 Looking for Friend Heart button
+04:18:07 Looking for Friend Heart button
+04:18:11 Looking for Friend Heart button
+04:18:15 Looking for Friend Heart button
+04:18:18 Looking for Friend Heart button
+04:18:22 Looking for Friend Heart button
+04:18:26 Looking for Friend Heart button
+04:18:30 Looking for Friend Heart button
+04:18:36 portal check
+04:18:38 Heroes button located
+04:18:38 Game state is : Home Screen
+04:18:38 Checking portal
+04:18:41 Looking for Portal button
+04:18:44 Looking for Portal button
+04:18:47 Portal button found, clicking
+04:18:52 Trial not available
+04:18:54 Otherworld not available
+04:18:57 campaign check
+04:18:59 Heroes button located
+04:18:59 Game state is : Home Screen
+04:18:59 Checking Campaign
+04:19:00 Current food is: 26
+04:19:01 missions check
+04:19:03 Heroes button located
+04:19:03 Game state is : Home Screen
+04:19:03 Checking missions
+04:19:06 No rewards, leaving missions
+04:19:06 Looking for mission, scrolling down 1/9 times
+04:19:08 Looking for mission, scrolling down 2/9 times
+04:19:09 Looking for mission, scrolling down 3/9 times
+04:19:11 Looking for mission, scrolling down 4/9 times
+04:19:13 Looking for mission, scrolling down 5/9 times
+04:19:14 Looking for mission, scrolling down 6/9 times
+04:19:16 Looking for mission, scrolling down 7/9 times
+04:19:17 Looking for mission, scrolling down 8/9 times
+04:19:19 Looking for mission, scrolling down 9/9 times
+04:19:21 Mission found, doing missions!
+04:19:29 clan_castle check
+04:19:33 Wrong state, escaping
+04:19:33 Cycle done, waiting 1 seconds and restarting if enabled.
+04:19:36 Heroes button located
+04:19:36 Current state is: Home Screen
+04:19:37 Expanding arrow
+04:19:37 Arena check
+04:19:39 Heroes button located
+04:19:39 Game state is : Home Screen
+04:19:45 trial_of_death check
+04:19:47 Heroes button located
+04:19:47 Game state is : Home Screen
+04:19:47 Checking Trial of Death
+04:19:49 coliseum check
+04:19:51 Heroes button located
+04:19:51 Game state is : Home Screen
+04:19:51 Checking Coliseum
+04:19:52 tournament check
+04:19:55 Heroes button located
+04:19:55 Game state is : Home Screen
+04:19:56 events check
+04:19:59 Heroes button located
+04:19:59 Game state is : Home Screen
+04:20:00 caves check
+04:20:00 Home Screen
+04:20:02 Heroes button located
+04:20:02 Game state is : Home Screen
+04:20:02 Checking Cave
+04:20:26 Checking cave fights
+04:20:28 Clicking fight
+04:20:35 Checking cave fights
+04:20:37 Clicking fight
+04:20:42 chests check
+04:20:46 Wrong state, escaping
+04:20:47 mailbox check
+04:20:49 Heroes button located
+04:20:49 Game state is : Home Screen
+04:20:49 Checking mail
+04:20:52 Looking for Mailbox button
+04:20:55 Looking for Mailbox button
+04:20:58 Looking for Mailbox button
+04:21:01 Looking for Mailbox button
+04:21:04 Looking for Mailbox button
+04:21:07 Looking for Mailbox button
+04:21:10 Looking for Mailbox button
+04:21:14 Looking for Mailbox button
+04:21:17 Looking for Mailbox button
+04:21:20 Looking for Mailbox button
+04:21:23 Looking for Mailbox button
+04:21:26 Looking for Mailbox button
+04:21:29 Looking for Mailbox button
+04:21:32 friends check
+04:21:34 Heroes button located
+04:21:34 Game state is : Home Screen
+04:21:34 Checking friends
+04:21:38 Looking for Friend Heart button
+04:21:42 Looking for Friend Heart button
+04:21:46 Looking for Friend Heart button
+04:21:50 Looking for Friend Heart button
+04:21:53 Looking for Friend Heart button
+04:21:57 Looking for Friend Heart button
+04:22:01 Looking for Friend Heart button
+04:22:05 Looking for Friend Heart button
+04:22:09 Looking for Friend Heart button
+04:22:13 Looking for Friend Heart button
+04:22:17 Looking for Friend Heart button
+04:22:21 Looking for Friend Heart button
+04:22:25 Looking for Friend Heart button
+04:22:31 portal check
+04:22:33 Heroes button located
+04:22:33 Game state is : Home Screen
+04:22:33 Checking portal
+04:22:36 Looking for Portal button
+04:22:39 Looking for Portal button
+04:22:42 Looking for Portal button
+04:22:45 Portal button found, clicking
+04:22:50 Trial not available
+04:22:52 Otherworld not available
+04:22:55 campaign check
+04:22:57 Heroes button located
+04:22:57 Game state is : Home Screen
+04:22:57 Checking Campaign
+04:22:58 Current food is: 17
+04:22:59 missions check
+04:23:01 Heroes button located
+04:23:01 Game state is : Home Screen
+04:23:01 Checking missions
+04:23:04 No rewards, leaving missions
+04:23:04 Looking for mission, scrolling down 1/9 times
+04:23:06 Looking for mission, scrolling down 2/9 times
+04:23:07 Looking for mission, scrolling down 3/9 times
+04:23:09 Looking for mission, scrolling down 4/9 times
+04:23:11 Looking for mission, scrolling down 5/9 times
+04:23:12 Looking for mission, scrolling down 6/9 times
+04:23:14 Looking for mission, scrolling down 7/9 times
+04:23:15 Looking for mission, scrolling down 8/9 times
+04:23:17 Looking for mission, scrolling down 9/9 times
+04:23:19 Mission found, doing missions!
+04:23:27 clan_castle check
+04:23:30 Wrong state, escaping
+04:23:31 Cycle done, waiting 1 seconds and restarting if enabled.
+04:23:34 Heroes button located
+04:23:34 Current state is: Home Screen
+04:23:34 Expanding arrow
+04:23:35 Arena check
+04:23:37 Heroes button located
+04:23:37 Game state is : Home Screen
+04:23:43 trial_of_death check
+04:23:45 Heroes button located
+04:23:45 Game state is : Home Screen
+04:23:45 Checking Trial of Death
+04:23:46 coliseum check
+04:23:49 Heroes button located
+04:23:49 Game state is : Home Screen
+04:23:49 Checking Coliseum
+04:23:50 tournament check
+04:23:52 Heroes button located
+04:23:52 Game state is : Home Screen
+04:23:54 events check
+04:23:56 Heroes button located
+04:23:56 Game state is : Home Screen
+04:23:58 caves check
+04:23:58 Home Screen
+04:24:00 Heroes button located
+04:24:00 Game state is : Home Screen
+04:24:00 Checking Cave
+04:24:24 Checking cave fights
+04:24:26 Clicking fight
+04:24:33 Checking cave fights
+04:24:35 Clicking fight
+04:24:40 chests check
+04:24:44 Wrong state, escaping
+04:24:44 mailbox check
+04:24:47 Heroes button located
+04:24:47 Game state is : Home Screen
+04:24:47 Checking mail
+04:24:50 Looking for Mailbox button
+04:24:53 Looking for Mailbox button
+04:24:56 Looking for Mailbox button
+04:24:59 Looking for Mailbox button
+04:25:02 Mailbox button found, clicking
+04:25:08 No mail available
+04:25:10 friends check
+04:25:12 Heroes button located
+04:25:12 Game state is : Home Screen
+04:25:12 Checking friends
+04:25:17 Looking for Friend Heart button
+04:25:20 Looking for Friend Heart button
+04:25:24 Looking for Friend Heart button
+04:25:28 Looking for Friend Heart button
+04:25:32 Looking for Friend Heart button
+04:25:36 Looking for Friend Heart button
+04:25:40 Looking for Friend Heart button
+04:25:44 Looking for Friend Heart button
+04:25:48 Looking for Friend Heart button
+04:25:52 Looking for Friend Heart button
+04:25:56 Looking for Friend Heart button
+04:25:59 Looking for Friend Heart button
+04:26:03 Looking for Friend Heart button
+04:26:09 portal check
+04:26:12 Heroes button located
+04:26:12 Game state is : Home Screen
+04:26:12 Checking portal
+04:26:15 Looking for Portal button
+04:26:18 Looking for Portal button
+04:26:21 Looking for Portal button
+04:26:24 Portal button found, clicking
+04:26:29 Trial not available
+04:26:31 Otherworld not available
+04:26:34 campaign check
+04:26:36 Heroes button located
+04:26:36 Game state is : Home Screen
+04:26:36 Checking Campaign
+04:26:37 Current food is: 17
+04:26:38 missions check
+04:26:40 Heroes button located
+04:26:40 Game state is : Home Screen
+04:26:40 Checking missions
+04:26:43 No rewards, leaving missions
+04:26:43 Looking for mission, scrolling down 1/9 times
+04:26:45 Looking for mission, scrolling down 2/9 times
+04:26:46 Looking for mission, scrolling down 3/9 times
+04:26:48 Looking for mission, scrolling down 4/9 times
+04:26:50 Looking for mission, scrolling down 5/9 times
+04:26:51 Looking for mission, scrolling down 6/9 times
+04:26:53 Looking for mission, scrolling down 7/9 times
+04:26:54 Looking for mission, scrolling down 8/9 times
+04:26:56 Looking for mission, scrolling down 9/9 times
+04:26:58 Mission found, doing missions!
+04:27:06 clan_castle check
+04:27:10 Wrong state, escaping
+04:27:10 Cycle done, waiting 1 seconds and restarting if enabled.
+04:27:13 Heroes button located
+04:27:13 Current state is: Home Screen
+04:27:14 Expanding arrow
+04:27:14 Arena check
+04:27:16 Heroes button located
+04:27:16 Game state is : Home Screen
+04:27:22 trial_of_death check
+04:27:24 Heroes button located
+04:27:24 Game state is : Home Screen
+04:27:24 Checking Trial of Death
+04:27:25 coliseum check
+04:27:28 Heroes button located
+04:27:28 Game state is : Home Screen
+04:27:28 Checking Coliseum
+04:27:29 tournament check
+04:27:31 Heroes button located
+04:27:31 Game state is : Home Screen
+04:27:33 events check
+04:27:35 Heroes button located
+04:27:35 Game state is : Home Screen
+04:27:37 caves check
+04:27:37 Home Screen
+04:27:39 Heroes button located
+04:27:39 Game state is : Home Screen
+04:27:39 Checking Cave
+04:28:03 Checking cave fights
+04:28:05 Clicking fight
+04:28:11 Checking cave fights
+04:28:14 Clicking fight
+04:28:19 chests check
+04:28:22 Wrong state, escaping
+04:28:23 mailbox check
+04:28:25 Heroes button located
+04:28:25 Game state is : Home Screen
+04:28:25 Checking mail
+04:28:28 Looking for Mailbox button
+04:28:31 Looking for Mailbox button
+04:28:34 Looking for Mailbox button
+04:28:37 Looking for Mailbox button
+04:28:40 Looking for Mailbox button
+04:28:43 Looking for Mailbox button
+04:28:46 Looking for Mailbox button
+04:28:49 Looking for Mailbox button
+04:28:52 Looking for Mailbox button
+04:28:55 Looking for Mailbox button
+04:28:58 Looking for Mailbox button
+04:29:02 Looking for Mailbox button
+04:29:05 Looking for Mailbox button
+04:29:07 friends check
+04:29:10 Heroes button located
+04:29:10 Game state is : Home Screen
+04:29:10 Checking friends
+04:29:14 Looking for Friend Heart button
+04:29:17 Looking for Friend Heart button
+04:29:21 Looking for Friend Heart button
+04:29:25 Looking for Friend Heart button
+04:29:29 Looking for Friend Heart button
+04:29:33 Looking for Friend Heart button
+04:29:37 Looking for Friend Heart button
+04:29:41 Looking for Friend Heart button
+04:29:45 Looking for Friend Heart button
+04:29:49 Looking for Friend Heart button
+04:29:53 Looking for Friend Heart button
+04:29:57 Looking for Friend Heart button
+04:30:01 Looking for Friend Heart button
+04:30:07 portal check
+04:30:09 Heroes button located
+04:30:09 Game state is : Home Screen
+04:30:09 Checking portal
+04:30:12 Trial not available
+04:30:14 Otherworld not available
+04:30:16 campaign check
+04:30:18 Heroes button located
+04:30:18 Game state is : Home Screen
+04:30:18 Checking Campaign
+04:30:18 Current food is: 28
+04:30:19 missions check
+04:30:22 Heroes button located
+04:30:22 Game state is : Home Screen
+04:30:22 Checking missions
+04:30:25 No rewards, leaving missions
+04:30:25 Looking for mission, scrolling down 1/9 times
+04:30:27 Looking for mission, scrolling down 2/9 times
+04:30:28 Looking for mission, scrolling down 3/9 times
+04:30:30 Looking for mission, scrolling down 4/9 times
+04:30:31 Looking for mission, scrolling down 5/9 times
+04:30:33 Looking for mission, scrolling down 6/9 times
+04:30:35 Looking for mission, scrolling down 7/9 times
+04:30:36 Looking for mission, scrolling down 8/9 times
+04:30:38 Looking for mission, scrolling down 9/9 times
+04:30:40 Mission found, doing missions!
+04:30:47 clan_castle check
+04:30:51 Wrong state, escaping
+04:30:51 Cycle done, waiting 1 seconds and restarting if enabled.
+04:30:55 Heroes button located
+04:30:55 Current state is: Home Screen
+04:30:55 Expanding arrow
+04:30:56 Arena check
+04:30:58 Heroes button located
+04:30:58 Game state is : Home Screen
+04:31:03 trial_of_death check
+04:31:05 Heroes button located
+04:31:05 Game state is : Home Screen
+04:31:05 Checking Trial of Death
+04:31:07 coliseum check
+04:31:09 Heroes button located
+04:31:09 Game state is : Home Screen
+04:31:09 Checking Coliseum
+04:31:10 tournament check
+04:31:12 Heroes button located
+04:31:12 Game state is : Home Screen
+04:31:14 events check
+04:31:16 Heroes button located
+04:31:16 Game state is : Home Screen
+04:31:18 caves check
+04:31:18 Home Screen
+04:31:20 Heroes button located
+04:31:20 Game state is : Home Screen
+04:31:20 Checking Cave
+04:31:44 Checking cave fights
+04:31:46 Clicking fight
+04:31:52 Checking cave fights
+04:31:55 Clicking fight
+04:32:00 chests check
+04:32:03 Wrong state, escaping
+04:32:04 mailbox check
+04:32:06 Heroes button located
+04:32:06 Game state is : Home Screen
+04:32:06 Checking mail
+04:32:09 Looking for Mailbox button
+04:32:12 Looking for Mailbox button
+04:32:15 Looking for Mailbox button
+04:32:18 Looking for Mailbox button
+04:32:22 Looking for Mailbox button
+04:32:25 Looking for Mailbox button
+04:32:28 Looking for Mailbox button
+04:32:31 Looking for Mailbox button
+04:32:34 Looking for Mailbox button
+04:32:37 Mailbox button found, clicking
+04:32:42 No mail available
+04:32:45 friends check
+04:32:47 Heroes button located
+04:32:47 Game state is : Home Screen
+04:32:47 Checking friends
+04:32:51 Looking for Friend Heart button
+04:32:55 Looking for Friend Heart button
+04:32:59 Looking for Friend Heart button
+04:33:02 Looking for Friend Heart button
+04:33:06 Looking for Friend Heart button
+04:33:10 Looking for Friend Heart button
+04:33:14 Looking for Friend Heart button
+04:33:18 Looking for Friend Heart button
+04:33:22 Looking for Friend Heart button
+04:33:25 Looking for Friend Heart button
+04:33:29 Looking for Friend Heart button
+04:33:33 Looking for Friend Heart button
+04:33:37 Looking for Friend Heart button
+04:33:46 portal check
+04:33:48 Heroes button located
+04:33:48 Game state is : Home Screen
+04:33:48 Checking portal
+04:33:51 Looking for Portal button
+04:33:54 Looking for Portal button
+04:33:57 Portal button found, clicking
+04:34:02 Trial not available
+04:34:04 Otherworld not available
+04:34:07 campaign check
+04:34:09 Heroes button located
+04:34:09 Game state is : Home Screen
+04:34:09 Checking Campaign
+04:34:09 Current food is: 4
+04:34:10 missions check
+04:34:13 Heroes button located
+04:34:13 Game state is : Home Screen
+04:34:13 Checking missions
+04:34:16 No rewards, leaving missions
+04:34:16 Looking for mission, scrolling down 1/9 times
+04:34:18 Looking for mission, scrolling down 2/9 times
+04:34:19 Looking for mission, scrolling down 3/9 times
+04:34:21 Looking for mission, scrolling down 4/9 times
+04:34:22 Looking for mission, scrolling down 5/9 times
+04:34:24 Looking for mission, scrolling down 6/9 times
+04:34:26 Looking for mission, scrolling down 7/9 times
+04:34:27 Looking for mission, scrolling down 8/9 times
+04:34:29 Looking for mission, scrolling down 9/9 times
+04:34:31 Mission found, doing missions!
+04:34:39 clan_castle check
+04:34:42 Wrong state, escaping
+04:34:43 Cycle done, waiting 1 seconds and restarting if enabled.
+04:34:46 Heroes button located
+04:34:46 Current state is: Home Screen
+04:34:46 Expanding arrow
+04:34:47 Arena check
+04:34:49 Heroes button located
+04:34:49 Game state is : Home Screen
+04:34:55 trial_of_death check
+04:34:57 Heroes button located
+04:34:57 Game state is : Home Screen
+04:34:57 Checking Trial of Death
+04:34:58 coliseum check
+04:35:00 Heroes button located
+04:35:00 Game state is : Home Screen
+04:35:00 Checking Coliseum
+04:35:01 tournament check
+04:35:04 Heroes button located
+04:35:04 Game state is : Home Screen
+04:35:05 events check
+04:35:07 Heroes button located
+04:35:07 Game state is : Home Screen
+04:35:09 caves check
+04:35:09 Home Screen
+04:35:11 Heroes button located
+04:35:11 Game state is : Home Screen
+04:35:11 Checking Cave
+04:35:35 Checking cave fights
+04:35:37 Clicking fight
+04:35:44 Checking cave fights
+04:35:46 Clicking fight
+04:35:51 chests check
+04:35:55 Wrong state, escaping
+04:35:55 mailbox check
+04:35:57 Heroes button located
+04:35:57 Game state is : Home Screen
+04:35:57 Checking mail
+04:36:01 Looking for Mailbox button
+04:36:04 Looking for Mailbox button
+04:36:07 Looking for Mailbox button
+04:36:10 Looking for Mailbox button
+04:36:13 Looking for Mailbox button
+04:36:16 Looking for Mailbox button
+04:36:19 Looking for Mailbox button
+04:36:22 Looking for Mailbox button
+04:36:25 Looking for Mailbox button
+04:36:28 Looking for Mailbox button
+04:36:31 Looking for Mailbox button
+04:36:34 Looking for Mailbox button
+04:36:37 Looking for Mailbox button
+04:36:40 friends check
+04:36:42 Heroes button located
+04:36:42 Game state is : Home Screen
+04:36:42 Checking friends
+04:36:46 Looking for Friend Heart button
+04:36:50 Looking for Friend Heart button
+04:36:54 Looking for Friend Heart button
+04:36:58 Looking for Friend Heart button
+04:37:01 Looking for Friend Heart button
+04:37:05 Looking for Friend Heart button
+04:37:09 Looking for Friend Heart button
+04:37:13 Looking for Friend Heart button
+04:37:17 Looking for Friend Heart button
+04:37:21 Looking for Friend Heart button
+04:37:24 Looking for Friend Heart button
+04:37:28 Looking for Friend Heart button
+04:37:32 Looking for Friend Heart button
+04:37:38 portal check
+04:37:40 Heroes button located
+04:37:40 Game state is : Home Screen
+04:37:40 Checking portal
+04:37:43 Trial not available
+04:37:46 Otherworld not available
+04:37:47 campaign check
+04:37:49 Heroes button located
+04:37:49 Game state is : Home Screen
+04:37:49 Checking Campaign
+04:37:50 Current food is: 1
+04:37:51 missions check
+04:37:53 Heroes button located
+04:37:53 Game state is : Home Screen
+04:37:53 Checking missions
+04:37:56 No rewards, leaving missions
+04:37:56 Looking for mission, scrolling down 1/9 times
+04:37:58 Looking for mission, scrolling down 2/9 times
+04:37:59 Looking for mission, scrolling down 3/9 times
+04:38:01 Looking for mission, scrolling down 4/9 times
+04:38:03 Looking for mission, scrolling down 5/9 times
+04:38:04 Looking for mission, scrolling down 6/9 times
+04:38:06 Looking for mission, scrolling down 7/9 times
+04:38:07 Looking for mission, scrolling down 8/9 times
+04:38:09 Looking for mission, scrolling down 9/9 times
+04:38:11 Mission found, doing missions!
+04:38:19 clan_castle check
+04:38:22 Wrong state, escaping
+04:38:23 Cycle done, waiting 1 seconds and restarting if enabled.
+04:38:26 Heroes button located
+04:38:26 Current state is: Home Screen
+04:38:26 Expanding arrow
+04:38:27 Arena check
+04:38:29 Heroes button located
+04:38:29 Game state is : Home Screen
+04:38:35 trial_of_death check
+04:38:37 Heroes button located
+04:38:37 Game state is : Home Screen
+04:38:37 Checking Trial of Death
+04:38:38 coliseum check
+04:38:40 Heroes button located
+04:38:40 Game state is : Home Screen
+04:38:40 Checking Coliseum
+04:38:42 tournament check
+04:38:44 Heroes button located
+04:38:44 Game state is : Home Screen
+04:38:46 events check
+04:38:48 Heroes button located
+04:38:48 Game state is : Home Screen
+04:38:49 caves check
+04:38:49 Home Screen
+04:38:51 Heroes button located
+04:38:51 Game state is : Home Screen
+04:38:51 Checking Cave
+04:39:15 Checking cave fights
+04:39:17 Clicking fight
+04:39:24 Checking cave fights
+04:39:26 Clicking fight
+04:39:31 chests check
+04:39:35 Wrong state, escaping
+04:39:35 mailbox check
+04:39:37 Heroes button located
+04:39:37 Game state is : Home Screen
+04:39:37 Checking mail
+04:39:40 Looking for Mailbox button
+04:39:43 Looking for Mailbox button
+04:39:46 Looking for Mailbox button
+04:39:50 Looking for Mailbox button
+04:39:53 Looking for Mailbox button
+04:39:56 Looking for Mailbox button
+04:39:59 Looking for Mailbox button
+04:40:02 Looking for Mailbox button
+04:40:05 Looking for Mailbox button
+04:40:08 Looking for Mailbox button
+04:40:11 Looking for Mailbox button
+04:40:14 Looking for Mailbox button
+04:40:17 Looking for Mailbox button
+04:40:20 friends check
+04:40:22 Heroes button located
+04:40:22 Game state is : Home Screen
+04:40:22 Checking friends
+04:40:26 Looking for Friend Heart button
+04:40:29 Looking for Friend Heart button
+04:40:33 Looking for Friend Heart button
+04:40:37 Looking for Friend Heart button
+04:40:41 Looking for Friend Heart button
+04:40:45 Looking for Friend Heart button
+04:40:49 Looking for Friend Heart button
+04:40:53 Looking for Friend Heart button
+04:40:56 Looking for Friend Heart button
+04:41:00 Looking for Friend Heart button
+04:41:04 Looking for Friend Heart button
+04:41:08 Looking for Friend Heart button
+04:41:12 Looking for Friend Heart button
+04:41:18 portal check
+04:41:20 Heroes button located
+04:41:20 Game state is : Home Screen
+04:41:20 Checking portal
+04:41:23 Trial not available
+04:41:25 Otherworld not available
+04:41:27 campaign check
+04:41:29 Heroes button located
+04:41:29 Game state is : Home Screen
+04:41:29 Checking Campaign
+04:41:30 Current food is: 1
+04:41:31 missions check
+04:41:33 Heroes button located
+04:41:33 Game state is : Home Screen
+04:41:33 Checking missions
+04:41:37 No rewards, leaving missions
+04:41:37 Looking for mission, scrolling down 1/9 times
+04:41:38 Looking for mission, scrolling down 2/9 times
+04:41:40 Looking for mission, scrolling down 3/9 times
+04:41:41 Looking for mission, scrolling down 4/9 times
+04:41:43 Looking for mission, scrolling down 5/9 times
+04:41:44 Looking for mission, scrolling down 6/9 times
+04:41:46 Looking for mission, scrolling down 7/9 times
+04:41:48 Looking for mission, scrolling down 8/9 times
+04:41:49 Looking for mission, scrolling down 9/9 times
+04:41:51 Mission found, doing missions!
+04:41:59 clan_castle check
+04:42:03 Wrong state, escaping
+04:42:03 Cycle done, waiting 1 seconds and restarting if enabled.
+04:42:07 Heroes button located
+04:42:07 Current state is: Home Screen
+04:42:07 Expanding arrow
+04:42:08 Arena check
+04:42:10 Heroes button located
+04:42:10 Game state is : Home Screen
+04:42:15 trial_of_death check
+04:42:18 Heroes button located
+04:42:18 Game state is : Home Screen
+04:42:18 Checking Trial of Death
+04:42:19 coliseum check
+04:42:21 Heroes button located
+04:42:21 Game state is : Home Screen
+04:42:21 Checking Coliseum
+04:42:23 tournament check
+04:42:25 Heroes button located
+04:42:25 Game state is : Home Screen
+04:42:26 events check
+04:42:28 Heroes button located
+04:42:28 Game state is : Home Screen
+04:42:30 caves check
+04:42:30 Home Screen
+04:42:32 Heroes button located
+04:42:32 Game state is : Home Screen
+04:42:32 Checking Cave
+04:42:56 Checking cave fights
+04:42:58 Clicking fight
+04:43:05 Checking cave fights
+04:43:07 Clicking fight
+04:43:12 chests check
+04:43:16 Wrong state, escaping
+04:43:16 mailbox check
+04:43:18 Heroes button located
+04:43:18 Game state is : Home Screen
+04:43:18 Checking mail
+04:43:22 Looking for Mailbox button
+04:43:25 Looking for Mailbox button
+04:43:28 Looking for Mailbox button
+04:43:31 Looking for Mailbox button
+04:43:34 Looking for Mailbox button
+04:43:37 Looking for Mailbox button
+04:43:40 Looking for Mailbox button
+04:43:43 Looking for Mailbox button
+04:43:46 Looking for Mailbox button
+04:43:49 Looking for Mailbox button
+04:43:52 Looking for Mailbox button
+04:43:55 Looking for Mailbox button
+04:43:58 Looking for Mailbox button
+04:44:01 friends check
+04:44:03 Heroes button located
+04:44:03 Game state is : Home Screen
+04:44:03 Checking friends
+04:44:07 Looking for Friend Heart button
+04:44:11 Looking for Friend Heart button
+04:44:15 Looking for Friend Heart button
+04:44:18 Looking for Friend Heart button
+04:44:22 Looking for Friend Heart button
+04:44:26 Looking for Friend Heart button
+04:44:30 Looking for Friend Heart button
+04:44:34 Looking for Friend Heart button
+04:44:38 Looking for Friend Heart button
+04:44:41 Looking for Friend Heart button
+04:44:45 Looking for Friend Heart button
+04:44:49 Looking for Friend Heart button
+04:44:53 Looking for Friend Heart button
+04:45:02 portal check
+04:45:04 Heroes button located
+04:45:04 Game state is : Home Screen
+04:45:04 Checking portal
+04:45:07 Looking for Portal button
+04:45:10 Looking for Portal button
+04:45:13 Portal button found, clicking
+04:45:17 Trial not available
+04:45:20 Otherworld not available
+04:45:22 campaign check
+04:45:25 Heroes button located
+04:45:25 Game state is : Home Screen
+04:45:25 Checking Campaign
+04:45:25 Current food is: 31
+04:45:26 missions check
+04:45:28 Heroes button located
+04:45:28 Game state is : Home Screen
+04:45:28 Checking missions
+04:45:32 No rewards, leaving missions
+04:45:32 Looking for mission, scrolling down 1/9 times
+04:45:33 Looking for mission, scrolling down 2/9 times
+04:45:35 Looking for mission, scrolling down 3/9 times
+04:45:36 Looking for mission, scrolling down 4/9 times
+04:45:38 Looking for mission, scrolling down 5/9 times
+04:45:40 Looking for mission, scrolling down 6/9 times
+04:45:41 Looking for mission, scrolling down 7/9 times
+04:45:43 Looking for mission, scrolling down 8/9 times
+04:45:44 Looking for mission, scrolling down 9/9 times
+04:45:46 Mission found, doing missions!
+04:45:54 clan_castle check
+04:45:58 Wrong state, escaping
+04:45:58 Cycle done, waiting 1 seconds and restarting if enabled.
+04:46:01 Heroes button located
+04:46:01 Current state is: Home Screen
+04:46:02 Expanding arrow
+04:46:02 Arena check
+04:46:05 Heroes button located
+04:46:05 Game state is : Home Screen
+04:46:10 trial_of_death check
+04:46:12 Heroes button located
+04:46:12 Game state is : Home Screen
+04:46:12 Checking Trial of Death
+04:46:14 coliseum check
+04:46:16 Heroes button located
+04:46:16 Game state is : Home Screen
+04:46:16 Checking Coliseum
+04:46:17 tournament check
+04:46:19 Heroes button located
+04:46:19 Game state is : Home Screen
+04:46:21 events check
+04:46:23 Heroes button located
+04:46:23 Game state is : Home Screen
+04:46:25 caves check
+04:46:25 Home Screen
+04:46:27 Heroes button located
+04:46:27 Game state is : Home Screen
+04:46:27 Checking Cave
+04:46:51 Checking cave fights
+04:46:53 Clicking fight
+04:46:59 Checking cave fights
+04:47:02 Clicking fight
+04:47:07 chests check
+04:47:10 Wrong state, escaping
+04:47:11 mailbox check
+04:47:13 Heroes button located
+04:47:13 Game state is : Home Screen
+04:47:13 Checking mail
+04:47:16 Looking for Mailbox button
+04:47:19 Looking for Mailbox button
+04:47:22 Looking for Mailbox button
+04:47:26 Looking for Mailbox button
+04:47:29 Looking for Mailbox button
+04:47:32 Looking for Mailbox button
+04:47:35 Looking for Mailbox button
+04:47:38 Looking for Mailbox button
+04:47:41 Looking for Mailbox button
+04:47:44 Looking for Mailbox button
+04:47:47 Looking for Mailbox button
+04:47:50 Looking for Mailbox button
+04:47:53 Looking for Mailbox button
+04:47:56 friends check
+04:47:58 Heroes button located
+04:47:58 Game state is : Home Screen
+04:47:58 Checking friends
+04:48:02 Looking for Friend Heart button
+04:48:06 Looking for Friend Heart button
+04:48:10 Looking for Friend Heart button
+04:48:14 Looking for Friend Heart button
+04:48:17 Looking for Friend Heart button
+04:48:21 Looking for Friend Heart button
+04:48:25 Looking for Friend Heart button
+04:48:29 Looking for Friend Heart button
+04:48:33 Looking for Friend Heart button
+04:48:36 Looking for Friend Heart button
+04:48:40 Looking for Friend Heart button
+04:48:44 Looking for Friend Heart button
+04:48:48 Looking for Friend Heart button
+04:48:54 portal check
+04:48:56 Heroes button located
+04:48:56 Game state is : Home Screen
+04:48:56 Checking portal
+04:48:59 Trial not available
+04:49:01 Otherworld not available
+04:49:03 campaign check
+04:49:05 Heroes button located
+04:49:05 Game state is : Home Screen
+04:49:05 Checking Campaign
+04:49:06 Current food is: 77
+04:49:06 Trying to spend food
+04:49:08 Checking Ninja_Meego
+04:49:12 Current food is: 77
+04:49:24 Checking Hanna_the_Inquisitor
+04:49:29 Current food is: 77
+04:49:41 Checking Beastborn_Warrior_Grog
+04:49:45 Current food is: 77
+04:50:03 Checking Assassin_Torus
+04:50:07 Current food is: 6
+04:50:09 missions check
+04:50:18 Wrong state, escaping
+04:50:19 clan_castle check
+04:50:21 Heroes button located
+04:50:21 Game state is : Home Screen
+04:50:21 Checking Clan Castle.
+04:50:24 Looking for Clan Castle button
+04:50:27 Clan Castle button found, clicking
+04:50:29 Checking Treasury.
+04:50:33 Treasury already done
+04:50:35 Cycle done, waiting 1 seconds and restarting if enabled.
+04:50:39 Heroes button located
+04:50:39 Current state is: Home Screen
+04:50:39 Arena check
+04:50:41 Heroes button located
+04:50:41 Game state is : Home Screen
+04:50:47 trial_of_death check
+04:50:55 Wrong state, escaping
+04:50:56 coliseum check
+04:50:58 Heroes button located
+04:50:58 Game state is : Home Screen
+04:50:58 Checking Coliseum
+04:50:59 tournament check
+04:51:02 Heroes button located
+04:51:02 Game state is : Home Screen
+04:51:03 events check
+04:51:05 Heroes button located
+04:51:05 Game state is : Home Screen
+04:51:07 caves check
+04:51:07 Home Screen
+04:51:09 Heroes button located
+04:51:09 Game state is : Home Screen
+04:51:09 Checking Cave
+04:51:33 Checking cave fights
+04:51:35 Clicking fight
+04:51:42 Checking cave fights
+04:51:44 Clicking fight
+04:51:49 chests check
+04:51:57 Wrong state, escaping
+04:51:58 mailbox check
+04:52:00 Heroes button located
+04:52:00 Game state is : Home Screen
+04:52:00 Checking mail
+04:52:03 Looking for Mailbox button
+04:52:06 Looking for Mailbox button
+04:52:09 Looking for Mailbox button
+04:52:12 Looking for Mailbox button
+04:52:15 Looking for Mailbox button
+04:52:18 Looking for Mailbox button
+04:52:21 Looking for Mailbox button
+04:52:25 Looking for Mailbox button
+04:52:28 Looking for Mailbox button
+04:52:31 Mailbox button found, clicking
+04:52:36 No mail available
+04:52:38 friends check
+04:52:41 Heroes button located
+04:52:41 Game state is : Home Screen
+04:52:41 Checking friends
+04:52:45 Looking for Friend Heart button
+04:52:48 Looking for Friend Heart button
+04:52:52 Looking for Friend Heart button
+04:52:56 Looking for Friend Heart button
+04:53:00 Looking for Friend Heart button
+04:53:04 Looking for Friend Heart button
+04:53:08 Looking for Friend Heart button
+04:53:11 Looking for Friend Heart button
+04:53:15 Looking for Friend Heart button
+04:53:19 Looking for Friend Heart button
+04:53:23 Looking for Friend Heart button
+04:53:27 Looking for Friend Heart button
+04:53:31 Looking for Friend Heart button
+04:53:37 portal check
+04:53:39 Heroes button located
+04:53:39 Game state is : Home Screen
+04:53:39 Checking portal
+04:53:42 Looking for Portal button
+04:53:45 Looking for Portal button
+04:53:48 Portal button found, clicking
+04:53:53 Trial not available
+04:53:55 Otherworld not available
+04:53:58 campaign check
+04:54:00 Heroes button located
+04:54:00 Game state is : Home Screen
+04:54:00 Checking Campaign
+04:54:00 Current food is: 17
+04:54:01 missions check
+04:54:03 Heroes button located
+04:54:03 Game state is : Home Screen
+04:54:03 Checking missions
+04:54:07 No rewards, leaving missions
+04:54:07 Looking for mission, scrolling down 1/9 times
+04:54:08 Looking for mission, scrolling down 2/9 times
+04:54:10 Looking for mission, scrolling down 3/9 times
+04:54:12 Looking for mission, scrolling down 4/9 times
+04:54:13 Looking for mission, scrolling down 5/9 times
+04:54:15 Looking for mission, scrolling down 6/9 times
+04:54:16 Looking for mission, scrolling down 7/9 times
+04:54:18 Looking for mission, scrolling down 8/9 times
+04:54:20 Looking for mission, scrolling down 9/9 times
+04:54:22 Mission found, doing missions!
+04:54:29 clan_castle check
+04:54:33 Wrong state, escaping
+04:54:34 Cycle done, waiting 1 seconds and restarting if enabled.
+04:54:37 Heroes button located
+04:54:37 Current state is: Home Screen
+04:54:37 Expanding arrow
+04:54:38 Arena check
+04:54:40 Heroes button located
+04:54:40 Game state is : Home Screen
+04:54:45 trial_of_death check
+04:54:47 Heroes button located
+04:54:47 Game state is : Home Screen
+04:54:47 Checking Trial of Death
+04:54:49 coliseum check
+04:54:51 Heroes button located
+04:54:51 Game state is : Home Screen
+04:54:51 Checking Coliseum
+04:54:52 tournament check
+04:54:54 Heroes button located
+04:54:54 Game state is : Home Screen
+04:54:56 events check
+04:54:58 Heroes button located
+04:54:58 Game state is : Home Screen
+04:55:00 caves check
+04:55:00 Home Screen
+04:55:02 Heroes button located
+04:55:02 Game state is : Home Screen
+04:55:02 Checking Cave
+04:55:26 Checking cave fights
+04:55:28 Clicking fight
+04:55:34 Checking cave fights
+04:55:37 Clicking fight
+04:55:42 chests check
+04:55:45 Wrong state, escaping
+04:55:46 mailbox check
+04:55:48 Heroes button located
+04:55:48 Game state is : Home Screen
+04:55:48 Checking mail
+04:55:51 Looking for Mailbox button
+04:55:54 Looking for Mailbox button
+04:55:57 Looking for Mailbox button
+04:56:00 Looking for Mailbox button
+04:56:03 Looking for Mailbox button
+04:56:07 Looking for Mailbox button
+04:56:10 Looking for Mailbox button
+04:56:13 Looking for Mailbox button
+04:56:16 Looking for Mailbox button
+04:56:19 Looking for Mailbox button
+04:56:22 Looking for Mailbox button
+04:56:25 Looking for Mailbox button
+04:56:28 Looking for Mailbox button
+04:56:31 friends check
+04:56:33 Heroes button located
+04:56:33 Game state is : Home Screen
+04:56:33 Checking friends
+04:56:37 Looking for Friend Heart button
+04:56:41 Looking for Friend Heart button
+04:56:45 Looking for Friend Heart button
+04:56:49 Looking for Friend Heart button
+04:56:52 Looking for Friend Heart button
+04:56:56 Looking for Friend Heart button
+04:57:00 Looking for Friend Heart button
+04:57:04 Looking for Friend Heart button
+04:57:08 Looking for Friend Heart button
+04:57:12 Looking for Friend Heart button
+04:57:16 Looking for Friend Heart button
+04:57:19 Looking for Friend Heart button
+04:57:23 Looking for Friend Heart button
+04:57:29 portal check
+04:57:31 Heroes button located
+04:57:31 Game state is : Home Screen
+04:57:31 Checking portal
+04:57:34 Looking for Portal button
+04:57:37 Looking for Portal button
+04:57:40 Looking for Portal button
+04:57:43 Portal button found, clicking
+04:57:48 Trial not available
+04:57:50 Otherworld not available
+04:57:53 campaign check
+04:57:55 Heroes button located
+04:57:55 Game state is : Home Screen
+04:57:55 Checking Campaign
+04:57:55 Current food is: 87
+04:57:55 Trying to spend food
+04:57:57 Checking Ninja_Meego
+04:58:02 Current food is: 87
+04:58:14 Checking Hanna_the_Inquisitor
+04:58:19 Current food is: 87
+04:58:32 Checking Beastborn_Warrior_Grog
+04:58:37 Current food is: 87
+04:58:49 Checking Assassin_Torus
+04:58:54 Current food is: 87
+04:59:21 missions check
+04:59:23 Heroes button located
+04:59:23 Game state is : Home Screen
+04:59:23 Checking missions
+04:59:27 No rewards, leaving missions
+04:59:27 Looking for mission, scrolling down 1/9 times
+04:59:28 Looking for mission, scrolling down 2/9 times
+04:59:30 Looking for mission, scrolling down 3/9 times
+04:59:32 Looking for mission, scrolling down 4/9 times
+04:59:33 Looking for mission, scrolling down 5/9 times
+04:59:35 Looking for mission, scrolling down 6/9 times
+04:59:36 Looking for mission, scrolling down 7/9 times
+04:59:38 Looking for mission, scrolling down 8/9 times
+04:59:39 Looking for mission, scrolling down 9/9 times
+04:59:41 Mission found, doing missions!
+04:59:49 clan_castle check
+04:59:53 Wrong state, escaping
+04:59:53 Cycle done, waiting 1 seconds and restarting if enabled.
+04:59:56 Heroes button located
+04:59:56 Current state is: Home Screen
+04:59:57 Expanding arrow
+04:59:58 Arena check
+05:00:00 Heroes button located
+05:00:00 Game state is : Home Screen
+05:00:01 Checking Arena
+05:00:06 Current state : Home Screen
+05:00:06 Arena battles available. Doing Battle!
+05:00:08 1: 39019. 2: 40641. 3: 37920.
+05:00:08 Lowest power found: 37920. Entering hero select.
+05:00:10 Deselecting Arena heroes
+05:00:12 Selecting heroes for Arena
+05:00:12 Selecting Arena heroes
+05:00:14 Entering battle
+05:00:20 trial_of_death check
+05:00:28 Speeding up battle
+05:00:30 Speeding up battle
+05:00:31 Wrong state, escaping
+05:00:32 coliseum check
+05:00:38 Wrong state, escaping
+05:00:39 tournament check
+05:00:45 Wrong state, escaping
+05:00:46 events check
+05:00:55 Wrong state, escaping
+05:00:55 caves check
+05:00:55 Working
+05:00:58 Wrong state, escaping
+05:00:59 chests check
+05:01:00 Wrong state, escaping
+05:01:01 mailbox check
+05:01:03 Heroes button located
+05:01:03 Game state is : Home Screen
+05:01:03 Checking mail
+05:01:06 Looking for Mailbox button
+05:01:09 Looking for Mailbox button
+05:01:12 Looking for Mailbox button
+05:01:15 Looking for Mailbox button
+05:01:18 Looking for Mailbox button
+05:01:21 Looking for Mailbox button
+05:01:24 Looking for Mailbox button
+05:01:27 Looking for Mailbox button
+05:01:30 Looking for Mailbox button
+05:01:33 Looking for Mailbox button
+05:01:36 Looking for Mailbox button
+05:01:40 Looking for Mailbox button
+05:01:43 Looking for Mailbox button
+05:01:45 friends check
+05:01:48 Heroes button located
+05:01:48 Game state is : Home Screen
+05:01:48 Checking friends
+05:01:52 Looking for Friend Heart button
+05:01:55 Looking for Friend Heart button
+05:01:59 Looking for Friend Heart button
+05:02:03 Looking for Friend Heart button
+05:02:07 Looking for Friend Heart button
+05:02:11 Looking for Friend Heart button
+05:02:14 Looking for Friend Heart button
+05:02:18 Looking for Friend Heart button
+05:02:22 Looking for Friend Heart button
+05:02:26 Looking for Friend Heart button
+05:02:30 Looking for Friend Heart button
+05:02:33 Looking for Friend Heart button
+05:02:37 Looking for Friend Heart button
+05:02:43 portal check
+05:02:45 Heroes button located
+05:02:45 Game state is : Home Screen
+05:02:45 Checking portal
+05:02:47 Clicking trial
+05:03:08 Otherworld not available
+05:03:10 campaign check
+05:03:12 Heroes button located
+05:03:12 Game state is : Home Screen
+05:03:12 Checking Campaign
+05:03:12 Current food is: 97
+05:03:13 missions check
+05:03:15 Heroes button located
+05:03:15 Game state is : Home Screen
+05:03:15 Checking missions
+05:03:26 No rewards, leaving missions
+05:03:26 Looking for mission, scrolling down 1/9 times
+05:03:28 Looking for mission, scrolling down 2/9 times
+05:03:29 Looking for mission, scrolling down 3/9 times
+05:03:31 Looking for mission, scrolling down 4/9 times
+05:03:32 Looking for mission, scrolling down 5/9 times
+05:03:34 Looking for mission, scrolling down 6/9 times
+05:03:35 Looking for mission, scrolling down 7/9 times
+05:03:37 Looking for mission, scrolling down 8/9 times
+05:03:39 Looking for mission, scrolling down 9/9 times
+05:03:42 clan_castle check
+05:03:51 Wrong state, escaping
+05:03:52 Unknown game state, trying to correct
+05:03:54 Cycle done, waiting 1 seconds and restarting if enabled.
+05:03:57 Heroes button located
+05:03:57 Current state is: Home Screen
+05:03:57 Arena check
+05:03:59 Heroes button located
+05:03:59 Game state is : Home Screen
+05:04:05 trial_of_death check
+05:04:13 Wrong state, escaping
+05:04:14 coliseum check
+05:04:16 Heroes button located
+05:04:16 Game state is : Home Screen
+05:04:16 Checking Coliseum
+05:04:17 tournament check
+05:04:19 Heroes button located
+05:04:19 Game state is : Home Screen
+05:04:21 events check
+05:04:23 Heroes button located
+05:04:23 Game state is : Home Screen
+05:04:24 caves check
+05:04:25 Home Screen
+05:04:27 Heroes button located
+05:04:27 Game state is : Home Screen
+05:04:27 Checking Cave
+05:04:30 Looking for Cave button
+05:04:33 Cave button found, clicking
+05:04:36 Clicking cave gold
+05:05:00 Checking cave fights
+05:05:02 Clicking fight
+05:05:09 Checking cave fights
+05:05:11 Clicking fight
+05:05:17 chests check
+05:05:19 Heroes button located
+05:05:19 Game state is : Home Screen
+05:05:19 Checking Chests
+05:05:22 Opening wooden chest
+05:05:29 No chests available
+05:05:31 mailbox check
+05:05:33 Heroes button located
+05:05:33 Game state is : Home Screen
+05:05:33 Checking mail
+05:05:36 Looking for Mailbox button
+05:05:39 Looking for Mailbox button
+05:05:42 Looking for Mailbox button
+05:05:45 Mailbox button found, clicking
+05:05:50 No mail available
+05:05:53 friends check
+05:05:55 Heroes button located
+05:05:55 Game state is : Home Screen
+05:05:55 Checking friends
+05:05:59 Looking for Friend Heart button
+05:06:03 Looking for Friend Heart button
+05:06:07 Looking for Friend Heart button
+05:06:11 Looking for Friend Heart button
+05:06:14 Looking for Friend Heart button
+05:06:18 Looking for Friend Heart button
+05:06:22 Looking for Friend Heart button
+05:06:26 Looking for Friend Heart button
+05:06:30 Looking for Friend Heart button
+05:06:34 Looking for Friend Heart button
+05:06:38 Looking for Friend Heart button
+05:06:41 Looking for Friend Heart button
+05:06:45 Looking for Friend Heart button
+05:06:51 portal check
+05:06:53 Heroes button located
+05:06:53 Game state is : Home Screen
+05:06:53 Checking portal
+05:06:56 Looking for Portal button
+05:06:59 Looking for Portal button
+05:07:02 Portal button found, clicking
+05:07:06 Clicking trial
+05:07:27 Otherworld not available
+05:07:30 campaign check
+05:07:32 Heroes button located
+05:07:32 Game state is : Home Screen
+05:07:32 Checking Campaign
+05:07:32 Current food is: 107
+05:07:32 Trying to spend food
+05:07:34 Checking Ninja_Meego
+05:07:39 Current food is: 107
+05:08:07 missions check
+05:08:09 Heroes button located
+05:08:09 Game state is : Home Screen
+05:08:09 Checking missions
+05:08:19 No rewards, leaving missions
+05:08:19 Looking for mission, scrolling down 1/9 times
+05:08:21 Looking for mission, scrolling down 2/9 times
+05:08:23 Looking for mission, scrolling down 3/9 times
+05:08:24 Looking for mission, scrolling down 4/9 times
+05:08:26 Looking for mission, scrolling down 5/9 times
+05:08:27 Looking for mission, scrolling down 6/9 times
+05:08:29 Looking for mission, scrolling down 7/9 times
+05:08:31 Looking for mission, scrolling down 8/9 times
+05:08:32 Looking for mission, scrolling down 9/9 times
+05:08:36 clan_castle check
+05:08:44 Wrong state, escaping
+05:08:45 Unknown game state, trying to correct
+05:08:46 Cycle done, waiting 1 seconds and restarting if enabled.
+05:08:49 Heroes button located
+05:08:49 Current state is: Home Screen
+05:08:50 Arena check
+05:08:52 Heroes button located
+05:08:52 Game state is : Home Screen
+05:08:53 Checking Arena
+05:08:58 Current state : Home Screen
+05:08:58 Arena battles available. Doing Battle!
+05:09:01 1: 42416. 2: 41137. 3: 38866.
+05:09:01 Lowest power found: 38866. Entering hero select.
+05:09:03 Deselecting Arena heroes
+05:09:05 Selecting heroes for Arena
+05:09:05 Selecting Arena heroes
+05:09:07 Entering battle
+05:09:13 trial_of_death check
+05:09:22 Speeding up battle
+05:09:24 Speeding up battle
+05:09:24 Wrong state, escaping
+05:09:25 coliseum check
+05:09:32 Wrong state, escaping
+05:09:32 tournament check
+05:09:38 Wrong state, escaping
+05:09:39 events check
+05:09:48 Wrong state, escaping
+05:09:49 caves check
+05:09:49 Working
+05:09:52 Wrong state, escaping
+05:09:52 chests check
+05:09:54 Heroes button located
+05:09:54 Game state is : Home Screen
+05:09:54 Checking Chests
+05:09:58 Looking for Chest button
+05:10:01 Looking for Chest button
+05:10:04 Looking for Chest button
+05:10:07 Looking for Chest button
+05:10:10 Looking for Chest button
+05:10:13 Looking for Chest button
+05:10:17 Looking for Chest button
+05:10:20 Looking for Chest button
+05:10:23 Looking for Chest button
+05:10:26 Looking for Chest button
+05:10:29 Looking for Chest button
+05:10:32 Chest button found, clicking
+05:10:37 Opening wooden chest
+05:10:44 No chests available
+05:10:46 mailbox check
+05:10:48 Heroes button located
+05:10:48 Game state is : Home Screen
+05:10:48 Checking mail
+05:10:52 No mail available
+05:10:54 friends check
+05:10:56 Heroes button located
+05:10:56 Game state is : Home Screen
+05:10:56 Checking friends
+05:11:00 Looking for Friend Heart button
+05:11:04 Looking for Friend Heart button
+05:11:08 Looking for Friend Heart button
+05:11:12 Looking for Friend Heart button
+05:11:15 Looking for Friend Heart button
+05:11:19 Looking for Friend Heart button
+05:11:23 Looking for Friend Heart button
+05:11:27 Looking for Friend Heart button
+05:11:31 Looking for Friend Heart button
+05:11:35 Looking for Friend Heart button
+05:11:39 Looking for Friend Heart button
+05:11:43 Looking for Friend Heart button
+05:11:46 Looking for Friend Heart button
+05:11:52 portal check
+05:11:55 Heroes button located
+05:11:55 Game state is : Home Screen
+05:11:55 Checking portal
+05:11:58 Looking for Portal button
+05:12:01 Looking for Portal button
+05:12:04 Portal button found, clicking
+05:12:08 Clicking trial
+05:12:29 Otherworld not available
+05:12:31 campaign check
+05:12:34 Heroes button located
+05:12:34 Game state is : Home Screen
+05:12:34 Checking Campaign
+05:12:34 Current food is: 1114
+05:12:34 Trying to spend food
+05:12:36 Checking Ninja_Meego
+05:12:41 Current food is: 1114
+05:13:08 missions check
+05:13:10 Heroes button located
+05:13:11 Game state is : Home Screen
+05:13:11 Checking missions
+05:13:21 No rewards, leaving missions
+05:13:21 Looking for mission, scrolling down 1/9 times
+05:13:23 Looking for mission, scrolling down 2/9 times
+05:13:24 Looking for mission, scrolling down 3/9 times
+05:13:26 Looking for mission, scrolling down 4/9 times
+05:13:27 Looking for mission, scrolling down 5/9 times
+05:13:29 Looking for mission, scrolling down 6/9 times
+05:13:30 Looking for mission, scrolling down 7/9 times
+05:13:32 Looking for mission, scrolling down 8/9 times
+05:13:34 Looking for mission, scrolling down 9/9 times
+05:13:37 clan_castle check
+05:13:46 Wrong state, escaping
+05:13:46 Unknown game state, trying to correct
+05:13:48 Cycle done, waiting 1 seconds and restarting if enabled.
+05:13:51 Heroes button located
+05:13:51 Current state is: Home Screen
+05:13:52 Arena check
+05:13:54 Heroes button located
+05:13:54 Game state is : Home Screen
+05:13:59 trial_of_death check
+05:14:01 Heroes button located
+05:14:01 Wrong state, escaping
+05:14:02 coliseum check
+05:14:04 Heroes button located
+05:14:04 Game state is : Home Screen
+05:14:04 Checking Coliseum
+05:14:05 tournament check
+05:14:07 Heroes button located
+05:14:07 Game state is : Home Screen
+05:14:09 events check
+05:14:11 Heroes button located
+05:14:11 Game state is : Home Screen
+05:14:13 caves check
+05:14:13 Home Screen
+05:14:15 Heroes button located
+05:14:15 Game state is : Home Screen
+05:14:15 Checking Cave
+05:14:18 Looking for Cave button
+05:14:21 Looking for Cave button
+05:14:24 Looking for Cave button
+05:14:27 Looking for Cave button
+05:14:30 Looking for Cave button
+05:14:34 Looking for Cave button
+05:14:37 Cave button found, clicking
+05:14:44 Cave currently running
+05:14:46 Checking cave fights
+05:14:48 Clicking fight
+05:14:52 Going
+05:14:56 23184
+05:14:56 23609
+05:14:56 20489
+05:15:01 Starting cave battle.
+05:15:04 chests check
+05:15:12 Speeding up battle
+05:15:14 Speeding up battle
+05:15:14 Wrong state, escaping
+05:15:15 mailbox check
+05:15:21 Wrong state, escaping
+05:15:21 friends check
+05:15:25 Wrong state, escaping
+05:15:25 portal check
+05:15:29 Wrong state, escaping
+05:15:30 campaign check
+05:15:32 Heroes button located
+05:15:32 Game state is : Home Screen
+05:15:32 Checking Campaign
+05:15:32 Current food is: 1114
+05:15:32 Trying to spend food
+05:15:34 Checking Ninja_Meego
+05:15:39 Current food is: 1114
+05:16:06 missions check
+05:16:08 Heroes button located
+05:16:08 Game state is : Home Screen
+05:16:08 Checking missions
+05:16:19 No rewards, leaving missions
+05:16:19 Looking for mission, scrolling down 1/9 times
+05:16:20 Looking for mission, scrolling down 2/9 times
+05:16:22 Looking for mission, scrolling down 3/9 times
+05:16:24 Looking for mission, scrolling down 4/9 times
+05:16:25 Looking for mission, scrolling down 5/9 times
+05:16:27 Looking for mission, scrolling down 6/9 times
+05:16:28 Looking for mission, scrolling down 7/9 times
+05:16:30 Looking for mission, scrolling down 8/9 times
+05:16:31 Looking for mission, scrolling down 9/9 times
+05:16:35 clan_castle check
+05:16:44 Wrong state, escaping
+05:16:45 Unknown game state, trying to correct
+05:16:46 Cycle done, waiting 1 seconds and restarting if enabled.
+05:16:49 Heroes button located
+05:16:49 Current state is: Home Screen
+05:16:50 Arena check
+05:16:52 Heroes button located
+05:16:52 Game state is : Home Screen
+05:16:53 Checking Arena
+05:16:58 Current state : Home Screen
+05:16:58 Arena battles available. Doing Battle!
+05:17:00 1: 39161. 2: 39248. 3: 33969.
+05:17:00 Lowest power found: 33969. Entering hero select.
+05:17:02 Deselecting Arena heroes
+05:17:04 Selecting heroes for Arena
+05:17:04 Selecting Arena heroes
+05:17:06 Entering battle
+05:17:13 trial_of_death check
+05:17:21 Speeding up battle
+05:17:23 Speeding up battle
+05:17:23 Wrong state, escaping
+05:17:24 coliseum check
+05:17:33 Wrong state, escaping
+05:17:34 tournament check
+05:17:43 Wrong state, escaping
+05:17:44 events check
+05:17:47 Wrong state, escaping
+05:17:47 caves check
+05:17:47 Arena
+05:17:50 Heroes button located
+05:17:50 Game state is : Home Screen
+05:17:50 Checking Cave
+05:17:53 Cave button found, clicking
+05:18:00 Cave currently running
+05:18:02 Checking cave fights
+05:18:05 Clicking fight
+05:18:08 Going
+05:18:12 0
+05:18:12 23609
+05:18:12 20489
+05:18:17 Starting cave battle.
+05:18:20 chests check
+05:18:29 Speeding up battle
+05:18:31 Speeding up battle
+05:18:31 Wrong state, escaping
+05:18:32 mailbox check
+05:18:38 Wrong state, escaping
+05:18:39 friends check
+05:18:42 Wrong state, escaping
+05:18:43 portal check
+05:18:47 Wrong state, escaping
+05:18:47 campaign check
+05:18:49 Heroes button located
+05:18:49 Game state is : Home Screen
+05:18:49 Checking Campaign
+05:18:50 Current food is: 12
+05:18:51 missions check
+05:18:53 Heroes button located
+05:18:53 Game state is : Home Screen
+05:18:53 Checking missions
+05:19:04 No rewards, leaving missions
+05:19:04 Looking for mission, scrolling down 1/9 times
+05:19:05 Looking for mission, scrolling down 2/9 times
+05:19:07 Looking for mission, scrolling down 3/9 times
+05:19:08 Looking for mission, scrolling down 4/9 times
+05:19:10 Looking for mission, scrolling down 5/9 times
+05:19:12 Looking for mission, scrolling down 6/9 times
+05:19:13 Looking for mission, scrolling down 7/9 times
+05:19:15 Looking for mission, scrolling down 8/9 times
+05:19:16 Looking for mission, scrolling down 9/9 times
+05:19:20 clan_castle check
+05:19:29 Wrong state, escaping
+05:19:29 Unknown game state, trying to correct
+05:19:31 Cycle done, waiting 1 seconds and restarting if enabled.
+05:19:34 Heroes button located
+05:19:34 Current state is: Home Screen
+05:19:34 Arena check
+05:19:36 Heroes button located
+05:19:36 Game state is : Home Screen
+05:19:42 trial_of_death check
+05:19:44 Heroes button located
+05:19:44 Game state is : Home Screen
+05:19:44 Checking Trial of Death
+05:19:44 Trial of Death ready
+05:19:49 3/3 trials left, entering hero select
+05:19:57 Selecting heroes for Trial 1
+05:19:57 Selecting ToD heroes
+05:19:57 Looking for Elf_Maiden_Alisia
+05:19:59 Looking for Elf_Maiden_Alisia
+05:20:01 Looking for Elf_Maiden_Alisia
+05:20:02 Looking for Elf_Maiden_Alisia
+05:20:04 Looking for Elf_Maiden_Alisia
+05:20:05 Looking for Elf_Maiden_Alisia
+05:20:07 Looking for Elf_Maiden_Alisia
+05:20:09 Looking for Elf_Maiden_Alisia
+05:20:10 Looking for Elf_Maiden_Alisia
+05:20:12 Looking for Elf_Maiden_Alisia
+05:20:13 Looking for Elf_Maiden_Alisia
+05:20:15 Looking for Elf_Maiden_Alisia
+05:20:16 Looking for Elf_Maiden_Alisia
+05:20:18 Looking for Elf_Maiden_Alisia
+05:20:20 Looking for Elf_Maiden_Alisia
+05:20:21 Looking for Elf_Maiden_Alisia
+05:20:23 Looking for Elf_Maiden_Alisia
+05:20:24 Looking for Ninja_Meego
+05:20:26 Looking for Ninja_Meego
+05:20:28 Looking for Ninja_Meego
+05:20:29 Looking for Ninja_Meego
+05:20:31 Looking for Ninja_Meego
+05:20:32 Looking for Ninja_Meego
+05:20:34 Looking for Ninja_Meego
+05:20:36 Looking for Ninja_Meego
+05:20:37 Looking for Ninja_Meego
+05:20:39 Looking for Ninja_Meego
+05:20:40 Looking for Ninja_Meego
+05:20:42 Looking for Ninja_Meego
+05:20:44 Looking for Ninja_Meego
+05:20:45 Looking for Ninja_Meego
+05:20:47 Looking for Ninja_Meego
+05:20:48 Looking for Ninja_Meego
+05:20:50 Looking for Ninja_Meego
+05:20:52 Looking for Ninja_Meego
+05:20:53 Looking for Ninja_Meego
+05:20:55 Looking for Ninja_Meego
+05:20:56 Looking for Ninja_Meego
+05:20:58 Looking for Ninja_Meego
+05:20:59 Looking for Ninja_Meego
+05:21:01 Looking for Ninja_Meego
+05:21:03 Looking for Ninja_Meego
+05:21:04 Looking for Ninja_Meego
+05:21:06 Looking for Ninja_Meego
+05:21:08 Looking for Ninja_Meego
+05:21:09 Looking for Ninja_Meego
+05:21:11 Looking for Tagath_the_Potionbrewer
+05:21:13 Looking for Tagath_the_Potionbrewer
+05:21:14 Looking for Tagath_the_Potionbrewer
+05:21:16 Looking for Tagath_the_Potionbrewer
+05:21:17 Looking for Tagath_the_Potionbrewer
+05:21:19 Looking for Tagath_the_Potionbrewer
+05:21:21 Looking for Tagath_the_Potionbrewer
+05:21:22 Looking for Tagath_the_Potionbrewer
+05:21:24 Looking for Tagath_the_Potionbrewer
+05:21:26 Looking for Tagath_the_Potionbrewer
+05:21:27 Looking for Tagath_the_Potionbrewer
+05:21:29 Looking for Tagath_the_Potionbrewer
+05:21:30 Looking for Tagath_the_Potionbrewer
+05:21:32 Looking for Tagath_the_Potionbrewer
+05:21:34 Looking for Tagath_the_Potionbrewer
+05:21:35 Looking for Tagath_the_Potionbrewer
+05:21:37 Looking for Tagath_the_Potionbrewer
+05:21:38 Looking for Tagath_the_Potionbrewer
+05:21:40 Looking for Tagath_the_Potionbrewer
+05:21:42 Looking for Tagath_the_Potionbrewer
+05:21:43 Looking for Tagath_the_Potionbrewer
+05:21:45 Looking for Tagath_the_Potionbrewer
+05:21:47 Looking for Tagath_the_Potionbrewer
+05:21:48 Looking for Tagath_the_Potionbrewer
+05:21:50 Looking for Tagath_the_Potionbrewer
+05:21:51 Looking for Tagath_the_Potionbrewer
+05:21:53 Looking for Tagath_the_Potionbrewer
+05:21:55 Looking for Tagath_the_Potionbrewer
+05:21:56 Looking for Tagath_the_Potionbrewer
+05:21:58 Looking for Norak_the_Virtuous
+05:22:00 Looking for Norak_the_Virtuous
+05:22:01 Looking for Norak_the_Virtuous
+05:22:03 Looking for Norak_the_Virtuous
+05:22:04 Looking for Norak_the_Virtuous
+05:22:06 Looking for Norak_the_Virtuous
+05:22:08 Looking for Norak_the_Virtuous
+05:22:09 Looking for Norak_the_Virtuous
+05:22:11 Looking for Norak_the_Virtuous
+05:22:13 Looking for Norak_the_Virtuous
+05:22:14 Looking for Norak_the_Virtuous
+05:22:16 Looking for Norak_the_Virtuous
+05:22:17 Looking for Norak_the_Virtuous
+05:22:19 Looking for Norak_the_Virtuous
+05:22:21 Looking for Norak_the_Virtuous
+05:22:22 Looking for Norak_the_Virtuous
+05:22:24 Looking for Norak_the_Virtuous
+05:22:25 Looking for Norak_the_Virtuous
+05:22:27 Looking for Norak_the_Virtuous
+05:22:29 Looking for Norak_the_Virtuous
+05:22:30 Looking for Norak_the_Virtuous
+05:22:32 Looking for Norak_the_Virtuous
+05:22:33 Looking for Norak_the_Virtuous
+05:22:35 Looking for Norak_the_Virtuous
+05:22:37 Looking for Norak_the_Virtuous
+05:22:38 Looking for Norak_the_Virtuous
+05:22:40 Looking for Norak_the_Virtuous
+05:22:41 Looking for Norak_the_Virtuous
+05:22:43 Looking for Norak_the_Virtuous
+05:22:44 Looking for General_Kurbatov
+05:22:46 Looking for General_Kurbatov
+05:22:48 Looking for General_Kurbatov
+05:22:49 Looking for General_Kurbatov
+05:22:50 General_Kurbatov found.
+05:22:52 coliseum check
+05:22:57 Wrong state, escaping
+05:22:58 tournament check
+05:23:06 Speeding up battle
+05:23:08 Speeding up battle
+05:23:08 Wrong state, escaping
+05:23:09 events check
+05:23:15 Wrong state, escaping
+05:23:15 caves check
+05:23:15 Victory
+05:23:18 Wrong state, escaping
+05:23:18 Bot disabled
+05:23:18 chests check

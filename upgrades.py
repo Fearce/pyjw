@@ -45,21 +45,27 @@ def check_upgrades():
                 #log("What now boss?")
                 #time.sleep(20)
 
-        for x in range(0, 40):
+        for x in range(0, 10):
             upgrade_elevate = pyautogui.locateOnScreen('imgs/upgrade_elevate.png', confidence=0.95)
             upgrade_equipment = pyautogui.locateOnScreen('imgs/upgrade_equipment.png', confidence=0.95)
             if upgrade_elevate is not None and settings.elevating:
                 click_on_box(upgrade_elevate)
                 do_upgrade()
+                return
                 #break
             if upgrade_equipment is not None and settings.equipping:
                 click_on_box(upgrade_equipment)
                 do_upgrade()
+                return
                 #break
+            power_stone = pyautogui.locateOnScreen('imgs/power_stone.png', confidence=0.95)
+            if power_stone is not None:
+                log("End reached, escaping")
+                escape(1)
+                return
             log(str(x))
-            go_right()
-            go_right()
-            go_right()
+            for y in range(0, 6):
+                go_right()
             time.sleep(1)
     #log("Checking levels")
     #log("Checking elevation")
@@ -67,7 +73,8 @@ def check_upgrades():
 
 
 def give_levels():
-    bad_level = pyautogui.locateOnScreen('imgs/levels/85.png', confidence=0.98)
+    bad_level_number = settings.current_level-1
+    bad_level = pyautogui.locateOnScreen('imgs/levels/'+str(bad_level_number)+'.png', confidence=0.98)
     if bad_level is not None:
         log("Giving xp")
         center_points = pyautogui.center(bad_level)
@@ -87,11 +94,23 @@ def give_levels():
 
 
 def do_upgrade():
-    time.sleep(2)
-    elevate = pyautogui.locateOnScreen('imgs/elevate.png', confidence=0.95)
-    if elevate is not None:
-        log("Elevating hero")
-        click_on_box(elevate)
+    time.sleep(3)
+    log("Doing upgrade")
+    elevate = pyautogui.locateOnScreen('imgs/elevate.png', confidence=0.85)
+    evolve = pyautogui.locateOnScreen('imgs/elevate.png', confidence=0.85)
+    promote = pyautogui.locateOnScreen('imgs/promote.png', confidence=0.85)
+    if evolve is None:
+        evolve = pyautogui.locateOnScreen('imgs/evolve2.png', confidence=0.85)
+    if elevate is not None or evolve is not None or promote is not None:
+        log("Elevating/Evolving hero")
+        if elevate is not None:
+            click_on_box(elevate)
+        elif promote is not None:
+            click_on_box(promote)
+        else:
+            click_on_box(evolve)
+            time.sleep(2)
+            click(640, 460)
         time.sleep(2)
         click(464, 676)  # Elevate
         time.sleep(1)
